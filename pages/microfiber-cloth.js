@@ -28,6 +28,8 @@ export default function MicrofiberCloth() {
       <Loader />
       <Header />
         <div className="productWrapper microWrapper">
+
+          
           <section className="productBanner microBanner">
             <div className="container">
               <div className="row justify-content-center align-items-center">
