@@ -1,0 +1,19 @@
+{
+  "name": "proteq",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "10.1.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-owl-carousel": "^2.3.3",
+    "simple-react-validator": "^1.6.0"
+  }
+}
