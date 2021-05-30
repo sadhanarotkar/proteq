@@ -28,12 +28,11 @@ export default function MicrofiberCloth() {
       <Loader />
       <Header />
         <div className="productWrapper microWrapper">
-
-          
           <section className="productBanner microBanner">
             <div className="container">
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                  <h2 className="heading mb-md-4">Microfiber cloth</h2>
                   <h2 className="heading mb-md-4">Microfiber cloth</h2>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer</p>
                 </div>
