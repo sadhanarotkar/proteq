@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <nav className='navbar navbar-expand-lg'>
         <button
-          className='navbar-toggler'
+          className='navbar-toggler hamburger hamburger--boring'
           type='button'
           data-toggle='collapse'
           data-target='#navbarTogglerDemo03'
@@ -16,7 +16,9 @@ export default function Header() {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span className='navbar-toggler-icon'></span>
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
         </button>
 
         <a href='/' className='navbar-brand'>
@@ -69,7 +71,7 @@ export default function Header() {
               </li>
               <li
                 className={
-                  router.pathname == '/products'
+                  router.pathname == '/ceramic'
                     ? 'nav-item dropdown active'
                     : 'nav-item dropdown'
                 }

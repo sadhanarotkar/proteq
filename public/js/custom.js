@@ -192,6 +192,11 @@ $(document).ready(function () {
     }
   });
 
+  $(".navbar-toggler").click(function(){
+    $(this).parents('header').toggleClass('active');
+    $(this).toggleClass('active')
+  });
+
 });
 
 $(document).on("click", "button.close", function(e){

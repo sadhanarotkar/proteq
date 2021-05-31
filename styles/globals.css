@@ -977,6 +977,116 @@ body::-webkit-scrollbar-thumb{border-radius:10px;-webkit-box-shadow:inset 0 0 6p
 }
 
 
+header.active {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  font: inherit;
+  margin: 0.8125em 0 0;
+  overflow: visible; 
+  outline: none;
+  padding: 0;
+  text-transform: none;
+  transition: opacity 0.15s;
+  -webkit-appearance: none;
+}
+
+.hamburger:hover {
+  opacity: 0.7; 
+}
+
+.hamburger-box {
+  width: 30px;
+  height: 24px;
+  display: inline-block;
+  position: relative; 
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px; 
+}
+
+.hamburger-inner, 
+.hamburger-inner::before, 
+.hamburger-inner::after {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease; 
+}
+
+header.active .hamburger-inner, 
+header.active .hamburger-inner::before, 
+header.active .hamburger-inner::after {
+    background-color: #000;
+}
+
+.hamburger-inner::before, 
+.hamburger-inner::after {
+  content: "";
+  display: block; 
+}
+
+.hamburger-inner::before {
+  top: -6px; 
+}
+
+.hamburger-inner::after {
+  bottom: -6px; 
+}
+
+
+.hamburger--boring .hamburger-inner, 
+.hamburger--boring .hamburger-inner::before, 
+.hamburger--boring .hamburger-inner::after {
+  transition-property: none; 
+}
+
+.hamburger--boring.active .hamburger-inner {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); 
+}
+
+.hamburger--boring.active .hamburger-inner::before {
+  top: 0;
+  opacity: 0; 
+}
+
+.hamburger--boring.active .hamburger-inner::after {
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); 
+}
+
+.hamburger-box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.headerRight .navbar-collapse.show{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #000;
+  height: 100%;
+}
+
+
 /* End Q img animation */
 @media only screen and (max-width: 1199px) {
   .banner-item4 .contentRight h2 span{font-size: 120px;}

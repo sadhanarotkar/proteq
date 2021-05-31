@@ -15,8 +15,8 @@ function MyApp({ Component, pageProps }) {
 <link rel="stylesheet" href="css/lightgallery.css"/>
 {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" /> */}
 <link rel="stylesheet" href="css/aos.css"/>
-{/* <link rel="stylesheet" href="css/owl.carousel.min.css" />
-<link rel="stylesheet" href="css/owl.theme.default.min.css" /> */}
+<link rel="stylesheet" href="css/owl.carousel.min.css" />
+<link rel="stylesheet" href="css/owl.theme.default.min.css" />
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
@@ -31,9 +31,9 @@ function MyApp({ Component, pageProps }) {
 {/* <script src="js/lg-video.min.js"></script>
 <script src="http://vjs.zencdn.net/4.12/video.js"></script> */}
 {/* <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script> */}
-
+<script src="js/owl.carousel.js"></script>
 <script src="js/custom.js"></script>
-{/* <script src="js/owl.carousel.js"></script> */}
+
 
 
 </Head>

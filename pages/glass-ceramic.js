@@ -26,9 +26,6 @@ export default function GlassCeramic() {
       <Head>
         <title>Ceramic</title>
         <link rel="icon" href="img/favicon.ico" />
-        <link rel="stylesheet" href="css/owl.carousel.min.css" />
-        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-        <script src="js/owl.carousel.js"></script>
       </Head>
       <Loader />
       <Header />
