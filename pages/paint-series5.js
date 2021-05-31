@@ -210,7 +210,7 @@ export default function PaintSeries5() {
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />
           </section>
       </div>
-      <Footer />      
+      <Footer selected='paint protectio film' />      
       <div className="modal fade fullModal" id="videoModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div className="modal-dialog" role="document">
           <div className="modal-content">              

@@ -64,7 +64,7 @@ export default function PlasticCeramic() {
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                       <h2 className="heading mb-md-4">Plastic ceramic</h2>  
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
-                      <button className="btn hvr-fade mt-4">Get A Quote</button>
+                      <button className="btn hvr-fade mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                     </div>
                   </div>
                 </div> 
@@ -181,7 +181,7 @@ export default function PlasticCeramic() {
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />
           </section>
       </div>
-      <Footer />      
+      <Footer selected='ceramic'/>      
       <div className="modal fade fullModal" id="videoModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
