@@ -97,7 +97,7 @@ $(document).ready(function () {
     dots:false,
     nav:true,
     mouseDrag:false,
-    autoplay:true,
+    autoplay:false,
     animateOut: 'fadeOut',
     navText: ["<img src='img/banner-arrow.svg' /> Previous","Next <img src='img/banner-arrow.svg' />"],
     items:1
@@ -194,6 +194,7 @@ $(document).ready(function () {
 
   $(".navbar-toggler").click(function(){
     $(this).parents('header').toggleClass('active');
+    $('.overlayMenu').toggleClass('active');
     $(this).toggleClass('active')
   });
 

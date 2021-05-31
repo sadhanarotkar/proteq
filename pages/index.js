@@ -58,12 +58,12 @@ export default function Home() {
             <div className="cover">
               <div className="container-fluid">
                 <div className="row align-items-center align-items-center">                    
-                  <div className="col-lg-4 col-md-4 contentLeft">
-                    <h2>Ceramic</h2>
+                  <div className="col-lg-4 col-md-6 contentLeft">
+                    <h2>Ceramic <span className="d-lg-none">Shield</span></h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and<br></br> typesetting industry. Lorem Ipsum has been the<br></br> industry’s standard dummy text ever since the 1500s</p>
                     <a href="ceramic" className="btn hvr-sweep-to-right">Read More</a>
                   </div>
-                  <div className="col-lg-5 col-md-5 contentCenter px-md-5">                      
+                  <div className="col-lg-5 col-md-6 contentCenter px-lg-5">                      
                     <img src="img/homeProduct1.png" className="img-fluid" />                    
                   </div>
                   <div className="col-lg-3 col-md-3 contentRight align-self-end">  
@@ -78,12 +78,12 @@ export default function Home() {
             <div className="cover">
               <div className="container-fluid">
                 <div className="row align-items-center align-items-center">                    
-                  <div className="col-lg-4 col-md-4 contentLeft">
-                    <h2>Microfiber</h2>
+                  <div className="col-lg-4 col-md-6 contentLeft">
+                    <h2>Microfiber <span className="d-lg-none">Cloth</span></h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and<br></br> typesetting industry. Lorem Ipsum has been the<br></br> industry’s standard dummy text ever since the 1500s</p>
                     <a href="microfiber-cloth" className="btn hvr-sweep-to-right">Read More</a>
                   </div>
-                  <div className="col-lg-5 col-md-5 contentCenter align-self-end">                      
+                  <div className="col-lg-5 col-md-6 contentCenter align-self-end">                      
                     <img src="img/slide3-product.png" className="img-fluid" />                    
                   </div>
                   <div className="col-lg-3 col-md-3 contentRight align-self-end">  
@@ -101,7 +101,7 @@ export default function Home() {
                   <div className="col-xl-5 col-lg-5 col-md-5 contentLeft align-self-end p-0">                      
                     <img src="img/slide4-product.png" className="img-fluid" />                    
                   </div>                  
-                  <div className="col-xl-4 col-lg-4 col-md-4 contentRight align-self-center">
+                  <div className="col-xl-4 col-lg-4 col-md-6 contentRight align-self-center">
                     <h2>Paint <span>Protection Film</span></h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and<br></br> typesetting industry. Lorem Ipsum has been the<br></br> industry’s standard dummy text ever since the 1500s</p>
                     <a href="paint-protection" className="btn hvr-sweep-to-right">Read More</a>

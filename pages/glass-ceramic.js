@@ -52,7 +52,7 @@ export default function GlassCeramic() {
             <div className="tab-content" id="nav-tabContent">
               <div className="tab-pane fade show active" id="nav-seriesm" role="tabpanel" aria-labelledby="nav-seriesm-tab">
                 <div className="container-fluid">
-                  <img src="img/glass-ceramic-text.svg" className="img-fluid productTextImg" />    
+                  <img src="img/glass-ceramic-text.svg" className="img-fluid my-md-5 productTextImg" />    
                   <div className="row justify-content-center align-items-center">
                     <img src="img/ceramicProduct-bg.png" className="ceramicProductImg" />
                     <div className="col-xl-4 col-lg-5 col-md-5 col-sm-9">
@@ -181,7 +181,7 @@ export default function GlassCeramic() {
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />
           </section>
       </div>
-      <Footer />      
+      <Footer selected='ceramic'/>      
       <div className="modal fade fullModal" id="videoModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div className="modal-dialog" role="document">
           <div className="modal-content">              

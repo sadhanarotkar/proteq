@@ -1,12 +1,13 @@
-import React, { useState }  from 'react';
+import React, { useEffect, useState }  from 'react';
 import axios from 'axios';
 
-const Quote = () => {
-
+const Quote = (props) => {
     const [isSent, setIsSent] = useState(false);
     const [error, setError] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-  
+    const[isSelected,setIsSelected] = useState('');
+
+   
     const sendContactForm = async event =>{
         event.preventDefault();
       
@@ -66,11 +67,11 @@ const Quote = () => {
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
             <form onSubmit={sendContactForm}>
                 <div className="form-group">
-                  <select name="product" className="form-control" required>
+                  <select value={props.selected} name="product" className="form-control" required>
                     <option>Select Product</option>
-                    <option>Ceramic</option>
-                    <option>Paint Protection Film</option>
-                    <option>Microfiber Cloth</option>
+                    <option value='ceramic'>Ceramic</option>
+                    <option value='paint protectio film'>Paint Protection Film</option>
+                    <option value='microfibre cloth'>Microfiber Cloth</option>
                   </select>
                 </div>
                 <div className="form-group">

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useRouter } from "next/router";
 import Quote from '../../components/Quote';
 
-export default function Header() {
+export default function Header(props) {
   const router = useRouter();
   return (
     <footer>
@@ -61,7 +61,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <Quote/>
+      <Quote selected={props.selected}/>
     </footer>
   )
 }
