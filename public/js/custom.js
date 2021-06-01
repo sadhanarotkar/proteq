@@ -199,6 +199,15 @@ $(document).ready(function () {
     $('body').toggleClass('menuActive')
   });
 
+  $(".overlayProductItem a").click(function(){
+    $('.overlayProductMenu').toggleClass('active');
+    $('.navbar-toggler').toggleClass('active-mega');
+  });
+
+  $(".megamenuBtn").click(function(){
+    $('.overlayProductMenu').toggleClass('active');
+  });
+
 });
 
 $(document).on("click", "button.close", function(e){
