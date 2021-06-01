@@ -233,7 +233,7 @@ ul.stickyLinks li a:hover{cursor:pointer;width:180px;color:#fff}
 .banner-carousel.owl-carousel .owl-nav button.owl-prev, .banner-carousel.owl-carousel .owl-nav button.owl-next{background: transparent;outline: none;box-shadow: none;margin:0;padding: 0 15px!important;font-size: 14px !important;height: 100%;border-radius: 0;}
 .banner-carousel.owl-carousel .owl-nav button:hover,.banner-carousel.owl-carousel .owl-nav button:focus{background: #dca707;color: #000;}
 .banner-carousel.owl-carousel .owl-nav button.owl-prev img{transform: rotate(180deg);}
-.banner-carousel.owl-carousel .item p{font-size: 14px;line-height: 1.6;font-weight: 600;white-space: nowrap;}
+.banner-carousel.owl-carousel .item p{font-size: 14px;line-height: 1.6;font-weight: 600;width: 430px;}
 .banner-carousel.owl-carousel .item button{border: none;box-shadow: none;}
 .banner-carousel .contentLeft{text-align: left;}
 .banner-carousel h2{font-size: 175px;line-height: 150px;text-transform: uppercase;font-family: 'Bebas Neue';color: #FFF;text-shadow: 0px 2px 4px rgba(125,125,125,0.15);}
@@ -262,9 +262,11 @@ ul.stickyLinks li a:hover{cursor:pointer;width:180px;color:#fff}
 .banner-item3 .contentCenter{position: relative;bottom: -100px;padding: 0;}
 .banner-item3 .contentLeft h2{color: #ea0b69;}
 .banner-item3 .contentRight{position: relative;left: -75px;}
+.banner-carousel.owl-carousel .banner-item3 p{width: 400px;}
 .banner-item4 .container-fluid, .banner-item4 .container-fluid .row{height: 100%;}
 .banner-item4 .contentRight h2{color: #b10645;line-height: 0.7;margin-bottom: 20px;}
 .banner-item4 .contentRight h2 span{font-size: 135px;color: #FFF;white-space: nowrap;}
+.banner-carousel.owl-carousel .banner-item4 p{width: 500px;}
 
 .banner-carousel.owl-carousel .item img {width: 100%;height: 100%;object-fit: cover;}
 .banner-carousel.owl-carousel .item .cover {
@@ -1253,6 +1255,7 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item2 .contentLeft h2 span,
   .banner-carousel.owl-carousel .banner-item3 .contentLeft h2 span, 
   .banner-item4 .contentRight h2 span{display: block;}
+  .banner-carousel.owl-carousel .item p{width: 100%;}
   .secHomeAbout{padding: 50px 15px;}
   .secHomeAbout::after{clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 200px);}
   .aboutImg{display: none;}

@@ -37,7 +37,7 @@ export default function Home() {
                 <div className="row align-items-center align-items-center">                    
                   <div className="col-xl-4 col-lg-4 col-md-4 contentLeft">
                     <h2>Proteq <br></br><span>Autocare</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing<br></br> and typesetting industry. Lorem Ipsum has been the<br></br> industry’s standard dummy text ever since the 1500s</p>
+                    <p>We pride our business on the solid foundations of providing all with exceptional customer service, quality and honesty, revving up our fleet of car transporters in a very move.</p>
                     <a href="about" className="btn hvr-sweep-to-right">Read More</a>
                   </div>
                   <div className="col-xl-8 col-lg-8 col-md-8 contentRight px-md-0">                      
@@ -60,7 +60,7 @@ export default function Home() {
                 <div className="row align-items-center align-items-center">                    
                   <div className="col-lg-4 col-md-6 contentLeft">
                     <h2>Ceramic <span className="d-lg-none">Shield</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and<br></br> typesetting industry. Lorem Ipsum has been the<br></br> industry’s standard dummy text ever since the 1500s</p>
+                    <p>Our ceramic shield protects your vehicle for a longer duration, and will instantly give out a shiner look. The ceramic shield also speeds up the rainwater and makes it run off the windshield and car quickly.</p>
                     <a href="ceramic" className="btn hvr-sweep-to-right">Read More</a>
                   </div>
                   <div className="col-lg-5 col-md-6 contentCenter px-lg-5">                      
@@ -80,7 +80,7 @@ export default function Home() {
                 <div className="row align-items-center align-items-center">                    
                   <div className="col-lg-4 col-md-6 contentLeft">
                     <h2>Microfiber <span className="d-lg-none">Cloth</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and<br></br> typesetting industry. Lorem Ipsum has been the<br></br> industry’s standard dummy text ever since the 1500s</p>
+                    <p>Proteq Microfiber Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
                     <a href="microfiber-cloth" className="btn hvr-sweep-to-right">Read More</a>
                   </div>
                   <div className="col-lg-5 col-md-6 contentCenter align-self-end">                      
@@ -103,7 +103,7 @@ export default function Home() {
                   </div>                  
                   <div className="col-xl-4 col-lg-4 col-md-6 contentRight align-self-center">
                     <h2>Paint <span>Protection Film</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and<br></br> typesetting industry. Lorem Ipsum has been the<br></br> industry’s standard dummy text ever since the 1500s</p>
+                    <p>Our Paint protection film (PPF) brings out the ability to heal swirls and scratches with heat, leaving your paint shiny and glossy. It conjointly has the flexibility to soak up impact and preserve your paint from rock chips.</p>
                     <a href="paint-protection" className="btn hvr-sweep-to-right">Read More</a>
                   </div>
                 </div>
