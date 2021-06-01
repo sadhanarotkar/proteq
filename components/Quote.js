@@ -5,7 +5,6 @@ const Quote = (props) => {
     const [isSent, setIsSent] = useState(false);
     const [error, setError] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    const[isSelected,setIsSelected] = useState('');
 
    
     const sendContactForm = async event =>{
@@ -67,7 +66,7 @@ const Quote = (props) => {
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
             <form onSubmit={sendContactForm}>
                 <div className="form-group">
-                  <select value={props.selected} name="product" className="form-control" required>
+                  <select defaultValue={props.selected} name="product" className="form-control" required>
                     <option>Select Product</option>
                     <option value='ceramic'>Ceramic</option>
                     <option value='paint protectio film'>Paint Protection Film</option>

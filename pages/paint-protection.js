@@ -76,7 +76,7 @@ export default function PaintProtection() {
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                         <h2 className="heading mb-md-4">2.0 series</h2>  
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
+                        <p>The 2.0 Paint Protection Film series comes in a Polyurethane Material with 0.17mm ± 0.02mm thickness. It consists of three layers with 30% brightness. The size of the series complies with 1.52m x 15m and Patent Coating. Its performance has a heat repairment with 3 years warranty.</p>  
                         <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                     </div>
                   </div>
@@ -102,20 +102,26 @@ export default function PaintProtection() {
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Keeps Your Car Looking New and Shiny</h4>
+                          <p>PPF provides a permanent protective coat over your car’s paint, which helps you in keeping your car’s look new and shiny for a lot longer. It also prevents your car’s paint from fading and gives it a polished glossy appearance at all times.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Retains Your Car’s Resale Value</h4>
+                          <p>Even if your car runs smoothly, poor appearance can significantly lower down its resale value. Paint protection is important to retain your car’s resale value as it protects your exterior from environmental and superficial damage.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Makes Car Cleaning Easier</h4>
+                          <p>PPF repels dust, so your car’s exterior will not have a dust build-up problem. This makes the cleaning job a lot easier because often you can simply use a soft cloth to clean your car instead of using water every time.</p>
+                        </div>
+                      </div>
+                      <div className='item'>
+                        <div className="testimonialContent">
+                          <h4 className="heading">Repels Environmental Damage</h4>
+                          <p>Harmful UV rays of the sun can damage your car’s paint and make it look old too soon. Paint protection not only prevents your paint from UV rays, but also from scratches, rust, nicks, burns, etc.</p>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -133,7 +139,62 @@ export default function PaintProtection() {
             </div>
           </section>
           <ProductGallery />
-          <ProductFaq />
+          <section className="secFaq">
+            <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
+            <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
+            <div className="container-fluid">
+              <div className="row justify-content-end align-items-center">
+                <div className="col-xl-5 col-lg-5 col-md-9">
+                  <h2 className="heading">Frequently Asked Questions</h2>
+                  <div id="accordion" className="productAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingOne">
+                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Is the paint protection film guaranteed? <span className="icon" aria-hidden="true"></span></button>                     
+                      </div>
+                      <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Yes, our manufactures offer a 3- 7 years warranty against cracking, peeling, yellowing, hazing and bubbling.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingTwo">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Can it be removed? <span className="icon" aria-hidden="true"></span></button>                      
+                      </div>
+                      <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Yes, our paint protection films can be safely removed if need be without leaving any residue.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingThree">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Are there any special precautions or maintenance when washing the film? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>No, you can wash and wax the vehicle just like you would any other car. In fact, we recommend waxing the paint protection film to help bring out the shine.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingFour">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">What happens if I scratch the film? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Our self-healing paint protection film uses a special polymer in its clear coat that flows even though it is cured. This allows the clear coat to find its natural level again after being disturbed on the surface.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-5 col-lg-5 col-md-5 pr-md-0 pl-md-5">
+                  <img src="img/faqRight.png" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </section>
           <section className="secRelatedProducts">
             <div className="container">
               <div className="row justify-content-center align-items-center">
@@ -148,7 +209,7 @@ export default function PaintProtection() {
                           </div>
                         </div>
                         <h5 className="heading">3.0 Series</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>The 3.0 Paint Protection Film series comes in a Thermoplastic Polyurethane with 0.17mm ± 0.02mm thickness.</p>
                       </a>
                     </div>
                     <div className='item'>
@@ -159,7 +220,7 @@ export default function PaintProtection() {
                           </div>
                         </div>
                         <h5 className="heading">5.0 Series</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>The 5.0 Paint Protection Film series comes in a Thermoplastic Polyurethane with 0.2mm ± 0.02mm thickness.</p>
                       </a>
                     </div>
                     <div className='item'>
@@ -170,7 +231,7 @@ export default function PaintProtection() {
                           </div>
                         </div>
                         <h5 className="heading">M Series</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>The M Paint Protection Film series comes in Polyurethane material with 0.15mm ± 0.02mm thickness. </p>
                       </a>
                     </div>
                   </div>

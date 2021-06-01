@@ -41,17 +41,17 @@ export default function Testimonials() {
               <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                   <h1>Testimonials</h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Proteq Autocare isn't just young entrepreneurs but is definitely men who walk their talk. We've been working with our passion and thriving to work for a mission in providing premium and exceptional products in an affordable range by epitomizing safety and efficiency. Know more about our works through these testimonials.</p>
                 </div>
               </div>
-              <div className="card-columns py-5">
+              <div className="card-columns pt-5">
                 <div className="card testimonialCard">
                   <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
                     <div className="testimonialUser">
                       <img src="img/user.png" className="img-fluid" />
-                      <h6>Rushabh Parekh</h6>
+                      <h6>Talib Khatri</h6>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
+                    <p>First of all, I would like to thank team Proteq. PPF application done on my Mercedes CLA professionally and with the best quality. If you love your pride and joy, I will recommend PROTEQ.</p>
                     <img src="img/quote.svg" className="img-fluid" />
                   </div>
                 </div>
@@ -59,19 +59,29 @@ export default function Testimonials() {
                   <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
                     <div className="testimonialUser">
                       <img src="img/user.png" className="img-fluid"/>
-                      <h6>Rushabh Parekh</h6>
+                      <h6>Amit Abhaynkar</h6>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
+                    <p>I was not at all aware of the paint protection film. These guys from PROTEQ explained everything why it is important. It made me ready to get the full application on my Skoda Octavia VRS and trust me it been six months since then and still my car looks brand new like just brought from the showroom. Best investment for my car.</p>
                     <img src="img/quote.svg" className="img-fluid"/>
                   </div>
+                </div>
+                <div className="card testimonialCard">
+                  <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="testimonialUser">
+                      <img src="img/user.png" className="img-fluid" />
+                      <h6>Rudraksh Bahl</h6>
+                    </div>
+                    <p>My car is my baby, and to have it given to someone is like a major part of me. Proteq Autocare was like nannies to my baby. They handled it with care. Brand new as my car was when I first got it. Kudos to the team!</p>
+                    <img src="img/quote.svg" className="img-fluid" />
+                  </div>                
                 </div>
                 <div className="card testimonialCard">
                   <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
                     <div className="testimonialUser">
                       <img src="img/user.png" className="img-fluid"/>
-                      <h6>Rushabh Parekh</h6>
+                      <h6>Bhavesh Bharmecha</h6>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
+                    <p>Really nice guys, super helpful and polite as well. PPF application is done on my BMW and Mercedes E class fully. PROTEQ is the best place to go if you want your car to look new all the time.</p>
                     <img src="img/quote.svg" className="img-fluid"/>
                   </div>
                 </div>
@@ -79,29 +89,9 @@ export default function Testimonials() {
                   <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
                     <div className="testimonialUser">
                       <img src="img/user.png" className="img-fluid" />
-                      <h6>Rushabh Parekh</h6>
+                      <h6>Sumit Patil</h6>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem I.</p>
-                    <img src="img/quote.svg" className="img-fluid" />
-                  </div>
-                </div>
-                <div className="card testimonialCard">
-                <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
-                  <div className="testimonialUser">
-                    <img src="img/user.png" className="img-fluid" />
-                    <h6>Rushabh Parekh</h6>
-                  </div>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
-                  <img src="img/quote.svg" className="img-fluid" />
-                </div>                
-                </div>
-                <div className="card testimonialCard">
-                  <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
-                    <div className="testimonialUser">
-                      <img src="img/user.png" className="img-fluid" />
-                      <h6>Rushabh Parekh</h6>
-                    </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
+                    <p>My car looks brand new again! Great attention to detail and the best part, they come to you. Proteq Autocare has by far been my greatest choice.</p>
                     <img src="img/quote.svg" className="img-fluid" />
                   </div>
                 </div>
@@ -109,29 +99,9 @@ export default function Testimonials() {
                   <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
                     <div className="testimonialUser">
                       <img src="img/user.png" className="img-fluid" />
-                      <h6>Rushabh Parekh</h6>
+                      <h6>Karan Nair</h6>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
-                    <img src="img/quote.svg" className="img-fluid" />
-                  </div>
-                </div>
-                <div className="card testimonialCard">
-                  <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
-                    <div className="testimonialUser">
-                      <img src="img/user.png" className="img-fluid" />
-                      <h6>Rushabh Parekh</h6>
-                    </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
-                    <img src="img/quote.svg" className="img-fluid" />
-                  </div>
-                </div>
-                <div className="card testimonialCard">
-                  <div className="testimonialBox" data-aos="fade-up" data-aos-duration="1000">
-                    <div className="testimonialUser">
-                      <img src="img/user.png" className="img-fluid" />
-                      <h6>Rushabh Parekh</h6>
-                    </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since theLorem Ipsum is simply dummy Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard Lorem Ipsum has been the industry’s standard d.</p>
+                    <p>I'm a die-hard car fan, understanding to which my passion and knowledge of cars are vast. I needed someone who would have equal knowledge or maybe more than what I understood about cars. Proteq Autocare is just the right buddy who got me all the shine and hype for my car. Definitely recommending them to all my friends.</p>
                     <img src="img/quote.svg" className="img-fluid" />
                   </div>
                 </div>

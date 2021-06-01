@@ -99,7 +99,7 @@ nav.navbar{padding: 0;width: 100%;padding-left: 30px;position: relative;z-index:
 .topbar ul li.socialLinks a{margin-right: 15px;}
 .topbar ul li a{color: #FFF;font-size: 14px;}
 .headerRight .navbar-collapse{padding-right: 30px;}
-ul.navbar-nav li{height: 40px;line-height: 40px;padding: 0 20px;}
+ul.navbar-nav li{height: 40px;line-height: 40px;padding: 0 20px;margin-left: 5px;}
 ul.navbar-nav li.dropdown{position: static;}
 ul.navbar-nav li.dropdown:hover a{color: #FFF;text-decoration: none;}
 ul.navbar-nav li.dropdown .dropdown-menu{left: 50%;transform: translateX(-50%);border: none;margin: 0;background: #000;border-radius: 0;padding: 0;}
@@ -491,6 +491,7 @@ iframe{border: none;display: block;}
 .secGallery .container-fluid{position: relative;z-index: 1;}
 .secGallery .galleryLeftImg{position: absolute;left: -5px;top: 0;width: 150px;}
 .secGallery .galleryRightImg{position: absolute;right: -5px;bottom: 145px;width: 150px;top: auto;}
+.secGallery p{font-size: 15px;}
 .nav.gallery-tabs{border: none;font-family: 'Bebas Neue';}
 .nav.gallery-tabs .nav-item{color:#a2a2a2;border:1px solid #707070;height:65px;line-height:65px;padding:0;border-radius:0;margin:0 15px;width:220px;text-align:center;font-size: 26px;position: relative;}
 .nav.gallery-tabs .nav-item::after{content:'';height:0;width:0;border-left:16px solid transparent;border-right:16px solid transparent;border-top:16px solid #f2ba0f;left:0;right:0;bottom:-17px;margin:auto;position:absolute;display:none}
@@ -554,6 +555,7 @@ iframe{border: none;display: block;}
 .secMission::after{content: '';background: url(../public/img/testimonialRightImg.png) no-repeat;background-size: contain;background-position: center right;width:170px;height: 100%;position: absolute;right: 0;top: 0;}
 .secMission .headingText{position: absolute;top: 0;}
 .missionLeftImg{left: 0;top: auto;bottom: 0;width: 150px;}
+.secVision p, .secMission{font-size: 15px;}
 .aboutWrapper .secHomeTestimonial{margin-top: 0;padding: 100px 0 80px;}
 .aboutWrapper .bottomContact{background: #F2BA0F;text-align: center;overflow: hidden;margin-top: -1px;padding: 100px 0;}
 /* .bottomContact::before{content: '';background: url(../public/img/contactBottomLeft.svg) no-repeat;background-size: contain;background-position: top;width:635px;height: 100%;position: absolute;left: -315px;top: -4px;}
@@ -1087,6 +1089,10 @@ header.active .hamburger-inner::after {
   transition: none;
 }
 
+.overlayTop,.overlayProductItem, .overlayProductMenu, .megamenuBtn{display: none;}
+.megamenuBtn.active{display: block;}
+
+
 
 
 /* End Q img animation */
@@ -1096,6 +1102,9 @@ header.active .hamburger-inner::after {
   .secHomeTestimonial h1.heading{left: 60%;}
   .aboutBannerRightImg{width: 170px;}
   .aboutBanner>.container{top: 0;}
+  .banner-item3 .contentLeft{padding: 0;}
+  ul.navbar-nav .megaList{padding: 70px 40px 70px 10px;}
+  ul.navbar-nav li{padding: 0 15px;}
 }
 @media only screen and (max-width: 1150px) {
   .secHomeProduct>.lax.whyRightImg,
@@ -1112,7 +1121,10 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span{font-size: 160px;}
   .banner-carousel.owl-carousel .banner-item2 h2,
   .banner-carousel.owl-carousel .banner-item3 .contentLeft h2,
-  .banner-carousel.owl-carousel .banner-item4 .contentRight h2{font-size: 160px;}
+  .banner-carousel.owl-carousel .banner-item4 .contentRight h2,
+  .banner-item3 .contentRight h2{font-size: 150px;}
+  .banner-carousel.owl-carousel .item p,
+  .banner-carousel.owl-carousel .banner-item3 p{width: 380px;}
   .banner-item3 .contentCenter{bottom: -30px;left: 50px;}
   .banner-item4 .contentRight h2{line-height: 0.5;}
   .banner-item4 .contentRight h2 span{font-size: 100px;}
@@ -1130,7 +1142,7 @@ header.active .hamburger-inner::after {
   .productBanner h2.heading, .productBanner.paintBanner h2.heading{font-size: 105px;}
   .paintBanner .col-lg-4.px-5{padding: 1.5rem !important;}
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {z  
   p{font-size: 12px;line-height: 1.5;}
   .copyrightLinks a{font-size: 12px;}
   nav.navbar{padding-left: 0;}
@@ -1145,16 +1157,30 @@ header.active .hamburger-inner::after {
   header.sticky .headerRight{margin-bottom: 0;}
   header.sticky .navbar-brand{margin-bottom: 5px;}
   header.sticky .topbar{display: none;}
-  body.menuActive{overflow: hidden;}
-  header.active{position: fixed;height: 100%;z-index: 999;background: #000;box-shadow: none;}
+  /* body.menuActive{overflow: hidden;} */
   header.active::after{display: none;}
-  header.active .headerRight{order: 3;}
-  header.active .topbar{display: none;}
-  .headerRight .navbar-collapse{padding-right: 0;}
-  ul.navbar-nav li{height: 50px;line-height: 50px;text-align: center;}
-  header.sticky ul.navbar-nav>li{height: 50px;line-height: 50px;}
+  .headerRight .navbar-collapse{padding-right: 0;height: 100%;}
+  .overlayMenu .collapsing{display: none;}
+  .overlayMenu.active .collapsing{display: block;}
+  ul.navbar-nav{height: calc(100vh - 100px);align-items: center;justify-content: center;}
+  ul.navbar-nav li{height: 50px;line-height: 50px;text-align: center;margin: 0;}
   ul.navbar-nav li.nav-item a.nav-link{font-size: 14px;color: #FFF;text-transform: uppercase;text-align: center;display: inline-block;}
-  .overlayMenu.active{height: calc(100vh - 100px);display: flex;align-items: center;}
+  header.sticky ul.navbar-nav>li{height: 50px;line-height: 50px;width: 100%;margin: 0;}
+  header.active{z-index: 999;}
+  header.active .navbar-toggler{z-index: 9999;position: absolute;right: 0;top: 35px;}
+ .navbar-toggler.active.active-mega .hamburger-box{display: none;}
+ .navbar-toggler.active.active-mega .megamenuBtn{display: block;width: 30px;height: 30px;}
+  .overlayMenu.active{height: calc(100vh - 100px);height: 100%;z-index: 999;background: #000;box-shadow: none;position: fixed;width: 100%;top: 0;overflow-y: auto;}
+  .overlayTop{padding: 15px;display: block;height: 100px;}
+  .overlayLogo{height: 65px;display: inline-flex;}
+  .overlayProductItem{display: block;}
+  .overlayProductItem::after {content: "\f107";font-family: 'FontAwesome';border: none;position: relative;color: #FFF;font-size: 18px;top: 1px;margin-left: 5px;}
+  .overlayProductItem+.nav-item{display: none;}
+  .overlayProductMenu.active{display: block;position: absolute;top: 100px;left: 0;width: 100%;height: calc(100vh - 100px);background: #000;color: #FFF;padding: 0 15px;text-align: center;}
+  .overlayProductMenu li{margin-bottom: 25px;}
+  .overlayProductMenu li a{display: block;font-size: 15px;}
+  .overlayProductMenu h4{font-family: 'Bebas Neue';}
+  .btnGetQuote{background: transparent;}
   .secHomeAbout{padding: 50px 40px 100px;}
   .secHomeAbout::after{clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 155px);}
   h1.heading {font-size: 30px;}
@@ -1203,15 +1229,16 @@ header.active .hamburger-inner::after {
   .owl-carousel .owl-item .relatedPImg img{height: 140px;}
   .secRelatedProducts{padding:120px 0 80px;}
   .banner-carousel.owl-carousel .banner-item1 .balls{display: none;}
+  .banner-carousel.owl-carousel .banner-item1 .contentLeft{padding: 0;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2,
   .banner-carousel.owl-carousel .banner-item2 .contentLeft h2,
   .banner-carousel.owl-carousel .banner-item3 .contentLeft h2,
   .banner-carousel.owl-carousel .banner-item4 .contentRight h2{font-size: 100px;line-height: 90px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span{font-size: 110px;}
-  .banner-carousel.owl-carousel .banner-item1 .contentLeft p{white-space: nowrap;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft p br{display: block;}
   .banner-carousel.owl-carousel .banner-item1 .contentRight img{right: -30px;}
-  .banner-carousel.owl-carousel .item p{font-size: 13px;white-space: normal;}
+  .banner-carousel.owl-carousel .item p{font-size: 13px;white-space: normal;width: 345px;}
+  
   .banner-carousel.owl-carousel .item p br{display: none;}
   .banner-item2 .contentRight,
   .banner-item3 .contentRight{display: none;}
@@ -1242,7 +1269,7 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item4 .contentLeft img{height: 300px;width: auto;margin: auto;object-fit: contain;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2, .banner-carousel.owl-carousel .banner-item2 .contentLeft h2, .banner-carousel.owl-carousel .banner-item3 .contentLeft h2, .banner-carousel.owl-carousel .banner-item4 .contentRight h2{font-size: 80px;line-height: 70px;margin-bottom: 0;}
   .banner-carousel.owl-carousel .banner-item4 .contentRight{margin-top: 25px;}
-  .banner-carousel.owl-carousel .banner-item1 .col-xl-4{order: 2;margin-top: 25px;}
+  .banner-carousel.owl-carousel .banner-item1 .col-xl-4{order: 2;margin-top: 25px;padding: 0 15px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span,
   .banner-item4 .contentRight h2 span {font-size: 80px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft p{white-space: normal;}

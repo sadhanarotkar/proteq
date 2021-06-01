@@ -160,7 +160,8 @@ export default function About() {
               <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-9 col-md-12" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
                   <h2 className="heading">get in touch with us</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry’s standard dummy text ever</p>
+                  <p className="mb-0">The Best Car Service Awaits You!</p>
+                  <p className="mt-0">We're never going to leave you hanging there. For any detail or information regarding your tyre or auto service repair.</p>
                   <Link href="/contact"><button className="btn hvr-sweep-to-right mb-4">Contact Us</button></Link>                  
                 </div>
               </div>              

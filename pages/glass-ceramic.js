@@ -192,7 +192,7 @@ export default function GlassCeramic() {
                           <img src="img/homeProduct3.png" />
                         </div>
                         <h5 className="heading">ceramic Shield</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Who wouldn't want their car to look as good and brand new as it did the day they got it. You thoroughly wash it frequently and apply a brand new coat of wax every few months.</p>
                       </a>
                     </div>
                     <div className='item'>
@@ -201,7 +201,7 @@ export default function GlassCeramic() {
                           <img src="img/leather-ceramic.png" />
                         </div>
                         <h5 className="heading">leather ceramic</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Infused with Patent-Pending Ceramic Glow Technology, with Features That Act as an Application Aid Allowing Users or Professionals</p>
                       </a>
                     </div>
                     <div className='item'>
@@ -210,7 +210,7 @@ export default function GlassCeramic() {
                           <img src="img/Plastic-ceramic.png" />
                         </div>
                         <h5 className="heading">Plastic ceramic</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics.</p>
                       </a>
                     </div>
                   </div>

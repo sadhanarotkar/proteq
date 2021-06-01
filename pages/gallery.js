@@ -34,7 +34,7 @@ export default function Gallery() {
               <div className="tab-pane fade show active" id="nav-images" role="tabpanel" aria-labelledby="nav-images-tab">
                 <div className="row justify-content-center text-center mb-md-5">
                   <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Check out all of our amazing products and services. <br></br> You can also go through videos of our customers car servicing and blush!</p>
                   </div>
                 </div>  
                 <div id="lightgallery">
@@ -134,7 +134,7 @@ export default function Gallery() {
               <div className="tab-pane fade" id="nav-videos" role="tabpanel" aria-labelledby="nav-videos-tab">
               <div className="row justify-content-center text-center mb-md-5">
                   <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Check out all of our amazing products and services. <br></br>You can also go through videos of our customers car servicing and blush!</p>
                   </div>
                 </div>
                 <div className="row justify-content-center lightgallery">

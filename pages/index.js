@@ -121,7 +121,7 @@ export default function Home() {
             <div className="co-xl-5 col-lg-5 col-md-6 col-sm-12">
               <img src="img/about-car.png" className="img-fluid aboutImg" />
             </div>
-            <div className="co-xl-7 col-lg-6 col-md-6 col-sm-12 pl-md -5">
+            <div className="co-xl-7 col-lg-6 col-md-6 col-sm-12 pl-md-5">
               <h1 className="heading text-white">About Proteq Autocare</h1>
               <p>When young car euthanistic entrepreneurs come together - they sure have something really amazing cooking! We build Proteq Autocare so we could turn our passion for cars into providing effective, efficient and excellent quality paint protection film (PPF) services with utmost determination and commitment to our customers.</p>
               <a href="/about" className="readLink text-yellow">Read More</a>

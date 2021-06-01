@@ -68,7 +68,7 @@ export default function PaintSeries5() {
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                         <h2 className="heading mb-md-4">5.0 series</h2>  
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
+                        <p>The 5.0 Paint Protection Film series comes in a Thermoplastic Polyurethane with 0.2mm ± 0.02mm thickness. It consists of three layers with 50% brightness. The size of the series complies with 1.52m x 15m and Patent Coating. Its performance has a heat repair & Hydrophobic with 7 Years (3 years non-yellowing) warranty.</p>  
                         <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                     </div>
                   </div>
@@ -155,7 +155,7 @@ export default function PaintSeries5() {
                           </div>
                         </div>
                         <h5 className="heading">2.0 Series</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>The 2.0 Paint Protection Film series comes in a Polyurethane Material with 0.17mm ± 0.02mm thickness.</p>
                       </a>
                     </div>
                     <div className='item'>
@@ -166,7 +166,7 @@ export default function PaintSeries5() {
                           </div>
                         </div>
                         <h5 className="heading">3.0 Series</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>The 3.0 Paint Protection Film series comes in a Thermoplastic Polyurethane with 0.17mm ± 0.02mm thickness.</p>
                       </a>
                     </div>
                     <div className='item'>
@@ -177,7 +177,7 @@ export default function PaintSeries5() {
                           </div>
                         </div>
                         <h5 className="heading">M Series</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>The M Paint Protection Film series comes in Polyurethane material with 0.15mm ± 0.02mm thickness. </p>
                       </a>
                     </div>
                   </div>

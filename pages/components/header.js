@@ -37,9 +37,9 @@ export default function Header() {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
+          <span className="hamburger-box">
+            <span className="hamburger-inner"></span>
+          </span>          
         </button>
 
         <a href='/' className='navbar-brand'>
@@ -81,6 +81,15 @@ export default function Header() {
           </div>
           <div className="overlayMenu">
             <div className='collapse navbar-collapse' id='navbarTogglerDemo03'>
+              <div className="overlayTop">
+                <div className="overlayLogo">
+                  <img src='img/logo.svg' className='img-fluid' />
+                </div>
+                <div className="megamenuBtn">
+                  <img src="img/benefit-next.svg" className="img-fluid" style={{transform: 'rotate(180deg)'}} />
+                </div>
+              </div>
+              
               <ul className='navbar-nav ml-auto'>
                 <li
                   className={
@@ -90,6 +99,9 @@ export default function Header() {
                   <a href='/' className='nav-link'>
                     Home
                   </a>
+                </li>
+                <li className="nav-item overlayProductItem">
+                  <a className='nav-link'>Products</a>
                 </li>
                 <li
                   className={
@@ -202,7 +214,34 @@ export default function Header() {
                     Get A Quote
                   </a>
                 </li>
-              </ul>
+              </ul>              
+              <div className='overlayProductMenu'>
+                <ul className='list-unstyled megaList'>
+                  <li>
+                    <a href='ceramic'>
+                      <h4>Ceramic</h4>
+                    </a>
+                    <a href='ceramic'>Ceramic Sheild</a>
+                    <a href='leather-ceramic'>Leather Ceramic</a>
+                    <a href='plastic-ceramic'>Plastic Ceramic</a>
+                    <a href='glass-ceramic'>Glass Ceramic</a>
+                  </li>
+                  <li>
+                    <a href='paint-protection'>
+                      <h4>Paint Protection Film</h4>
+                    </a>
+                    <a href='paint-protection'>2.0 Series</a>
+                    <a href='paint-series3'>3.0 Series</a>
+                    <a href='paint-series5'>5.0 Series</a>
+                    <a href='paint-seriesm'>M Series</a>
+                  </li>
+                  <li>
+                    <a href='microfiber-cloth'>
+                      <h4>Microfiber Cloth</h4>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
