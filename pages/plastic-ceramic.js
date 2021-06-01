@@ -5,7 +5,6 @@ import Footer from './components/footer'
 import CeramicBanner from './components/ceramic-banner'
 import CeramicProductVideo from './components/ceramic-product-video'
 import ProductGallery from './components/product-gallery'
-import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
 import Link from 'next/link'
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -63,7 +62,8 @@ export default function PlasticCeramic() {
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                       <h2 className="heading mb-md-4">Plastic ceramic</h2>  
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
+                      <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics. Despite this trend, some still prefer relatively expensive and more fragile ceramic/glassware because plastics can deteriorate over time after exposure to foods, which can generate odours, bad appearance, and/or colour change. Nano-ceramic coatings can eliminate these drawbacks while still retaining the advantages of the plastic since the coating only alters the surface of the plastic. </p>  
+                      <p>The surface coating adds functionality to the plastics such as self-cleaning and disinfectant capabilities that result from a photocatalytic effect of certain ceramic systems. These ceramic coatings can also provide non-stick surfaces and higher temperature capabilities for the base plastics without resorting to ceramic or glass materials.</p>
                       <button className="btn hvr-fade mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                     </div>
                   </div>
@@ -89,20 +89,26 @@ export default function PlasticCeramic() {
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Superior quality</h4>
+                          <p>Ceramic injection moulding employs dependable equipment and advanced ceramic materials and compounds to produce ceramic components in a carefully controlled environment. </p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Product consistency</h4>
+                          <p>Specialists in ceramic injection moulding handle this process with extreme caution, care, and attention to detail. They follow a strict set of standards and client specifications while also employing quality assurance checks and inspections throughout the entire production process.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Application versatility</h4>
+                          <p>Ceramic products are versatile and have numerous advantages over other types of materials, which is why they are widely used across different industries. For instance, ceramic moulded parts can be used as dental implants, electrical insulators, regulators, bearings, etc.</p>
+                        </div>
+                      </div>
+                      <div className='item'>
+                        <div className="testimonialContent">
+                          <h4 className="heading">Cost-effective solutions</h4>
+                          <p>Opting for ceramic injection moulding brings you an opportunity to obtain complex designs using a cost-effective process. Businesses receive financial benefits from high-volume manufacturing, especially if they need new components as an alternative to existing designs.</p>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -117,7 +123,64 @@ export default function PlasticCeramic() {
             </div>
           </section>
           <ProductGallery />          
-          <ProductFaq />        
+          <section className="secFaq">
+            <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
+            <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
+            <div className="container-fluid">
+              <div className="row justify-content-end align-items-center">
+                <div className="col-xl-5 col-lg-5 col-md-9">
+                  <h2 className="heading">Frequently Asked Questions</h2>
+                  <div id="accordion" className="productAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingOne">
+                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How is Ceramic Coating Different when Used on Plastic? <span className="icon" aria-hidden="true"></span></button>                     
+                      </div>
+                      <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>With regard to how coatings work on plastics, there is no difference in the way the product bonds to plastic. These materials are just as porous as metal, vinyl wraps, and other materials.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingTwo">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">When Should Ceramic Coating Be Used on Plastic? <span className="icon" aria-hidden="true"></span></button>                      
+                      </div>
+                      <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Ceramic coatings amplify what is underneath, they are not intended to repair or restore materials nor do they protect a windshield or other glass surfaces against rock chips (another far-fetched myth).</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingThree">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What are the Features and Benefits of Ceramic Coatings for Plastics? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Enhanced Vibrance</p>
+                          <p>Makes Cleaning Easy</p>
+                          <p>Extra Protection Against Fading</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingFour">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How Long Does Ceramic Coating Last on Plastic? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Ceramic coatings last just as long on plastic rims or covers as they do on other surfaces. In fact, there really is no difference in their longevity, application, or level of protection when they are used on plastic surfaces.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-5 col-lg-5 col-md-5 pr-md-0 pl-md-5">
+                  <img src="img/faqRight.png" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </section>     
           <section className="secRelatedProducts">
             <div className="container">
               <div className="row justify-content-center align-items-center">
@@ -170,12 +233,12 @@ export default function PlasticCeramic() {
                   
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5">
-                    <div className="homeForm">
-                      <h1 className="heading">Contact Us</h1>
-                      <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                      <ContactUS/>
-                    </div>
+                  <div className="homeForm">
+                    <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
+                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <ContactUS/>
                   </div>
+                </div>
               </div>
             </div>
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />

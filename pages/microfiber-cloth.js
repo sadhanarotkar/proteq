@@ -33,7 +33,7 @@ export default function MicrofiberCloth() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
                   <h2 className="heading mb-md-4">Microfiber cloth</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer</p>
+                  <p>Proteq Microfibre Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-10 text-center">
                   <img src="img/homeProduct1.png" className="img-fluid" />                  
@@ -54,7 +54,7 @@ export default function MicrofiberCloth() {
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                   <h2 className="heading mb-md-4">Microfiber cloth</h2>  
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
+                  <p>The Microfibre cloth is highly effective due to the revolutionary material blend, inspired by fish scales. It can be used either dry or damp. Dry: Using it dry is perfect for dusting, drying and wiping over surfaces. Damp: To use it damp, first wet and then wring any excess water. This method is suitable for cleaning and polishing a range of surfaces. The inside shield is Non-scratching, Lint-free, Quickly removes dust and Retains many times its weight of water. Proteq Microfibre Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>  
                   <button className="btn hvr-fade mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                 </div>
               </div>     
@@ -96,20 +96,20 @@ export default function MicrofiberCloth() {
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Perfect, Streak-Free Wiping</h4>
+                          <p>Tired of leaving smears or lint behind with all the other microfiber cloths? The microfiber cloth is lint-free and smear-free. Meaning one quick wipe, and no trace is left behind. Mirrors, windows and glasses have never looked so shiny!</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Super Absorbent</h4>
+                          <p>Featuring super absorption technology, the microfiber cloth collects dirt and liquid up to 7 x its own weight.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Durable and Reliable</h4>
+                          <p>Never worry about poor quality materials wearing down over time. The microfiber cloth was crafted to last! Featuring a durable, long-lasting design and self-cleaning function means it's easy to use and lasts a lifetime.</p>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -124,7 +124,62 @@ export default function MicrofiberCloth() {
             </div>
           </section>
           <ProductGallery />
-          <ProductFaq />          
+          <section className="secFaq">
+            <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
+            <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
+            <div className="container-fluid">
+              <div className="row justify-content-end align-items-center">
+                <div className="col-xl-5 col-lg-5 col-md-9">
+                  <h2 className="heading">Frequently Asked Questions</h2>
+                  <div id="accordion" className="productAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingOne">
+                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Microfiber made of? <span className="icon" aria-hidden="true"></span></button>                     
+                      </div>
+                      <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Microfiber is a blend of polyester and polyamide. It is a lightweight and durable material comprised of tiny threads that are 100 times thinner than a human hair. It is constructed in a blend of either 80/20 or 70/30 ratio of polyester/polyamide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingTwo">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What surfaces are safe for Microfiber? <span className="icon" aria-hidden="true"></span></button>                      
+                      </div>
+                      <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>They are safe for virtually every surface and will never scratch or harm anything you use them on. Use on tile, linoleum, glass, wood, ceramic, marble, granite, plastic, vinyl, leather, and many more.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingThree">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Can I use a Chemical Cleanser with the cloth? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>You can, but you don't have to. Microfiber removes 98-99% of all dirt with just water as a detergent. Use your favourite cleanser if you want to, but stay away from ones that contain bleach or other corrosive ingredients.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingFour">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How do I Clean the cloth? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Wash with warm soapy water and rinse well. The warm water opens up the microfibres, allowing them to release the locked-in dirt. You may also put the cloth in the washing machine and then dry them in the dryer on low. DO NOT USE fabric softeners of any kind as the chemicals clog the microfiber, making them less effective. DO NOT USE bleach either because it corrodes the fibres over time, making them less effective. DO NOT IRON</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-5 col-lg-5 col-md-5 pr-md-0 pl-md-5">
+                  <img src="img/faqRight.png" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </section>           
           <ProductTestimonial />
           <section className="secHomeContact">
             <div className="homeContactLeft">
@@ -139,12 +194,12 @@ export default function MicrofiberCloth() {
                   
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5">
-                    <div className="homeForm">
-                      <h1 className="heading">Contact Us</h1>
-                      <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                      <ContactUS/>
-                    </div>
+                  <div className="homeForm">
+                    <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
+                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <ContactUS/>
                   </div>
+                </div>
               </div>
             </div>
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />

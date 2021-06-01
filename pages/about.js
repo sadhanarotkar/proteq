@@ -43,8 +43,7 @@ export default function About() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
                   <h2 className="heading mb-md-4">About Proteq Autocare</h2>
-                  <p>Proteq auto care was established in 2016 by young car euthanistic entrepreneurs with the intention of authoring India’s most effective, efficient and excellent quality paint protection film (PPF) services with utmost determination and commitment.</p>
-                  <p>The young minds and risk takers Mr. Nikit Zaveri, Mr. Saumin Sanghavi and Mr. Chirag Shah began their journey by starting a business venture in collaboration with a renowned and experienced company. They worked their vision from ground level, learned the procedures, gained experience and witnessed the beginning and rising of Paint Protection Film. They acquired 5 years of experience in auto care industry, simultaneously bearing a vision in their hearts and minds of launching their own brand. While working with determination and waiting for the right opportunity, Mr. Nikit Zaveri, Mr. Saumin Sanghavi and Mr. Chirag Shah found a gap in the market. They observed a gap between the high pricing and quality in the services. Companies providing the PPF services where either charging high prices enabling middle-class customers from enjoying the service or local market providing cheap materials henceforth damaging the car.</p>
+                  <p>When Young Car Euthanistic Entrepreneurs Come Together - They Sure Have Something Really Amazing Cooking! We Build Proteq Autocare So We Could Turn Our Passion for Cars into Providing Effective, Efficient and Excellent Quality Paint Protection Film (Ppf) Services with Utmost Determination and Commitment to Our Customers. Proteq Autocare Focuses on Giving Our Clients the Best Service for Their Car in India! It’s Hard to Find a Great Automotive Mechanic Around, but I Assure You That with Us, You'll Get the Best Car Serving Outlet. When You Trust Us with Your Car We’ll Do the Right Thing for You, Guaranteed.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12">
                   <img src="img/homeProduct1.png" className="img-fluid" />  
@@ -66,7 +65,10 @@ export default function About() {
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 pr-xl-5">
                   <h2 className="heading mb-md-4">Why Proteq Autocare</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Every great business is born between challenges and a market gap. A business is a problem-solving and answer giving institute.</p>
+                  <p>An opportunity knocking on their doors answered with laying the foundation of PROTEQ with 5 years of rich experience of performing PPF services on over 500+ cars. The paint protection film is a self-healing film applied to the painted surface on your car in order to protect the paint, preserve the quality, minimize damage and for easy maintenance. After analyzing and research, Proteq has introduced 4 types of gloss PPF and 1 matte finish PPF to fit each customer’s need and choice.</p>
+                  <p>At Proteq, we believe every car deserves to be scratch and damage-proof. We have invented the best quality of PPF in the most affordable range for every middle-class and high-class car owner. Henceforth, fulfilling our promises and eliminating the market gap. We believe PPF application is not a luxury, it is beyond a décor, it is the NEED of your car. IT IS A NECESSITY.</p>
+                  <p>We can't wait to start this journey with you and your dream car. Come ride with us, scratch-proof!</p>
                 </div>
               </div>
             </div>
@@ -86,7 +88,7 @@ export default function About() {
               <div className="row justify-content-end align-items-center">
                 <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                   <h2 className="heading mb-md-4">Our Vision</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                  <p>We use our extensive experience and creativity to transform our passion into a tangible and inspiring reality. Proteq aspire to be India's leading auto protection company.</p>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 pr-md-0 pl-md-5">
                   <img src="img/visionImg.png" className="img-fluid" data-aos="fade-left" data-aos-duration="1000" />                  
@@ -110,7 +112,7 @@ export default function About() {
                 </div>
                 <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                   <h2 className="heading mb-md-4">Our Mission</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                  <p>Proteq commits to be dedicated to providing premium and exceptional products in an affordable range by epitomizing safety and efficiency. We are constantly innovating to make graphics more exciting, noticeable and easy to install.</p>
                 </div>
               </div>
             </div>
@@ -128,24 +130,24 @@ export default function About() {
                 <div className="col-xl-6 col-lg-6 col-md-6 px-5">
                   <img src="img/metro-quote.svg" className="img-fluid testimonialQuoteIcon" />
                   <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
-                    <div className='item'>
-                      <div className="testimonialContent">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <p className="username text-yellow">- Rushabh Parekh</p>
-                      </div>
+                  <div className='item'>
+                  <div className="testimonialContent">
+                    <p>First of all, I would like to thank team Proteq. PPF application done on my Mercedes CLA professionally and with the best quality. If you love your pride and joy, I will recommend PROTEQ.</p>
+                    <p className="username text-yellow">- Talib Khatri</p>
+                  </div>
+                </div>
+                  <div className='item'>
+                    <div className="testimonialContent">
+                      <p>Really nice guys, super helpful and polite as well. PPF application is done on my BMW and Mercedes E class fully. PROTEQ is the best place to go if you want your car to look new all the time.</p>
+                      <p className="username text-yellow">- Bhavesh Bharmecha</p>
                     </div>
-                    <div className='item'>
-                      <div className="testimonialContent">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <p className="username text-yellow">- Rushabh Parekh</p>
-                      </div>
+                  </div>
+                  <div className='item'>
+                    <div className="testimonialContent">
+                      <p>I was not at all aware of the paint protection film. These guys from PROTEQ explained everything why it is important. It made me ready to get the full application on my Skoda Octavia VRS and trust me it been six months since then and still my car looks brand new like just brought from the showroom. Best investment for my car.</p>
+                      <p className="username text-yellow">- Amit Abhyankar</p>
                     </div>
-                    <div className='item'>
-                      <div className="testimonialContent">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <p className="username text-yellow">- Rushabh Parekh</p>
-                      </div>
-                    </div>
+                  </div>
                   </OwlCarousel>
                 </div>
               </div>

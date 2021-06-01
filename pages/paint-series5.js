@@ -199,12 +199,12 @@ export default function PaintSeries5() {
                   
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5">
-                    <div className="homeForm">
-                      <h1 className="heading">Contact Us</h1>
-                      <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                      <ContactUS/>
-                    </div>
+                  <div className="homeForm">
+                    <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
+                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <ContactUS/>
                   </div>
+                </div>
               </div>
             </div>
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />

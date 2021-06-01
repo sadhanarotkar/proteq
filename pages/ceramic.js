@@ -69,7 +69,8 @@ export default function Ceramic() {
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                         <h2 className="heading mb-md-4">Ceramic shield</h2>  
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
+                        <p>Who wouldn't want their car to look as good and brand new as it did the day they got it. You thoroughly wash it frequently and apply a brand new coat of wax every few months. However, swirl marks, chips, and stains populate on your vehicle’s exterior despite your efforts. Moreover, water spots, dirt, and dirt begin clinging to your car the day when you provide it with a wash. Some notice that it's like powder coating used to guard your car and machinery against rust and weather that you'll notice from somewhere like these Powdercoat Services.</p>  
+                        <p>What if there was a product that would help with the modification of the whole narrative. Perhaps a product that might offer protection from environmental hazards and make your car easier to scrub, whereas not requiring continual application.? Well, here we are with great news! Ceramic Coating, is your car's best friend! </p>
                         <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                     </div>
                   </div>
@@ -92,20 +93,26 @@ export default function Ceramic() {
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Protection from UV Damage / Oxidization</h4>
+                          <p>If a vehicle is often exposed to the sun, its paint will begin to oxidize, resulting in dulled and faded paint. A layer of Ceramic Coating protects a vehicle’s paint from the sun’s ultraviolet rays, thereby reducing the amount of oxidization.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Protection from Chemical Stains and Etching</h4>
+                          <p>Another danger for your car is chemical staining from naturally acidic contaminants. Ceramic Coating keeps some contaminants from bonding to your vehicle’s paint. The result is that your vehicle will be more resistant to staining and etching, provided the contaminant is removed promptly.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Ease of Cleaning</h4>
+                          <p>One of the most significant features of Ceramic Coating is that it is hydrophobic, which is a fancy way of saying it repels water. When a vehicle has hydrophobic Ceramic Coating, water will bead on the surface and slide off more easily. This means that mud and grime will have a more difficult time bonding to your vehicle’s paint, and when you wash your car, contaminants can be removed with less effort.</p>
+                        </div>
+                      </div>
+                      <div className='item'>
+                        <div className="testimonialContent">
+                          <h4 className="heading">Enhanced Gloss</h4>
+                          <p>If you want your paint to pop with gloss, you will want to add Ceramic Coating. A good Ceramic Coating enhances the reflective properties of your car’s paint and clear coat, adding to the depth and clarity of your paint.</p>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -174,8 +181,8 @@ export default function Ceramic() {
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5">
                     <div className="homeForm">
-                      <h1 className="heading">Contact Us</h1>
-                      <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                      <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
+                      <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>                  
                       <ContactUS/>
                     </div>
                   </div>

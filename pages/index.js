@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="co-xl-7 col-lg-6 col-md-6 col-sm-12 pl-md -5">
               <h1 className="heading text-white">About Proteq Autocare</h1>
-              <p>Proteq auto care was established in 2016 by young car euthanistic entrepreneurs with the intention of authoring India’s most effective, efficient and excellent quality paint protection film (PPF) services with utmost determination and commitment.</p>
+              <p>When young car euthanistic entrepreneurs come together - they sure have something really amazing cooking! We build Proteq Autocare so we could turn our passion for cars into providing effective, efficient and excellent quality paint protection film (PPF) services with utmost determination and commitment to our customers.</p>
               <a href="/about" className="readLink text-yellow">Read More</a>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function Home() {
                 <h1 className="headingShadow">Ceramic</h1>
                 <h1 className="heading">Ceramic</h1>
               </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <p>Ceramic coating your paint is absolutely worth the price. It provides great protection against contaminants and minor scratches, all while making the vehicle much easier to clean up. Hence, we at At Proteq Autocare, provide you with Nano ceramics that comes with a ceramic shield, Glass Ceramic Sheild, Leather Ceramic Sheild, and Plastic Ceramic Shield.</p>
               <a href="/ceramic" className="readLink text-pink">Read More</a>              
             </div>
             <div className="co-xl-4 col-lg-4 col-md-5 col-sm-12">
@@ -170,7 +170,7 @@ export default function Home() {
                 <h1 className="headingShadow">Paint</h1>
                 <h1 className="heading">Paint Protection Film</h1>
               </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <p>We’ve found that there are a few different ways people view their cars and how they care for them, how they expect the appearance of their vehicle to be and how long they plan to keep the vehicle. The paint protection film is the best option for us to woe them with both protection and an amazing appearance.</p>
               <a href="/paint-protection" className="readLink text-pink">Read More</a>
             </div>
           </div>
@@ -180,7 +180,7 @@ export default function Home() {
                 <h1 className="headingShadow">Microfiber</h1>
                 <h1 className="heading">Microfiber Cloth</h1>
               </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <p>Our microfiber cloths are great for cleaning grime during professional automotive detailing. They're non-scratching, Lint-free has the ability to quickly removes dust, and retains many times their weight of water. This cloth is safe in hot water, chlorine bleach and dryer. These cloths Are not abrasive on the delicate surfaces of a vehicle but are ultra-absorbent for professional automotive detailing.</p>
               <a href="/microfiber-cloth" className="readLink text-pink">Read More</a>
             </div>
             <div className="co-xl-4 col-lg-4 col-md-5 col-sm-12">
@@ -212,20 +212,20 @@ export default function Home() {
               <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                 <div className='item'>
                   <div className="testimonialContent">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <p className="username text-yellow">- Rushabh Parekh</p>
+                    <p>First of all, I would like to thank team Proteq. PPF application done on my Mercedes CLA professionally and with the best quality. If you love your pride and joy, I will recommend PROTEQ.</p>
+                    <p className="username text-yellow">- Talib Khatri</p>
                   </div>
                 </div>
                 <div className='item'>
                   <div className="testimonialContent">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <p className="username text-yellow">- Rushabh Parekh</p>
+                    <p>Really nice guys, super helpful and polite as well. PPF application is done on my BMW and Mercedes E class fully. PROTEQ is the best place to go if you want your car to look new all the time.</p>
+                    <p className="username text-yellow">- Bhavesh Bharmecha</p>
                   </div>
                 </div>
                 <div className='item'>
                   <div className="testimonialContent">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <p className="username text-yellow">- Rushabh Parekh</p>
+                    <p>I was not at all aware of the paint protection film. These guys from PROTEQ explained everything why it is important. It made me ready to get the full application on my Skoda Octavia VRS and trust me it been six months since then and still my car looks brand new like just brought from the showroom. Best investment for my car.</p>
+                    <p className="username text-yellow">- Amit Abhyankar</p>
                   </div>
                 </div>
               </OwlCarousel>
@@ -240,25 +240,25 @@ export default function Home() {
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="900">0</span> +</h3>
-                <h4>Lorem Ipsum simply</h4>
+                <h4>Cost-Effective</h4>
               </div>
             </div>
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="150">0</span> +</h3>
-                <h4>Lorem Ipsum simply</h4>
+                <h4>Maintenance Free</h4>
               </div>
             </div>
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="200">0</span> +</h3>
-                <h4>Lorem Ipsum simply</h4>
+                <h4>Enviro Friendly</h4>
               </div>
             </div>
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="320">0</span> +</h3>
-                <h4>Lorem Ipsum simply</h4>
+                <h4>Tough</h4>
               </div>
             </div>
           </div>
@@ -277,9 +277,9 @@ export default function Home() {
             </div>
             <div className="col-xl-5 col-lg-5 col-md-5">
                 <div className="homeForm">
-                  <h1 className="heading">Contact Us</h1>
-                  <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                         <ContactUS/>
+                  <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
+                  <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                  <ContactUS/>
                 </div>
               </div>
           </div>

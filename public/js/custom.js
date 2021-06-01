@@ -196,6 +196,7 @@ $(document).ready(function () {
     $(this).parents('header').toggleClass('active');
     $('.overlayMenu').toggleClass('active');
     $(this).toggleClass('active')
+    $('body').toggleClass('menuActive')
   });
 
 });

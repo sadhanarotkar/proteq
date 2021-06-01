@@ -63,7 +63,8 @@ export default function GlassCeramic() {
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                       <h2 className="heading mb-md-4">glass ceramic</h2>  
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
+                      <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather. To help with this, a ceramic coat can be applied to your car’s glass. While most people use a ceramic coating to protect their car’s paint, it really can be applied anywhere – including the wheels, vinyl wraps, fibreglass, PPF, and glass. There are many ceramic glass coating products available on the market. But a common problem with all of them is their longevity, effectiveness, and claims that one-size-fits-all.</p>  
+                      <p>If you have ever used a nanoceramic coating on your car’s surface to protect the vehicle’s paint against UV rays, then you know how effective it is due to its hydrophobic properties which allow it to repel water and other contaminants and its longevity in protecting your surface. It follows, then, that you would benefit from using it on your vehicle’s glass as well.</p>
                       <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                     </div>
                   </div>
@@ -89,20 +90,26 @@ export default function GlassCeramic() {
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Improved Visibility</h4>
+                          <p>When it is raining, the water blocks your view completely until the windshield wipers get activated. Since the ceramic coating is hydrophobic, this is a case where it is especially helpful. Ceramic coating being hydrophobic means it provides a flat, smooth surface that is resistant to water.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Easier Cleaning</h4>
+                          <p>With a ceramic coating on your car’s glass, contaminants that are usually difficult to remove such as bug splatters, bird droppings, tree sap, etc. wipe off much easier. This is most helpful if you drive a commercial truck or frequently go on long road trips since your windshield will stay clean much longer and when it does get dirty, will be easier to clean.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Enhanced Clarity</h4>
+                          <p>One great benefit of ceramic coating your glass is that it both repels water and greatly improves visibility without leaving behind any sort of cloudiness or haziness, unlike other products. During times of day where there is little light and/or fog and cloudiness, having crystal clear windows and windshields will always beat having reduced visibility caused by inferior products.</p>
+                        </div>
+                      </div>
+                      <div className='item'>
+                        <div className="testimonialContent">
+                          <h4 className="heading">Scratch-Resistance</h4>
+                          <p>After curing, a ceramic coating provides an extremely durable and strong protective shell that is scratch-resistant and can last up to 5 years when properly applied.</p>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -117,7 +124,62 @@ export default function GlassCeramic() {
             </div>
           </section>
           <ProductGallery />          
-          <ProductFaq />        
+          <section className="secFaq">
+            <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
+            <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
+            <div className="container-fluid">
+              <div className="row justify-content-end align-items-center">
+                <div className="col-xl-5 col-lg-5 col-md-9">
+                  <h2 className="heading">Frequently Asked Questions</h2>
+                  <div id="accordion" className="productAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingOne">
+                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Why is Applying Ceramic Coating to Glass a Smart Idea? <span className="icon" aria-hidden="true"></span></button>                     
+                      </div>
+                      <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>The ceramic car product is highly concentrated but very safe to use. When it is applied to a surface, it bonds to the upper-most layer of the material and creates a semi-permanent layer of protection that is fully transparent and exceptionally strong.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingTwo">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How to Apply Ceramic Coating to Glass <span className="icon" aria-hidden="true"></span></button>                      
+                      </div>
+                      <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>The process of applying a ceramic coating to glass is no different than applying it to paint, headlights, wheels, or any other surface. However, it’s important to explain why each step should be completed, especially with glass. Leave it on to the experts!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingThree">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How long does glass coating last? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>3-5 years unlike wax and conventional polymer/ceramic coating in the market, glass coating is durable and keeps your car glossy and hydrophobic for up to 3-5 years.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingFour">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How do I wash my car with a glass coating? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>When you have a glass coating on your vehicle, you can still wash it like you normally would. Use natural car cleaning soap on your vehicle, and use microfiber scrubbing brushes to get everything clean. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-5 col-lg-5 col-md-5 pr-md-0 pl-md-5">
+                  <img src="img/faqRight.png" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </section>        
           <section className="secRelatedProducts">
             <div className="container">
               <div className="row justify-content-center align-items-center">
@@ -170,12 +232,12 @@ export default function GlassCeramic() {
                   
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5">
-                    <div className="homeForm">
-                      <h1 className="heading">Contact Us</h1>
-                      <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                      <ContactUS/>
-                    </div>
+                  <div className="homeForm">
+                    <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
+                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <ContactUS/>
                   </div>
+                </div>
               </div>
             </div>
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />

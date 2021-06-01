@@ -63,7 +63,8 @@ export default function LeatherCeramic() {
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                       <h2 className="heading mb-md-4">leather ceramic</h2>  
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
+                      <p>Infused with Patent-Pending Ceramic Glow Technology, with Features That Act as an Application Aid Allowing Users or Professionals the Ability to Never Miss a Spot and Make Sure the Coating Is Perfect Every Time You Apply It! Specifically Formulated for Natural, Sealed, and Synthetic Leathers and Vinyl Surfaces Including Your Dash, Door Panels, and Other Hard Interior Surfaces. Not Suitable for Aniline Leathers or for Use Over the Top of Adam’s Leather Conditioner.</p>  
+                      <p>Extremely Hydrophobic! Proteq's New Interior Ceramic Coating Is a Super Durable Barrier to Protect Your Seats or Hard Interior Surfaces from Dirt, Liquids, Fading, and Other Contaminants, with Outstanding Water Beading That Makes Water Almost Jump Off the Surface! This Nano-Coating Prevents Stains and Makes Cleaning Your Interior Surfaces Easier and More Efficient. 110% Satisfaction Guarantee!</p>
                       <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                     </div>
                   </div>
@@ -89,20 +90,26 @@ export default function LeatherCeramic() {
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Permanent Adhesion</h4>
+                          <p>Forms a permanent adhesion to the surface, which means no reapplication is required (subject to general wear and tear).</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Chemical Resistant</h4>
+                          <p>Resistant to harmful chemicals that would otherwise remove other protective products on the market.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy text</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                          <h4 className="heading">Latest Ceramic Nanotechnology</h4>
+                          <p>At the forefront of ceramic nanotechnology, with ongoing lab test and product updates to ensure the products are always leading the way.</p>
+                        </div>
+                      </div>
+                      <div className='item'>
+                        <div className="testimonialContent">
+                          <h4 className="heading">UV Resistant</h4>
+                          <p>Incorporate UV stabilisers to ensure your paintwork is always protected from harmful UV rays which may cause fading or discolouration over time.</p>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -117,7 +124,62 @@ export default function LeatherCeramic() {
             </div>
           </section>
           <ProductGallery />          
-          <ProductFaq />        
+          <section className="secFaq">
+            <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
+            <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
+            <div className="container-fluid">
+              <div className="row justify-content-end align-items-center">
+                <div className="col-xl-5 col-lg-5 col-md-9">
+                  <h2 className="heading">Frequently Asked Questions</h2>
+                  <div id="accordion" className="productAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingOne">
+                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Will ceramic coating leather protection prevent jean dye? <span className="icon" aria-hidden="true"></span></button>                     
+                      </div>
+                      <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Yes, our Leather Protection allows you up to 12-24 hours to clean off jean dye before it penetrates into the leather.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingTwo">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What about interior protection? <span className="icon" aria-hidden="true"></span></button>                      
+                      </div>
+                      <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Ceramic Pro is also offered for suede, plastic, rubber and textile. This revolutionary product works for old and new vehicles.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingThree">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What kind of preparation has to happen before it's applied? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>Most of the time, we suggest some paint correction. This process is basically removing all the scratches and blemishes before we lock in the perfect look with the Ceramic Pro coating.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div className="card-header" id="headingFour">
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">What else does a Ceramic Leather Protection feature? <span className="icon" aria-hidden="true"></span></button>
+                      </div>
+                      <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div className="card-body">
+                          <p>The CP Leather coating also features a super hydrophobic effect which enables any liquid spills to simply bead up on the surface and be easily wiped off without affecting the leather.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-5 col-lg-5 col-md-5 pr-md-0 pl-md-5">
+                  <img src="img/faqRight.png" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </section>        
           <section className="secRelatedProducts">
             <div className="container">
               <div className="row justify-content-center align-items-center">
@@ -170,12 +232,12 @@ export default function LeatherCeramic() {
                   
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5">
-                    <div className="homeForm">
-                      <h1 className="heading">Contact Us</h1>
-                      <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-                      <ContactUS/>
-                    </div>
+                  <div className="homeForm">
+                    <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
+                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <ContactUS/>
                   </div>
+                </div>
               </div>
             </div>
             <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />
