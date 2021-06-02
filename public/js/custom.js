@@ -172,19 +172,23 @@ $(document).ready(function () {
     responsive : {      
       0 : {
         items:1,
-        autoplay:true
+        autoplay:true,
+        loop: true
       },
       380 : {
         items:1,
-        autoplay:true
+        autoplay:true,
+        loop: true
       },
       575 : {
         items:2,
-        autoplay:true
+        autoplay:true,
+        loop: true
       },
       767 : {
         items:2,
         autoplay:true,
+        loop: true
       },
       768 : {
         items:3
