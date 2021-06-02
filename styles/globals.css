@@ -451,7 +451,7 @@ iframe{border: none;display: block;}
 .scrollingImg li img{position: relative;transform: scale(0.8);}
 .scrollingImg li img:nth-child(1){top: 180px;left: -25px;}
 .scrollingImg li img:nth-child(2){top: 22px;left: -50px;}
-.scrollingImg li img:nth-child(3){top: 150px;left: -52px;}
+.scrollingImg li img:nth-child(3){top: 150px;left: -52px;opacity: 0;}
 .scrollingImg li img:nth-child(4){top: -45px;left: -125px;}
 .scrollingImg li img:nth-child(5){top: 120px;left: -155px;}
 .scrollingImg li img:nth-child(6){top: 10px;left: -195px;}
@@ -549,13 +549,16 @@ iframe{border: none;display: block;}
 .secWhy .lax.homeCeramic4{left: -150px;}
 .secWhy .lax.homeCeramic5{right: 100px;}
 .whyRightBigImg img, .whyRightSmallImg img{transform: scale(0.8);}
-.aboutWrapper .secVision{padding: 50px 0;overflow: hidden;}
+.aboutWrapper .secVision{padding: 50px 0 0;overflow: hidden;}
 /* .secVision::before{content: '';background: url(../public/img/contactFormLeft.svg) no-repeat;background-size: contain;background-position-y: bottom;width:150px;height: 100%;position: absolute;left: 0;top: 0;} */
 .secVision .headingText{position: relative;top: 0;}
+.visionText, .missionText{height: 155px;}
 .secMission::after{content: '';background: url(../public/img/testimonialRightImg.png) no-repeat;background-size: contain;background-position: center right;width:170px;height: 100%;position: absolute;right: 0;top: 0;}
-.secMission .headingText{position: absolute;top: 0;}
+.secMission .headingText{position: relative;top: 100px;}
 .missionLeftImg{left: 0;top: auto;bottom: 0;width: 150px;}
-.secVision p, .secMission{font-size: 15px;}
+.secVision p, .secMission p{font-size: 15px;}
+.secVision .visionText{position: relative;top: 70px;left: 15px;}
+/* .secMission .container-fluid.headingText{} */
 .aboutWrapper .secHomeTestimonial{margin-top: 0;padding: 100px 0 80px;}
 .aboutWrapper .bottomContact{background: #F2BA0F;text-align: center;overflow: hidden;margin-top: -1px;padding: 100px 0;}
 /* .bottomContact::before{content: '';background: url(../public/img/contactBottomLeft.svg) no-repeat;background-size: contain;background-position: top;width:635px;height: 100%;position: absolute;left: -315px;top: -4px;}
@@ -1105,6 +1108,8 @@ header.active .hamburger-inner::after {
   .banner-item3 .contentLeft{padding: 0;}
   ul.navbar-nav .megaList{padding: 70px 40px 70px 10px;}
   ul.navbar-nav li{padding: 0 15px;}
+  .scrollingImg li img:nth-child(1){left: -125px;}
+  .scrollingImg li img:nth-child(8){left: -500px;}
 }
 @media only screen and (max-width: 1150px) {
   .secHomeProduct>.lax.whyRightImg,
@@ -1141,6 +1146,10 @@ header.active .hamburger-inner::after {
   .benefitText{height: 130px;}
   .productBanner h2.heading, .productBanner.paintBanner h2.heading{font-size: 105px;}
   .paintBanner .col-lg-4.px-5{padding: 1.5rem !important;}
+  .privacyBanner h1{font-size:  100px;}
+  .privacyContent {padding: 50px 0;}
+  .privacyContent h2.heading{font-size: 35px;}
+  .secMission .headingText{top:50px}
 }
 @media only screen and (max-width: 991px) {z  
   p{font-size: 12px;line-height: 1.5;}
@@ -1246,6 +1255,23 @@ header.active .hamburger-inner::after {
   .banner-item3 .contentLeft{top: 0;padding: 0;}
   .banner-carousel.owl-carousel .banner-item4 .contentRight h2{line-height: 65px;}
   .banner-item4 .contentRight h2 span{font-size: 75px;}
+  .testimonialWrapper{padding: 110px 0;}
+  .scrollingImg li img{transform: scale(0.65);}
+  .scrollingImg li img:nth-child(1){top: 90px;left: -50px;}
+  .scrollingImg li img:nth-child(2){top: 115px;left: -80px;}
+  .scrollingImg li img:nth-child(3){top: 230px;left: -352px;}
+  .scrollingImg li img:nth-child(4){top: 40px;left: -225px;}
+  .scrollingImg li img:nth-child(5){top: 40px;left: -430px;}
+  .scrollingImg li img:nth-child(6){top: -50px;left: -435px;}
+  .scrollingImg li img:nth-child(7){top: 110px;left: -530px;}
+  .scrollingImg li img:nth-child(8){top: -85px;left: -610px;}
+  .scrollingImg li img:nth-child(9){top: 105px;left: -320px;}
+  .scrollingImg li img:nth-child(10){top: -135px;right: -520px;}
+  .scrollingImg li img:nth-child(11){top: -50px;right: -481px;}
+  .scrollingImg li img:nth-child(12){top: -150px;right: -435px;}
+
+  .aboutWrapper .secVision{padding-top: 0;}
+  .secVision p, .secMission p{font-size: 14px;}
 }
 @media only screen and (max-width: 991px) and (orientation: portrait) {}
 @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -1284,7 +1310,7 @@ header.active .hamburger-inner::after {
   .banner-item4 .contentRight h2 span{display: block;}
   .banner-carousel.owl-carousel .item p{width: 100%;}
   .secHomeAbout{padding: 50px 15px;}
-  .secHomeAbout::after{clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 200px);}
+  .secHomeAbout::after{clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);}
   .aboutImg{display: none;}
   .secHomeProduct{padding-top: 50px;overflow: hidden;}
   .secHomeProduct .container .row:nth-child(odd) .co-xl-6{order: 2;}
@@ -1345,6 +1371,19 @@ header.active .hamburger-inner::after {
   .productVideo .playBtn:before, .productVideo .playBtn:after{width: 50px;height: 50px;}
   .productAccordion .card .card-header button{min-height: 55px;padding-right: 35px;}
   .aboutBannerRightImg{width: 120px;}
+  .privacyBanner h1{font-size: 65px;}
+  .privacyContent h2.heading {font-size: 30px;}
+  .privacyContent p{font-size: 13px;}
+  .secTestimonial{margin-top: 50px;}
+  .testimonialWrapper h1{font-size: 80px;}
+  .secVision .visionText,
+  .secMission .headingText{top: 0;left: 0;}
+  .visionText, .missionText {height: 100px;}
+  .secMission .col-xl-6{order: 2;}
+  .aboutWrapper .secMission{padding-bottom: 0;}
+  .aboutWrapper .secVision{padding: 50px 0;}
+  .secMission img{position: relative;z-index: 1;}
+  .secHomeAbout::before{display: none;}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}
@@ -1388,10 +1427,12 @@ header.active .hamburger-inner::after {
   .quoteModal .modal-content{background: transparent;position: unset;}
   .quoteModal .modal-body{background: transparent;padding: 25px;}
   .quoteModal button.close{top: 0;right: 0;background: transparent;}
-  .nav.gallery-tabs .nav-item{width: 45%;}  
+  .nav.gallery-tabs .nav-item{width: 45%;font-size: 20px;}  
   .secGallery{padding: 50px 0 0;}
-  .secGallery .tab-content{padding: 50px 20px;}
-  .secGallery .tab-content p{margin-bottom: 30px;}
+  .secGallery .tab-content{padding: 50px 0px;}
+  .secGallery .tab-content p{margin-bottom: 30px;font-size: 13px;}
+  .secGallery .tab-content p br{display: none;}
+  .secGallery #lightgallery{padding: 0 8px;}
   .productBanner h2.heading, .productBanner.paintBanner h2.heading {font-size: 70px;}
   .category-tabs .nav-item{height: 70px;line-height: 70px;font-size: 20px;}
   .category-tabs .nav-item::after{height: 3px;}
@@ -1436,6 +1477,35 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .owl-nav button.owl-next{font-size: 0 !important;width: 40px;padding: 0 !important;}
   .banner-carousel.owl-carousel .owl-nav img{width: 20px;}
   .aboutBannerRightImg{width: 95px;}
+  .privacyBanner h1{font-size: 60px;}
+  .privacyContent {padding: 25px 0;}
+  .privacyContent p{margin-bottom: 0;}
+  .privacyContent h2.heading {font-size: 25px;}
+  .testimonialWrapper h1{font-size: 55px;}
+  .scrollingImg li{height: 100%;}
+  .scrollingImg li img{transform: scale(0.65);}
+  .scrollingImg li img:nth-child(1){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(2){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(3){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(4){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(5){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(6){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(7){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(8){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(9){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(10){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(11){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(12){top: 0;left: 0;}
+  .scrollingImg li img:nth-child(odd){top: 0;}
+  .scrollingImg li img:nth-child(even){bottom: 0;}
+
+  .galleryBanner{height: 500px;}
+  .galleryBanner h1{font-size: 60px;}
+  .playBtn:before, .playBtn:after{width: 60px;height: 60px;}
+  .galleryBanner .playBtn{margin-left: 30px;margin-right: 0;}
+  .playBtn {width: 25px;height: 25px;padding: 15px 0 15px 5px;}
+  .nav.gallery-tabs{display: flex;flex-wrap: nowrap;}
+  .visionText, .missionText{height: 80px;}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1445,7 +1515,6 @@ header.active .hamburger-inner::after {
   .productBanner h2.heading, .productBanner.paintBanner h2.heading{font-size: 50px;}
   .productBanner p{font-size: 12px;}
   .secHomeAbout{padding: 50px 0px 80px;}
-  .secHomeAbout::after{clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 250px);}
 }
 @media only screen and (max-width: 380px) {
   .headingShadow{font-size: 80px;}
@@ -1460,6 +1529,7 @@ header.active .hamburger-inner::after {
   .banner-item4 .contentRight h2 span{font-size: 50px;line-height: 50px;}  
   .aboutHeading h2.heading{font-size: 40px;}
   .aboutHeading h2 span{font-size: 60px;}
+  .privacyBanner h1{font-size: 45px;}
 }
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}

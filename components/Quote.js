@@ -63,7 +63,7 @@ const Quote = (props) => {
                 Something went wrong.
               </div>}
               <h4>Request A Quote</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+              <p>Proteq Autocare Provides Competitively Priced Hassle-Free Services to Suit Your Needs, Simply Fill In The Details To Receive The Same.</p>
             <form onSubmit={sendContactForm}>
                 <div className="form-group">
                   <select defaultValue={props.selected} name="product" className="form-control" required>

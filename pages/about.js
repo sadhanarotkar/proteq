@@ -76,8 +76,8 @@ export default function About() {
           <section className="secVision">
             <div className="container-fluid headingText">
               <div className="row">
-                <div className="col-xl-7 col-lg-6 col-md-6 col-sm-12 px-md-5">
-                  <img src="img/ourvisionText.svg" className="img-fluid" />
+                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 px-md-5">
+                  <img src="img/ourvisionText.svg" className="img-fluid visionText" />
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function About() {
                 <img src="img/contactFormLeft.svg" className="img-fluid" />
               </div>
               <div className="row justify-content-end align-items-center">
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-12">
                   <h2 className="heading mb-md-4">Our Vision</h2>
                   <p>We use our extensive experience and creativity to transform our passion into a tangible and inspiring reality. Proteq aspire to be India's leading auto protection company.</p>
                 </div>
@@ -99,8 +99,8 @@ export default function About() {
           <section className="secMission">
             <div className="container-fluid headingText">
               <div className="row justify-content-end">
-                <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                  <img src="img/missionText.svg" className="img-fluid" />
+                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                  <img src="img/missionText.svg" className="img-fluid missionText" />
                 </div>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12"></div>
               </div>
@@ -110,7 +110,7 @@ export default function About() {
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 pl-md-0 pr-md-5">
                   <img src="img/missionImg.png" className="img-fluid" data-aos="fade-right" data-aos-duration="1000" />                  
                 </div>
-                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div className="col-xl-4 col-lg-4 col-md-5 col-sm-12">
                   <h2 className="heading mb-md-4">Our Mission</h2>
                   <p>Proteq commits to be dedicated to providing premium and exceptional products in an affordable range by epitomizing safety and efficiency. We are constantly innovating to make graphics more exciting, noticeable and easy to install.</p>
                 </div>

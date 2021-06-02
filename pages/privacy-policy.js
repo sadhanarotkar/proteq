@@ -22,9 +22,9 @@ export default function Terms() {
       <section className="privacyContent">        
         <div className="container">
           <div className="row mb-5">
-            <div className="col-xl-4">            
+            <div className="col-xl-4 col-lg-4">            
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p>Thank you for choosing to be part of our community at Proteq (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at info@proteq.co.in</p>
               <p>When you visit our website www.proteq.co.in, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Sites and our services.</p>
               <p>This privacy policy applies to all information collected through our website (such as www.proteq.co.in), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy policy as the "Services").</p>
@@ -32,10 +32,10 @@ export default function Terms() {
             </div>
           </div>
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">1. WHAT INFORMATION DO WE COLLECT?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-weight': 'bold'}}>Personal information you disclose to us</p>
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> We collect personal information that you provide to us such as name, address, contact information, passwords and security data, and payment information</p>
               <p>We collect personal information that you voluntarily provide to us when registering at the Services expressing an interest in obtaining information about us or our products and services, when participating in activities on the Services or otherwise contacting us.</p>
@@ -47,10 +47,10 @@ export default function Terms() {
             </div>
           </div>
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">2. HOW DO WE USE YOUR INFORMATION?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent</p>
               <p>We use personal information collected via our Services for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.</p>
               <p>We use the information we collect or receive:</p>
@@ -67,10 +67,10 @@ export default function Terms() {
             </div>
           </div>
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.</p>
               <p>We may process or share data based on the following legal basis:</p>
               <p><span style={{'font-weight': 'bold'}}>Consent: </span> We may process your data if you have given us specific consent to use your personal information in a specific purpose.</p>
@@ -86,29 +86,29 @@ export default function Terms() {
             </div>
           </div>
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">4. HOW LONG DO WE KEEP YOUR INFORMATION?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> We keep your information for as long as necessary to fulfill the purposes outlined in this privacy policy unless otherwise required by law.</p>
               <p>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy policy, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this policy will require us keeping your personal information for longer than the period of time in which users have an account with us.</p>
               <p>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>              
             </div>
           </div>
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">5. DO WE COLLECT INFORMATION FROM MINORS?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> We do not knowingly collect data from or market to children under 18 years of age.</p>
               <p>We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at info@proteq.co.in.</p>              
             </div>
           </div>
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">6. WHAT ARE YOUR PRIVACY RIGHTS?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> You may review, change, or terminate your account at any time.</p>
               <p>If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: <a href="https://ec.europa.eu/newsroom/article29/items/612080" target="_blank">http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm</a></p>              
               <h4>Account Information</h4>
@@ -127,45 +127,45 @@ export default function Terms() {
             </div>
           </div>          
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">7. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p>Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy policy.</p>              
             </div>
           </div>          
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">8. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.</p>
               <p>California Civil Code Section 1798.83, also known as the “Shine The Light” law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.</p>              
               <p>If you are under 18 years of age, reside in California, and have a registered account with the Services, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from our systems.</p>
             </div>
           </div>        
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">9. DO WE MAKE UPDATES TO THIS POLICY?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p style={{'font-style': 'italic'}}><span style={{'font-weight': 'bold'}}>In Short: </span> Yes, we will update this policy as necessary to stay compliant with relevant laws.</p>
               <p>We may update this privacy policy from time to time. The updated version will be indicated by an updated “Revised” date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy policy, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy policy frequently to be informed of how we are protecting your information.</p>
             </div>
           </div>       
           <div className="row mb-5">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">10. HOW CAN YOU CONTACT US ABOUT THIS POLICY?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p>If you have questions or comments about this policy, you may email us at info@proteq.co.in or by post to:</p>
             </div>
           </div>   
           <div className="row">
-            <div className="col-xl-4">
+            <div className="col-xl-4 col-lg-4">
               <h2 className="heading">HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>              
             </div>
-            <div className="col-xl-8">
+            <div className="col-xl-8 col-lg-8">
               <p>Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, Please mail us at info@proteq.co.in. We will respond to your request within 30 days.</p>
             </div>
           </div>

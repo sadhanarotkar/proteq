@@ -33,7 +33,7 @@ export default function Gallery() {
             <div className="tab-content" id="nav-tabContent">
               <div className="tab-pane fade show active" id="nav-images" role="tabpanel" aria-labelledby="nav-images-tab">
                 <div className="row justify-content-center text-center mb-md-5">
-                  <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                  <div className="col-xl-8 col-lg-8 col-md-12">
                     <p>Check out all of our amazing products and services. <br></br> You can also go through videos of our customers car servicing and blush!</p>
                   </div>
                 </div>  
@@ -133,7 +133,7 @@ export default function Gallery() {
               </div>
               <div className="tab-pane fade" id="nav-videos" role="tabpanel" aria-labelledby="nav-videos-tab">
               <div className="row justify-content-center text-center mb-md-5">
-                  <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                  <div className="col-xl-8 col-lg-8 col-md-12">
                     <p>Check out all of our amazing products and services. <br></br>You can also go through videos of our customers car servicing and blush!</p>
                   </div>
                 </div>
