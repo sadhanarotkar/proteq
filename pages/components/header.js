@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Animation from '../../components/Animation';
 
 export default function Header() {
   const router = useRouter();
@@ -27,6 +28,7 @@ export default function Header() {
   return (
     <div>
     <header>
+      <Animation/>
       <nav className='navbar navbar-expand-lg'>
         <button
           className='navbar-toggler hamburger hamburger--boring'
