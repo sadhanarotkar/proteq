@@ -139,37 +139,43 @@ export default function PaintSeries3() {
                   <h1 className="heading text-center mb-5">Related Products</h1>
                   <div className="owl-carousel owl-theme relatedProduc-carousel">
                     <div className='item'>
-                      <a href="paint-protection" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <div style={{transform: 'rotate(5deg)'}}>
-                            <img src="img/Vertical-S2.png" />
+                      <Link href='paint-protection'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <div style={{transform: 'rotate(5deg)'}}>
+                              <img src="img/Vertical-S2.png" />
+                            </div>
                           </div>
-                        </div>
-                        <h5 className="heading">2.0 Series</h5>
-                        <p>The 2.0 Paint Protection Film series comes in a Polyurethane Material with 0.17mm ± 0.02mm thickness.</p>
-                      </a>
+                          <h5 className="heading">2.0 Series</h5>
+                          <p>The 2.0 Paint Protection Film series comes in a Polyurethane Material with 0.17mm ± 0.02mm thickness.</p>
+                        </a>
+                      </Link>
                     </div>
                     <div className='item'>
-                      <a href="paint-series5" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <div style={{transform: 'rotate(5deg)'}}>
-                            <img src="img/Vertical-S5.png" />
+                      <Link href='paint-series5'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <div style={{transform: 'rotate(5deg)'}}>
+                              <img src="img/Vertical-S5.png" />
+                            </div>
                           </div>
-                        </div>
-                        <h5 className="heading">5.0 Series</h5>
-                        <p>The 5.0 Paint Protection Film series comes in a Thermoplastic Polyurethane with 0.2mm ± 0.02mm thickness.</p>
-                      </a>
+                          <h5 className="heading">5.0 Series</h5>
+                          <p>The 5.0 Paint Protection Film series comes in a Thermoplastic Polyurethane with 0.2mm ± 0.02mm thickness.</p>
+                        </a>
+                      </Link>
                     </div>
                     <div className='item'>
-                      <a href="paint-seriesm" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <div style={{transform: 'rotate(5deg)'}}>
-                            <img src="img/Vertical-P70.png" />
+                      <Link href='paint-seriesm'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <div style={{transform: 'rotate(5deg)'}}>
+                              <img src="img/Vertical-P70.png" />
+                            </div>
                           </div>
-                        </div>
-                        <h5 className="heading">M Series</h5>
-                        <p>The M Paint Protection Film series comes in Polyurethane material with 0.15mm ± 0.02mm thickness. </p>
-                      </a>
+                          <h5 className="heading">M Series</h5>
+                          <p>The M Paint Protection Film series comes in Polyurethane material with 0.15mm ± 0.02mm thickness. </p>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

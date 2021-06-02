@@ -4,7 +4,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import CeramicBanner from './components/ceramic-banner'
 import CeramicProductVideo from './components/ceramic-product-video'
-import ProductGallery from './components/product-gallery'
+import CeramicGallery from './components/ceramic-gallery'
 import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
 import Link from 'next/link'
@@ -123,7 +123,7 @@ export default function LeatherCeramic() {
               </div>
             </div>
           </section>
-          <ProductGallery />          
+          <CeramicGallery />          
           <section className="secFaq">
             <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
             <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
@@ -187,31 +187,37 @@ export default function LeatherCeramic() {
                   <h1 className="heading text-center mb-5">Related Products</h1>
                   <div className="owl-carousel owl-theme relatedProduc-carousel">
                     <div className='item'>
-                      <a href="ceramic" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <img src="img/homeProduct3.png" />
-                        </div>
-                        <h5 className="heading">ceramic Shield</h5>
-                        <p>Who wouldn't want their car to look as good and brand new as it did the day they got it. You thoroughly wash it frequently and apply a brand new coat of wax every few months.</p>
-                      </a>
+                      <Link href='ceramic'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <img src="img/homeProduct3.png" />
+                          </div>
+                          <h5 className="heading">ceramic Shield</h5>
+                          <p>Who wouldn't want their car to look as good and brand new as it did the day they got it. You thoroughly wash it frequently and apply a brand new coat of wax every few months.</p>
+                        </a>
+                      </Link>
                     </div>
                     <div className='item'>
-                      <a href="plastic-ceramic" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <img src="img/Plastic-ceramic.png" />
-                        </div>
-                        <h5 className="heading">Plastic ceramic</h5>
-                        <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics.</p>
-                      </a>
+                      <Link href='plastic-ceramic'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <img src="img/Plastic-ceramic.png" />
+                          </div>
+                          <h5 className="heading">Plastic ceramic</h5>
+                          <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics.</p>
+                        </a>
+                      </Link>
                     </div>
                     <div className='item'>
-                      <a href="glass-ceramic" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <img src="img/glass-ceramic.png" />
-                        </div>
-                        <h5 className="heading">glass ceramic</h5>
-                        <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather.</p>
-                      </a>
+                      <Link href='glass-ceramic'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <img src="img/glass-ceramic.png" />
+                          </div>
+                          <h5 className="heading">glass ceramic</h5>
+                          <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather.</p>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

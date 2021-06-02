@@ -193,10 +193,13 @@ const Animation = () => {
             $(".overlayProductItem a").click(function(){
               $('.overlayProductMenu').toggleClass('active');
               $('.navbar-toggler').toggleClass('active-mega');
+              $('.megamenuBtn').toggleClass('active');
             });
           
             $(".megamenuBtn").click(function(){
+              $(this).removeClass('active')
               $('.overlayProductMenu').toggleClass('active');
+              $('.navbar-toggler').removeClass('active-mega');
             });
           
           

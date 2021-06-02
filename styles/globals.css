@@ -1094,7 +1094,7 @@ header.active .hamburger-inner::after {
 }
 
 .overlayTop,.overlayProductItem, .overlayProductMenu, .megamenuBtn{display: none;}
-.megamenuBtn.active{display: block;}
+.megamenuBtn.active{display: block;width: 30px;height: 30px;position: absolute;top:25px;right: 15px;}
 
 
 
@@ -1159,7 +1159,7 @@ header.active .hamburger-inner::after {
   nav.navbar{padding: 10px 0;padding-left: 0;}
   header.sticky nav.navbar{height: auto;}
   .navbar-brand{order: 2;margin-left: 15px;}
-  .navbar-brand img{height: 60px;}
+  .navbar-brand img{height: 48px;}
   .navbar-toggler{order: 3;outline: none !important;box-shadow: none;}
   .topbar{margin-left: 0;margin-bottom: 0;padding-right: 0;display: none;}
   .topbar::before{display: none;}
@@ -1177,19 +1177,23 @@ header.active .hamburger-inner::after {
   ul.navbar-nav li.nav-item a.nav-link{font-size: 14px;color: #FFF;text-transform: uppercase;text-align: center;display: inline-block;}
   header.sticky ul.navbar-nav>li{height: 50px;line-height: 50px;width: 100%;margin: 0;}
   header.active{z-index: 999;}
-  header.active .navbar-toggler{z-index: 9999;position: absolute;right: 0;top: 35px;}
+  header.active .navbar-toggler{z-index: 9999;position: absolute;right: 0;top: 26px;}
  .navbar-toggler.active.active-mega .hamburger-box{display: none;}
  .navbar-toggler.active.active-mega .megamenuBtn{display: block;width: 30px;height: 30px;}
   .overlayMenu.active{height: calc(100vh - 100px);height: 100%;z-index: 999;background: #000;box-shadow: none;position: fixed;width: 100%;top: 0;overflow-y: auto;}
-  .overlayTop{padding: 15px;display: block;height: 100px;}
-  .overlayLogo{height: 65px;display: inline-flex;}
+  .overlayTop{padding: 10px 15px;display: block;height: 100px;}
+  .overlayLogo{height: 60px;display: inline-flex;}
   .overlayProductItem{display: block;}
   .overlayProductItem::after {content: "\f107";font-family: 'FontAwesome';border: none;position: relative;color: #FFF;font-size: 18px;top: 1px;margin-left: 5px;}
   .overlayProductItem+.nav-item{display: none;}
   .overlayProductMenu.active{display: block;position: absolute;top: 100px;left: 0;width: 100%;height: calc(100vh - 100px);background: #000;color: #FFF;padding: 0 15px;text-align: center;}
-  .overlayProductMenu li{margin-bottom: 25px;}
-  .overlayProductMenu li a{display: block;font-size: 15px;}
+  .overlayProductMenu ul{margin-top: 50px;}
+  .overlayProductMenu li{margin-bottom: 30px;}
+  .overlayProductMenu li a{display: block;font-size: 15px;margin-bottom: 7px;}
+  .overlayProductMenu li a:hover{color: #f2ba0f;text-decoration: none;}
   .overlayProductMenu h4{font-family: 'Bebas Neue';}
+  header.sticky{height: 65px;}
+  header.sticky .navbar-brand img{height: 48px;}
   .btnGetQuote{background: transparent;}
   .secHomeAbout{padding: 50px 40px 100px;}
   h1.heading {font-size: 30px;}
@@ -1397,6 +1401,7 @@ header.active .hamburger-inner::after {
   .secHomeAbout::before{display: none;}  
   .productBanner.paintBanner p{width: auto;}  
   .productBanner.paintBanner .col-xl-4{display: block;}
+  ul.navbar-nav{height: calc(100vh - 150px);}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}

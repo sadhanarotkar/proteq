@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from "next/router";
 
-export default function ProductGallery() {
+export default function CeramicGallery() {
   const router = useRouter();
   return (
     <section className="secProductGallery">

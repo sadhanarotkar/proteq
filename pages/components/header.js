@@ -99,7 +99,7 @@ export default function Header() {
                   }
                 >
                   <Link href='/'>
-                    <a  className='nav-link'>
+                    <a className='nav-link'>
                       Home
                     </a>
                   </Link>
@@ -149,18 +149,20 @@ export default function Header() {
                             <Link href='glass-ceramic'><a>Glass Ceramic</a></Link>
                           </li>
                           <li>
-                            <a href='paint-protection'>
-                              <h4>Paint Protection Film</h4>
-                            </a>
-                            <a href='paint-protection'>2.0 Series</a>
-                            <a href='paint-series3'>3.0 Series</a>
-                            <a href='paint-series5'>5.0 Series</a>
-                            <a href='paint-seriesm'>M Series</a>
+                            <Link href='paint-protection'>
+                              <a>
+                                <h4>Paint Protection Film</h4>
+                              </a>
+                            </Link>
+                            <Link href='paint-protection'><a>2.0 Series</a></Link>
+                            <Link href='paint-series3'><a>3.0 Series</a></Link>
+                            <Link href='paint-series5'><a>5.0 Series</a></Link>
+                            <Link href='paint-seriesm'><a>M Series</a></Link>
                           </li>
                           <li>
-                            <a href='microfiber-cloth'>
-                              <h4>Microfiber Cloth</h4>
-                            </a>
+                          <Link href='microfiber-cloth'>
+                            <a><h4>Microfiber Cloth</h4></a>
+                          </Link>
                           </li>
                         </ul>
                       </div>
@@ -172,9 +174,10 @@ export default function Header() {
                     router.pathname == '/about' ? 'nav-item active' : 'nav-item'
                   }
                 >
-                  <a href='/about' className='nav-link'>
+                  <Link href='about'>
+                  <a className='nav-link'>
                     About Us
-                  </a>
+                  </a></Link>
                 </li>
                 <li
                   className={
@@ -183,9 +186,9 @@ export default function Header() {
                       : 'nav-item'
                   }
                 >
-                  <a href='gallery' className='nav-link'>
-                    Gallery
-                  </a>
+                  <Link href='gallery'>
+                    <a className='nav-link'>Gallery</a>
+                  </Link>
                 </li>
                 <li
                   className={
@@ -194,9 +197,9 @@ export default function Header() {
                       : 'nav-item'
                   }
                 >
-                  <a href='testimonials' className='nav-link'>
-                    Testimonials
-                  </a>
+                  <Link href='testimonials' >
+                    <a className='nav-link'>Testimonials</a>
+                  </Link>
                 </li>
                 <li
                   className={
@@ -205,9 +208,9 @@ export default function Header() {
                       : 'nav-item'
                   }
                 >
-                  <a href='contact' className='nav-link'>
-                    Contact
-                  </a>
+                  <Link href='contact'>
+                    <a className='nav-link'>Contact</a>
+                  </Link>
                 </li>
                 <li className='nav-item btnGetQuote'>
                   <a

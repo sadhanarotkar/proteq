@@ -1,13 +1,13 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
 import CeramicBanner from './components/ceramic-banner'
 import CeramicProductVideo from './components/ceramic-product-video'
-import ProductGallery from './components/product-gallery'
+import CeramicGallery from './components/ceramic-gallery'
 import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
-import Link from 'next/link'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
@@ -126,7 +126,7 @@ export default function Ceramic() {
               </div>
             </div>
           </section>
-          <ProductGallery />          
+          <CeramicGallery />          
           <ProductFaq />        
           <section className="secRelatedProducts">
             <div className="container">
@@ -135,31 +135,37 @@ export default function Ceramic() {
                   <h1 className="heading text-center mb-5">Related Products</h1>
                   <div className="owl-carousel owl-theme relatedProduc-carousel">
                     <div className='item'>
-                      <a href="leather-ceramic" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <img src="img/leather-ceramic.png" />
-                        </div>
-                        <h5 className="heading">leather ceramic</h5>
-                        <p>Infused with Patent-Pending Ceramic Glow Technology, with Features That Act as an Application Aid Allowing Users or Professionals</p>
-                      </a>
+                      <Link href='leather-ceramic'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <img src="img/leather-ceramic.png" />
+                          </div>
+                          <h5 className="heading">leather ceramic</h5>
+                          <p>Infused with Patent-Pending Ceramic Glow Technology, with Features That Act as an Application Aid Allowing Users or Professionals</p>
+                        </a>
+                      </Link>
                     </div>
                     <div className='item'>
-                      <a href="plastic-ceramic" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <img src="img/Plastic-ceramic.png" />
-                        </div>
-                        <h5 className="heading">Plastic ceramic</h5>
-                        <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics.</p>
-                      </a>
+                      <Link href='plastic-ceramic'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <img src="img/Plastic-ceramic.png" />
+                          </div>
+                          <h5 className="heading">Plastic ceramic</h5>
+                          <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics.</p>
+                        </a>
+                      </Link>
                     </div>
                     <div className='item'>
-                      <a href="glass-ceramic" className="relatedPBox">
-                        <div className="relatedPImg">
-                          <img src="img/glass-ceramic.png" />
-                        </div>
-                        <h5 className="heading">glass ceramic</h5>
-                        <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather.</p>
-                      </a>
+                      <Link href='glass-ceramic'>
+                        <a className="relatedPBox">
+                          <div className="relatedPImg">
+                            <img src="img/glass-ceramic.png" />
+                          </div>
+                          <h5 className="heading">glass ceramic</h5>
+                          <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather.</p>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

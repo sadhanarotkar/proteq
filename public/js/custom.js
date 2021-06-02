@@ -200,21 +200,21 @@ $(document).ready(function () {
     }
   });
 
-  $(".navbar-toggler").click(function(){
-    $(this).parents('header').toggleClass('active');
-    $('.overlayMenu').toggleClass('active');
-    $(this).toggleClass('active')
-    $('body').toggleClass('menuActive')
-  });
+  // $(".navbar-toggler").click(function(){
+  //   $(this).parents('header').toggleClass('active');
+  //   $('.overlayMenu').toggleClass('active');
+  //   $(this).toggleClass('active')
+  //   $('body').toggleClass('menuActive')
+  // });
 
-  $(".overlayProductItem a").click(function(){
-    $('.overlayProductMenu').toggleClass('active');
-    $('.navbar-toggler').toggleClass('active-mega');
-  });
+  // $(".overlayProductItem a").click(function(){
+  //   $('.overlayProductMenu').toggleClass('active');
+  //   $('.navbar-toggler').toggleClass('active-mega');
+  // });
 
-  $(".megamenuBtn").click(function(){
-    $('.overlayProductMenu').toggleClass('active');
-  });
+  // $(".megamenuBtn").click(function(){
+  //   $('.overlayProductMenu').toggleClass('active');
+  // });
 
 });
 

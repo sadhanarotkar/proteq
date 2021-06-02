@@ -38,7 +38,7 @@ export default function Home() {
                   <div className="col-xl-4 col-lg-4 col-md-4 contentLeft">
                     <h2>Proteq <br></br><span>Autocare</span></h2>
                     <p>We pride our business on the solid foundations of providing all with exceptional customer service, quality and honesty, revving up our fleet of car transporters in a very move.</p>
-                    <a href="about" className="btn hvr-sweep-to-right">Read More</a>
+                    <Link href='about'><a className="btn hvr-sweep-to-right">Read More</a></Link>
                   </div>
                   <div className="col-xl-8 col-lg-8 col-md-8 contentRight px-md-0">                      
                     <img src="img/slide1-product.png" className="img-fluid mt-md-5" />                    
@@ -61,7 +61,7 @@ export default function Home() {
                   <div className="col-lg-4 col-md-6 contentLeft">
                     <h2>Ceramic <span className="d-lg-none">Shield</span></h2>
                     <p>Our ceramic shield protects your vehicle for a longer duration, and will instantly give out a shiner look. The ceramic shield also speeds up the rainwater and makes it run off the windshield and car quickly.</p>
-                    <a href="ceramic" className="btn hvr-sweep-to-right">Read More</a>
+                    <Link href='ceramic'><a className="btn hvr-sweep-to-right">Read More</a></Link>
                   </div>
                   <div className="col-lg-5 col-md-6 contentCenter px-lg-5">                      
                     <img src="img/homeProduct1.png" className="img-fluid" />                    
@@ -81,7 +81,7 @@ export default function Home() {
                   <div className="col-lg-4 col-md-6 contentLeft">
                     <h2>Microfiber <span className="d-lg-none">Cloth</span></h2>
                     <p>Proteq Microfiber Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
-                    <a href="microfiber-cloth" className="btn hvr-sweep-to-right">Read More</a>
+                    <Link href='microfiber-cloth'><a className="btn hvr-sweep-to-right">Read More</a></Link>
                   </div>
                   <div className="col-lg-5 col-md-6 contentCenter align-self-end">                      
                     <img src="img/slide3-product.png" className="img-fluid" />                    
@@ -104,7 +104,7 @@ export default function Home() {
                   <div className="col-xl-4 col-lg-4 col-md-6 contentRight align-self-center">
                     <h2>Paint <span>Protection Film</span></h2>
                     <p>Our Paint protection film (PPF) brings out the ability to heal swirls and scratches with heat, leaving your paint shiny and glossy. It conjointly has the flexibility to soak up impact and preserve your paint from rock chips.</p>
-                    <a href="paint-protection" className="btn hvr-sweep-to-right">Read More</a>
+                    <Link href='paint-protection'><a className="btn hvr-sweep-to-right">Read More</a></Link>
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@ export default function Home() {
             <div className="co-xl-7 col-lg-6 col-md-6 col-sm-12 pl-md-5">
               <h1 className="heading text-white">About Proteq Autocare</h1>
               <p>When young car euthanistic entrepreneurs come together - they sure have something really amazing cooking! We build Proteq Autocare so we could turn our passion for cars into providing effective, efficient and excellent quality paint protection film (PPF) services with utmost determination and commitment to our customers.</p>
-              <a href="/about" className="readLink text-yellow">Read More</a>
+              <Link href='about'><a className="readLink text-yellow">Read More</a></Link>
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ export default function Home() {
                 <h1 className="heading">Ceramic</h1>
               </div>
               <p>Ceramic coating your paint is absolutely worth the price. It provides great protection against contaminants and minor scratches, all while making the vehicle much easier to clean up. Hence, we at At Proteq Autocare, provide you with Nano ceramics that comes with a ceramic shield, Glass Ceramic Sheild, Leather Ceramic Sheild, and Plastic Ceramic Shield.</p>
-              <a href="/ceramic" className="readLink text-pink">Read More</a>              
+              <Link href='ceramic'><a className="readLink text-pink">Read More</a></Link>            
             </div>
             <div className="co-xl-4 col-lg-4 col-md-5 col-sm-12">
               <div className="lax productLax">
@@ -171,7 +171,7 @@ export default function Home() {
                 <h1 className="heading">Paint Protection Film</h1>
               </div>
               <p>We’ve found that there are a few different ways people view their cars and how they care for them, how they expect the appearance of their vehicle to be and how long they plan to keep the vehicle. The paint protection film is the best option for us to woe them with both protection and an amazing appearance.</p>
-              <a href="/paint-protection" className="readLink text-pink">Read More</a>
+              <Link href='paint-protection'><a className="readLink text-pink">Read More</a></Link>            
             </div>
           </div>
           <div className="row align-items-center justify-content-center">
@@ -181,7 +181,7 @@ export default function Home() {
                 <h1 className="heading">Microfiber Cloth</h1>
               </div>
               <p>Our microfiber cloths are great for cleaning grime during professional automotive detailing. They're non-scratching, Lint-free has the ability to quickly removes dust, and retains many times their weight of water. This cloth is safe in hot water, chlorine bleach and dryer. These cloths Are not abrasive on the delicate surfaces of a vehicle but are ultra-absorbent for professional automotive detailing.</p>
-              <a href="/microfiber-cloth" className="readLink text-pink">Read More</a>
+              <Link href='microfiber-cloth'><a className="readLink text-pink">Read More</a></Link> 
             </div>
             <div className="co-xl-4 col-lg-4 col-md-5 col-sm-12">
               <div className="lax productLax">

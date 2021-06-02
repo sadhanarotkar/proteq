@@ -126,9 +126,185 @@ export default function Gallery() {
                       </div>
                     </div>                     
                   </div>              
-                  {/* <div className="text-center my-5">
+                  <div className="row justify-content-center lightgallery">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                      <div className="row">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img13.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img1.jpeg" alt="Thumb-13" />
+                              </a>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img14.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img14.jpeg" alt="Thumb-2"/>
+                              </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img15.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img15.jpg" alt="Thumb-3"/>
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img16.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img16.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img17.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img17.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img18.jpeg">
+                          <a href="">
+                              <img className="img-fluid verticalImg" src="img/galleryImgs/img18.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  <div className="row justify-content-center lightgallery">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img19.jpeg">
+                          <a href="">
+                              <img className="img-fluid verticalImg" src="img/galleryImgs/img19.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div> 
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img20.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img20.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img21.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img21.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                      <div className="row">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img22.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img22.jpeg" alt="Thumb-1" />
+                              </a>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img23.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img23.jpeg" alt="Thumb-2"/>
+                              </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img24.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img24.jpg" alt="Thumb-3"/>
+                              </a>
+                          </div>
+                      </div>
+                    </div>                     
+                  </div>              
+                  <div className="row justify-content-center lightgallery">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                      <div className="row">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img25.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img25.jpeg" alt="Thumb-1" />
+                              </a>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img26.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img26.jpeg" alt="Thumb-2"/>
+                              </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img27.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img27.jpg" alt="Thumb-3"/>
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img28.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img28.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img29.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img29.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img30.jpeg">
+                          <a href="">
+                              <img className="img-fluid verticalImg" src="img/galleryImgs/img30.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  <div className="row justify-content-center lightgallery">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img31.jpeg">
+                          <a href="">
+                              <img className="img-fluid verticalImg" src="img/galleryImgs/img31.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div> 
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                      <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img32.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img32.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img33.jpeg">
+                          <a href="">
+                              <img className="img-fluid" src="img/galleryImgs/img33.jpeg" alt="Thumb-4"/>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                      <div className="row">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img34.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img34.jpeg" alt="Thumb-1" />
+                              </a>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img35.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img35.jpeg" alt="Thumb-2"/>
+                              </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img36.jpeg">
+                              <a href="">
+                                  <img className="img-fluid" src="img/galleryImgs/img36.jpg" alt="Thumb-3"/>
+                              </a>
+                          </div>
+                      </div>
+                    </div>                     
+                  </div>              
+                  <div className="text-center my-5">
                     <button type="button" className="btn hvr-fade">Load More</button>
-                  </div>                   */}
+                  </div>                  
                 </div>
               </div>
               <div className="tab-pane fade" id="nav-videos" role="tabpanel" aria-labelledby="nav-videos-tab">
@@ -261,7 +437,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video1.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video1.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -271,7 +447,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video2.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video2.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -281,7 +457,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video3.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video3.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -291,7 +467,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video4.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video4.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -301,7 +477,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video5.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video5.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -311,7 +487,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video6.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video6.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -321,7 +497,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video7.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video7.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -331,7 +507,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video8.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video8.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -341,7 +517,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video9.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video9.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>
@@ -351,7 +527,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="videos/video10.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>

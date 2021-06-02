@@ -14,10 +14,10 @@ export default function Header(props) {
       <div className="footerTop">        
         <div className="container-fluid">
           <div className="footerLinks">
-              <a href="about">About Proteq</a>
-              <a href="gallery">Gallery</a>
-              <a href="testimonials">Testimonials</a>
-              <a href="contact">Contact</a>
+              <Link href='about'><a>About Proteq</a></Link>
+              <Link href='gallery'><a>Gallery</a></Link>
+              <Link href='testimonials' ><a>Testimonials</a></Link>
+              <Link href='contact'><a>Contact</a></Link>
           </div>          
           <div className="footerInfo">
             <p><span>Address:</span> L-102, Prime Mall Irla, Vile Parle (W), Mumbai - 400 056</p>
