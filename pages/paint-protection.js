@@ -4,7 +4,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import PaintBanner from './components/paint-banner'
 import PaintProductVideo from './components/ceramic-product-video'
-import ProductGallery from './components/product-gallery'
+import PaintGallery from './components/paint-gallery'
 import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
 import Link from 'next/link'
@@ -138,7 +138,7 @@ export default function PaintProtection() {
               </div>
             </div>
           </section>
-          <ProductGallery />
+          <PaintGallery />
           <section className="secFaq">
             <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
             <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>

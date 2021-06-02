@@ -4,7 +4,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import PaintBanner from './components/paint-banner'
 import PaintProductVideo from './components/ceramic-product-video'
-import ProductGallery from './components/product-gallery'
+import PaintGallery from './components/paint-gallery'
 import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
 import Link from 'next/link'
@@ -130,7 +130,7 @@ export default function PaintSeriesm() {
               </div>
             </div>
           </section>
-          <ProductGallery />
+          <PaintGallery />
           <ProductFaq />
           <section className="secRelatedProducts">
             <div className="container">
