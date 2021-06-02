@@ -589,6 +589,7 @@ iframe{border: none;display: block;}
 .productWrapper .secHomeContact{clip-path:none;margin-top: -2px;padding-top: 100px;}
 .productBanner h2.heading,.productBanner.paintBanner h2.heading{font-size: 110px;line-height: 0.9;}
 .productBanner.paintBanner h2.heading{font-size: 130px;}
+.productBanner.paintBanner p{width: 550px;}
 .productBanner p{font-size: 14px;font-weight: 600;line-height: 1.6;color: #000;}
 .microWrapper .secHomeTestimonial{margin-top: -120px;}
 .tabSpace{height: 70px;width: 100%;
@@ -1110,6 +1111,7 @@ header.active .hamburger-inner::after {
   ul.navbar-nav li{padding: 0 15px;}
   .scrollingImg li img:nth-child(1){left: -125px;}
   .scrollingImg li img:nth-child(8){left: -500px;}
+  .productBanner.paintBanner h2.heading{font-size: 105px;}
 }
 @media only screen and (max-width: 1150px) {
   .secHomeProduct>.lax.whyRightImg,
@@ -1151,18 +1153,17 @@ header.active .hamburger-inner::after {
   .privacyContent h2.heading{font-size: 35px;}
   .secMission .headingText{top:50px}
 }
-@media only screen and (max-width: 991px) {z  
+@media only screen and (max-width: 991px) {
   p{font-size: 12px;line-height: 1.5;}
   .copyrightLinks a{font-size: 12px;}
-  nav.navbar{padding-left: 0;}
+  nav.navbar{padding: 10px 0;padding-left: 0;}
   header.sticky nav.navbar{height: auto;}
   .navbar-brand{order: 2;margin-left: 15px;}
   .navbar-brand img{height: 60px;}
   .navbar-toggler{order: 3;outline: none !important;box-shadow: none;}
-  .topbar{margin-left: 0;margin-bottom: 0;padding-right: 0;}
+  .topbar{margin-left: 0;margin-bottom: 0;padding-right: 0;display: none;}
   .topbar::before{display: none;}
   .topbar ul{justify-content: center;}
-  .headerRight{margin-bottom: 10px;}
   header.sticky .headerRight{margin-bottom: 0;}
   header.sticky .navbar-brand{margin-bottom: 5px;}
   header.sticky .topbar{display: none;}
@@ -1191,7 +1192,6 @@ header.active .hamburger-inner::after {
   .overlayProductMenu h4{font-family: 'Bebas Neue';}
   .btnGetQuote{background: transparent;}
   .secHomeAbout{padding: 50px 40px 100px;}
-  .secHomeAbout::after{clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 155px);}
   h1.heading {font-size: 30px;}
   .readLink{font-size: 12px;}
   .secHomeProduct>.lax.whyRightImg,
@@ -1199,8 +1199,12 @@ header.active .hamburger-inner::after {
   .lax.homeCeramic2{width: 150px;}
   .secHomeProduct img{max-height: 330px;}
   .secHomeProduct .faqBottomImg img{width: 600px;}
-  .testimonialLeft{left: 0;width: 300px;}
-  .secHomeTestimonial h1.heading{font-size: 55px;}
+  .testimonialLeft{left: 0;width: 300px;bottom: -50px;}
+  .secHomeTestimonial h1.heading{font-size: 55px;top: 55%;}
+  .homeContactLeft{left: 40px;width: 400px;}
+  .homeForm h2.heading{font-size: 30px;}
+  .homeForm .form-group .form-control{min-height: 40px;}
+  .secHomeContact{padding-bottom: 100px;}
   .footerTop{padding: 60px 0;}
   .footerInfo{display: block;}
   .footerInfo p{margin: 15px 0;}
@@ -1248,6 +1252,7 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item1 .contentRight img{right: -30px;}
   .banner-carousel.owl-carousel .item p{font-size: 13px;white-space: normal;width: 345px;}
   
+  
   .banner-carousel.owl-carousel .item p br{display: none;}
   .banner-item2 .contentRight,
   .banner-item3 .contentRight{display: none;}
@@ -1256,6 +1261,8 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item4 .contentRight h2{line-height: 65px;}
   .banner-item4 .contentRight h2 span{font-size: 75px;}
   .testimonialWrapper{padding: 110px 0;}
+  .productBanner.paintBanner p{width: 400px;}
+  .productBanner.paintBanner .col-xl-4{display: flex;align-items: center;}
   .scrollingImg li img{transform: scale(0.65);}
   .scrollingImg li img:nth-child(1){top: 90px;left: -50px;}
   .scrollingImg li img:nth-child(2){top: 115px;left: -80px;}
@@ -1272,6 +1279,10 @@ header.active .hamburger-inner::after {
 
   .aboutWrapper .secVision{padding-top: 0;}
   .secVision p, .secMission p{font-size: 14px;}
+  .banner-carousel .contentLeft{align-self: center!important;}
+  .contactInfoLeft h2{font-size: 38px;text-align: center;}
+  .contactForm .lax.whyRightImg{width: 145px;}
+  .contactForm p{font-size: 25px;}
 }
 @media only screen and (max-width: 991px) and (orientation: portrait) {}
 @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -1383,7 +1394,9 @@ header.active .hamburger-inner::after {
   .aboutWrapper .secMission{padding-bottom: 0;}
   .aboutWrapper .secVision{padding: 50px 0;}
   .secMission img{position: relative;z-index: 1;}
-  .secHomeAbout::before{display: none;}
+  .secHomeAbout::before{display: none;}  
+  .productBanner.paintBanner p{width: auto;}  
+  .productBanner.paintBanner .col-xl-4{display: block;}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}
@@ -1515,6 +1528,9 @@ header.active .hamburger-inner::after {
   .productBanner h2.heading, .productBanner.paintBanner h2.heading{font-size: 50px;}
   .productBanner p{font-size: 12px;}
   .secHomeAbout{padding: 50px 0px 80px;}
+  .copyright p{font-size: 12px;}
+  .copyright .container{padding: 0;}
+  .copyright .container .row{margin: 0;}
 }
 @media only screen and (max-width: 380px) {
   .headingShadow{font-size: 80px;}

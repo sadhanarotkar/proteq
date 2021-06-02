@@ -113,6 +113,10 @@ $(document).ready(function () {
     animateOut: 'fadeOut',
     items:4,
     responsive : {
+      0 : {
+        items:1,
+        autoplay: true
+      },
       380 : {
         items:1,
         autoplay: true

@@ -13,26 +13,26 @@ export default function ProductGallery() {
           </div>
             <div className="col-xl-6 col-lg-7 col-md-12 galleryLeft">
                 <div className="row">
-                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/gallary1.png" data-sub-html="<h4>2.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img1.jpeg">
                         <a href="">
-                            <img className="img-fluid" src="img/gallary1.png" alt="Thumb-1" />
+                            <img className="img-fluid" src="img/galleryImgs/img1.jpeg" />
                         </a>
                     </div>
-                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/gallary2.png" data-sub-html="<h4>3.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img2.jpeg">
                         <a href="">
-                            <img className="img-fluid" src="img/gallary2.png" alt="Thumb-2"/>
+                            <img className="img-fluid" src="img/galleryImgs/img2.jpeg" alt="Thumb-2"/>
                         </a>
                     </div>
-                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary3.png" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img4.jpeg">
                         <a href="">
-                            <img className="img-fluid" src="img/gallary3.png" alt="Thumb-3"/>
+                            <img className="img-fluid" src="img/galleryImgs/img4.jpg" alt="Thumb-3"/>
                         </a>
                     </div>
                 </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-12">
               <div className="row">
-                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary4.png" data-sub-html="<h4>M series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                   <a href="">
                       <img className="img-fluid verticalImg" src="img/gallary4.png" alt="Thumb-4"/>
                   </a>

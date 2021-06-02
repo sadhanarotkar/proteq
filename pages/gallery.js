@@ -41,42 +41,42 @@ export default function Gallery() {
                   <div className="row justify-content-center lightgallery">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                       <div className="row">
-                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/gallary1.png" data-sub-html="<h4>2.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img1.jpeg">
                               <a href="">
-                                  <img className="img-fluid" src="img/gallary1.png" alt="Thumb-1" />
+                                  <img className="img-fluid" src="img/galleryImgs/img1.jpeg" alt="Thumb-1" />
                               </a>
                           </div>
-                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/gallary2.png" data-sub-html="<h4>3.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img2.jpeg">
                               <a href="">
-                                  <img className="img-fluid" src="img/gallary2.png" alt="Thumb-2"/>
+                                  <img className="img-fluid" src="img/galleryImgs/img2.jpeg" alt="Thumb-2"/>
                               </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary3.png" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img4.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
                               <a href="">
-                                  <img className="img-fluid" src="img/gallary3.png" alt="Thumb-3"/>
+                                  <img className="img-fluid" src="img/galleryImgs/img4.jpg" alt="Thumb-3"/>
                               </a>
                           </div>
                       </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                       <div className="row">
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary5.png" data-sub-html="<h4>M series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img3.jpeg">
                           <a href="">
-                              <img className="img-fluid" src="img/gallary5.png" alt="Thumb-4"/>
+                              <img className="img-fluid" src="img/galleryImgs/img3.jpeg" alt="Thumb-4"/>
                           </a>
                         </div>
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary5.png" data-sub-html="<h4>M series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img5.jpeg">
                           <a href="">
-                              <img className="img-fluid" src="img/gallary5.png" alt="Thumb-4"/>
+                              <img className="img-fluid" src="img/galleryImgs/img5.jpeg" alt="Thumb-4"/>
                           </a>
                         </div>
                       </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                       <div className="row">
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary4.png" data-sub-html="<h4>M series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img6.jpeg">
                           <a href="">
-                              <img className="img-fluid verticalImg" src="img/gallary4.png" alt="Thumb-4"/>
+                              <img className="img-fluid verticalImg" src="img/galleryImgs/img6.jpeg" alt="Thumb-4"/>
                           </a>
                         </div>
                       </div>
@@ -85,42 +85,42 @@ export default function Gallery() {
                   <div className="row justify-content-center lightgallery">
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                       <div className="row">
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary4.png" data-sub-html="<h4>M series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img7.jpeg">
                           <a href="">
-                              <img className="img-fluid verticalImg" src="img/gallary4.png" alt="Thumb-4"/>
+                              <img className="img-fluid verticalImg" src="img/galleryImgs/img7.jpeg" alt="Thumb-4"/>
                           </a>
                         </div>
                       </div>
                     </div> 
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                       <div className="row">
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary5.png" data-sub-html="<h4>M series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img8.jpeg">
                           <a href="">
-                              <img className="img-fluid" src="img/gallary5.png" alt="Thumb-4"/>
+                              <img className="img-fluid" src="img/galleryImgs/img8.jpeg" alt="Thumb-4"/>
                           </a>
                         </div>
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary5.png" data-sub-html="<h4>M series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img9.jpeg">
                           <a href="">
-                              <img className="img-fluid" src="img/gallary5.png" alt="Thumb-4"/>
+                              <img className="img-fluid" src="img/galleryImgs/img9.jpeg" alt="Thumb-4"/>
                           </a>
                         </div>
                       </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                       <div className="row">
-                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/gallary1.png" data-sub-html="<h4>2.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img10.jpeg">
                               <a href="">
-                                  <img className="img-fluid" src="img/gallary1.png" alt="Thumb-1" />
+                                  <img className="img-fluid" src="img/galleryImgs/img10.jpeg" alt="Thumb-1" />
                               </a>
                           </div>
-                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/gallary2.png" data-sub-html="<h4>3.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img11.jpeg">
                               <a href="">
-                                  <img className="img-fluid" src="img/gallary2.png" alt="Thumb-2"/>
+                                  <img className="img-fluid" src="img/galleryImgs/img11.jpeg" alt="Thumb-2"/>
                               </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/gallary3.png" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img12.jpeg">
                               <a href="">
-                                  <img className="img-fluid" src="img/gallary3.png" alt="Thumb-3"/>
+                                  <img className="img-fluid" src="img/galleryImgs/img12.jpg" alt="Thumb-3"/>
                               </a>
                           </div>
                       </div>
@@ -142,20 +142,20 @@ export default function Gallery() {
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item">
                             <a>
-                                <img className="img-fluid" src="img/gallary1.png" />
-                                <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                              <img className="img-fluid" src="img/gallary1.png" />
+                              <button className="playBtn" data-toggle="modal" data-target="#videoModal1"><img src="img/play-button.svg" /></button>
                             </a>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item">
                             <a>
                                 <img className="img-fluid" src="img/gallary2.png"/>
-                                <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                                <button className="playBtn" data-toggle="modal" data-target="#videoModal2"><img src="img/play-button.svg" /></button>
                             </a>
                         </div>
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                             <a>
                                 <img className="img-fluid" src="img/gallary3.png"/>
-                                <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                                <button className="playBtn" data-toggle="modal" data-target="#videoModal3"><img src="img/play-button.svg" /></button>
                             </a>
                         </div>
                     </div>
@@ -165,13 +165,13 @@ export default function Gallery() {
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                         <a>
                             <img className="img-fluid" src="img/gallary5.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal4"><img src="img/play-button.svg" /></button>
                         </a>
                       </div>
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                         <a>
                             <img className="img-fluid" src="img/gallary5.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal5"><img src="img/play-button.svg" /></button>
                         </a>
                       </div>
                     </div>
@@ -181,7 +181,7 @@ export default function Gallery() {
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                         <a>
                             <img className="img-fluid" src="img/gallary4.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal6"><img src="img/play-button.svg" /></button>
                         </a>
                       </div>
                     </div>
@@ -193,7 +193,7 @@ export default function Gallery() {
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                         <a>
                             <img className="img-fluid" src="img/gallary4.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal7"><img src="img/play-button.svg" /></button>
                         </a>
                       </div>
                     </div>
@@ -203,13 +203,13 @@ export default function Gallery() {
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                         <a>
                             <img className="img-fluid" src="img/gallary5.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal8"><img src="img/play-button.svg" /></button>
                         </a>
                       </div>
                       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                         <a>
                             <img className="img-fluid" src="img/gallary5.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal9"><img src="img/play-button.svg" /></button>
                         </a>
                       </div>
                     </div>
@@ -219,19 +219,19 @@ export default function Gallery() {
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item">
                           <a>
                             <img className="img-fluid" src="img/gallary1.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal10"><img src="img/play-button.svg" /></button>
                           </a>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item">
                           <a>
                               <img className="img-fluid" src="img/gallary2.png"/>
-                              <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                              <button className="playBtn" data-toggle="modal" data-target="#videoModal11"><img src="img/play-button.svg" /></button>
                           </a>
                         </div>
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
                           <a>
                             <img className="img-fluid" src="img/gallary3.png"/>
-                            <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal12"><img src="img/play-button.svg" /></button>
                           </a>
                         </div>
                     </div>
@@ -251,8 +251,107 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              {/* <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EfxU3M47jTQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/twgebilKE6U" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal1" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video1.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video2.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal3" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video3.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal4" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video4.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal5" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video5.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal6" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video6.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal7" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video7.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal8" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video8.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal9" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video9.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal10" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="videos/video10.mp4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>

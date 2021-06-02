@@ -61,9 +61,9 @@ export default function Header() {
                 >
                   <i className='fa fa-instagram' aria-hidden='true'></i>
                 </a>
-                <a target='_blank' href='https://twitter.com/proteq_ppf_car'>
+                {/* <a target='_blank' href='https://twitter.com/proteq_ppf_car'>
                   <i className='fa fa-twitter' aria-hidden='true'></i>
-                </a>
+                </a> */}
                 <a
                   target='_blank'
                   href='https://www.youtube.com/channel/UCZ6eCrxtUPjNONo-z64Y5vQ?view_as=subscriber'
@@ -96,9 +96,11 @@ export default function Header() {
                     router.pathname == '/' ? 'nav-item active' : 'nav-item'
                   }
                 >
-                  <a href='/' className='nav-link'>
-                    Home
-                  </a>
+                  <Link href='/'>
+                    <a  className='nav-link'>
+                      Home
+                    </a>
+                  </Link>
                 </li>
                 <li className="nav-item overlayProductItem">
                   <a className='nav-link'>Products</a>
@@ -136,13 +138,13 @@ export default function Header() {
                       <div className='col-lg-8'>
                         <ul className='list-unstyled megaList'>
                           <li>
-                            <a href='ceramic'>
-                              <h4>Ceramic</h4>
-                            </a>
-                            <a href='ceramic'>Ceramic Sheild</a>
-                            <a href='leather-ceramic'>Leather Ceramic</a>
-                            <a href='plastic-ceramic'>Plastic Ceramic</a>
-                            <a href='glass-ceramic'>Glass Ceramic</a>
+                            <Link href='ceramic'>
+                              <a><h4>Ceramic</h4></a>
+                            </Link>
+                            <Link href='ceramic'><a>Ceramic Sheild</a></Link>
+                            <Link href='leather-ceramic'><a>Leather Ceramic</a></Link>
+                            <Link href='plastic-ceramic'><a>Plastic Ceramic</a></Link>
+                            <Link href='glass-ceramic'><a>Glass Ceramic</a></Link>
                           </li>
                           <li>
                             <a href='paint-protection'>
@@ -273,14 +275,6 @@ export default function Header() {
             <img src='img/sticky-instagram.svg' />
           </div>{' '}
           Instagram
-        </a>
-      </li>
-      <li>
-        <a target='_blank' href='https://twitter.com/proteq_ppf_car'>
-          <div className='stickyLinkIcon'>
-            <img src='img/sticky-twitter.svg' />
-          </div>{' '}
-          Twitter
         </a>
       </li>
       <li>
