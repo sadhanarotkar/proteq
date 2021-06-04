@@ -42,16 +42,7 @@ function MyApp({ Component, pageProps }) {
         <script src='js/owl.carousel.js'></script>
         <script src='js/custom.js'></script>
       </Head>
-      <div className='blobs'>
-        <div className='blob-center'></div>
-        <div className='blob'></div>
-        <div className='blob'></div>
-        <div className='blob'></div>
-        <div className='blob'></div>
-        <div className='blob'></div>
-        <div className='blob'></div>
-        {/* <img className="img-fluid" src="img/logo-loader.svg" /> */}
-      </div>
+      
       <Component {...pageProps} />
     </>
   );
