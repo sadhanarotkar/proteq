@@ -32,7 +32,7 @@ export default function Header(props) {
           </div>
           <div className="newletter">
             <div className="row justify-content-center">
-              <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10 col-12">
+              <div className="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-12">
                 <form>
                   <div className="form-group">
                     <h4>Subscribe Us:</h4>

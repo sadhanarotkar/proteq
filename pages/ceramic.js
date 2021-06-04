@@ -27,7 +27,6 @@ export default function Ceramic() {
         <title>Ceramic</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>
-      <Loader />
       <Header />
         <div className="productWrapper">
           <CeramicBanner />
@@ -45,10 +44,18 @@ export default function Ceramic() {
                   <div className="row justify-content-center">
                     <div className="col-xl-10 col-lg-11 col-md-12 col-11">
                       <div className="owl-carousel owl-theme tab-carousel">
-                        <a href="ceramic#tab" className="nav-item nav-link active">Ceramic shield</a>
-                        <a href="leather-ceramic#tab" className="nav-item nav-link">leather ceramic</a>
-                        <a href="plastic-ceramic#tab" className="nav-item nav-link">Plastic ceramic</a>
-                        <a href="glass-ceramic#tab" className="nav-item nav-link">glass ceramic</a>
+                        <Link href="ceramic#tab">
+                          <a className="nav-item nav-link active">Ceramic shield</a>
+                        </Link>
+                        <Link href="leather-ceramic#tab">
+                          <a className="nav-item nav-link">leather ceramic</a>
+                        </Link>
+                        <Link href="plastic-ceramic#tab">
+                          <a className="nav-item nav-link">Plastic ceramic</a>
+                        </Link>
+                        <Link href="glass-ceramic#tab">
+                          <a className="nav-item nav-link">glass ceramic</a>
+                        </Link>
                       </div>
                     </div>
                   </div>

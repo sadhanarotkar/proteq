@@ -22,7 +22,7 @@ const Home=()=> {
 
 useEffect(()=>{
   
-  setInterval( ()=>{ setIsLoading(false) }, 2000);
+  setInterval( ()=>{ setIsLoading(false) }, 1000);
 
 });
 

@@ -206,7 +206,12 @@ const Animation = () => {
           });
           
           $(document).on("click", "button.close", function(e){
-            $("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
+            $(this).parents('.fullModal').find("iframe").attr("src", $(this).parents('.fullModal').find("iframe").attr("src"));
+          });
+
+          $(document).on("click", ".btn-load", function(e){
+            $(this).parent('.text-center').css("display", "none");
+            $(this).parents(".loadmore").next(".loadmore").show();
           });
           
           
