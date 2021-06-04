@@ -43,7 +43,7 @@ export default function About() {
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
                   <h2 className="heading mb-md-4">About Proteq Autocare</h2>
-                  <p>When Young Car Euthanistic Entrepreneurs Come Together - They Sure Have Something Really Amazing Cooking! We Build Proteq Autocare So We Could Turn Our Passion for Cars into Providing Effective, Efficient and Excellent Quality Paint Protection Film (Ppf) Services with Utmost Determination and Commitment to Our Customers. Proteq Autocare Focuses on Giving Our Clients the Best Service for Their Car in India! It’s Hard to Find a Great Automotive Mechanic Around, but I Assure You That with Us, You'll Get the Best Car Serving Outlet. When You Trust Us with Your Car We’ll Do the Right Thing for You, Guaranteed.</p>
+                  <p>When Young Car Euthanistic Entrepreneurs Come Together - They Sure Have Something Really Amazing Cooking! We Build Proteq Autocare So We Could Turn Our Passion for Cars into Providing Effective, Efficient and Excellent Quality Paint Protection Film (Ppf) Services with Utmost Determination and Commitment to Our Customers. Proteq Autocare Focuses on Giving Our Clients the Best Service for Their Car in India! It’s Hard to Find a Great Automotive Service Provider Around, but I Assure You That with Us, You'll Get the Best Car Serving Outlet. When You Trust Us with Your Car We’ll Do the Right Thing for You, Guaranteed.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12">
                   <img src="img/homeProduct1.png" className="img-fluid" />  
@@ -88,7 +88,8 @@ export default function About() {
               <div className="row justify-content-end align-items-center">
                 <div className="col-xl-4 col-lg-4 col-md-5 col-sm-12">
                   <h2 className="heading mb-md-4">Our Vision</h2>
-                  <p>We use our extensive experience and creativity to transform our passion into a tangible and inspiring reality. Proteq aspire to be India's leading auto protection company.</p>
+                  <p>We use our extensive experience and creativity to transform our passion into a tangible and inspiring reality. Proteq aspires to be India's leading auto protection company. Our product line is the result of extensive formulating, testing, trial, and invention through the custom blending of the finest components available coupled with a handcrafted methodology to achieve a superior level of quality and dependability time after time.</p>
+                  <p>We're skilled professionals, capable of handling the most difficult auto repairs and auto service. In addition to excellent service, we hope to save you and your loved ones money through great maintenance.</p>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 pr-md-0 pl-md-5">
                   <img src="img/visionImg.png" className="img-fluid" data-aos="fade-left" data-aos-duration="1000" />                  
@@ -112,7 +113,8 @@ export default function About() {
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-5 col-sm-12">
                   <h2 className="heading mb-md-4">Our Mission</h2>
-                  <p>Proteq commits to be dedicated to providing premium and exceptional products in an affordable range by epitomizing safety and efficiency. We are constantly innovating to make graphics more exciting, noticeable and easy to install.</p>
+                  <p>Proteq commits to be dedicated to providing premium and exceptional products in an affordable range by epitomizing safety and efficiency. We are constantly innovating to make graphics more exciting, noticeable and easy to install. We work hard to keep your car on the road. Because we go the extra mile, you get a lot more of them from your car. Count on Proteq Autocare for complete car care. From top to bottom. </p>
+                  <p>Our number one mission is complete customer satisfaction. Every day, with every customer, we focus on providing high-quality auto care services coupled with top-notch care.</p>
                 </div>
               </div>
             </div>

@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
-import CeramicBanner from './components/ceramic-banner'
 import CeramicProductVideo from './components/ceramic-product-video'
 import CeramicGallery from './components/ceramic-gallery'
 import ProductFaq from './components/product-faq'
@@ -30,7 +29,22 @@ export default function GlassCeramic() {
       <Loader />
       <Header />
         <div className="productWrapper">
-          <CeramicBanner />
+          <section className="productBanner ceramicBanner">
+            <div className="container">
+              <div className="row justify-content-center align-items-center">
+                <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                  <h2 className="heading mb-md-4">Ceramic</h2>
+                  <p>Automotive enthusiasts tend to place most of their focus on protecting their car’s paint and keeping their tires clean, but what about the windshields and windows? Don’t they deserve the same amount of love and attention? A growing trend in the automotive culture is applying a ceramic coating on glass – including windshields and rear windows.</p>
+                </div>
+                <div className="col-xl-5 col-lg-5 col-md-6 col-sm-10">
+                  <img src="img/homeProduct3.png" className="img-fluid mt-md-5 ceramicBannerImg" />
+                  <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
+                  <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>                  
+                </div>
+              </div>
+            </div>
+            <div className="tabSpace" id="tab"></div>
+          </section>
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
             <nav className="category-nav">
@@ -91,7 +105,7 @@ export default function GlassCeramic() {
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Improved Visibility</h4>
-                          <p>When it is raining, the water blocks your view completely until the windshield wipers get activated. Since the ceramic coating is hydrophobic, this is a case where it is especially helpful. Ceramic coating being hydrophobic means it provides a flat, smooth surface that is resistant to water.</p>
+                          <p>When it is raining, the water blocks your view completely until the windshield wipers get activated. Since the ceramic coating is hydrophobic, this is a case where it is especially helpful. Ceramic coating being hydrophobic means it provides a flat, smooth surface that is resistant to water. </p>
                         </div>
                       </div>
                       <div className='item'>

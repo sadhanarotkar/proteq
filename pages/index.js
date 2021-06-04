@@ -37,7 +37,7 @@ export default function Home() {
                 <div className="row align-items-center align-items-center">                    
                   <div className="col-xl-4 col-lg-4 col-md-4 contentLeft">
                     <h2>Proteq <br></br><span>Autocare</span></h2>
-                    <p>We pride our business on the solid foundations of providing all with exceptional customer service, quality and honesty, revving up our fleet of car transporters in a very move.</p>
+                    <p>We pride our business on the solid foundations of providing all with exceptional customer service, quality and honesty, revving up our fleet of extensive care & shine for your car!</p>
                     <Link href='about'><a className="btn hvr-sweep-to-right">Read More</a></Link>
                   </div>
                   <div className="col-xl-8 col-lg-8 col-md-8 contentRight px-md-0">                      

@@ -556,7 +556,6 @@ iframe{border: none;display: block;}
 .secMission::after{content: '';background: url(../public/img/testimonialRightImg.png) no-repeat;background-size: contain;background-position: center right;width:170px;height: 100%;position: absolute;right: 0;top: 0;}
 .secMission .headingText{position: relative;top: 100px;}
 .missionLeftImg{left: 0;top: auto;bottom: 0;width: 150px;}
-.secVision p, .secMission p{font-size: 15px;}
 .secVision .visionText{position: relative;top: 70px;left: 15px;}
 /* .secMission .container-fluid.headingText{} */
 .aboutWrapper .secHomeTestimonial{margin-top: 0;padding: 100px 0 80px;}
@@ -1282,7 +1281,6 @@ header.active .hamburger-inner::after {
   .scrollingImg li img:nth-child(12){top: -150px;right: -435px;}
 
   .aboutWrapper .secVision{padding-top: 0;}
-  .secVision p, .secMission p{font-size: 14px;}
   .banner-carousel .contentLeft{align-self: center!important;}
   .contactInfoLeft h2{font-size: 38px;text-align: center;}
   .contactForm .lax.whyRightImg{width: 145px;}

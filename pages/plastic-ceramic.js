@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
-import CeramicBanner from './components/ceramic-banner'
 import CeramicProductVideo from './components/ceramic-product-video'
 import CeramicGallery from './components/ceramic-gallery'
 import ProductTestimonial from './components/product-testimonial'
@@ -29,7 +28,22 @@ export default function PlasticCeramic() {
       <Loader />
       <Header />
         <div className="productWrapper">
-          <CeramicBanner />
+          <section className="productBanner ceramicBanner">
+            <div className="container">
+              <div className="row justify-content-center align-items-center">
+                <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                  <h2 className="heading mb-md-4">Ceramic</h2>
+                  <p>Plastic Ceramic is a unique coating for plastic and rubber surfaces suitable for both interior and exterior use. Plastic and rubber surfaces coated with Ceramic Pro Plastic will feature a super hydrophobic effect with excellent wear resistance. The coating will add a moderate sheen to the surface making it a great permanent finish for both exterior and interior plastics no matter if they are new or need restoration. </p>
+                </div>
+                <div className="col-xl-5 col-lg-5 col-md-6 col-sm-10">
+                  <img src="img/homeProduct3.png" className="img-fluid mt-md-5 ceramicBannerImg" />
+                  <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
+                  <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>                  
+                </div>
+              </div>
+            </div>
+            <div className="tabSpace" id="tab"></div>
+          </section>
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
             <nav className="category-nav">
