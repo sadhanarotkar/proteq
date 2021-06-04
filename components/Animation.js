@@ -212,7 +212,7 @@ const Animation = () => {
           
           $(window).on('load', function() { // makes sure the whole site is loaded 
             $('.blobs').fadeOut(); // will first fade out the loading animation 
-            $('.blob').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('.blob').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website. 
           });
           
         lax.init()

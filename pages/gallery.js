@@ -972,6 +972,26 @@ export default function Gallery() {
           </div>
         </div>
       </div>
+      <div className="modal fade fullModal" id="videoModal10" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video11.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal10" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video12.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }

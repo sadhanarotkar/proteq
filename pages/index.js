@@ -8,6 +8,8 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
+import { useEffect, useState } from 'react'
+
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
   {
@@ -15,8 +17,16 @@ const OwlCarousel = dynamic(
   }
 );
 
-export default function Home() {
-  const router = useRouter()
+const Home=()=> {
+  const[isLoading,setIsLoading]=useState(true);
+
+useEffect(()=>{
+  
+  setInterval( ()=>{ setIsLoading(false) }, 2000);
+
+});
+
+const router = useRouter()
   return (
     <main className="content">
       <Head>
@@ -26,7 +36,8 @@ export default function Home() {
         <link rel="stylesheet" href="css/owl.theme.default.min.css" />
         <script src="js/owl.carousel.js"></script>
       </Head>
-      <Loader />
+      { isLoading ? <Loader /> : 
+      <>      
       <Header />
       <section className="secBanner">
         <div className="owl-carousel owl-theme banner-carousel">
@@ -287,6 +298,8 @@ export default function Home() {
         <img src="img/contact-bottomImg.svg" className="img-fluid contactBottomImg" />
       </section>
       <Footer />
+      </>}
     </main>
   )
 }
+export default Home;
