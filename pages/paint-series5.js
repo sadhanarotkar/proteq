@@ -3,7 +3,6 @@ import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
 import PaintBanner from './components/paint-banner'
-import PaintProductVideo from './components/ceramic-product-video'
 import PaintGallery from './components/paint-gallery'
 import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
@@ -74,23 +73,27 @@ export default function PaintSeries5() {
                   </div>
                 </div> 
               </div>
-              <div className="tab-pane fade" id="nav-seriesm" role="tabpanel" aria-labelledby="nav-seriesm-tab">
-                <div className="container">
-                  <img src="img/2.0seriesText.svg" className="img-fluid m-md-5" />     
-                  <div className="row justify-content-center">
-                    <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                      <img src="img/2.0series.png" className="img-fluid productImg" />     
-                    </div>
-                    <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 text-left">
-                        <h2 className="heading mb-md-4">M series</h2>  
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an </p>  
-                        <button className="btn hvr-fade mt-4">Get A Quote</button>
+            </div>
+            <div className="secproductVideo">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
+                    <h2 className="heading">Video</h2>
+                  </div>
+                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
+                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
+                  </div>
+                </div>
+                <div className="row justify-content-center productVideoWrapper">
+                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
+                    <div className="productVideo">
+                      <img src="img/video8.png" className="img-fluid" />
+                      <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
                     </div>
                   </div>
-                </div> 
+                </div>
               </div>
             </div>
-            <PaintProductVideo />
           </section>
           <section className="secBenefit">
             <div className="secBenefitInner">
@@ -228,7 +231,7 @@ export default function PaintSeries5() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yAoLSRbwxL8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video8.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>

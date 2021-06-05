@@ -57,21 +57,22 @@ export default function MicrofiberCloth() {
                   <p>The Microfibre cloth is highly effective due to the revolutionary material blend, inspired by fish scales. It can be used either dry or damp. Dry: Using it dry is perfect for dusting, drying and wiping over surfaces. Damp: To use it damp, first wet and then wring any excess water. This method is suitable for cleaning and polishing a range of surfaces. The inside shield is Non-scratching, Lint-free, Quickly removes dust and Retains many times its weight of water. Proteq Microfibre Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>  
                   <button className="btn hvr-fade mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                 </div>
-              </div>     
-              
+              </div>  
             </div> 
             <div className="secproductVideo">
               <div className="container-fluid">
                 <div className="row">
-                  <div className="col-xl-3 col-lg-3 col-md-4 productVideoLeft">
+                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
                     <h2 className="heading">Video</h2>
                   </div>
-                  <div className="col-xl-9 col-lg-9 col-md-8 productVideoRight"></div>
+                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
+                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
+                  </div>
                 </div>
                 <div className="row justify-content-center productVideoWrapper">
-                  <div className="col-xl-7 col-lg-7 col-md-6">
+                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
                     <div className="productVideo">
-                      <img src="img/galleryBanner.png" className="img-fluid" />
+                      <img src="img/video10.png" className="img-fluid" />
                       <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
                     </div>
                   </div>
@@ -211,7 +212,7 @@ export default function MicrofiberCloth() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yAoLSRbwxL8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
         </div>

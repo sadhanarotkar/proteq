@@ -52,7 +52,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img2.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img4.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img4.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img4.jpg" alt="Thumb-3"/>
                                 </a>
@@ -145,7 +145,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img14.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img15.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img15.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img15.jpg" alt="Thumb-3"/>
                                 </a>
@@ -238,7 +238,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img26.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img27.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img27.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img27.jpg" alt="Thumb-3"/>
                                 </a>
@@ -331,7 +331,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img38.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img39.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img39.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img39.jpg" alt="Thumb-3"/>
                                 </a>
@@ -424,7 +424,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img50.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img51.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img51.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img51.jpg" alt="Thumb-3"/>
                                 </a>
@@ -517,7 +517,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img62.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img63.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img63.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img63.jpg" alt="Thumb-3"/>
                                 </a>
@@ -610,7 +610,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img75.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img76.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img76.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img76.jpg" alt="Thumb-3"/>
                                 </a>
@@ -703,7 +703,7 @@ export default function Gallery() {
                                     <img className="img-fluid" src="img/galleryImgs/img90.jpeg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img88.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img88.jpeg">
                                 <a href="">
                                     <img className="img-fluid" src="img/galleryImgs/img88.jpeg" alt="Thumb-3"/>
                                 </a>
@@ -901,7 +901,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/twgebilKE6U" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/twgebilKE6U" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -911,7 +911,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video1.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video1.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -931,7 +931,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video3.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video3.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -941,7 +941,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video4.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video4.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -951,7 +951,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video5.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video5.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -961,7 +961,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video6.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video6.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -1001,7 +1001,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowFullScreen="true"></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -1011,7 +1011,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
@@ -1021,7 +1021,7 @@ export default function Gallery() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen"></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>

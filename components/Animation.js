@@ -78,20 +78,12 @@ const Animation = () => {
               loop:true,
               margin:0,
               dots:false,
-              nav:false,
+              nav:true,
               mouseDrag:false,
-              autoplay:true,
+              autoplay:false,
               animateOut: 'fadeOut',
               navText: ["<img src='img/banner-arrow.svg' /> Previous","Next <img src='img/banner-arrow.svg' />"],
-              items:1,
-              responsive : {
-                0 : {
-                  nav:true,
-                },
-                767 : {
-                  nav:true,
-                }
-              }
+              items:1
             });
           
             $('.count-carousel').owlCarousel({
@@ -431,7 +423,7 @@ const Animation = () => {
           scrollY: {
             translateY: [
               ["elInY", "elCenterY", "elOutY"],
-              [-200, 0, 200],
+              [-100, 0, 100],
             ]
           }
         })

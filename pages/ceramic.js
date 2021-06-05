@@ -4,7 +4,6 @@ import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
 import CeramicBanner from './components/ceramic-banner'
-import CeramicProductVideo from './components/ceramic-product-video'
 import CeramicGallery from './components/ceramic-gallery'
 import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
@@ -84,7 +83,26 @@ export default function Ceramic() {
                 </div>    
               </div>              
             </div>
-            <CeramicProductVideo />
+            <div className="secproductVideo">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
+                    <h2 className="heading">Video</h2>
+                  </div>
+                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
+                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
+                  </div>
+                </div>
+                <div className="row justify-content-center productVideoWrapper">
+                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
+                    <div className="productVideo">
+                      <img src="img/video1.png" className="img-fluid" />
+                      <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
           <section className="secBenefit">
             <div className="secBenefitInner">
@@ -210,7 +228,7 @@ export default function Ceramic() {
           <div className="modal-content">              
             <div className="modal-body">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yAoLSRbwxL8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video1.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>

@@ -94,7 +94,7 @@ const router = useRouter()
                     <p>Proteq Microfiber Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
                     <Link href='microfiber-cloth'><a className="btn hvr-sweep-to-right">Read More</a></Link>
                   </div>
-                  <div className="col-lg-5 col-md-6 contentCenter align-self-end">                      
+                  <div className="col-lg-5 col-md-6 contentCenter align-self-end px-5">                      
                     <img src="img/slide3-product.png" className="img-fluid" />                    
                   </div>
                   <div className="col-lg-3 col-md-3 contentRight align-self-end">  

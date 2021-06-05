@@ -23,7 +23,7 @@ export default function PaintGallery() {
                         <img className="img-fluid" src="img/galleryImgs/img62.jpg" alt="Thumb-2"/>
                     </a>
                 </div>
-                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img63.jpeg" data-sub-html="<h4>5.0 series</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img63.jpeg">
                     <a href="">
                         <img className="img-fluid" src="img/galleryImgs/img63.jpg" alt="Thumb-3"/>
                     </a>
