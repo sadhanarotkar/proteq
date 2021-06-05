@@ -78,12 +78,20 @@ const Animation = () => {
               loop:true,
               margin:0,
               dots:false,
-              nav:true,
+              nav:false,
               mouseDrag:false,
               autoplay:true,
               animateOut: 'fadeOut',
               navText: ["<img src='img/banner-arrow.svg' /> Previous","Next <img src='img/banner-arrow.svg' />"],
-              items:1
+              items:1,
+              responsive : {
+                0 : {
+                  nav:true,
+                },
+                767 : {
+                  nav:true,
+                }
+              }
             });
           
             $('.count-carousel').owlCarousel({

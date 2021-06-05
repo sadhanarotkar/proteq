@@ -1179,7 +1179,7 @@ header.active .hamburger-inner::after {
   .headerRight .navbar-collapse{padding-right: 0;height: 100%;}
   .overlayMenu .collapsing{display: none;}
   .overlayMenu.active .collapsing{display: block;}
-  ul.navbar-nav{height: calc(100vh - 100px);align-items: center;justify-content: center;}
+  ul.navbar-nav{height: calc(100vh - 100px);padding-top: 40px;}
   ul.navbar-nav li{height: 50px;line-height: 50px;text-align: center;margin: 0;}
   ul.navbar-nav li.nav-item a.nav-link{font-size: 14px;color: #FFF;text-transform: uppercase;text-align: center;display: inline-block;}
   header.sticky ul.navbar-nav>li{height: 50px;line-height: 50px;width: 100%;margin: 0;}
@@ -1407,7 +1407,6 @@ header.active .hamburger-inner::after {
   .secHomeAbout::before{display: none;}  
   .productBanner.paintBanner p{width: auto;}  
   .productBanner.paintBanner .col-xl-4{display: block;}
-  ul.navbar-nav{height: calc(100vh - 150px);}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}
