@@ -5,15 +5,28 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Link from 'next/link'
 
-export default function Gallery() {
+const Gallery=()=> {
   const router = useRouter()
+
+  const pause=(e)=>{
+    console.log(e);
+    
+    var myVideo = document.getElementById(e);
+    myVideo.pause();
+    
+  };
+  const play =(e)=>{
+    var myVideo = document.getElementById(e);
+    myVideo.play();
+  };
+    
   return (
     <main className="content">
       <Head>
         <title>Gallery</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>
-      <Loader />
+      
       <Header />
       <div className="galleryWrapper">
         <section className="galleryBanner">
@@ -910,8 +923,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video1.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video1'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video1" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video1.mp4" type="video/mp4"/>
+              </video>              
             </div>
           </div>
         </div>
@@ -920,8 +935,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video2.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <button type="button" onClick={((e) => pause('video2'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video2" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video2.mp4" type="video/mp4"/>
+              </video>               
             </div>
           </div>
         </div>
@@ -930,8 +947,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video3.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video3'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video3" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video3.mp4" type="video/mp4"/>
+              </video>  
             </div>
           </div>
         </div>
@@ -940,8 +959,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video4.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video4'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video4" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video4.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>
@@ -950,8 +971,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video5.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video5'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video5" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video5.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>
@@ -960,8 +983,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video6.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video6'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video6" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video6.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>
@@ -970,8 +995,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video7.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <button type="button" onClick={((e) => pause('video7'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video7" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video7.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>
@@ -980,8 +1007,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video8.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <button type="button" onClick={((e) => pause('video8'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video8" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video8.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>
@@ -990,8 +1019,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video9.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <button type="button" onClick={((e) => pause('video9'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video9" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video9.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>
@@ -1000,8 +1031,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video10'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video10" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
         </div>
@@ -1010,8 +1043,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video11'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video11" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+              </video>              
             </div>
           </div>
         </div>
@@ -1020,8 +1055,10 @@ export default function Gallery() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video12'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video12" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+              </video> 
             </div>
           </div>
         </div>
@@ -1029,3 +1066,5 @@ export default function Gallery() {
     </main>
   )
 }
+
+export default Gallery;
