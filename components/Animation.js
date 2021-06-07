@@ -80,7 +80,7 @@ const Animation = () => {
               dots:false,
               nav:true,
               mouseDrag:false,
-              autoplay:false,
+              autoplay:true,
               animateOut: 'fadeOut',
               navText: ["<img src='img/banner-arrow.svg' /> Previous","Next <img src='img/banner-arrow.svg' />"],
               items:1

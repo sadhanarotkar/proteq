@@ -429,7 +429,7 @@ iframe{border: none;display: block;}
 /* End Contact page css */
 
 /* Testimonial css */
-.testimonialWrapper{font-family: 'Bebas Neue';text-align: center;padding: 100px 0;color: #000;background: linear-gradient(180deg, rgba(217,217,217,1) 0%, rgba(248,248,248,1) 50%, rgba(209,209,209,1) 100%);}
+.testimonialWrapper{font-family: 'Bebas Neue';text-align: center;padding: 120px 0 100px;color: #000;background: linear-gradient(180deg, rgba(217,217,217,1) 0%, rgba(248,248,248,1) 50%, rgba(209,209,209,1) 100%);}
 .testimonialWrapper h1{font-size: 100px;}
 .owl-carousel .owl-item .clientImgs{display: flex;}
 .owl-carousel .owl-item .clientImgs img{width: auto;object-fit: contain;}
@@ -446,19 +446,22 @@ iframe{border: none;display: block;}
 .testimonialUser h6{margin: 0;font-family: 'HelveticaNeue';font-weight: 600;}
 .scrollingImg{height: 350px;}
 .scrollingImg li{position: relative;width: 100%;}
+.imgsWrapper{}
+.topImgs{display: flex;justify-content: space-between;align-items: center;}
+.bottomImgs{display: flex;justify-content: space-evenly;align-items: center;padding-left: 60px;}
 .scrollingImg li img{position: relative;transform: scale(0.8);}
-.scrollingImg li img:nth-child(1){top: 180px;left: -25px;}
-.scrollingImg li img:nth-child(2){top: 22px;left: -50px;}
-.scrollingImg li img:nth-child(3){top: 150px;left: -52px;opacity: 0;}
-.scrollingImg li img:nth-child(4){top: -45px;left: -125px;}
-.scrollingImg li img:nth-child(5){top: 120px;left: -155px;}
-.scrollingImg li img:nth-child(6){top: 10px;left: -195px;}
-.scrollingImg li img:nth-child(7){top: 165px;left: -230px;}
-.scrollingImg li img:nth-child(8){top: -20px;left: -290px;}
-.scrollingImg li img:nth-child(9){top: 105px;left: -320px;}
-.scrollingImg li img:nth-child(10){top: -135px;right: -520px;}
-.scrollingImg li img:nth-child(11){top: 10px;right: -481px;}
-.scrollingImg li img:nth-child(12){top: -150px;right: -435px;}
+.topImgs img:nth-child(1){bottom: -25px;}
+.topImgs img:nth-child(2){bottom: 8px;}
+.topImgs img:nth-child(3){}
+.topImgs img:nth-child(4){}
+.topImgs img:nth-child(5){}
+.topImgs img:nth-child(6){}
+.bottomImgs img:nth-child(1){bottom: -25px;}
+.bottomImgs img:nth-child(2){bottom: 8px;}
+.bottomImgs img:nth-child(3){left: 22px;}
+.bottomImgs img:nth-child(4){right: 30px;}
+.bottomImgs img:nth-child(5){}
+.bottomImgs img:nth-child(6){    right: -5px;}
 .scrollingImg{display: none;}
 .scrollingImg img{vertical-align: bottom;}
 /* End Testimonial css */
@@ -619,7 +622,7 @@ iframe{border: none;display: block;}
 .productImg{height: 350px;}
 .ceramicProductImg{position: absolute;left: 15px;width: 750px;width: 55%;margin-top: -25px;}
 .ceramicProductBall1{width: 80px;left: 55px;}
-.ceramicProductBall2{width: 165px;left: -15px;}
+.ceramicProductBall2{width: 165px;left: -15px;z-index: 1;}
 .ceramicProductBall3{width: 55px;right: 95px;}
 .secBenefit{position: relative;}
 .secBenefitInner{clip-path: polygon(0 125px, 100% 0, 100% 100%, 0% 100%);background: #b10645;padding: 200px 0 100px;margin-top: -125px;position: relative;height: 550px;}
@@ -1117,8 +1120,6 @@ header.active .hamburger-inner::after {
   .banner-item3 .contentLeft{padding: 0;}
   ul.navbar-nav .megaList{padding: 70px 40px 70px 10px;}
   ul.navbar-nav li{padding: 0 15px;}
-  .scrollingImg li img:nth-child(1){left: -125px;}
-  .scrollingImg li img:nth-child(8){left: -500px;}
   .productBanner.paintBanner h2.heading{font-size: 105px;}
   .missionLeftImg{width: 110px;}
 }
@@ -1169,7 +1170,7 @@ header.active .hamburger-inner::after {
   header.sticky nav.navbar{height: auto;}
   .navbar-brand{order: 2;margin-left: 15px;}
   .navbar-brand img{height: 48px;}
-  .navbar-toggler{order: 3;outline: none !important;box-shadow: none;}
+  .navbar-toggler{order: 3;outline: none !important;box-shadow: none;    z-index: 9999;position: absolute;right: 0;top: 20px;}
   .topbar{margin-left: 0;margin-bottom: 0;padding-right: 0;display: none;}
   .topbar::before{display: none;}
   .topbar ul{justify-content: center;}
@@ -1180,7 +1181,8 @@ header.active .hamburger-inner::after {
   header.active::after{display: none;}
   .headerRight .navbar-collapse{padding-right: 0;height: 100%;}
   .overlayMenu .collapsing{display: none;}
-  .overlayMenu.active .collapsing{display: block;}
+  .overlayMenu .collapse.show{display: none;}
+  .overlayMenu.active .collapsing,.overlayMenu.active .navbar-collapse{display: block;}
   ul.navbar-nav{height: calc(100vh - 100px);padding-top: 40px;}
   ul.navbar-nav li{height: 50px;line-height: 50px;text-align: center;margin: 0;}
   ul.navbar-nav li.nav-item a.nav-link{font-size: 14px;color: #FFF;text-transform: uppercase;text-align: center;display: inline-block;}
@@ -1279,18 +1281,7 @@ header.active .hamburger-inner::after {
   .productBanner.paintBanner p{width: 400px;}
   .productBanner.paintBanner .col-xl-4{display: flex;align-items: center;}
   .scrollingImg li img{transform: scale(0.65);}
-  .scrollingImg li img:nth-child(1){top: 90px;left: -50px;}
-  .scrollingImg li img:nth-child(2){top: 115px;left: -80px;}
-  .scrollingImg li img:nth-child(3){top: 230px;left: -352px;}
-  .scrollingImg li img:nth-child(4){top: 40px;left: -225px;}
-  .scrollingImg li img:nth-child(5){top: 40px;left: -430px;}
-  .scrollingImg li img:nth-child(6){top: -50px;left: -435px;}
-  .scrollingImg li img:nth-child(7){top: 110px;left: -530px;}
-  .scrollingImg li img:nth-child(8){top: -85px;left: -610px;}
-  .scrollingImg li img:nth-child(9){top: 105px;left: -320px;}
-  .scrollingImg li img:nth-child(10){top: -135px;right: -520px;}
-  .scrollingImg li img:nth-child(11){top: -50px;right: -481px;}
-  .scrollingImg li img:nth-child(12){top: -150px;right: -435px;}
+
 
   .aboutWrapper .secVision{padding-top: 0;}
   .banner-carousel .contentLeft{align-self: center!important;}
@@ -1344,12 +1335,11 @@ header.active .hamburger-inner::after {
   .testimonialLeft{display: none;}
   .secHomeTestimonial h1.heading{left: 0;width: 100%;text-align: center;position: relative;transform: none;top: 35px;margin-bottom: 0;}
   .testimonialBottomImg{left: 0;transform: translateX(0%);height: auto;width: 100%;}
-  .countBox h3{font-size: 35px;}
   .countBox h4{font-size: 18px;}
   .secHomeProduct .faqBottomImg,
   .secHomeProduct .faqBottomImg img{width: 100%;}
   .homeContactLeft{display: none;}
-  .secHomeContact{padding-bottom: 0;}
+  .secHomeContact{padding-bottom: 0;padding-top: 100px;}
   .contactBottomImg{width: auto;position: relative;margin-top: 15px;}
   .card-columns{column-count: 1;}
   .contactForm{padding: 50px 0;}
@@ -1512,20 +1502,7 @@ header.active .hamburger-inner::after {
   .testimonialWrapper h1{font-size: 55px;}
   .scrollingImg li{height: 100%;}
   .scrollingImg li img{transform: scale(0.65);}
-  .scrollingImg li img:nth-child(1){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(2){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(3){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(4){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(5){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(6){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(7){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(8){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(9){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(10){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(11){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(12){top: 0;left: 0;}
-  .scrollingImg li img:nth-child(odd){top: 0;}
-  .scrollingImg li img:nth-child(even){bottom: 0;}
+  .topImgs img:nth-child(5),.bottomImgs img:nth-child(6),.topImgs img:nth-child(1),.bottomImgs img:nth-child(1),.bottomImgs img:nth-child(5){display: none;}
 
   .galleryBanner{height: 500px;}
   .galleryBanner h1{font-size: 60px;}
@@ -1533,7 +1510,21 @@ header.active .hamburger-inner::after {
   .galleryBanner .playBtn{margin-left: 30px;margin-right: 0;}
   .playBtn {width: 25px;height: 25px;padding: 15px 0 15px 5px;}
   .nav.gallery-tabs{display: flex;flex-wrap: nowrap;}
-  .visionText, .missionText{height: 80px;}
+  .visionText, .missionText{height: 70px;}
+
+  .lax.homeCeramic1{top: -50%;}
+  .lax.homeCeramic2{bottom: -300px;}
+  .lax.homeCeramic3{bottom: -380px;}
+  .secWhy .lax.homeCeramic4{left: -45px;width: 145px;}
+  .secWhy .lax.homeCeramic5{right: 0;}
+  .bottomContact-ball1{left: 0;}
+  .bottomContact-ball2{right: 20px;bottom: 0;top: 70%;}
+  .bottomContact-ball3{top: -40%;}
+  .lax.homeCeramic5{top: -100px;}
+  .aboutHeading-ball1{left: 0;top: -100px;}
+  .ceramicBanner .ball-big{left: -50px;width: 175px;}
+  .ceramicBanner .ball-big img{width: 100%;}
+  .ceramicProductBall2{top: 25%;}
 }
 
 @media only screen and (max-width: 480px) {

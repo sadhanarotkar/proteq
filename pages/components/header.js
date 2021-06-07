@@ -142,11 +142,19 @@ export default function Header() {
                           <li>
                             <Link href='ceramic'>
                               <a><h4>Ceramic</h4></a>
+                              </Link>
+                            <Link href='ceramic'>
+                              <a>Ceramic Sheild</a>
                             </Link>
-                            <Link href='ceramic'><a>Ceramic Sheild</a></Link>
-                            <Link href='leather-ceramic'><a>Leather Ceramic</a></Link>
-                            <Link href='plastic-ceramic'><a>Plastic Ceramic</a></Link>
-                            <Link href='glass-ceramic'><a>Glass Ceramic</a></Link>
+                            <Link href='leather-ceramic'>
+                              <a>Leather Ceramic</a>
+                            </Link>
+                            <Link href='plastic-ceramic'>
+                              <a>Plastic Ceramic</a>
+                            </Link>
+                            <Link href='glass-ceramic'>
+                              <a>Glass Ceramic</a>
+                            </Link>
                           </li>
                           <li>
                             <Link href='paint-protection'>
