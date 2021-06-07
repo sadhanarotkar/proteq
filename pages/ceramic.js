@@ -7,10 +7,13 @@ import CeramicBanner from './components/ceramic-banner'
 import CeramicGallery from './components/ceramic-gallery'
 import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
+import CeramicTab from '../components/CeramicTab'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -19,7 +22,32 @@ const OwlCarousel = dynamic(
   }
 );
 
-export default function Ceramic() {
+ const Ceramic = ()=>{
+  
+  const[is_tab,setIstab]=useState(false);
+
+  const router = useRouter();
+  useEffect(()=>{
+    setIstab(router.query.value);
+     console.log(router.query.value);
+    if(is_tab){
+    window.scroll(600,600);
+     }
+
+  });
+
+  const pause=(e)=>{
+    console.log(e);
+    
+    var myVideo = document.getElementById(e);
+    myVideo.pause();
+    
+  };
+  const play =(e)=>{
+    var myVideo = document.getElementById(e);
+    myVideo.play();
+  };
+
   return (
     <main className="content">
       <Head>
@@ -31,36 +59,7 @@ export default function Ceramic() {
           <CeramicBanner />
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
-            <nav className="category-nav">
-              {/* <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
-                <a className="nav-item nav-link active" id="nav-series2-tab" data-toggle="tab" href="#nav-series2" role="tab" aria-controls="nav-series2" aria-selected="true">Ceramic shield</a>
-                <a className="nav-item nav-link" id="nav-series3-tab" data-toggle="tab" href="#nav-series3" role="tab" aria-controls="nav-series3" aria-selected="false">leather ceramic</a>
-                <a className="nav-item nav-link" id="nav-series5-tab" data-toggle="tab" href="#nav-series5" role="tab" aria-controls="nav-series5" aria-selected="false">Plastic ceramic</a>
-                <a className="nav-item nav-link" id="nav-seriesm-tab" data-toggle="tab" href="#nav-seriesm" role="tab" aria-controls="nav-seriesm" aria-selected="false">glass ceramic</a>
-              </div> */}              
-              <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
-                <div className="container mb-0">
-                  <div className="row justify-content-center">
-                    <div className="col-xl-10 col-lg-11 col-md-12 col-11">
-                      <div className="owl-carousel owl-theme tab-carousel">
-                        <Link href="ceramic#tab">
-                          <a className="nav-item nav-link active">Ceramic shield</a>
-                        </Link>
-                        <Link href="leather-ceramic#tab">
-                          <a className="nav-item nav-link">leather ceramic</a>
-                        </Link>
-                        <Link href="plastic-ceramic#tab">
-                          <a className="nav-item nav-link">Plastic ceramic</a>
-                        </Link>
-                        <Link href="glass-ceramic#tab">
-                          <a className="nav-item nav-link">glass ceramic</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </nav>
+            <CeramicTab shield='active'/>       
             <div className="tab-content" id="nav-tabContent">
               <div className="tab-pane fade show active" id="nav-series2" role="tabpanel" aria-labelledby="nav-series2-tab">                
                 <div className="container-fluid">
@@ -227,8 +226,10 @@ export default function Ceramic() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video1.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              <button type="button" onClick={((e) => pause('video1'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video1" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video1.mp4" type="video/mp4"/>
+              </video>              
             </div>
           </div>
         </div>
@@ -236,3 +237,5 @@ export default function Ceramic() {
     </main>
   )
 }
+
+export default Ceramic;

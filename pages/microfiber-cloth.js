@@ -18,14 +18,25 @@ const OwlCarousel = dynamic(
   }
 );
 
-export default function MicrofiberCloth() {
+const MicrofiberCloth = ()=>{
+  const pause=(e)=>{
+    console.log(e);
+    
+    var myVideo = document.getElementById(e);
+    myVideo.pause();
+    
+  };
+  const play =(e)=>{
+    var myVideo = document.getElementById(e);
+    myVideo.play();
+  };
   return (
     <main className="content">
       <Head>
         <title>Microfiber cloth</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>
-      <Loader />
+      
       <Header />
         <div className="productWrapper microWrapper">
           <section className="productBanner microBanner">
@@ -211,8 +222,10 @@ export default function MicrofiberCloth() {
         <div className="modal-dialog" role="document">
           <div className="modal-content">              
             <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
-              <iframe width="100%" height="100%" src="https://proteq.wdipl.com/backend/videos/video10.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <button type="button" onClick={((e) => pause('video10'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video10" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+              </video>  
             </div>
           </div>
         </div>
@@ -220,3 +233,6 @@ export default function MicrofiberCloth() {
     </main>
   )
 }
+
+
+export default MicrofiberCloth;

@@ -20,7 +20,7 @@ export default function About() {
         <title>About Us</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>
-      <Loader />
+      
       <Header />
         <div className="aboutWrapper">
           <section className="aboutBanner">

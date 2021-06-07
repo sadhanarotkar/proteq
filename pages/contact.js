@@ -16,7 +16,7 @@ export default function Contact() {
         <title>Contact</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>
-      <Loader />
+      
       <Header />
       <section className="contactBanner">
         <div className="container">

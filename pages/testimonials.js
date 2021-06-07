@@ -16,7 +16,7 @@ export default function Testimonials() {
         <script src="js/infiniteslidev2.js"></script>  
         <script src="js/infiniteslidev2-script.js"></script>      
       </Head>
-      <Loader />
+      
       <Header />
       <section className="testimonialWrapper">
         <ul className="scrollingImg list-unstyled">
