@@ -1165,7 +1165,7 @@ header.active .hamburger-inner::after {
 @media only screen and (max-width: 991px) {
   p{font-size: 12px;line-height: 1.5;}
   .copyrightLinks a{font-size: 12px;}
-  nav.navbar{padding: 10px 0;padding-left: 0;}
+  nav.navbar{padding: 6px 0;}
   header.sticky nav.navbar{height: auto;}
   .navbar-brand{order: 2;margin-left: 15px;}
   .navbar-brand img{height: 48px;}
@@ -1184,6 +1184,8 @@ header.active .hamburger-inner::after {
   ul.navbar-nav{height: calc(100vh - 100px);padding-top: 40px;}
   ul.navbar-nav li{height: 50px;line-height: 50px;text-align: center;margin: 0;}
   ul.navbar-nav li.nav-item a.nav-link{font-size: 14px;color: #FFF;text-transform: uppercase;text-align: center;display: inline-block;}
+  ul.navbar-nav li:hover, ul.navbar-nav li.active{background-color: transparent;}
+  ul.navbar-nav li:hover, ul.navbar-nav li.nav-item.active a.nav-link{color: #f2ba0f;}
   header.sticky ul.navbar-nav>li{height: 50px;line-height: 50px;width: 100%;margin: 0;}
   header.active{z-index: 999;}
   header.active .navbar-toggler{z-index: 9999;position: absolute;right: 0;top: 26px;}
@@ -1546,6 +1548,7 @@ header.active .hamburger-inner::after {
   .copyright .container .row{margin: 0;}
   .car-top{width: 40px;right: 24px;}
   /* .copyrightLinks img{width: 28px;position: fixed;bottom: 10px;right: 10px;} */
+  .quoteModal h4{font-size: 28px;}
 }
 @media only screen and (max-width: 380px) {
   .headingShadow{font-size: 80px;}
