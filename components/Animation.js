@@ -530,7 +530,7 @@ const Animation = () => {
             ]
           }
         })
-    });
+    }, []);
     return (
         <div>
     <div className="lax whyRightImg" hidden><img src="img/whyText.svg" className="img-fluid" /></div>
