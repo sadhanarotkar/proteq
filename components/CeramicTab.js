@@ -1,10 +1,12 @@
 import Link from 'next/link';
-import React from 'react'
+import { useRouter } from 'next/router';
+import React, { useEffect, useRef, useState } from 'react'
 
  const CeramicTab = (props) => {
+
     return (
         <div>
-             <nav className="category-nav">            
+             <nav  className="category-nav">            
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
                 <div className="container mb-0">
                   <div className="row justify-content-center">

@@ -140,27 +140,35 @@ export default function Header() {
                       <div className='col-lg-8'>
                         <ul className='list-unstyled megaList'>
                           <li>
-                            <Link href='ceramic'>
+                            <Link href='/ceramic'>
                               <a><h4>Ceramic</h4></a>
+                              </Link>
+                            <Link href='/ceramic'>
+                              <a>Ceramic Sheild</a>
                             </Link>
-                            <Link href='ceramic'><a>Ceramic Sheild</a></Link>
-                            <Link href='leather-ceramic'><a>Leather Ceramic</a></Link>
-                            <Link href='plastic-ceramic'><a>Plastic Ceramic</a></Link>
-                            <Link href='glass-ceramic'><a>Glass Ceramic</a></Link>
+                            <Link href='/leather-ceramic'>
+                              <a>Leather Ceramic</a>
+                            </Link>
+                            <Link href='/plastic-ceramic'>
+                              <a>Plastic Ceramic</a>
+                            </Link>
+                            <Link href='glass-ceramic'>
+                              <a>Glass Ceramic</a>
+                            </Link>
                           </li>
                           <li>
-                            <Link href='paint-protection'>
+                            <Link href='/paint-protection'>
                               <a>
                                 <h4>Paint Protection Film</h4>
                               </a>
                             </Link>
-                            <Link href='paint-protection'><a>2.0 Series</a></Link>
-                            <Link href='paint-series3'><a>3.0 Series</a></Link>
-                            <Link href='paint-series5'><a>5.0 Series</a></Link>
-                            <Link href='paint-seriesm'><a>M Series</a></Link>
+                            <Link href='/paint-protection'><a>2.0 Series</a></Link>
+                            <Link href='/paint-series3'><a>3.0 Series</a></Link>
+                            <Link href='/paint-series5'><a>5.0 Series</a></Link>
+                            <Link href='/paint-seriesm'><a>M Series</a></Link>
                           </li>
                           <li>
-                          <Link href='microfiber-cloth'>
+                          <Link href='/microfiber-cloth'>
                             <a><h4>Microfiber Cloth</h4></a>
                           </Link>
                           </li>
@@ -174,7 +182,7 @@ export default function Header() {
                     router.pathname == '/about' ? 'nav-item active' : 'nav-item'
                   }
                 >
-                  <Link href='about'>
+                  <Link href='/about'>
                   <a className='nav-link'>
                     About Us
                   </a></Link>
@@ -186,7 +194,7 @@ export default function Header() {
                       : 'nav-item'
                   }
                 >
-                  <Link href='gallery'>
+                  <Link href='/gallery'>
                     <a className='nav-link'>Gallery</a>
                   </Link>
                 </li>
@@ -197,7 +205,7 @@ export default function Header() {
                       : 'nav-item'
                   }
                 >
-                  <Link href='testimonials' >
+                  <Link href='/testimonials' >
                     <a className='nav-link'>Testimonials</a>
                   </Link>
                 </li>
@@ -208,7 +216,7 @@ export default function Header() {
                       : 'nav-item'
                   }
                 >
-                  <Link href='contact'>
+                  <Link href='/contact'>
                     <a className='nav-link'>Contact</a>
                   </Link>
                 </li>
@@ -225,37 +233,47 @@ export default function Header() {
               <div className='overlayProductMenu'>
                 <ul className='list-unstyled megaList'>
                   <li>
-                    <Link href='ceramic'>
+                    <Link href='/ceramic'>
                       <a>
                         <h4>Ceramic</h4>
                       </a>
                     </Link>
-                    <Link href='ceramic'>
+                    <Link href='/ceramic'>
                       <a>Ceramic Sheild</a>
                       </Link>
-                    <Link href='leather-ceramic'>
+                    <Link href='/leather-ceramic'>
                       <a>Leather Ceramic</a>
                       </Link>
-                    <Link href='plastic-ceramic'>
+                    <Link href='/plastic-ceramic'>
                       <a>Plastic Ceramic</a>
                       </Link>
-                    <Link href='glass-ceramic'>
+                    <Link href='/glass-ceramic'>
                       <a>Glass Ceramic</a>
                       </Link>
                   </li>
                   <li>
-                    <a href='paint-protection'>
+                  <Link href='/paint-protection'>
+                    <a>
                       <h4>Paint Protection Film</h4>
                     </a>
-                    <a href='paint-protection'>2.0 Series</a>
-                    <a href='paint-series3'>3.0 Series</a>
-                    <a href='paint-series5'>5.0 Series</a>
-                    <a href='paint-seriesm'>M Series</a>
+                  </Link>
+                  <Link href='/paint-protection'>
+                    <a>2.0 Series</a>
+                  </Link>
+                  <Link href='/paint-series3'>
+                    <a>3.0 Series</a>
+                  </Link>
+                  <Link href='/paint-series5'>
+                    <a >5.0 Series</a>
+                  </Link>
+                  <Link href='/paint-seriesm'>
+                    <a>M Series</a>
+                  </Link>
                   </li>
                   <li>
-                    <a href='microfiber-cloth'>
+                    <Link href='/microfiber-cloth'>
                       <h4>Microfiber Cloth</h4>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

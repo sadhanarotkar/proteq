@@ -141,7 +141,7 @@ const Gallery=()=> {
                       </div>                     
                     </div>              
                     <div className="text-center my-5">
-                      <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                     </div>
                   </div>
                   <div className="loadmore load2">
@@ -234,7 +234,7 @@ const Gallery=()=> {
                       </div>                     
                     </div>              
                     <div className="text-center my-5">
-                      <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                     </div>
                   </div>
                   <div className="loadmore load3">
@@ -327,7 +327,7 @@ const Gallery=()=> {
                       </div>                     
                     </div> 
                     <div className="text-center my-5">
-                      <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                     </div>
                   </div>
                   <div className="loadmore load4">
@@ -420,7 +420,7 @@ const Gallery=()=> {
                       </div>                     
                     </div> 
                     <div className="text-center my-5">
-                      <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                     </div>
                   </div>
                   <div className="loadmore load5">
@@ -513,7 +513,7 @@ const Gallery=()=> {
                       </div>                     
                     </div> 
                     <div className="text-center my-5">
-                      <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                     </div>
                   </div>
                   <div className="loadmore load6">
@@ -606,7 +606,7 @@ const Gallery=()=> {
                       </div>                     
                     </div> 
                     <div className="text-center my-5">
-                      <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                     </div>
                   </div>
                   <div className="loadmore load7">
@@ -699,7 +699,7 @@ const Gallery=()=> {
                       </div>                     
                     </div> 
                     <div className="text-center my-5">
-                      <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                     </div>
                   </div>
                   <div className="loadmore load8">
@@ -901,7 +901,7 @@ const Gallery=()=> {
                   </div>                     
                 </div>              
                 {/* <div className="text-center my-5">
-                  <button type="button" className="btn hvr-fade btn-load">Load More</button>
+                  <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                 </div>  */}
               </div>
             </div>

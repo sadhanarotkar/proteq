@@ -1,7 +1,20 @@
 import { useRouter } from "next/router";
+import { useEffect, useRef, useState } from "react";
 
-export default function CeramicBanner() {
-  const router = useRouter();
+const CeramicBanner=()=> {
+    const router = useRouter();
+    const scrollDiv = useRef(null);
+
+    const[is_tab,setIstab]=useState(false);
+
+   useEffect(()=>{
+    setIstab(router.query.value);
+     console.log(router.query.value);
+    if(is_tab){
+    scrollDiv.current.scrollIntoView({ behavior: 'smooth' });
+     }
+
+  });
   return (
     <section className="productBanner ceramicBanner">
       <div className="container">
@@ -17,7 +30,9 @@ export default function CeramicBanner() {
           </div>
         </div>
       </div>
-      <div className="tabSpace" id="tab"></div>
+      <div ref={scrollDiv} className="tabSpace" id="tab"></div>
     </section>
   )
 }
+
+export default CeramicBanner;
