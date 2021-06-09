@@ -12,6 +12,8 @@ import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
+import CeramicBanner from './components/ceramic-banner'
+import RelatedProducts from '../components/RelatedProducts'
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -21,20 +23,6 @@ const OwlCarousel = dynamic(
 );
 
 const LeatherCeramic = ()=>{
-  
-    const[is_tab,setIstab]=useState(false);
-  
-    const router = useRouter();
-    useEffect(()=>{
-      setIstab(router.query.value);
-       console.log(router.query.value);
-      if(is_tab){
-      window.scroll(600,600);
-       }
-  
-    });
-
-
     const pause=(e)=>{
       console.log(e);
       
@@ -54,22 +42,7 @@ const LeatherCeramic = ()=>{
       </Head>
       <Header />
         <div className="productWrapper">
-          <section className="productBanner ceramicBanner">
-            <div className="container">
-              <div className="row justify-content-center align-items-center">
-                <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                  <h2 className="heading mb-md-4">Ceramic</h2>
-                  <p>Flexible Ceramic Coating for Genuine & Synthetic Leather Surfaces. High Durability & Hydrophobicity. Renew Faded Leather Surfaces. Most Advanced Protection for Your Interior! Proteq's Ceramic Leather & Coating Is a Clear, Semi-Permanent Ceramic Nano-Coating That Protects Your Vehicle from Wear and Tear, Colour Fading, Stains & Spills, and Uv Rays While Repelling Water, Dirt and Other Contaminants.</p>
-                </div>
-                <div className="col-xl-5 col-lg-5 col-md-6 col-sm-10">
-                  <img src="img/homeProduct3.png" className="img-fluid mt-md-5 ceramicBannerImg" />
-                  <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
-                  <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>                  
-                </div>
-              </div>
-            </div>
-            <div className="tabSpace" id="tab"></div>
-          </section>
+          <CeramicBanner/>
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
             <CeramicTab leather='active'/> 
@@ -223,50 +196,7 @@ const LeatherCeramic = ()=>{
               </div>
             </div>
           </section>        
-          <section className="secRelatedProducts">
-            <div className="container">
-              <div className="row justify-content-center align-items-center">
-                <div className="col-xl-10 col-lg-10 col-md-12">
-                  <h1 className="heading text-center mb-5">Related Products</h1>
-                  <div className="owl-carousel owl-theme relatedProduc-carousel">
-                    <div className='item'>
-                      <Link href='ceramic'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <img src="img/homeProduct3.png" />
-                          </div>
-                          <h5 className="heading">ceramic Shield</h5>
-                          <p>Who wouldn't want their car to look as good and brand new as it did the day they got it. You thoroughly wash it frequently and apply a brand new coat of wax every few months.</p>
-                        </a>
-                      </Link>
-                    </div>
-                    <div className='item'>
-                      <Link href='plastic-ceramic'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <img src="img/Plastic-ceramic.png" />
-                          </div>
-                          <h5 className="heading">Plastic ceramic</h5>
-                          <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics.</p>
-                        </a>
-                      </Link>
-                    </div>
-                    <div className='item'>
-                      <Link href='glass-ceramic'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <img src="img/glass-ceramic.png" />
-                          </div>
-                          <h5 className="heading">glass ceramic</h5>
-                          <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather.</p>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <RelatedProducts ceramic={true} glass={true} plastic={true} />        
           <ProductTestimonial />
           <section className="secHomeContact">
             <div className="homeContactLeft">

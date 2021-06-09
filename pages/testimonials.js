@@ -21,18 +21,24 @@ export default function Testimonials() {
       <section className="testimonialWrapper">
         <ul className="scrollingImg list-unstyled">
           <li>
-            <img src="img/user1.png" />
-            <img src="img/user11.png" />
-            <img src="img/user3.png" />
-            <img src="img/user4.png" />
-            <img src="img/user5.png" />
-            <img src="img/user6.png" />
-            <img src="img/user7.png" />
-            <img src="img/user8.png" />
-            <img src="img/user9.png" />
-            <img src="img/user10.png" />
-            <img src="img/user2.png" />
-            <img src="img/user5.png" />
+            <div className="imgsWrapper">
+              <div className="topImgs">
+                <img src="img/user1.png" />
+                <img src="img/user11.png" />
+                <img src="img/user3.png" />
+                <img src="img/user4.png" />
+                <img src="img/user5.png" />
+                <img src="img/user6.png" />
+              </div>
+              <div className="bottomImgs">
+                <img src="img/user7.png" />
+                <img src="img/user8.png" />
+                <img src="img/user9.png" />
+                <img src="img/user10.png" />
+                <img src="img/user2.png" />
+                <img src="img/user5.png" />
+              </div>
+            </div>
           </li>
         </ul>
         <div className="secTestimonial">
