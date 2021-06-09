@@ -83,7 +83,18 @@ const Animation = () => {
               autoplay:true,
               animateOut: 'fadeOut',
               navText: ["<img src='img/banner-arrow.svg' /> Previous","Next <img src='img/banner-arrow.svg' />"],
-              items:1
+              items:1,
+              responsive : {
+                0 : {
+                  animateOut: '',
+                },
+                380 : {
+                  animateOut: '',
+                },
+                575 : {
+                  animateOut: '',
+                },
+              }
             });
           
             $('.count-carousel').owlCarousel({
@@ -129,15 +140,21 @@ const Animation = () => {
               responsive : {      
                 0 : {
                   items:1,
-                  nav:true
+                  nav:true,
+                  loop:true,
+                  center:true
                 },
                 380 : {
                   items:1,
-                  nav:true
+                  nav:true,
+                  loop:true,
+                  center:true
                 },
                 575 : {
                   items:2,
-                  nav:true
+                  nav:true,
+                  loop:true,
+                  center:true
                 },
                 768 : {
                   items:4

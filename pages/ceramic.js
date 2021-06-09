@@ -12,8 +12,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
-import { useEffect, useState } from 'react'
+import { useEffect, useState,useRef } from 'react'
 import { useRouter } from 'next/router'
+import RelatedProducts from '../components/RelatedProducts'
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -24,30 +25,6 @@ const OwlCarousel = dynamic(
 
  const Ceramic = ()=>{
   
-  const[is_tab,setIstab]=useState(false);
-
-  const router = useRouter();
-  useEffect(()=>{
-    setIstab(router.query.value);
-     console.log(router.query.value);
-    if(is_tab){
-    window.scroll(600,600);
-     }
-
-  });
-
-  const pause=(e)=>{
-    console.log(e);
-    
-    var myVideo = document.getElementById(e);
-    myVideo.pause();
-    
-  };
-  const play =(e)=>{
-    var myVideo = document.getElementById(e);
-    myVideo.play();
-  };
-
   return (
     <main className="content">
       <Head>
@@ -55,12 +32,12 @@ const OwlCarousel = dynamic(
         <link rel="icon" href="img/favicon.ico" />
       </Head>
       <Header />
-        <div className="productWrapper">
-          <CeramicBanner />
-          <section className="secCategory">
+        <div  className="productWrapper">
+          <CeramicBanner/>
+          <section  className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
-            <CeramicTab shield='active'/>       
-            <div className="tab-content" id="nav-tabContent">
+            <CeramicTab  shield='active'/> 
+            <div  className="tab-content" id="nav-tabContent">
               <div className="tab-pane fade show active" id="nav-series2" role="tabpanel" aria-labelledby="nav-series2-tab">                
                 <div className="container-fluid">
                   <img src="img/ceramicText.svg" className="img-fluid my-md-5 productTextImg" />     
@@ -151,51 +128,8 @@ const OwlCarousel = dynamic(
             </div>
           </section>
           <CeramicGallery />          
-          <ProductFaq />        
-          <section className="secRelatedProducts">
-            <div className="container">
-              <div className="row justify-content-center align-items-center">
-                <div className="col-xl-10 col-lg-10 col-md-12">
-                  <h1 className="heading text-center mb-5">Related Products</h1>
-                  <div className="owl-carousel owl-theme relatedProduc-carousel">
-                    <div className='item'>
-                      <Link href='leather-ceramic'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <img src="img/leather-ceramic.png" />
-                          </div>
-                          <h5 className="heading">leather ceramic</h5>
-                          <p>Infused with Patent-Pending Ceramic Glow Technology, with Features That Act as an Application Aid Allowing Users or Professionals</p>
-                        </a>
-                      </Link>
-                    </div>
-                    <div className='item'>
-                      <Link href='plastic-ceramic'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <img src="img/Plastic-ceramic.png" />
-                          </div>
-                          <h5 className="heading">Plastic ceramic</h5>
-                          <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics.</p>
-                        </a>
-                      </Link>
-                    </div>
-                    <div className='item'>
-                      <Link href='glass-ceramic'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <img src="img/glass-ceramic.png" />
-                          </div>
-                          <h5 className="heading">glass ceramic</h5>
-                          <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather.</p>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <ProductFaq />
+          <RelatedProducts glass={true} plastic={true} leather={true} />        
           <ProductTestimonial />
           <section className="secHomeContact">
             <div className="homeContactLeft">

@@ -1525,6 +1525,10 @@ header.active .hamburger-inner::after {
   .ceramicBanner .ball-big{left: -50px;width: 175px;}
   .ceramicBanner .ball-big img{width: 100%;}
   .ceramicProductBall2{top: 25%;}
+
+  .banner-carousel.owl-carousel .owl-item.active h1,
+  .banner-carousel.owl-carousel .owl-item.active h2,
+  .banner-carousel.owl-carousel .owl-item.active p {animation-delay:0s}
 }
 
 @media only screen and (max-width: 480px) {

@@ -14,10 +14,10 @@ export default function Header(props) {
       <div className="footerTop">        
         <div className="container-fluid">
           <div className="footerLinks">
-              <Link href='about'><a>About Proteq</a></Link>
-              <Link href='gallery'><a>Gallery</a></Link>
-              <Link href='testimonials' ><a>Testimonials</a></Link>
-              <Link href='contact'><a>Contact</a></Link>
+              <Link href='/about'><a>About Proteq</a></Link>
+              <Link href='/gallery'><a>Gallery</a></Link>
+              <Link href='/testimonials' ><a>Testimonials</a></Link>
+              <Link href='/contact'><a>Contact</a></Link>
           </div>          
           <div className="footerInfo">
             <p><span>Address:</span> L-102, Prime Mall Irla, Vile Parle (W), Mumbai - 400 056</p>
@@ -53,8 +53,8 @@ export default function Header(props) {
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-md-right text-center">
               <div className="copyrightLinks">
-                <a href="terms">Terms & Conditions</a>
-                <a href="privacy-policy">Privacy Policy</a>
+                <Link href='/terms'><a>Terms & Conditions</a></Link>
+                <Link href='/privacy-policy'><a>Privacy Policy</a></Link>
                 <Link href="/"><img src="img/whatsapp.svg" className="img-fluid" /></Link>
               </div>
             </div>

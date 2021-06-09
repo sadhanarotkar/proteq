@@ -14,6 +14,7 @@ import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
+import PaintRelatedProducts from '../components/PaintRelatedProducts'
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -23,18 +24,6 @@ const OwlCarousel = dynamic(
 );
 
 const PaintSeries3 = ()=>{
-  
-  const[is_tab,setIstab]=useState(false);
-
-  const router = useRouter();
-  useEffect(()=>{
-    setIstab(router.query.value);
-      console.log(router.query.value);
-    if(is_tab){
-    window.scroll(600,600);
-      }
-
-  });
 
   const pause=(e)=>{
     console.log(e);
@@ -161,57 +150,8 @@ const PaintSeries3 = ()=>{
             </div>
           </section>
           <PaintGallery />
-          <ProductFaq />
-          <section className="secRelatedProducts">
-            <div className="container">
-              <div className="row justify-content-center align-items-center">
-                <div className="col-xl-10 col-lg-10 col-md-12">
-                  <h1 className="heading text-center mb-5">Related Products</h1>
-                  <div className="owl-carousel owl-theme relatedProduc-carousel">
-                    <div className='item'>
-                      <Link href='paint-protection'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <div style={{transform: 'rotate(5deg)'}}>
-                              <img src="img/Vertical-S2.png" />
-                            </div>
-                          </div>
-                          <h5 className="heading">2.0 Series</h5>
-                          <p>The 2.0 Paint Protection Film series comes in a Polyurethane Material with 0.17mm ± 0.02mm thickness.</p>
-                        </a>
-                      </Link>
-                    </div>
-                    <div className='item'>
-                      <Link href='paint-series5'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <div style={{transform: 'rotate(5deg)'}}>
-                              <img src="img/Vertical-S5.png" />
-                            </div>
-                          </div>
-                          <h5 className="heading">5.0 Series</h5>
-                          <p>The 5.0 Paint Protection Film series comes in a Thermoplastic Polyurethane with 0.2mm ± 0.02mm thickness.</p>
-                        </a>
-                      </Link>
-                    </div>
-                    <div className='item'>
-                      <Link href='paint-seriesm'>
-                        <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <div style={{transform: 'rotate(5deg)'}}>
-                              <img src="img/Vertical-P70.png" />
-                            </div>
-                          </div>
-                          <h5 className="heading">M Series</h5>
-                          <p>The M Paint Protection Film series comes in Polyurethane material with 0.15mm ± 0.02mm thickness. </p>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <ProductFaq />          
+          <PaintRelatedProducts series2={true} series5={true} seriesm={true} />
           <ProductTestimonial />
           <section className="secHomeContact">
             <div className="homeContactLeft">

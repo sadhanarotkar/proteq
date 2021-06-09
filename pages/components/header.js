@@ -233,7 +233,7 @@ export default function Header() {
               <div className='overlayProductMenu'>
                 <ul className='list-unstyled megaList'>
                   <li>
-                    <Link href='ceramic'>
+                    <Link href='/ceramic'>
                       <a>
                         <h4>Ceramic</h4>
                       </a>
