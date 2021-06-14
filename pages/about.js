@@ -97,7 +97,7 @@ export default function About() {
               </div>
             </div>
           </section>
-          <section className="secMission">
+          <section className="secMission pb-0">
             <div className="container-fluid headingText">
               <div className="row justify-content-end">
                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">
@@ -115,6 +115,30 @@ export default function About() {
                   <h2 className="heading mb-md-4">Our Mission</h2>
                   <p>Proteq commits to be dedicated to providing premium and exceptional products in an affordable range by epitomizing safety and efficiency. We are constantly innovating to make graphics more exciting, noticeable and easy to install. We work hard to keep your car on the road. Because we go the extra mile, you get a lot more of them from your car. Count on Proteq Autocare for complete car care. From top to bottom. </p>
                   <p>Our number one mission is complete customer satisfaction. Every day, with every customer, we focus on providing high-quality auto care services coupled with top-notch care.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="secVision pb-5">
+            <div className="container-fluid headingText">
+              <div className="row">
+                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 px-md-5">
+                  <img src="img/ourvisionText.svg" className="img-fluid visionText" />
+                </div>
+              </div>
+            </div>
+            <div className="container-fluid">
+              <div className="lax missionLeftImg">
+                <img src="img/contactFormLeft.svg" className="img-fluid" />
+              </div>
+              <div className="row justify-content-end align-items-center">
+                <div className="col-xl-4 col-lg-5 col-md-5 col-sm-12">
+                  <h2 className="heading mb-md-4">Press Release</h2>
+                  <p>Proteq auto care was established in 2016 by young car euthanistic entrepreneurs with the intention of authoring India’s most effective, efficient and excellent quality paint  rotection film (PPF) and detailing services with utmost determination and commitment. </p>
+                  <p>The young minds and risk takers Mr. Nikit Zaveri, Mr. Saumin Sanghavi and Mr. Chirag Shah began their journey by starting a business venture in collaboration with a renowned and experienced company. They worked their vision from ground level, learned the procedures, gained experience and witnessed the beginning and rising of Paint Protection Film. </p>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 pr-md-0 pl-md-5">
+                  <img src="img/press-release.png" className="img-fluid" data-aos="fade-left" data-aos-duration="1000" />                  
                 </div>
               </div>
             </div>
@@ -161,9 +185,9 @@ export default function About() {
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-9 col-md-12" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
-                  <h2 className="heading">get in touch with us</h2>
-                  <p className="mb-0">The Best Car Service Awaits You!</p>
-                  <p className="mt-0">We're never going to leave you hanging there. For any detail or information regarding your tyre or auto service repair.</p>
+                  <h2 className="heading">GET IN TOUCH WITH US</h2>
+                  <p className="mt-0 mb-3">The Best Car Service Awaits You!</p>
+                  <p className="mt-0">Proteq Works On Excellency To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
                   <Link href="/contact"><button className="btn hvr-sweep-to-right mb-4">Contact Us</button></Link>                  
                 </div>
               </div>              

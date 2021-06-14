@@ -41,6 +41,7 @@ const Gallery=()=> {
               <div className="nav nav-tabs gallery-tabs justify-content-center" id="nav-tab" role="tablist">
                 <a className="nav-item nav-link active" id="nav-images-tab" data-toggle="tab" href="#nav-images" role="tab" aria-controls="nav-images" aria-selected="true">Images</a>
                 <a className="nav-item nav-link" id="nav-videos-tab" data-toggle="tab" href="#nav-videos" role="tab" aria-controls="nav-videos" aria-selected="false">Videos</a>
+                <a className="nav-item nav-link" id="nav-training-tab" data-toggle="tab" href="#nav-training" role="tab" aria-controls="nav-training" aria-selected="false">Training Program</a>
               </div>
             </nav>
             <div className="tab-content" id="nav-tabContent">
@@ -795,7 +796,7 @@ const Gallery=()=> {
                 </div>
               </div>
               <div className="tab-pane fade" id="nav-videos" role="tabpanel" aria-labelledby="nav-videos-tab">
-              <div className="row justify-content-center text-center mb-md-5">
+                <div className="row justify-content-center text-center mb-md-5">
                   <div className="col-xl-8 col-lg-8 col-md-12">
                     <p>Check out all of our amazing products and services. <br></br>You can also go through videos of our customers car servicing and blush!</p>
                   </div>
@@ -903,6 +904,294 @@ const Gallery=()=> {
                 {/* <div className="text-center my-5">
                   <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                 </div>  */}
+              </div>
+              <div className="tab-pane fade" id="nav-training" role="tabpanel" aria-labelledby="nav-training-tab">
+              <div className="row justify-content-center text-center mb-md-5">
+                  <div className="col-xl-8 col-lg-8 col-md-12">
+                    <p>Check out all of our amazing products and services. <br></br> You can also go through videos of our customers car servicing and blush!</p>
+                  </div>
+                </div>  
+                <div id="lightgallery">
+                  <div className="loadmore load1">
+                    <div className="row justify-content-center lightgallery">
+                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img1.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img1.jpeg" alt="Thumb-1" />
+                                </a>
+                            </div>
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img2.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img2.jpeg" alt="Thumb-2"/>
+                                </a>
+                            </div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img4.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img4.jpg" alt="Thumb-3"/>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img3.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img3.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img5.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img5.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img6.jpeg">
+                            <a href="">
+                                <img className="img-fluid verticalImg" src="img/galleryImgs/img6.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div className="row justify-content-center lightgallery">
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img7.jpeg">
+                            <a href="">
+                                <img className="img-fluid verticalImg" src="img/galleryImgs/img7.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div> 
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img8.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img8.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img9.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img9.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img10.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img10.jpeg" alt="Thumb-1" />
+                                </a>
+                            </div>
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img11.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img11.jpeg" alt="Thumb-2"/>
+                                </a>
+                            </div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img12.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img12.jpg" alt="Thumb-3"/>
+                                </a>
+                            </div>
+                        </div>
+                      </div>                     
+                    </div>              
+                    <div className="text-center my-5">
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
+                    </div>
+                  </div>
+                  <div className="loadmore load2">
+                    <div className="row justify-content-center lightgallery">
+                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img13.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img1.jpeg" alt="Thumb-13" />
+                                </a>
+                            </div>
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img14.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img14.jpeg" alt="Thumb-2"/>
+                                </a>
+                            </div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img15.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img15.jpg" alt="Thumb-3"/>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img16.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img16.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img17.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img17.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img18.jpeg">
+                            <a href="">
+                                <img className="img-fluid verticalImg" src="img/galleryImgs/img18.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div className="row justify-content-center lightgallery">
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img19.jpeg">
+                            <a href="">
+                                <img className="img-fluid verticalImg" src="img/galleryImgs/img19.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div> 
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img20.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img20.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img21.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img21.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img22.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img22.jpeg" alt="Thumb-1" />
+                                </a>
+                            </div>
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img23.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img23.jpeg" alt="Thumb-2"/>
+                                </a>
+                            </div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img24.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img24.jpg" alt="Thumb-3"/>
+                                </a>
+                            </div>
+                        </div>
+                      </div>                     
+                    </div>              
+                    <div className="text-center my-5">
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
+                    </div>
+                  </div>
+                  <div className="loadmore load3">
+                    <div className="row justify-content-center lightgallery">
+                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img25.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img25.jpeg" alt="Thumb-1" />
+                                </a>
+                            </div>
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img26.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img26.jpeg" alt="Thumb-2"/>
+                                </a>
+                            </div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img27.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img27.jpg" alt="Thumb-3"/>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img28.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img28.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img29.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img29.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img30.jpeg">
+                            <a href="">
+                                <img className="img-fluid verticalImg" src="img/galleryImgs/img30.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div className="row justify-content-center lightgallery">
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img31.jpeg">
+                            <a href="">
+                                <img className="img-fluid verticalImg" src="img/galleryImgs/img31.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div> 
+                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                        <div className="row">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img32.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img32.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img33.jpeg">
+                            <a href="">
+                                <img className="img-fluid" src="img/galleryImgs/img33.jpeg" alt="Thumb-4"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img34.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img34.jpeg" alt="Thumb-1" />
+                                </a>
+                            </div>
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img35.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img35.jpeg" alt="Thumb-2"/>
+                                </a>
+                            </div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img36.jpeg">
+                                <a href="">
+                                    <img className="img-fluid" src="img/galleryImgs/img36.jpg" alt="Thumb-3"/>
+                                </a>
+                            </div>
+                        </div>
+                      </div>                     
+                    </div> 
+                    <div className="text-center my-5">
+                      <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>      

@@ -99,8 +99,19 @@ $(document).ready(function () {
     mouseDrag:false,
     autoplay:false,
     animateOut: 'fadeOut',
-    navText: ["<img src='img/banner-arrow.svg' /> Previous","Next <img src='img/banner-arrow.svg' />"],
-    items:1
+    navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+    items:1,
+    responsive : {
+      0 : {
+        animateOut: '',
+      },
+      380 : {
+        animateOut: '',
+      },
+      575 : {
+        animateOut: '',
+      },
+    }
   });
 
   $('.count-carousel').owlCarousel({
@@ -146,15 +157,21 @@ $(document).ready(function () {
     responsive : {      
       0 : {
         items:1,
-        nav:true
+        nav:true,
+        loop:true,
+        center:true
       },
       380 : {
         items:1,
-        nav:true
+        nav:true,
+        loop:true,
+        center:true
       },
       575 : {
         items:2,
-        nav:true
+        nav:true,
+        loop:true,
+        center:true
       },
       768 : {
         items:4
@@ -372,7 +389,7 @@ window.onload = function () {
     scrollY: {
       translateY: [
         ["elInY", "elCenterY", "elOutY"],
-        [200, 0, -600],
+        [200, 0, -400],
       ]
     }
   })   
@@ -381,7 +398,7 @@ window.onload = function () {
     scrollY: {
       translateY: [
         ["elInY", "elCenterY", "elOutY"],
-        [0, 0, 400],
+        [0, 0, 300],
       ]
     }
   })  
@@ -437,7 +454,7 @@ window.onload = function () {
     scrollY: {
       translateY: [
         ["elInY", "elCenterY", "elOutY"],
-        [-200, 0, 200],
+        [-100, 0, 0],
       ]
     }
   })
@@ -532,7 +549,7 @@ window.onload = function () {
     scrollY: {
       translateY: [
         ["elInY", "elCenterY", "elOutY"],
-        [-300, 80, 0],
+        [-100, 80, 0],
       ]
     }
   })

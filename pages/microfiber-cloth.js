@@ -1,11 +1,7 @@
 import Head from 'next/head'
-import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
-import ProductGallery from './components/product-gallery'
-import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
-import Link from 'next/link'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
@@ -47,7 +43,7 @@ const MicrofiberCloth = ()=>{
                   <p>Proteq Microfibre Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-10 text-center">
-                  <img src="img/homeProduct1.png" className="img-fluid" />                  
+                  <img src="img/microfiberBannerImg.png" className="img-fluid" />                  
                 </div>
               </div>
             </div>
@@ -58,7 +54,7 @@ const MicrofiberCloth = ()=>{
               <div className="row justify-content-center align-items-center">
                 <img src="img/ceramicProduct-bg.png" className="ceramicProductImg microProductImg" />
                 <div className="col-xl-4 col-lg-5 col-md-5 col-sm-9">
-                  <img src="img/homeProduct3.png" className="img-fluid productImg" />
+                  <img src="img/microfiber.png" className="img-fluid productImg" />
                   <div className="lax ceramicProductBall1"><img src="img/aboutIcon3.png" className="img-fluid" /></div>  
                   <div className="lax ceramicProductBall2"><img src="img/aboutIcon2.png" className="img-fluid" /></div>  
                   <div className="lax ceramicProductBall3"><img src="img/aboutIcon1.png" className="img-fluid" /></div>  
@@ -66,30 +62,9 @@ const MicrofiberCloth = ()=>{
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                   <h2 className="heading mb-md-4">Microfiber cloth</h2>  
                   <p>The Microfibre cloth is highly effective due to the revolutionary material blend, inspired by fish scales. It can be used either dry or damp. Dry: Using it dry is perfect for dusting, drying and wiping over surfaces. Damp: To use it damp, first wet and then wring any excess water. This method is suitable for cleaning and polishing a range of surfaces. The inside shield is Non-scratching, Lint-free, Quickly removes dust and Retains many times its weight of water. Proteq Microfibre Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>  
-                  <button className="btn hvr-fade mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
                 </div>
               </div>  
             </div> 
-            <div className="secproductVideo">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
-                    <h2 className="heading">Video</h2>
-                  </div>
-                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
-                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
-                  </div>
-                </div>
-                <div className="row justify-content-center productVideoWrapper">
-                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
-                    <div className="productVideo">
-                      <img src="img/video10.png" className="img-fluid" />
-                      <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </section>
           <section className="secBenefit">
             <div className="secBenefitInner">
@@ -126,8 +101,8 @@ const MicrofiberCloth = ()=>{
                       </div>
                     </OwlCarousel>
                   </div>
-                  <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 text-center">
-                    <img src="img/CS.png" className="img-fluid" />                    
+                  <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 text-center px-5">
+                    <img src="img/microfiber-Towel.png" className="img-fluid" />                    
                     <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
                     <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>  
                   </div>
@@ -135,7 +110,6 @@ const MicrofiberCloth = ()=>{
               </div>
             </div>
           </section>
-          <ProductGallery />
           <section className="secFaq">
             <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
             <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
@@ -208,7 +182,7 @@ const MicrofiberCloth = ()=>{
                 <div className="col-xl-5 col-lg-5 col-md-5">
                   <div className="homeForm">
                     <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
-                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <p className="mb-4">Proteq Works On Excellency To Deliver Credibility!</p>
                     <ContactUS/>
                   </div>
                 </div>

@@ -1,19 +1,13 @@
 import Head from 'next/head'
-import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
-import CeramicGallery from './components/ceramic-gallery'
-import ProductTestimonial from './components/product-testimonial'
 import CeramicTab from '../components/CeramicTab'
-import Link from 'next/link'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
 import CeramicBanner from './components/ceramic-banner'
-import RelatedProducts from '../components/RelatedProducts'
+import CeramicRelatedProduct from '../components/CeramicRelatedProduct'
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -41,8 +35,8 @@ const LeatherCeramic = ()=>{
         <link rel="icon" href="img/favicon.ico" />
       </Head>
       <Header />
-        <div className="productWrapper">
-          <CeramicBanner/>
+        <div className="productWrapper">        
+          <CeramicBanner leather={true}/>
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
             <CeramicTab leather='active'/> 
@@ -60,32 +54,11 @@ const LeatherCeramic = ()=>{
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                       <h2 className="heading mb-md-4">leather ceramic</h2>  
-                      <p>Infused with Patent-Pending Ceramic Glow Technology, with Features That Act as an Application Aid Allowing Users or Professionals the Ability to Never Miss a Spot and Make Sure the Coating Is Perfect Every Time You Apply It! Specifically Formulated for Natural, Sealed, and Synthetic Leathers and Vinyl Surfaces Including Your Dash, Door Panels, and Other Hard Interior Surfaces. Not Suitable for Aniline Leathers or for Use Over the Top of Adam’s Leather Conditioner.</p>  
-                      <p>Extremely Hydrophobic! Proteq's New Interior Ceramic Coating Is a Super Durable Barrier to Protect Your Seats or Hard Interior Surfaces from Dirt, Liquids, Fading, and Other Contaminants, with Outstanding Water Beading That Makes Water Almost Jump Off the Surface! This Nano-Coating Prevents Stains and Makes Cleaning Your Interior Surfaces Easier and More Efficient. 110% Satisfaction Guarantee!</p>
-                      <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
+                      <p>Proteq’s Leather Ceramic Shield is the most durable leather protectant. It forms a flexible shell of protection on top of the surface that prevents the leather’s natural oils from emerging in the first place, ensuring the leather retains its soft, tactile feel. The Ceramic Leather will not cause the leather to discolour or fade. </p>
+                      <p>Extremely Hydrophobic! Proteq's Leather Ceramic creates a Super Durable Barrier to Protect Your Seats or any Leather Surfaces from Dirt, Liquids, Fading, and Other Contaminants, with Outstanding Water Beading Feature That Makes Water Almost Jump Off the Surface! This Nano-Coating Prevents Stains and Makes Cleaning Your Interior Surfaces Easier and More Efficient. </p>                      
                     </div>
                   </div>
                 </div> 
-              </div>
-            </div>
-            <div className="secproductVideo">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
-                    <h2 className="heading">Video</h2>
-                  </div>
-                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
-                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
-                  </div>
-                </div>
-                <div className="row justify-content-center productVideoWrapper">
-                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
-                    <div className="productVideo">
-                      <img src="img/video1.png" className="img-fluid" />
-                      <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
@@ -106,14 +79,8 @@ const LeatherCeramic = ()=>{
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Permanent Adhesion</h4>
-                          <p>Forms a permanent adhesion to the surface, which means no reapplication is required (subject to general wear and tear).</p>
-                        </div>
-                      </div>
-                      <div className='item'>
-                        <div className="testimonialContent">
                           <h4 className="heading">Chemical Resistant</h4>
-                          <p>Resistant to harmful chemicals that would otherwise remove other protective products on the market.</p>
+                          <p>Resistant to harmful chemicals that would otherwise damage your leather furniture or car seats.</p>
                         </div>
                       </div>
                       <div className='item'>
@@ -128,6 +95,12 @@ const LeatherCeramic = ()=>{
                           <p>Incorporate UV stabilisers to ensure your paintwork is always protected from harmful UV rays which may cause fading or discolouration over time.</p>
                         </div>
                       </div>
+                      <div className='item'>
+                        <div className="testimonialContent">
+                          <h4 className="heading">Easy To Clean</h4>
+                          <p>The leather shield creates a hydrophobic surface, which means, liquids will bead up on the surface and can be easily wiped away.</p>
+                        </div>
+                      </div>
                     </OwlCarousel>
                   </div>
                   <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 text-center">
@@ -139,7 +112,6 @@ const LeatherCeramic = ()=>{
               </div>
             </div>
           </section>
-          <CeramicGallery />          
           <section className="secFaq">
             <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
             <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
@@ -164,7 +136,7 @@ const LeatherCeramic = ()=>{
                       </div>
                       <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Ceramic Pro is also offered for suede, plastic, rubber and textile. This revolutionary product works for old and new vehicles.</p>
+                          <p>Leather ceramic is also offered for suede, plastic, and textile. This revolutionary product works for old and new vehicles.</p>
                         </div>
                       </div>
                     </div>
@@ -174,7 +146,7 @@ const LeatherCeramic = ()=>{
                       </div>
                       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Most of the time, we suggest some paint correction. This process is basically removing all the scratches and blemishes before we lock in the perfect look with the Ceramic Pro coating.</p>
+                          <p>Most of the time, we suggest some interior cleaning & leather conditioning before application. This process is basically removing all the scratches and blemishes before we lock in the perfect look with the leather ceramic coating.</p>
                         </div>
                       </div>
                     </div>
@@ -184,7 +156,7 @@ const LeatherCeramic = ()=>{
                       </div>
                       <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div className="card-body">
-                          <p>The CP Leather coating also features a super hydrophobic effect which enables any liquid spills to simply bead up on the surface and be easily wiped off without affecting the leather.</p>
+                          <p>The leather ceramic coating also features a super hydrophobic effect which enables any liquid spills to simply bead up on the surface and be easily wiped off without affecting the leather.</p>
                         </div>
                       </div>
                     </div>
@@ -196,8 +168,7 @@ const LeatherCeramic = ()=>{
               </div>
             </div>
           </section>        
-          <RelatedProducts ceramic={true} glass={true} plastic={true} />        
-          <ProductTestimonial />
+          <CeramicRelatedProduct ceramic={true} glass={true} plastic={true} />        
           <section className="secHomeContact">
             <div className="homeContactLeft">
               <img src="img/contact-leftImg.png" className="img-fluid" />
@@ -213,7 +184,7 @@ const LeatherCeramic = ()=>{
                 <div className="col-xl-5 col-lg-5 col-md-5">
                   <div className="homeForm">
                     <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
-                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <p className="mb-4">Proteq Works On Excellency To Deliver Credibility!</p>
                     <ContactUS/>
                   </div>
                 </div>

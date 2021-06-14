@@ -95,7 +95,7 @@ const router = useRouter()
                     <Link href='microfiber-cloth'><a className="btn hvr-sweep-to-right">Read More</a></Link>
                   </div>
                   <div className="col-lg-5 col-md-6 contentCenter align-self-end px-5">                      
-                    <img src="img/slide3-product.png" className="img-fluid" />                    
+                    <img src="img/microfiber.png" className="img-fluid" />                    
                   </div>
                   <div className="col-lg-3 col-md-3 contentRight align-self-end">  
                     <h2>Cloth</h2>                   
@@ -170,7 +170,7 @@ const router = useRouter()
                   <img src="img/Vertical-S2.png" className="img-fluid" style={{transform: 'rotate(5deg)'}} />
                 </div>
                 <div className="lax productImg2">
-                  <img src="img/Vertical-S2.png" className="img-fluid" style={{transform: 'rotate(170deg)'}} />
+                  <img src="img/Vertical-S5.png" className="img-fluid" style={{transform: 'rotate(170deg)'}} />
                 </div>  
               </div>              
               <div className="lax homeCeramic4"><img src="img/aboutIcon4.png" className="img-fluid" /></div>
@@ -289,7 +289,7 @@ const router = useRouter()
             <div className="col-xl-5 col-lg-5 col-md-5">
                 <div className="homeForm">
                   <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
-                  <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                  <p className="mb-4">Proteq Works On Excellency To Deliver Credibility!</p>
                   <ContactUS/>
                 </div>
               </div>

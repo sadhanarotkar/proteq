@@ -1,19 +1,13 @@
 import Head from 'next/head'
-import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
-import CeramicGallery from './components/ceramic-gallery'
-import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
 import CeramicTab from '../components/CeramicTab'
-import Link from 'next/link'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
-import { useEffect, useRef, useState } from 'react'
-import { useRouter } from 'next/router'
-import RelatedProducts from '../components/RelatedProducts'
+import CeramicRelatedProduct from '../components/CeramicRelatedProduct'
 import CeramicBanner from './components/ceramic-banner'
 
 const OwlCarousel = dynamic(
@@ -45,8 +39,8 @@ const GlassCeramic = ()=>{
         <link rel="icon" href="img/favicon.ico" />
       </Head>
       <Header />
-        <div className="productWrapper">
-          <CeramicBanner/>
+        <div className="productWrapper">          
+          <CeramicBanner glass={true}/>
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
             <CeramicTab glass='active'/>    
@@ -64,32 +58,11 @@ const GlassCeramic = ()=>{
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                       <h2 className="heading mb-md-4">glass ceramic</h2>  
-                      <p>Having glass that is clean and clear is essential for driving to give you the best visibility possible, which is especially important during bad weather. To help with this, a ceramic coat can be applied to your car’s glass. While most people use a ceramic coating to protect their car’s paint, it really can be applied anywhere – including the wheels, vinyl wraps, fibreglass, PPF, and glass. There are many ceramic glass coating products available on the market. But a common problem with all of them is their longevity, effectiveness, and claims that one-size-fits-all.</p>  
-                      <p>If you have ever used a nanoceramic coating on your car’s surface to protect the vehicle’s paint against UV rays, then you know how effective it is due to its hydrophobic properties which allow it to repel water and other contaminants and its longevity in protecting your surface. It follows, then, that you would benefit from using it on your vehicle’s glass as well.</p>
-                      <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
+                      <p>Having glass that is clean and clear is essential for driving, so it gives you the best visibility possible, which is especially important during bad weather. To help with this, a ceramic coat can be applied to your car’s glass. There are many ceramic glass coating products available on the market. But a common problem with all of them is their longevity, effectiveness, and claims that one-size-fits-all.</p>  
+                      <p>If you have ever used a nanoceramic coating on your car’s surface to protect the vehicle’s paint against UV rays, then you know how effective it is due to its hydrophobic properties which allows it to repel water and other contaminants and its longevity in protecting your surface. It follows, and we know this for sure, you would benefit from using it on your vehicle’s glass as well. </p>                      
                     </div>
                   </div>
                 </div> 
-              </div>
-            </div>
-            <div className="secproductVideo">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
-                    <h2 className="heading">Video</h2>
-                  </div>
-                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
-                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
-                  </div>
-                </div>
-                <div className="row justify-content-center productVideoWrapper">
-                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
-                    <div className="productVideo">
-                      <img src="img/video5.png" className="img-fluid" />
-                      <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
@@ -122,20 +95,20 @@ const GlassCeramic = ()=>{
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Enhanced Clarity</h4>
-                          <p>One great benefit of ceramic coating your glass is that it both repels water and greatly improves visibility without leaving behind any sort of cloudiness or haziness, unlike other products. During times of day where there is little light and/or fog and cloudiness, having crystal clear windows and windshields will always beat having reduced visibility caused by inferior products.</p>
+                          <h4 className="heading">Enhanced Visibility</h4>
+                          <p>One great benefit of ceramic coating your glass is that it both repels water and greatly improves visibility without leaving behind any sort of cloudiness or haziness, unlike other products. During the day where there is little light and/or fog and cloudiness, having crystal clear windows and windshields will always beat having reduced visibility caused by inferior products.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Scratch-Resistance</h4>
-                          <p>After curing, a ceramic coating provides an extremely durable and strong protective shell that is scratch-resistant and can last up to 5 years when properly applied.</p>
+                          <p>After curing, a ceramic coating provides an extremely durable and strong protective shell that is scratch-resistant.</p>
                         </div>
                       </div>
                     </OwlCarousel>
                   </div>
                   <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 text-center">
-                    <img src="img/CS.png" className="img-fluid" />                    
+                    <img src="img/GC.png" className="img-fluid" />                    
                     <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
                     <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>  
                   </div>
@@ -143,7 +116,6 @@ const GlassCeramic = ()=>{
               </div>
             </div>
           </section>
-          <CeramicGallery />          
           <section className="secFaq">
             <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
             <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
@@ -158,13 +130,13 @@ const GlassCeramic = ()=>{
                       </div>
                       <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div className="card-body">
-                          <p>The ceramic car product is highly concentrated but very safe to use. When it is applied to a surface, it bonds to the upper-most layer of the material and creates a semi-permanent layer of protection that is fully transparent and exceptionally strong.</p>
+                          <p>The ceramic product is highly concentrated but very safe to use. When it is applied to a surface, it bonds to the upper-most layer of the material and creates a semi-permanent layer of protection that is fully transparent and exceptionally strong.</p>
                         </div>
                       </div>
                     </div>
                     <div className="card">
                       <div className="card-header" id="headingTwo">
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How to Apply Ceramic Coating to Glass <span className="icon" aria-hidden="true"></span></button>                      
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How to Apply Ceramic Coating to Glass? <span className="icon" aria-hidden="true"></span></button>                      
                       </div>
                       <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div className="card-body">
@@ -174,11 +146,11 @@ const GlassCeramic = ()=>{
                     </div>
                     <div className="card">
                       <div className="card-header" id="headingThree">
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How long does glass coating last? <span className="icon" aria-hidden="true"></span></button>
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How do I wash my car with a glass coating? <span className="icon" aria-hidden="true"></span></button>
                       </div>
                       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div className="card-body">
-                          <p>3-5 years unlike wax and conventional polymer/ceramic coating in the market, glass coating is durable and keeps your car glossy and hydrophobic for up to 3-5 years.</p>
+                          <p>When you have a glass coating on your vehicle, you can still wash it like you normally would. Use natural car cleaning soap on your vehicle, and use microfiber scrubbing brushes to get everything clean. </p>
                         </div>
                       </div>
                     </div>
@@ -200,7 +172,7 @@ const GlassCeramic = ()=>{
               </div>
             </div>
           </section>  
-          <RelatedProducts ceramic={true} plastic={true} leather={true} />        
+          <CeramicRelatedProduct ceramic={true} plastic={true} leather={true} />        
           <ProductTestimonial />
           <section className="secHomeContact">
             <div className="homeContactLeft">
@@ -217,7 +189,7 @@ const GlassCeramic = ()=>{
                 <div className="col-xl-5 col-lg-5 col-md-5">
                   <div className="homeForm">
                     <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
-                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <p className="mb-4">Proteq Works On Excellency To Deliver Credibility!</p>
                     <ContactUS/>
                   </div>
                 </div>

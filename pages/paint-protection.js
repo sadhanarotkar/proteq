@@ -1,19 +1,13 @@
 import Head from 'next/head'
-import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
 import PaintBanner from './components/paint-banner'
-import PaintGallery from './components/paint-gallery'
-import ProductFaq from './components/product-faq'
 import ProductTestimonial from './components/product-testimonial'
 import PaintTab from '../components/PaintTab'
-import Link from 'next/link'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
 import PaintRelatedProducts from '../components/PaintRelatedProducts'
 
 const OwlCarousel = dynamic(
@@ -67,32 +61,11 @@ const PaintProtection = ()=>{
                       </div>                        
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
-                        <h2 className="heading mb-md-4">2.0 series</h2>  
-                        <p>The 2.0 Paint Protection Film series comes in a Polyurethane Material with 0.17mm ± 0.02mm thickness. It consists of three layers with 30% brightness. The size of the series complies with 1.52m x 15m and Patent Coating. Its performance has a heat repairment with 3 years warranty.</p>  
-                        <button className="btn hvr-sweep-to-right mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
+                      <h2 className="heading mb-md-4">2.0 series</h2>  
+                      <p>The 2.0 Paint Protection Film series comes in a Polyurethane Material with 0.17mm ± 0.02mm thickness. It consists of three layers with a 30% increased brightness. It comes with a 3-year warranty against any manufacturing defects.</p>  
                     </div>
                   </div>
                 </div>    
-              </div>
-            </div>
-            <div className="secproductVideo">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
-                    <h2 className="heading">Video</h2>
-                  </div>
-                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
-                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
-                  </div>
-                </div>
-                <div className="row justify-content-center productVideoWrapper">
-                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
-                    <div className="productVideo">
-                      <img src="img/video6.png" className="img-fluid" />
-                      <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
@@ -119,7 +92,7 @@ const PaintProtection = ()=>{
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Retains Your Car’s Resale Value</h4>
+                          <h4 className="heading">Gives Your Car A Better Resale Value</h4>
                           <p>Even if your car runs smoothly, poor appearance can significantly lower down its resale value. Paint protection is important to retain your car’s resale value as it protects your exterior from environmental and superficial damage.</p>
                         </div>
                       </div>
@@ -149,7 +122,6 @@ const PaintProtection = ()=>{
               </div>
             </div>
           </section>
-          <PaintGallery />
           <section className="secFaq">
             <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
             <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
@@ -164,7 +136,7 @@ const PaintProtection = ()=>{
                       </div>
                       <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Yes, our manufactures offer a 3- 7 years warranty against cracking, peeling, yellowing, hazing and bubbling.</p>
+                          <p>Yes, our manufactures offer a 3- 7 years warranty against cracking, peeling, hazing and bubbling.</p>
                         </div>
                       </div>
                     </div>
@@ -174,7 +146,7 @@ const PaintProtection = ()=>{
                       </div>
                       <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Yes, our paint protection films can be safely removed if need be without leaving any residue.</p>
+                          <p>Yes, our paint protection films can be safely removed if need be without leaving any residue and without damaging the paint.</p>
                         </div>
                       </div>
                     </div>
@@ -184,7 +156,7 @@ const PaintProtection = ()=>{
                       </div>
                       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div className="card-body">
-                          <p>No, you can wash and wax the vehicle just like you would any other car. In fact, we recommend waxing the paint protection film to help bring out the shine.</p>
+                          <p>No, you can wash and wax the vehicle just like you would to any other car. In fact, we recommend waxing the paint protection film to help bring out the shine.</p>
                         </div>
                       </div>
                     </div>
@@ -194,7 +166,7 @@ const PaintProtection = ()=>{
                       </div>
                       <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Our self-healing paint protection film uses a special polymer in its clear coat that flows even though it is cured. This allows the clear coat to find its natural level again after being disturbed on the surface.</p>
+                          <p>If the scratch is a minor one, our self-healing paint protection film cures the scratch on its own! Just leave your car as it is in the sun, see the magic happen.</p>
                         </div>
                       </div>
                     </div>
@@ -223,7 +195,7 @@ const PaintProtection = ()=>{
                 <div className="col-xl-5 col-lg-5 col-md-5">
                   <div className="homeForm">
                     <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
-                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <p className="mb-4">Proteq Works On Excellency To Deliver Credibility!</p>
                     <ContactUS/>
                   </div>
                 </div>

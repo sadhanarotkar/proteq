@@ -80,9 +80,9 @@ const Animation = () => {
               dots:false,
               nav:true,
               mouseDrag:false,
-              autoplay:true,
+              autoplay:false,
               animateOut: 'fadeOut',
-              navText: ["<img src='img/banner-arrow.svg' /> Previous","Next <img src='img/banner-arrow.svg' />"],
+              navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
               items:1,
               responsive : {
                 0 : {
@@ -375,7 +375,7 @@ const Animation = () => {
           scrollY: {
             translateY: [
               ["elInY", "elCenterY", "elOutY"],
-              [200, 0, -600],
+              [200, 0, -400],
             ]
           }
         })   
@@ -384,10 +384,10 @@ const Animation = () => {
           scrollY: {
             translateY: [
               ["elInY", "elCenterY", "elOutY"],
-              [0, 0, 400],
+              [0, 0, 300],
             ]
           }
-        })  
+        })   
       
         lax.addElements('.productVideoRightImg', {
           scrollY: {
@@ -440,7 +440,7 @@ const Animation = () => {
           scrollY: {
             translateY: [
               ["elInY", "elCenterY", "elOutY"],
-              [-100, 0, 100],
+              [-100, 0, 0],
             ]
           }
         })
@@ -535,7 +535,7 @@ const Animation = () => {
           scrollY: {
             translateY: [
               ["elInY", "elCenterY", "elOutY"],
-              [-300, 80, 0],
+              [-100, 80, 0],
             ]
           }
         })

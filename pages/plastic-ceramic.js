@@ -1,18 +1,13 @@
 import Head from 'next/head'
-import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
-import CeramicGallery from './components/ceramic-gallery'
 import ProductTestimonial from './components/product-testimonial'
 import CeramicTab from '../components/CeramicTab'
-import Link from 'next/link'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
-import { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
-import RelatedProducts from '../components/RelatedProducts'
+import CeramicRelatedProduct from '../components/CeramicRelatedProduct'
 import CeramicBanner from './components/ceramic-banner'
 
 const OwlCarousel = dynamic(
@@ -42,8 +37,8 @@ const PlasticCeramic = ()=>{
         <link rel="icon" href="img/favicon.ico" />
       </Head>
       <Header />
-        <div className="productWrapper">
-          <CeramicBanner/>
+        <div className="productWrapper">      
+          <CeramicBanner plastic={true}/>
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
             <CeramicTab plastic='active'/>  
@@ -61,32 +56,11 @@ const PlasticCeramic = ()=>{
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
                       <h2 className="heading mb-md-4">Plastic ceramic</h2>  
-                      <p>Plastic products, due to their durability, safety, and low manufacturing cost, are now rapidly replacing cookware items traditionally made of glass and ceramics. Despite this trend, some still prefer relatively expensive and more fragile ceramic/glassware because plastics can deteriorate over time after exposure to foods, which can generate odours, bad appearance, and/or colour change. Nano-ceramic coatings can eliminate these drawbacks while still retaining the advantages of the plastic since the coating only alters the surface of the plastic. </p>  
-                      <p>The surface coating adds functionality to the plastics such as self-cleaning and disinfectant capabilities that result from a photocatalytic effect of certain ceramic systems. These ceramic coatings can also provide non-stick surfaces and higher temperature capabilities for the base plastics without resorting to ceramic or glass materials.</p>
-                      <button className="btn hvr-fade mt-4" data-toggle="modal" data-target="#quoteModal">Get A Quote</button>
+                      <p>One of the biggest problems with plastic parts like the front grille, headlight trim, or radiator covers is that bugs tend to end their lives in a dramatic fashion. The frustrating part is that these dunks comprise of acids and other sticky materials that make removing them one big task. When you apply ceramic coatings on plastic, it makes clean-up a snap. In fact, sometimes just spraying them with a hose is good enough. No harsher chemical cleaning products can cause stains and corrosion.</p>  
+                      <p><strong><i>Proteq’s Plastic Ceramic Coating</i></strong>, featured with a hydrophobic effect, gives your plastic surfaces new-like appearance and protection. They're excellent for the plastic surfaces of your car. They repel water, protect from UV rays, enhance the paint’s gloss and shine on your car, and keep it clean for longer. The surface coating adds functionality to the plastics such as self-cleaning capabilities and high gloss levels.</p>
                     </div>
                   </div>
                 </div> 
-              </div>
-            </div>
-            <div className="secproductVideo">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-xl-4 col-lg-4 col-md-4 productVideoLeft">
-                    <h2 className="heading">Video</h2>
-                  </div>
-                  <div className="col-xl-8 col-lg-8 col-md-8 productVideoRight">
-                    <div className="lax productVideoRightImg"><img src="img/productVideo-bg.svg" className="img-fluid" /></div>
-                  </div>
-                </div>
-                <div className="row justify-content-center productVideoWrapper">
-                  <div className="col-xl-7 col-lg-7 col-md-7 col-sm-10 px-lg-0">
-                    <div className="productVideo">
-                      <img src="img/video4.png" className="img-fluid" />
-                      <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
@@ -108,31 +82,31 @@ const PlasticCeramic = ()=>{
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Superior quality</h4>
-                          <p>Ceramic injection moulding employs dependable equipment and advanced ceramic materials and compounds to produce ceramic components in a carefully controlled environment. </p>
+                          <p>Ceramic manufacturing employs dependable equipment and advanced ceramic materials and compounds to produce ceramic components in a carefully controlled environment. </p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Product consistency</h4>
-                          <p>Specialists in ceramic injection moulding handle this process with extreme caution, care, and attention to detail. They follow a strict set of standards and client specifications while also employing quality assurance checks and inspections throughout the entire production process.</p>
+                          <p>Specialists in ceramic formulation handle this process with extreme caution, care, and attention to detail. We follow a strict set of standards and client specifications while also employing quality assurance checks and inspections throughout the entire production process. </p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Application versatility</h4>
-                          <p>Ceramic products are versatile and have numerous advantages over other types of materials, which is why they are widely used across different industries. For instance, ceramic moulded parts can be used as dental implants, electrical insulators, regulators, bearings, etc.</p>
+                          <p>Ceramic products are versatile and have numerous advantages over other types of materials, which is why they are widely used across different industries. </p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Cost-effective solutions</h4>
-                          <p>Opting for ceramic injection moulding brings you an opportunity to obtain complex designs using a cost-effective process. Businesses receive financial benefits from high-volume manufacturing, especially if they need new components as an alternative to existing designs.</p>
+                          <p>Opting for ceramic coating brings you an opportunity to obtain amazing results in sheen & protection using a cost-effective process.</p>
                         </div>
                       </div>
                     </OwlCarousel>
                   </div>
                   <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 text-center">
-                    <img src="img/CS.png" className="img-fluid" />                    
+                    <img src="img/PC.png" className="img-fluid" />                    
                     <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
                     <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>  
                   </div>
@@ -140,7 +114,6 @@ const PlasticCeramic = ()=>{
               </div>
             </div>
           </section>
-          <CeramicGallery />  
           <section className="secFaq">
             <div className="lax faqLeftImg"><img src="img/faqText.svg" className="img-fluid" /></div>
             <div className="lax faqBottomImg"><img src="img/faqBottom.svg" className="img-fluid" /></div>
@@ -161,11 +134,11 @@ const PlasticCeramic = ()=>{
                     </div>
                     <div className="card">
                       <div className="card-header" id="headingTwo">
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">When Should Ceramic Coating Be Used on Plastic? <span className="icon" aria-hidden="true"></span></button>                      
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Where Can Ceramic Coating Be Used When It Comes To Plastic? <span className="icon" aria-hidden="true"></span></button>                      
                       </div>
                       <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Ceramic coatings amplify what is underneath, they are not intended to repair or restore materials nor do they protect a windshield or other glass surfaces against rock chips (another far-fetched myth).</p>
+                          <p>Automotive ceramic coatings provide a protective layer and can be applied to nearly any surface, ranging from bare metal to car headlights (made of polycarbonate plastic mainly), vinyl wraps, alloy, and chrome wheels, and yes, even plastic trim. The use of this coating can also be used for your household plastic made stuff.</p>
                         </div>
                       </div>
                     </div>
@@ -187,7 +160,7 @@ const PlasticCeramic = ()=>{
                       </div>
                       <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Ceramic coatings last just as long on plastic rims or covers as they do on other surfaces. In fact, there really is no difference in their longevity, application, or level of protection when they are used on plastic surfaces.</p>
+                          <p>Ceramic coatings last just as long on plastic rims or covers as they do on other surfaces. In fact, there really is no difference in their longevity, application, or level of protection when they are used on plastic surfaces. However, we strongly recommend a service coat at regular intervals to ensure your products stay as good as new.</p>
                         </div>
                       </div>
                     </div>
@@ -199,7 +172,7 @@ const PlasticCeramic = ()=>{
               </div>
             </div>
           </section>         
-          <RelatedProducts ceramic={true} glass={true} leather={true} />        
+          <CeramicRelatedProduct ceramic={true} glass={true} leather={true} />        
           <ProductTestimonial />
           <section className="secHomeContact">
             <div className="homeContactLeft">
@@ -216,7 +189,7 @@ const PlasticCeramic = ()=>{
                 <div className="col-xl-5 col-lg-5 col-md-5">
                   <div className="homeForm">
                     <h2 className="heading">THE BEST CAR SERVICE AWAITS YOU</h2>
-                    <p className="mb-4">Contact us today about your tyre or auto service & repair enquiries.</p>
+                    <p className="mb-4">Proteq Works On Excellency To Deliver Credibility!</p>
                     <ContactUS/>
                   </div>
                 </div>

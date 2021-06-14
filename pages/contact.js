@@ -75,11 +75,11 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="lax contactFormImg1"><img src="img/aboutIcon3.png" className="img-fluid" /></div>
+        {/* <div className="lax contactFormImg1"><img src="img/aboutIcon3.png" className="img-fluid" /></div>
         <div className="lax contactFormImg2"><img src="img/aboutIcon4.png" className="img-fluid" /></div>
         <div className="contactFormImg">
           <img src="img/contactFom-Img.png" className="img-fluid" />
-        </div>
+        </div> */}
       </section>
       <section className="contactMap">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.9875784307906!2d72.83788341437722!3d19.108200855926253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c90b1c944469%3A0x8f5d3c94ff32e51d!2sProteQ!5e0!3m2!1sen!2sin!4v1619601695658!5m2!1sen!2sin" width="100%" height="450" allowFullScreen="" loading="lazy"></iframe>
