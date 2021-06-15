@@ -13,7 +13,7 @@ const SunfilmTab = (props) => {
                       <div className="owl-carousel owl-theme tab-carousel">                      
                        <a className="nav-item nav-link"></a>
                        <Link href={{
-                          pathname: '/sunfilm-p70',
+                          pathname: '/windowfilm-p70',
                           query: {value:true},
                         }}
                        >
@@ -21,7 +21,7 @@ const SunfilmTab = (props) => {
                           </Link>
 
                           <Link href={{
-                          pathname: '/sunfilm-p70ws',
+                          pathname: '/windowfilm-p70ws',
                           query: {value:true},
                         }}
                        > 
