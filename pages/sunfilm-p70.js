@@ -149,7 +149,7 @@ const SunfilmP70 = ()=>{
                 <div className="col-xl-10 col-lg-10 col-md-12">
                   <h1 className="heading text-center mb-5">Related Products</h1>
                   <div className="owl-carousel owl-theme relatedProduc-carousel">
-                    <div className='item'></div>
+                    <div className='item d-none d-md-block'></div>
                     <div className='item'>
                       <Link href="/sunfilm-p70ws">
                         <a className="relatedPBox">

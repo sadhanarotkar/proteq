@@ -143,6 +143,27 @@ export default function About() {
               </div>
             </div>
           </section>
+          <section className="secCertificates">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-4">
+                  <a href="pdf/SGS-Glass-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
+                    <h4>Glass Ceramic Shield</h4>
+                  </a>
+                </div>
+                <div className="col-md-4">
+                  <a href="pdf/SGS-Leather-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
+                    <h4>Leather Ceramic Shield</h4>
+                  </a>
+                </div>
+                <div className="col-md-4">
+                  <a href="pdf/SGS-Plastic-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
+                    <h4>Plastic Ceramic Shield</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
           <section className="secHomeTestimonial">
             <img src="img/testimonial-bottom.png" className="testimonialBottomImg" />
             <div className="container-fluid">

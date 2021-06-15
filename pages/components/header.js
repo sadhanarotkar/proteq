@@ -237,7 +237,7 @@ export default function Header() {
                     data-toggle='modal'
                     data-target='#quoteModal'
                   >
-                    Your Feedback
+                    Share Feedback
                   </a>
                 </li>
               </ul>              
@@ -284,6 +284,17 @@ export default function Header() {
                   <li>
                     <Link href='/microfiber-cloth'>
                       <h4>Microfiber Cloth</h4>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/sunfilm-p70'>
+                      <h4>Sunfilm</h4>
+                    </Link>
+                    <Link href="/sunfilm-p70">
+                      <a>P70</a>
+                    </Link>
+                    <Link href="/sunfilm-p70ws">
+                      <a>P70WS</a>
                     </Link>
                   </li>
                 </ul>

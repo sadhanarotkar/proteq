@@ -1105,10 +1105,15 @@ header.active .hamburger-inner::after {
 }
 
 .overlayTop,.overlayProductItem, .overlayProductMenu, .megamenuBtn{display: none;}
-.megamenuBtn.active{display: block;width: 30px;height: 30px;position: absolute;top:25px;right: 15px;}
+.megamenuBtn.active{display: block;width: 30px;height: 30px;position: absolute;top:14px;right: 15px;}
 
 .load2, .load3, .load4, .load5, .load6, .load7, .load8{display: none;}
 
+
+.aboutWrapper .secCertificates{background: linear-gradient(180deg, #dfdfdf 0%, #fafafa 50%, #e2e2e2 100%);padding: 100px 0 200px;margin-bottom: -120px;}
+.aboutWrapper .secCertificates a:hover{text-decoration: none;}
+.certificateBox{-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.04);-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.04);box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.04);background: #FFF;padding: 50px;border-radius: 3px;text-align: center;display: block;}
+.certificateBox h4{margin: 0;}
 
 /* End Q img animation */
 @media only screen and (min-width: 1400px) {
@@ -1195,7 +1200,7 @@ header.active .hamburger-inner::after {
   .overlayMenu .collapsing{display: none;}
   .overlayMenu .collapse.show{display: none;}
   .overlayMenu.active .collapsing,.overlayMenu.active .navbar-collapse{display: block;}
-  ul.navbar-nav{height: calc(100vh - 100px);padding-top: 40px;}
+  ul.navbar-nav{height: calc(100vh - 75px);padding-top: 25px;}
   ul.navbar-nav li{height: 50px;line-height: 50px;text-align: center;margin: 0;}
   ul.navbar-nav li.nav-item a.nav-link{font-size: 14px;color: #FFF;text-transform: uppercase;text-align: center;display: inline-block;}
   ul.navbar-nav li:hover, ul.navbar-nav li.active{background-color: transparent;}
@@ -1206,13 +1211,13 @@ header.active .hamburger-inner::after {
  .navbar-toggler.active.active-mega .hamburger-box{display: none;}
  .navbar-toggler.active.active-mega .megamenuBtn{display: block;width: 30px;height: 30px;}
   .overlayMenu.active{height: calc(100vh - 100px);height: 100%;z-index: 999;background: #000;box-shadow: none;position: fixed;width: 100%;top: 0;overflow-y: auto;}
-  .overlayTop{padding: 6px 15px;display: block;height: 100px;}
+  .overlayTop{padding: 6px 15px;display: block;height: 75px;}
   .overlayLogo{height:48px;display: inline-flex;}
   .overlayProductItem{display: block;}
   .overlayProductItem::after {content: "\f107";font-family: 'FontAwesome';border: none;position: relative;color: #FFF;font-size: 18px;top: 1px;margin-left: 5px;}
   .overlayProductItem+.nav-item{display: none;}
-  .overlayProductMenu.active{display: block;position: absolute;top: 100px;left: 0;width: 100%;height: calc(100vh - 100px);background: #000;color: #FFF;padding: 0 15px;text-align: center;}
-  .overlayProductMenu ul{margin-top: 50px;}
+  .overlayProductMenu.active{display: block;position: absolute;top: 100px;left: 0;width: 100%;height: calc(100vh - 65px);background: #000;color: #FFF;padding: 0 15px;text-align: center;}
+  .overlayProductMenu ul{margin-top: 15px;}
   .overlayProductMenu li{margin-bottom: 30px;}
   .overlayProductMenu li a{display: block;font-size: 15px;margin-bottom: 7px;}
   .overlayProductMenu li a:hover{color: #f2ba0f;text-decoration: none;}
@@ -1300,6 +1305,7 @@ header.active .hamburger-inner::after {
   .contactInfoLeft h2{font-size: 38px;text-align: center;}
   .contactForm .lax.whyRightImg{width: 145px;}
   .contactForm p{font-size: 25px;}
+  ul.navbar-nav li.nav-item:hover, ul.navbar-nav li.nav-item.active{background-color: transparent;}
 }
 @media only screen and (max-width: 991px) and (orientation: portrait) {}
 @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -1377,7 +1383,8 @@ header.active .hamburger-inner::after {
   .paintProductImgs .productImg2{left: 0;z-index: 9;}
   .paintProductImgs .productImg2 img{height: 300px;}
   .productImg {height: 250px;margin: 50px 0;}
-  .secCategory .container-fluid, .paintProductWrapper .secCategory .tab-content .container-fluid{margin-bottom: 50px;}
+  .secCategory .container-fluid{margin-bottom: 150px;}
+  .paintProductWrapper .secCategory .tab-content .container-fluid{padding-bottom: 0px;margin-bottom: 150px;}
   .secproductVideo{padding-bottom: 100px;}
   .productVideoLeft{height: auto;position: relative;z-index: 9;}
   .productVideoLeft h2.heading{transform: rotate(0deg);font-size: 100px;margin-bottom: 0;padding-top: 10px;}
@@ -1491,7 +1498,7 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item4 .contentRight h2{font-size: 65px;line-height: 55px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span, 
   .banner-item4 .contentRight h2 span{font-size: 65px;}
-  .banner-carousel.owl-carousel .item p{font-size: 12px;height: 75px;}
+  .banner-carousel.owl-carousel .item p{font-size: 12px;height: 90px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2,
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span{margin-left: 0;}
   .banner-carousel.owl-carousel .banner-item1 .contentRight img, 
@@ -1502,9 +1509,9 @@ header.active .hamburger-inner::after {
   .banner-item3 .contentLeft,
   .banner-carousel.owl-carousel .banner-item4 .contentRight{margin-top: 15px;}
   .goSection{width: 130px;height: 35px;background-size: contain;}
-  .banner-carousel.owl-carousel .owl-nav{height: 40px;}
+  /* .banner-carousel.owl-carousel .owl-nav{height: 40px;} */
   .banner-carousel.owl-carousel .owl-nav button.owl-prev, 
-  .banner-carousel.owl-carousel .owl-nav button.owl-next{font-size: 0 !important;width: 40px;padding: 0 !important;}
+  .banner-carousel.owl-carousel .owl-nav button.owl-next{font-size: 20px !important;width: 34px;height: 34px; padding: 0 !important;}
   .banner-carousel.owl-carousel .owl-nav img{width: 20px;}
   .aboutBannerRightImg{width: 95px;}
   .privacyBanner h1{font-size: 60px;}
@@ -1541,6 +1548,15 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .owl-item.active h1,
   .banner-carousel.owl-carousel .owl-item.active h2,
   .banner-carousel.owl-carousel .owl-item.active p {animation-delay:0s}
+
+  ul.stickyLinks li a{height: 34px;width: 34px;line-height: 32px;font-size: 12px;}
+  .stickyLinkIcon{width: 34px;min-width: 34px;}
+  ul.stickyLinks li a:hover{width: 130px;}
+  ul.stickyLinks{top: 35%;}
+  .banner-carousel.owl-carousel .owl-nav button.owl-prev{left: 5px;}
+  .banner-carousel.owl-carousel .owl-nav button.owl-next{right: 5px;}
+  .banner-carousel a.btn{line-height: 36px;font-size: 13px;height: 38px;padding: 0 32px;}
+  .banner-carousel a.btn:hover, .banner-carousel a.btn:focus {line-height: 38px;}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1556,6 +1572,9 @@ header.active .hamburger-inner::after {
   .car-top{width: 40px;right: 24px;}
   /* .copyrightLinks img{width: 28px;position: fixed;bottom: 10px;right: 10px;} */
   .quoteModal h4{font-size: 28px;}
+  .car-top img{width: 45px;}
+  .car-top{right: 5px;}
+  .car-top.default.car-run:before, .car-top.default:before{width: 30px;}
 }
 @media only screen and (max-width: 380px) {
   .headingShadow{font-size: 80px;}
