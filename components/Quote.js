@@ -63,7 +63,7 @@ const Quote = (props) => {
                 Something went wrong.
               </div>}
               <h4>Share your feedback</h4>
-              <p>Proteq Autocare Provides Competitively Priced Hassle-Free Services to Suit Your Needs, Simply Fill In The Details To Receive The Same.</p>
+              <p>Have any doubts or queries about our services? Wish to know anything our policy? Simply drop in your message by filling it in the loop below!</p>
             <form onSubmit={sendContactForm}>
                 <div className="form-group">
                   <select defaultValue={props.selected} name="product" className="form-control" required>

@@ -139,47 +139,102 @@ export default function Header() {
                       </div>
                       <div className='col-lg-8'>
                         <ul className='list-unstyled megaList'>
-                          <li>
-                            <Link href='/ceramic'>
-                              <a><h4>Ceramic</h4></a>
-                              </Link>
-                            <Link href='/ceramic'>
-                              <a>Ceramic Sheild</a>
-                            </Link>
-                            <Link href='/leather-ceramic'>
-                              <a>Leather Ceramic</a>
-                            </Link>
-                            <Link href='/plastic-ceramic'>
-                              <a>Plastic Ceramic</a>
-                            </Link>
-                            <Link href='glass-ceramic'>
-                              <a>Glass Ceramic</a>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href='/paint-protection'>
-                              <a>
-                                <h4>Paint Protection Film</h4>
-                              </a>
-                            </Link>
-                            <Link href='/paint-protection'><a>2.0 Series</a></Link>
-                            <Link href='/paint-series3'><a>3.0 Series</a></Link>
-                            <Link href='/paint-series5'><a>5.0 Series</a></Link>
-                            <Link href='/paint-seriesm'><a>M Series</a></Link>
-                          </li>
-                          <li>
-                          <Link href='/microfiber-cloth'>
-                            <a><h4>Microfiber Cloth</h4></a>
+                        <li>
+                          <Link  href={{
+                            pathname: '/ceramic',
+                            query: {value:true},
+                          }}> 
+                            <a><h4>Ceramic</h4></a>
                           </Link>
+                          <Link  href={{
+                            pathname: '/ceramic',
+                            query: {value:true},
+                              }}> 
+                            <a>Ceramic Sheild</a>
+                          </Link>
+                          <Link href={{
+                            pathname: '/leather-ceramic',
+                            query: {value:true},
+                            }}>
+                          <a>Leather Ceramic</a>
+                          </Link>
+                          <Link href={{
+                            pathname: '/plastic-ceramic',
+                            query: {value:true},
+                          }}>                              
+                            <a>Plastic Ceramic</a>
+                          </Link>
+                          <Link href={{
+                            pathname: '/glass-ceramic',
+                            query: {value:true},
+                          }}>                              
+                            <a>Glass Ceramic</a>
+                          </Link>
+                        </li>
+                        <li>
+                        <Link href={{
+                          pathname: '/paint-protection',
+                          query: {value:true},
+                        }}
+                       >                             
+                        <a>
+                          <h4>Paint Protection Film</h4>
+                          </a>
+                         </Link>
+                         <Link href={{
+                          pathname: '/paint-protection',
+                          query: {value:true},
+                        }}
+                       >                              
+                       <a>2.0 Series</a>
+                          </Link>
+                          <Link href={{
+                          pathname: '/paint-series3',
+                          query: {value:true},
+                        }}
+                       >  
+                       <a>3.0 Series</a>
+                              </Link>
+                              <Link href={{
+                              pathname: '/paint-series5',
+                              query: {value:true},
+                            }}
+                          >   
+                       <a>5.0 Series</a>
+                            </Link>
+                              <Link href={{
+                              pathname: '/paint-seriesm',
+                              query: {value:true},
+                            }}
+                          >   
+                          <a>M Series</a>
+                              </Link>
                           </li>
                           <li>
-                            <Link href='/sunfilm-p70'>
-                              <a><h4>Sunfilm</h4></a>
-                            </Link>
-                            <Link href="/sunfilm-p70">
+                          <Link  href={{
+                            pathname: '/microfiber-cloth',
+                            query: {value:true},
+                          }}> 
+                            <a><h4>Microfiber Cloth</h4></a>
+                          </Link>                          
+                          </li>
+                          <li>
+                            <Link  href={{
+                              pathname: '/windowfilm-p70',
+                              query: {value:true},
+                            }}> 
+                              <a><h4>Window Films</h4></a>
+                            </Link>                             
+                            <Link  href={{
+                              pathname: '/windowfilm-p70',
+                              query: {value:true},
+                            }}> 
                               <a>P70</a>
                             </Link>
-                            <Link href="/sunfilm-p70ws">
+                            <Link  href={{
+                              pathname: '/windowfilm-p70ws',
+                              query: {value:true},
+                            }}> 
                               <a>P70WS</a>
                             </Link>
                           </li>
@@ -207,6 +262,17 @@ export default function Header() {
                 >
                   <Link href='/gallery'>
                     <a className='nav-link'>Gallery</a>
+                  </Link>
+                </li>
+                <li
+                  className={
+                    router.pathname == '/training'
+                      ? 'nav-item active'
+                      : 'nav-item'
+                  }
+                >
+                  <Link href='/training' >
+                    <a className='nav-link'>Training</a>
                   </Link>
                 </li>
                 <li
@@ -243,57 +309,99 @@ export default function Header() {
               </ul>              
               <div className='overlayProductMenu'>
                 <ul className='list-unstyled megaList'>
-                  <li>
-                    <Link href='/ceramic'>
-                      <a>
-                        <h4>Ceramic</h4>
-                      </a>
-                    </Link>
-                    <Link href='/ceramic'>
-                      <a>Ceramic Sheild</a>
-                      </Link>
-                    <Link href='/leather-ceramic'>
-                      <a>Leather Ceramic</a>
-                      </Link>
-                    <Link href='/plastic-ceramic'>
-                      <a>Plastic Ceramic</a>
-                      </Link>
-                    <Link href='/glass-ceramic'>
-                      <a>Glass Ceramic</a>
-                      </Link>
-                  </li>
-                  <li>
-                  <Link href='/paint-protection'>
-                    <a>
-                      <h4>Paint Protection Film</h4>
+                <li>
+                  <Link  href={{
+                    pathname: '/ceramic',
+                    query: {value:true},
+                  }}> 
+                    <a><h4>Ceramic</h4></a>
+                  </Link>
+                  <Link  href={{
+                    pathname: '/ceramic',
+                    query: {value:true},
+                      }}> 
+                    <a>Ceramic Sheild</a>
+                  </Link>
+                  <Link href={{
+                    pathname: '/leather-ceramic',
+                    query: {value:true},
+                    }}>
+                  <a>Leather Ceramic</a>
+                  </Link>
+                  <Link href={{
+                    pathname: '/plastic-ceramic',
+                    query: {value:true},
+                  }}>                              
+                    <a>Plastic Ceramic</a>
+                  </Link>
+                  <Link href={{
+                    pathname: '/glass-ceramic',
+                    query: {value:true},
+                  }}>                              
+                    <a>Glass Ceramic</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={{
+                    pathname: '/paint-protection',
+                    query: {value:true},
+                  }}
+                  >                             
+                  <a>
+                    <h4>Paint Protection Film</h4>
                     </a>
-                  </Link>
-                  <Link href='/paint-protection'>
-                    <a>2.0 Series</a>
-                  </Link>
-                  <Link href='/paint-series3'>
-                    <a>3.0 Series</a>
-                  </Link>
-                  <Link href='/paint-series5'>
-                    <a >5.0 Series</a>
-                  </Link>
-                  <Link href='/paint-seriesm'>
+                    </Link>
+                    <Link href={{
+                    pathname: '/paint-protection',
+                    query: {value:true},
+                  }}
+                  >                              
+                  <a>2.0 Series</a>
+                    </Link>
+                    <Link href={{
+                    pathname: '/paint-series3',
+                    query: {value:true},
+                  }}
+                  >  
+                  <a>3.0 Series</a>
+                        </Link>
+                        <Link href={{
+                        pathname: '/paint-series5',
+                        query: {value:true},
+                      }}
+                    >   
+                  <a>5.0 Series</a>
+                      </Link>
+                        <Link href={{
+                        pathname: '/paint-seriesm',
+                        query: {value:true},
+                      }}
+                    >   
                     <a>M Series</a>
-                  </Link>
-                  </li>
+                        </Link>
+                    </li>
                   <li>
                     <Link href='/microfiber-cloth'>
                       <h4>Microfiber Cloth</h4>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/sunfilm-p70'>
-                      <h4>Sunfilm</h4>
-                    </Link>
-                    <Link href="/sunfilm-p70">
+                    <Link  href={{
+                      pathname: '/windowfilm-p70',
+                      query: {value:true},
+                    }}> 
+                      <a><h4>Window Films</h4></a>
+                    </Link>                             
+                    <Link  href={{
+                      pathname: '/windowfilm-p70',
+                      query: {value:true},
+                    }}> 
                       <a>P70</a>
                     </Link>
-                    <Link href="/sunfilm-p70ws">
+                    <Link  href={{
+                      pathname: '/windowfilm-p70ws',
+                      query: {value:true},
+                    }}> 
                       <a>P70WS</a>
                     </Link>
                   </li>

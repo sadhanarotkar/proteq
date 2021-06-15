@@ -47,6 +47,7 @@ const MicrofiberCloth = ()=>{
                 </div>
               </div>
             </div>
+            <div className="tabSpace" id="tab"></div>
           </section>
           <section className="secCategory">
             <div className="container-fluid">

@@ -130,7 +130,7 @@ const router = useRouter()
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="co-xl-5 col-lg-5 col-md-6 col-sm-12">
-              <img src="img/about-car.png" className="img-fluid aboutImg" />
+              <img src="img/about-car-new.png" className="img-fluid aboutImg" />
             </div>
             <div className="co-xl-7 col-lg-6 col-md-6 col-sm-12 pl-md-5">
               <h1 className="heading text-white">About Proteq Autocare</h1>
@@ -251,25 +251,25 @@ const router = useRouter()
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="900">0</span> +</h3>
-                <h4>Cost-Effective</h4>
+                <h4>Cars Protected</h4>
               </div>
             </div>
             <div className="item">
               <div className="countBox">
-                <h3><span className="counting" data-count="150">0</span> +</h3>
-                <h4>Maintenance Free</h4>
+                <h3><span className="counting" data-count="600">0</span> +</h3>
+                <h4>Happy Customers Reviews</h4>
               </div>
             </div>
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="200">0</span> +</h3>
-                <h4>Enviro Friendly</h4>
+                <h4>Protect Techniques</h4>
               </div>
             </div>
             <div className="item">
               <div className="countBox">
-                <h3><span className="counting" data-count="320">0</span> +</h3>
-                <h4>Tough</h4>
+                <h3><span className="counting" data-count="120">0</span> +</h3>
+                <h4>Awards and Recognition</h4>
               </div>
             </div>
           </div>

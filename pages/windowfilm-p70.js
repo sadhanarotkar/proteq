@@ -17,11 +17,11 @@ const OwlCarousel = dynamic(
   }
 );
 
-const SunfilmP70 = ()=>{
+const WindowfilmP70 = ()=>{
   return (
     <main className="content">
       <Head>
-        <title>Sunfilm P - 70</title>
+        <title>Window Films P - 70</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>
       
@@ -159,7 +159,7 @@ const SunfilmP70 = ()=>{
                             </div>
                           </div>
                           <h5 className="heading">P - 70WS</h5>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                          <p>Proteq offers automotive window films designed to provide the custom look you desire, no matter what vehicle you drive.</p>
                         </a>
                       </Link>
                     </div>                   
@@ -209,4 +209,4 @@ const SunfilmP70 = ()=>{
     </main>
   )
 }
-export default SunfilmP70;
+export default WindowfilmP70;

@@ -17,15 +17,15 @@ const SunfilmBanner=()=> {
 });
   return (
     
-    <section className="productBanner paintBanner">
+    <section className="productBanner windowBanner">
       <div className="container">
         <div className="row justify-content-center align-items-center">
-          <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-            <h2 className="heading mb-md-4">Sunfilm </h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <div className="col-xl-7 col-lg-7 col-md-8 col-sm-12">
+            <h2 className="heading mb-md-4">Window Films </h2>
+            <p>Take protection on the road with you with our automotive products. Proteq's window films offer protection from the sun, flying debris, and road hazards. These protection films block 99% of the sun’s harmful UV rays, protecting your skin and reducing fading of interiors. You’ll stay cooler and your driving comfort will improve with the window film’s maximum heat rejection. Our window films collections eliminate the risk of overheating or burning the film, moulding or paint.</p>
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-10 px-5">
-            <img src="img/paintImg.png" className="img-fluid" />                  
+          <div className="col-xl-5 col-lg-5 col-md-4 col-sm-10 px-5">
+            <img src="img/window-bannerImg.png" className="img-fluid" />                  
           </div>
         </div>
       </div>

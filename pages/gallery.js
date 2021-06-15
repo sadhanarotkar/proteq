@@ -798,7 +798,7 @@ const Gallery=()=> {
               <div className="tab-pane fade" id="nav-videos" role="tabpanel" aria-labelledby="nav-videos-tab">
                 <div className="row justify-content-center text-center mb-md-5">
                   <div className="col-xl-8 col-lg-8 col-md-12">
-                    <p>Check out all of our amazing products and services. <br></br>You can also go through videos of our customers car servicing and blush!</p>
+                    <p>Pictures don’t pay justice, and at times videos spill fun too!<br></br> You can also check out our amazing work through these videos.</p>
                   </div>
                 </div>
                 <div className="row justify-content-center lightgallery">
@@ -908,7 +908,7 @@ const Gallery=()=> {
               <div className="tab-pane fade" id="nav-training" role="tabpanel" aria-labelledby="nav-training-tab">
               <div className="row justify-content-center text-center mb-md-5">
                   <div className="col-xl-8 col-lg-8 col-md-12">
-                    <p>Check out all of our amazing products and services. <br></br> You can also go through videos of our customers car servicing and blush!</p>
+                    <p>Proteq also offers their best of training programs in getting your skill-sets and <br></br>automotive passion on hands with industries best understood knowledge! </p>
                   </div>
                 </div>  
                 <div id="lightgallery">

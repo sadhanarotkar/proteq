@@ -17,11 +17,11 @@ const OwlCarousel = dynamic(
   }
 );
 
-const SunfilmP70WS = ()=>{
+const WindowfilmP70WS = ()=>{
   return (
     <main className="content">
       <Head>
-        <title>Sunfilm P - 70WS</title>
+        <title>Window Films P - 70WS</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>      
       <Header />
@@ -48,8 +48,9 @@ const SunfilmP70WS = ()=>{
                       </div>                        
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
-                      <h2 className="heading mb-md-4">P - 70WS</h2>  
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>  
+                      <h2 className="heading mb-md-4">P - 70WS</h2> 
+                      <p>Proteq offers automotive window films designed to provide the custom look you desire, no matter what vehicle you drive. Our automotive window films help protect fabric and leather interiors from sun fading and deterioration. In addition, they add a degree of safety by helping to hold broken glass in place in the event of an accident or vandalism. Backed by a strong warranty to give you the peace of mind that comes from knowing you've made the right choice.</p> 
+                      <p>P70 | WS is of great worth that brings sun control to a whole new level for your building too. Sunlight streaming through windows can create excessive heat, uncomfortable hot spots and glare. Proteq's P70 | WS films use multi-layer optical film and nano-technology to reject up to 97% of the sun's infrared light and heat coming through your windows. These films also reject up to 99.9% of damaging UV rays to reduce fading of your furnishings, offering SPF 1000+ that protects your interior's and skin. Protects dashboard from fading and reduces glare effectively.</p>  
                     </div>
                   </div>
                 </div>    
@@ -73,20 +74,17 @@ const SunfilmP70WS = ()=>{
                     <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                          <h4 className="heading">Lets in the light but keeps out the heat and damaging UV rays without impacting your car's aesthetics or your view.</h4>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                          <h4 className="heading">The precision with which light waves are controlled as they pass through or reflect off of hundreds of layers of film.</h4>                          
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
-                          <h4 className="heading">Lorem Ipsum is simply dummy</h4>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                          <h4 className="heading">These spectrally selective films reject up to 97% of the sun's heat-producing infrared light to keep you cool, comfortable and protected.</h4>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -113,31 +111,21 @@ const SunfilmP70WS = ()=>{
                   <div id="accordion" className="productAccordion">
                     <div className="card">
                       <div className="card-header" id="headingOne">
-                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem Ipsum is simply dummy text  <span className="icon" aria-hidden="true"></span></button>                     
+                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Is the multi-layered nanotechnology film guaranteed?  <span className="icon" aria-hidden="true"></span></button>                     
                       </div>
                       <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                          <p>Yes, it comes with a 5-year warranty.</p>
                         </div>
                       </div>
                     </div>
                     <div className="card">
                       <div className="card-header" id="headingTwo">
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Lorem Ipsum is simply dummy text <span className="icon" aria-hidden="true"></span></button>                      
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Does the multi-layered nanotechnology film provide protection from the UV Rays? <span className="icon" aria-hidden="true"></span></button>                      
                       </div>
                       <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div className="card-header" id="headingThree">
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Lorem Ipsum is simply dummy text <span className="icon" aria-hidden="true"></span></button>
-                      </div>
-                      <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div className="card-body">
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                          <p>It provides you with SPF 1000+ protecting interiors & skin that blocks 99.9% UV Rays. </p>
                         </div>
                       </div>
                     </div>
@@ -165,7 +153,7 @@ const SunfilmP70WS = ()=>{
                             </div>
                           </div>
                           <h5 className="heading">P - 70</h5>
-                          <p>Proteq presents its P- 70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection 97% heat reduction</p>
+                          <p>Proteq presents its P- 70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection</p>
                         </a>
                       </Link>
                     </div>                   
@@ -215,4 +203,4 @@ const SunfilmP70WS = ()=>{
     </main>
   )
 }
-export default SunfilmP70WS;
+export default WindowfilmP70WS;
