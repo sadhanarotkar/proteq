@@ -9,6 +9,7 @@ import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
 import CeramicRelatedProduct from '../components/CeramicRelatedProduct'
 import CeramicBanner from './components/ceramic-banner'
+import Link from 'next/dist/client/link'
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -43,7 +44,23 @@ const GlassCeramic = ()=>{
           <CeramicBanner glass={true}/>
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
-            <CeramicTab glass='active'/>    
+            
+            <div className="category-nav mobTabs">
+              <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
+                <div className="tabPrev"></div>
+                <Link href='/plastic-ceramic'>
+                  <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
+                </Link>
+                <Link href='/ceramic'> 
+                  <a className="nav-item nav-link active">Glass Ceramic</a>
+                </Link>
+                <div className="tabRight"></div>
+              </div>
+            </div>
+            <div className="deskTabs">
+              <CeramicTab glass='active' /> 
+            </div>
+
             <div className="tab-content" id="nav-tabContent">
               <div className="tab-pane fade show active" id="nav-seriesm" role="tabpanel" aria-labelledby="nav-seriesm-tab">
                 <div className="container-fluid">

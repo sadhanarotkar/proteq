@@ -11,6 +11,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
 import PaintRelatedProducts from '../components/PaintRelatedProducts'
+import Link from 'next/dist/client/link'
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -44,7 +45,24 @@ const PaintSeries5 = ()=>{
           <PaintBanner />
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
-            <PaintTab series5='active'/>
+            
+            <div className="category-nav mobTabs">
+              <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
+                <Link href='/paint-series3'>
+                  <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
+                </Link>
+                <Link href='/paint-series5'> 
+                  <a className="nav-item nav-link active">5.0 series</a>
+                </Link>
+                <Link href='/paint-seriesm'>
+                  <div className="tabRight"><i className="fa fa-angle-right"></i></div>
+                </Link>                
+              </div>
+            </div>
+            <div className="deskTabs">
+              <PaintTab series5='active'/>  
+            </div>
+
             <div className="tab-content" id="nav-tabContent">              
               <div className="tab-pane fade show active" id="nav-series5" role="tabpanel" aria-labelledby="nav-series5-tab">
                 <div className="container-fluid">

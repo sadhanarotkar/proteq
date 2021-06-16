@@ -260,6 +260,7 @@ ul.stickyLinks li a:hover{cursor:pointer;width:180px;color:#fff}
 .banner-carousel .banner-item2 .btn.hvr-sweep-to-right:before{background: #6d2b7f;}
 .banner-carousel .banner-item3 .btn.hvr-sweep-to-right:before{background: #ea0b69;}
 .banner-carousel .banner-item4 .btn.hvr-sweep-to-right:before{background: #b10645;}
+.banner-carousel .banner-item5 .btn.hvr-sweep-to-right:before{background: #23657d;}
 .banner-item2 h2{color: #6d2b7f;}
 .banner-item2 .contentLeft{position: relative;z-index: 9;padding: 0;left: 50px;}
 .banner-item2 .contentCenter{position: relative;z-index: 1;}
@@ -273,6 +274,9 @@ ul.stickyLinks li a:hover{cursor:pointer;width:180px;color:#fff}
 .banner-item4 .container-fluid, .banner-item4 .container-fluid .row{height: 100%;}
 .banner-item4 .contentRight h2{color: #b10645;line-height: 0.7;margin-bottom: 20px;}
 .banner-item4 .contentRight h2 span{font-size: 135px;color: #FFF;white-space: nowrap;}
+.banner-item5 .contentLeft h2{color: #23657d;line-height: 0.7;margin-bottom: 20px;font-size: 190px;}
+.banner-item5 .contentRight{margin-bottom: 150px;padding-left: 0;}
+.banner-item5 .contentRight h2{color: #000000;white-space: nowrap;font-size: 190px;}
 .banner-carousel.owl-carousel .banner-item4 p{width: 500px;}
 
 .banner-carousel.owl-carousel .item img {width: 100%;height: 100%;object-fit: cover;}
@@ -1117,10 +1121,22 @@ header.active .hamburger-inner::after {
 .load2, .load3, .load4, .load5, .load6, .load7, .load8{display: none;}
 
 
-.aboutWrapper .secCertificates{background: linear-gradient(180deg, #dfdfdf 0%, #fafafa 50%, #e2e2e2 100%);padding: 100px 0 200px;margin-bottom: -120px;}
+.aboutWrapper .secCertificates{background: #2199c9;padding: 50px 0 150px;margin-bottom: -120px;margin-top: 25px;}
 .aboutWrapper .secCertificates a:hover{text-decoration: none;}
-.certificateBox{-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.04);-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.04);box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.04);background: #FFF;padding: 50px;border-radius: 3px;text-align: center;display: block;}
-.certificateBox h4{margin: 0;}
+.certificateBox{padding: 10px;border-radius: 3px;text-align: center;display: block;}
+.certificateBox h4{margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #FFF;font-family: 'Bebas Neue';font-size: 26px;}
+
+.mobTabs{display: none;}
+.deskTabs{display: block;}
+.mobTabs{position: relative;}
+.mobTabs .tabPrev{position: absolute;left: 0;top: 50%;transform: translateY(-50%);height: 100%;width: 30px;display: flex;justify-content: center;align-items: center;z-index: 9;}
+.mobTabs .tabRight{position: absolute;right: 0;top: 50%;transform: translateY(-50%);height: 100%;width: 30px;display: flex;justify-content: center;align-items: center;z-index: 9;}
+.mobTabs .tabPrev i, .mobTabs .tabRight i{color: #FFF;font-size: 24px;}
+
+.windowWrapper .productImg1{top: 50%;}
+.windowWrapper .productImg2{top: 50%;}
+.windowWrapper .p70ProductImgs .productImg1{top: 25%;}
+.windowWrapper .p70ProductImgs .productImg2{top: 25%;}
 
 /* End Q img animation */
 @media only screen and (min-width: 1400px) {
@@ -1145,7 +1161,8 @@ header.active .hamburger-inner::after {
   ul.navbar-nav .megaList{padding: 70px 40px 70px 10px;}
   ul.navbar-nav li{padding: 0 15px;}
   .productBanner.paintBanner h2.heading{font-size: 105px;}
-  .missionLeftImg{width: 110px;}
+  .missionLeftImg{width: 110px;}  
+  .banner-item5 .contentCenter img{position: relative;left: 50px;}
 }
 @media only screen and (max-width: 1150px) {
   .secHomeProduct>.lax.whyRightImg,
@@ -1186,6 +1203,9 @@ header.active .hamburger-inner::after {
   .privacyContent {padding: 50px 0;}
   .privacyContent h2.heading{font-size: 35px;}
   .secMission .headingText{top:50px}
+  .banner-item5 .contentLeft h2,
+  .banner-item5 .contentRight h2{font-size: 160px;}
+  .banner-item5 .contentRight{margin-bottom: 75px;}
 }
 @media only screen and (max-width: 991px) {
   p{font-size: 12px;line-height: 1.5;}
@@ -1313,6 +1333,8 @@ header.active .hamburger-inner::after {
   .contactForm .lax.whyRightImg{width: 145px;}
   .contactForm p{font-size: 25px;}
   ul.navbar-nav li.nav-item:hover, ul.navbar-nav li.nav-item.active{background-color: transparent;}
+  .banner-item5 .contentRight{display: none;}
+  .banner-item5 .contentLeft h2, .banner-item5 .contentRight h2{font-size: 100px;line-height: 90px;}
 }
 @media only screen and (max-width: 991px) and (orientation: portrait) {}
 @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -1334,7 +1356,11 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item1 .contentRight img,
   .banner-carousel.owl-carousel .item .contentCenter img,
   .banner-carousel.owl-carousel .banner-item4 .contentLeft img{height: 300px;width: auto;margin: auto;object-fit: contain;}
-  .banner-carousel.owl-carousel .banner-item1 .contentLeft h2, .banner-carousel.owl-carousel .banner-item2 .contentLeft h2, .banner-carousel.owl-carousel .banner-item3 .contentLeft h2, .banner-carousel.owl-carousel .banner-item4 .contentRight h2{font-size: 80px;line-height: 70px;margin-bottom: 0;}
+  .banner-carousel.owl-carousel .banner-item1 .contentLeft h2, 
+  .banner-carousel.owl-carousel .banner-item2 .contentLeft h2, 
+  .banner-carousel.owl-carousel .banner-item3 .contentLeft h2, 
+  .banner-carousel.owl-carousel .banner-item4 .contentRight h2,
+  .banner-item5 .contentLeft h2, .banner-item5 .contentRight h2{font-size: 80px;line-height: 70px;margin-bottom: 0;}
   .banner-carousel.owl-carousel .banner-item4 .contentRight{margin-top: 25px;}
   .banner-carousel.owl-carousel .banner-item1 .col-xl-4{order: 2;margin-top: 25px;padding: 0 15px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span,
@@ -1375,6 +1401,7 @@ header.active .hamburger-inner::after {
   .contactForm p{font-size: 26px;margin-bottom: 30px;}
   .contactInfoRight h3{font-size: 20px;}
   .productBanner {height: auto;padding: 150px 0 10px;}
+  .productBanner.windowBanner{padding: 85px 0 10px;}
   .ceramicBanner .col-lg-6, .paintBanner .col-sm-12, .microBanner .col-sm-12{order: 2;}
   .productBanner h2.heading, .productBanner.paintBanner h2.heading{font-size: 80px;}
   .paintBanner img{max-height: 380px;bottom: 0;}
@@ -1428,6 +1455,11 @@ header.active .hamburger-inner::after {
   .productBanner.paintBanner p{width: auto;}  
   .productBanner.paintBanner .col-xl-4{display: block;}
   .banner-carousel.owl-carousel .owl-nav{display: block;}
+  .mobTabs{display: block;}
+  .deskTabs{display: none;}
+  .banner-item5 .contentLeft{order: 2;}
+  .windowBanner .col-sm-12{order: 2;}
+  .banner-item5 .contentCenter img{left: 0;}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}
@@ -1502,10 +1534,12 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2, 
   .banner-carousel.owl-carousel .banner-item2 .contentLeft h2, 
   .banner-carousel.owl-carousel .banner-item3 .contentLeft h2, 
-  .banner-carousel.owl-carousel .banner-item4 .contentRight h2{font-size: 65px;line-height: 55px;}
+  .banner-carousel.owl-carousel .banner-item4 .contentRight h2,
+  .banner-item5 .contentLeft h2, .banner-item5 .contentRight h2{font-size: 65px;line-height: 55px;}
+  .banner-item5 .contentLeft h2 span{display: block;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span, 
   .banner-item4 .contentRight h2 span{font-size: 65px;}
-  .banner-carousel.owl-carousel .item p{font-size: 12px;height: 90px;}
+  .banner-carousel.owl-carousel .item p{font-size: 12px;height: 115px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2,
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span{margin-left: 0;}
   .banner-carousel.owl-carousel .banner-item1 .contentRight img, 
@@ -1514,7 +1548,8 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item1 .col-xl-4,
   .banner-item2 .contentLeft, 
   .banner-item3 .contentLeft,
-  .banner-carousel.owl-carousel .banner-item4 .contentRight{margin-top: 15px;}
+  .banner-carousel.owl-carousel .banner-item4 .contentRight,
+  .banner-item5 .contentLeft{margin-top: 15px;}
   .goSection{width: 130px;height: 35px;background-size: contain;}
   /* .banner-carousel.owl-carousel .owl-nav{height: 40px;} */
   .banner-carousel.owl-carousel .owl-nav button.owl-prev, 
@@ -1593,7 +1628,8 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item3 .contentLeft h2, 
   .banner-carousel.owl-carousel .banner-item4 .contentRight h2, 
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span, 
-  .banner-item4 .contentRight h2 span{font-size: 50px;line-height: 50px;}  
+  .banner-item4 .contentRight h2 span,
+  .banner-item5 .contentLeft h2, .banner-item5 .contentRight h2{font-size: 50px;line-height: 50px;}  
   .aboutHeading h2.heading{font-size: 40px;}
   .aboutHeading h2 span{font-size: 60px;}
   .privacyBanner h1{font-size: 45px;}

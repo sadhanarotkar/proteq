@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from "next/router";
 import Quote from '../../components/Quote';
+import SidebarContact from '../../components/SidebarContact';
 
 export default function Header(props) {
   const router = useRouter();
@@ -62,6 +63,7 @@ export default function Header(props) {
         </div>
       </div>
       <Quote selected={props.selected}/>
+      <SidebarContact />
     </footer>
   )
 }

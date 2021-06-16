@@ -25,23 +25,39 @@ const WindowfilmP70WS = ()=>{
         <link rel="icon" href="img/favicon.ico" />
       </Head>      
       <Header />
-        <div className="productWrapper paintProductWrapper">
+        <div className="productWrapper windowWrapper">
           <SunfilmBanner />
           <section className="secCategory">
             <div className="lax galleryRightImg categoryRightImg"><img src="img/categoryRight.svg" className="img-fluid" /></div>
-            <SunfilmTab sunfilmp70ws='active'/> 
+            
+            <div className="category-nav mobTabs">
+              <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
+                <Link href='/windowfilm-p70'>
+                  <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
+                </Link>
+                <Link href='/windowfilm-p70ws'> 
+                  <a className="nav-item nav-link active">P - 70WS</a>
+                </Link>                
+                <div className="tabRight"></div>
+                
+              </div>
+            </div>
+            <div className="deskTabs">
+              <SunfilmTab sunfilmp70ws='active'/>
+            </div>
+
             <div className="tab-content" id="nav-tabContent">
               <div className="tab-pane fade show active" id="nav-series2" role="tabpanel" aria-labelledby="nav-series2-tab">
                 <div className="container-fluid">
-                  <img src="img/2.0seriesText.svg" className="img-fluid my-md-5 productTextImg" />     
+                  <img src="img/p70ws.svg" className="img-fluid my-md-5 productTextImg" />     
                   <div className="row justify-content-center">
                     <div className="col-xl-4 col-lg-5 col-md-5 col-sm-9">
                       <div className="paintProductImgs">
                         <div className="lax productImg1">
-                          <img src="img/Vertical-S2.png" className="img-fluid " />
+                          <img src="img/p70ws.png" className="img-fluid" style={{ transform: 'rotate(-105deg)', height:'auto'}} />
                         </div>
                         <div className="lax productImg2">
-                          <img src="img/Vertical-S2.png" className="img-fluid" />
+                          <img src="img/p70ws.png" className="img-fluid" style={{ transform: 'rotate(105deg)', height: 'auto'}} />
                         </div>                         
                         <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
                         <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>

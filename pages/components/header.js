@@ -414,7 +414,7 @@ export default function Header() {
     </header>
     <ul className='list-unstyled stickyLinks'>
       <li>
-        <a href='' data-toggle='modal' data-target='#quoteModal'>
+        <a href='' data-toggle='modal' data-target='#sidebarModal'>
           <div className='stickyLinkIcon'>
             <img src='img/sticky-info-circle.svg' />
           </div>{' '}

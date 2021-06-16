@@ -40,7 +40,7 @@ const router = useRouter()
       <>      
       <Header />
       <section className="secBanner">
-        <div className="owl-carousel owl-theme banner-carousel">
+        <div className="owl-carousel owl-theme banner-carousel">                         
           <div className="item banner-item1">
             <img src="img/slide1-bg.jpg" />
             <div className="cover">
@@ -116,6 +116,26 @@ const router = useRouter()
                     <h2>Paint <span>Protection Film</span></h2>
                     <p>Our Paint protection film (PPF) brings out the ability to heal swirls and scratches with heat, leaving your paint shiny and glossy. It conjointly has the flexibility to soak up impact and preserve your paint from rock chips.</p>
                     <Link href='paint-protection'><a className="btn hvr-sweep-to-right">Read More</a></Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div className="item banner-item5">
+            <img src="img/slide5-bg.jpg" />
+            <div className="cover">
+              <div className="container-fluid">
+                <div className="row align-items-center align-items-center">                    
+                  <div className="col-lg-5 col-md-7 contentLeft">
+                    <h2>Window <span className="d-lg-none">Films</span></h2>
+                    <p>Take protection on the road with you with our automotive products. Proteq's window films offer protection from the sun, flying debris, and road hazards. These protection films block 99% of the sun’s harmful UV rays, protecting your skin and reducing fading of interiors.</p>
+                    <Link href='windowfilm-p70'><a className="btn hvr-sweep-to-right">Read More</a></Link>
+                  </div>
+                  <div className="col-lg-3 col-md-4 contentCenter px-lg-4">                      
+                    <img src="img/windowbannerImg.png" className="img-fluid" />                    
+                  </div>
+                  <div className="col-lg-4 col-md-3 contentRight align-self-end">  
+                    <h2>Films</h2>                   
                   </div>
                 </div>
               </div>

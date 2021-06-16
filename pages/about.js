@@ -148,20 +148,26 @@ export default function About() {
               <div className="row">
                 <div className="col-md-4">
                   <a href="pdf/SGS-Glass-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
-                    <h4>Glass Ceramic Shield</h4>
+                    <img src="img/certificate.svg" className="img-fluid" />
+                    <h4>Glass<br></br> Ceramic<br></br> Shield</h4>
                   </a>
                 </div>
                 <div className="col-md-4">
                   <a href="pdf/SGS-Leather-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
-                    <h4>Leather Ceramic Shield</h4>
+                    <img src="img/certificate.svg" className="img-fluid" />
+                    <h4>Leather<br></br> Ceramic<br></br> Shield</h4>
                   </a>
                 </div>
                 <div className="col-md-4">
                   <a href="pdf/SGS-Plastic-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
-                    <h4>Plastic Ceramic Shield</h4>
+                    <img src="img/certificate.svg" className="img-fluid" />
+                    <h4>Plastic<br></br> Ceramic<br></br> Shield</h4>
                   </a>
                 </div>
               </div>
+            </div>
+            <div className="lax faqBottomImg">
+              <img src="img/certificateBottom.svg" class="productBottomImg img-fluid" style={{opacity: '0.5'}} />
             </div>
           </section>
           <section className="secHomeTestimonial">

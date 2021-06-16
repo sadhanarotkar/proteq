@@ -51,10 +51,10 @@ const ContactUsCommon = () => {
             <h3>Sending Mail...</h3>
           </div>}
 
-         { isSent && <div class="alert alert-success" role="alert">
+         { isSent && <div className="alert alert-success" role="alert">
                 Mail sent sucessfully.
               </div>}
-              { error && <div class="alert alert-danger" role="alert">
+              { error && <div className="alert alert-danger" role="alert">
                 Something went wrong.
               </div>}
             <form onSubmit={sendContactForm}>

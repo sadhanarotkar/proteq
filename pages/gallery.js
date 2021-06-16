@@ -916,42 +916,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img1.jpeg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img1.jpg">
                                 <a href="">
-                                    <img className="img-fluid" src="img/galleryImgs/img1.jpeg" alt="Thumb-1" />
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img1.jpg" alt="Thumb-1" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/galleryImgs/img2.jpeg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img2.jpg">
                                 <a href="">
-                                    <img className="img-fluid" src="img/galleryImgs/img2.jpeg" alt="Thumb-2"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img2.jpg" alt="Thumb-2"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img4.jpeg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img3.jpg">
                                 <a href="">
-                                    <img className="img-fluid" src="img/galleryImgs/img4.jpg" alt="Thumb-3"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img3.jpg" alt="Thumb-3"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img3.jpeg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img4.jpg">
                             <a href="">
-                                <img className="img-fluid" src="img/galleryImgs/img3.jpeg" alt="Thumb-4"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img4.jpg" alt="Thumb-4"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img5.jpeg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img5.jpg">
                             <a href="">
-                                <img className="img-fluid" src="img/galleryImgs/img5.jpeg" alt="Thumb-4"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img5.jpg" alt="Thumb-4"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img6.jpeg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img6.jpg">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/galleryImgs/img6.jpeg" alt="Thumb-4"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img6.jpg" alt="Thumb-4"/>
                             </a>
                           </div>
                         </div>

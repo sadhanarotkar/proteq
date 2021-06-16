@@ -55,24 +55,24 @@ const Quote = (props) => {
             <h3>Sending Mail...</h3>
           </div>}
 
-          { isSent && <div class="alert alert-success" role="alert">
+          { isSent && <div className="alert alert-success" role="alert">
                 Mail sent sucessfully.
               </div>}
 
-              { error && <div class="alert alert-danger" role="alert">
+              { error && <div className="alert alert-danger" role="alert">
                 Something went wrong.
               </div>}
               <h4>Share your feedback</h4>
               <p>Have any doubts or queries about our services? Wish to know anything our policy? Simply drop in your message by filling it in the loop below!</p>
             <form onSubmit={sendContactForm}>
-                <div className="form-group">
+                {/* <div className="form-group">
                   <select defaultValue={props.selected} name="product" className="form-control" required>
                     <option>Select Product</option>
                     <option value='ceramic'>Ceramic</option>
                     <option value='paint protectio film'>Paint Protection Film</option>
                     <option value='microfibre cloth'>Microfiber Cloth</option>
                   </select>
-                </div>
+                </div> */}
                 <div className="form-group">
                   <input name="fullname" type="text" className="form-control" placeholder="Name" required />
                 </div>

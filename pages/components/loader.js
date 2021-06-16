@@ -1,13 +1,10 @@
 export default function Loader() {
   return (
-    <div className='blobs'>
-      <div className='blob-center'></div>
-      <div className='blob'></div>
-      <div className='blob'></div>
-      <div className='blob'></div>
-      <div className='blob'></div>
-      <div className='blob'></div>
-      <div className='blob'></div>
+    <>
+    <div style={{ background: '#000', height: '100vh', display:'flex', justifyContent:'center',  alignContent:'center' }}>      
+      <img src="img/logo-loader.svg" className="img-fluid" style={{ width: '250px' }} />
     </div>
+    </>
   )
 }
+
