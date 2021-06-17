@@ -47,7 +47,7 @@ export default function Training() {
                   <p>This workshop is aimed at helping the attendees to learn the full breath of techniques to use and apply Paint Protection Film. Upon completion participants are awarded a Proteq certificate. Participants will leave with a better understanding of the industry at hand, the materials and tools needed and more confidence in their technique and application of PPF.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12">
-                  <img src="img/aboutTraining.jpg" className="img-fluid" />
+                  <img src="img/aboutTraining.png" className="img-fluid" />
                   {/* <div className="lax aboutRightImg"><img src="img/aboutIcon3.png" className="img-fluid" /></div>           */}
                 </div>
               </div>
@@ -144,7 +144,7 @@ export default function Training() {
                   </div>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5 pr-md-0 pl-md-5">
-                  <img src="img/trainingImg.jpg" className="img-fluid" />
+                  <img src="img/trainingImg.JPG" className="img-fluid" />
                 </div>
               </div>
             </div>

@@ -34,10 +34,11 @@ const WindowfilmP70 = ()=>{
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
                 <div className="tabPrev"></div>
-                <Link href='/windowfilm-p70'> 
                   <a className="nav-item nav-link active">P - 70</a>
-                </Link>
-                <Link href='/windowfilm-p70ws'>
+                <Link  href={{
+                    pathname: '/windowfilm-p70ws',
+                    query: {value:true},
+                  }}>
                   <div className="tabRight"><i className="fa fa-angle-right"></i></div>
                 </Link>
               </div>
@@ -163,21 +164,36 @@ const WindowfilmP70 = ()=>{
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-10 col-lg-10 col-md-12">
                   <h1 className="heading text-center mb-5">Related Products</h1>
-                  <div className="owl-carousel owl-theme relatedProduc-carousel">
-                    <div className='item d-none d-md-block'></div>
-                    <div className='item'>
-                      <Link href="/sunfilm-p70ws">
+                  <div className="mob-window">
+                    <Link href="/windowfilm-p70ws">
                         <a className="relatedPBox">
                           <div className="relatedPImg">
-                            <div style={{transform: 'rotate(5deg)'}}>
-                              <img src="img/Vertical-P70.png" />
+                            <div style={{transform: 'rotate(95deg)',position: 'relative',top: '70px'}}>
+                              <img src="img/p70ws.png" style={{width: '180px', height:'auto'}} />
                             </div>
                           </div>
                           <h5 className="heading">P - 70WS</h5>
                           <p>Proteq offers automotive window films designed to provide the custom look you desire, no matter what vehicle you drive.</p>
                         </a>
                       </Link>
-                    </div>                   
+                  </div>
+                  <div className="desk-window">
+                    <div className="owl-carousel owl-theme relatedProduc-carousel">
+                      <div className='item d-none d-md-block'></div>
+                      <div className='item'>
+                        <Link href="/windowfilm-p70ws">
+                          <a className="relatedPBox">
+                            <div className="relatedPImg" style={{height: '240px'}}>
+                              <div style={{transform: 'rotate(95deg)',position: 'relative',top: '70px'}}>
+                                <img src="img/p70ws.png" style={{width: '180px', height:'auto'}} />
+                              </div>
+                            </div>
+                            <h5 className="heading">P - 70WS</h5>
+                            <p>Proteq offers automotive window films designed to provide the custom look you desire, no matter what vehicle you drive.</p>
+                          </a>
+                        </Link>
+                      </div>                   
+                    </div>
                   </div>
                 </div>
               </div>

@@ -48,13 +48,14 @@ const GlassCeramic = ()=>{
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
                 <div className="tabPrev"></div>
-                <Link href='/plastic-ceramic'>
-                  <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
-                </Link>
-                <Link href='/ceramic'> 
+                  <Link  href={{
+                    pathname: '/plastic-ceramic',
+                    query: {value:true},
+                  }}>  
+                    <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
+                  </Link>
                   <a className="nav-item nav-link active">Glass Ceramic</a>
-                </Link>
-                <div className="tabRight"></div>
+                  <div className="tabRight"></div>
               </div>
             </div>
             <div className="deskTabs">

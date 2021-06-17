@@ -17,7 +17,8 @@ export default function Header(props) {
           <div className="footerLinks">
               <Link href='/about'><a>About Proteq</a></Link>
               <Link href='/gallery'><a>Gallery</a></Link>
-              <Link href='/testimonials' ><a>Testimonials</a></Link>
+              <Link href='/training'><a>Training</a></Link>
+              <Link href='/testimonials'><a>Testimonials</a></Link>
               <Link href='/contact'><a>Contact</a></Link>
           </div>          
           <div className="footerInfo">

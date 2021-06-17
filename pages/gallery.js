@@ -901,6 +901,48 @@ const Gallery=()=> {
                     </div>
                   </div>                     
                 </div>              
+                <div className="row justify-content-center lightgallery">
+                  <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
+                    <div className="row">
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item">                            
+                          <a>
+                              <img className="img-fluid" src="img/Kia-Sonet-Proteq-PPF-Installation.jpg"/>
+                              <button className="playBtn" data-toggle="modal" data-target="#videoModal16"><img src="img/play-button.svg" /></button>
+                          </a>
+                        </div>
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item">
+                            
+                        <a>
+                            <img className="img-fluid" src="img/Kia-Sonet-Proteq-PPF-Installation.jpg"/>
+                            <button className="playBtn" data-toggle="modal" data-target="#videoModal17"><img src="img/play-button.svg" /></button>
+                        </a>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
+                            <a>
+                                <img className="img-fluid" src="img/Kia-Sonet-Proteq-PPF-Installation.jpg"/>
+                                <button className="playBtn" data-toggle="modal" data-target="#videoModal15"><img src="img/play-button.svg" /></button>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
+                    <div className="row">
+                      <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
+                        <a>
+                          <img className="img-fluid" src="img/day1.jpg" />
+                          <button className="playBtn" data-toggle="modal" data-target="#videoModal13"><img src="img/play-button.svg" /></button>
+                        </a>
+                      </div>
+                      <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item">
+                        <a>
+                          <img className="img-fluid" src="img/Audi-Q2-Proteq-Paint-Protection-Film-Application.jpg"/>
+                          <button className="playBtn" data-toggle="modal" data-target="#videoModal14"><img src="img/play-button.svg" /></button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight"></div>
+                </div>
                 {/* <div className="text-center my-5">
                   <button type="button" className="btn hvr-sweep-to-right btn-load">Load More</button>
                 </div>  */}
@@ -2429,6 +2471,66 @@ const Gallery=()=> {
               <button type="button" onClick={((e) => pause('video12'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video12" width="100%" height="100%" controls>
                 <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+              </video> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal13" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video13'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video13" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/day1.mp4" type="video/mp4"/>
+              </video> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal14" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video14'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video14" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/Audi-Q2-Proteq-Paint-Protection-Film-Application.mp4" type="video/mp4"/>
+              </video> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal15" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video15'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video15" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/Kia-Sonet-Proteq-PPF-Installation.mp4" type="video/mp4"/>
+              </video> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal16" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video16'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video16" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/Lamborghini-Proteq-PPF-Installation.mp4" type="video/mp4"/>
+              </video> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal fade fullModal" id="videoModal17" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video17'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video17" width="100%" height="100%" controls>
+                <source src="https://proteq.wdipl.com/backend/videos/Volkswagen-Troc-Proteq-PPF-Application.mp4" type="video/mp4"/>
               </video> 
             </div>
           </div>

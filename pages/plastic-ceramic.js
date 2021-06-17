@@ -45,13 +45,17 @@ const PlasticCeramic = ()=>{
             
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
-                <Link href='/leather-ceramic'>
+                <Link  href={{
+                    pathname: '/leather-ceramic',
+                    query: {value:true},
+                  }}> 
                   <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
-                </Link>
-                <Link href='/plastic-ceramic'> 
+                  </Link>
                   <a className="nav-item nav-link active">Plastic Ceramic</a>
-                </Link>
-                <Link href='/glass-ceramic'>
+                  <Link  href={{
+                    pathname: '/glass-ceramic',
+                    query: {value:true},
+                  }}> 
                   <div className="tabRight"><i className="fa fa-angle-right"></i></div>
                 </Link>
               </div>

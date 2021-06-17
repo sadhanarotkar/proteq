@@ -47,10 +47,11 @@ const PaintProtection = ()=>{
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
                 <div className="tabPrev"></div>
-                <Link href='/paint-protection'> 
-                  <a className="nav-item nav-link active">2.0 series</a>
-                </Link>
-                <Link href='/paint-series3'>
+                <a className="nav-item nav-link active">2.0 series</a>
+                <Link  href={{
+                    pathname: '/paint-series3',
+                    query: {value:true},
+                  }}> 
                   <div className="tabRight"><i className="fa fa-angle-right"></i></div>
                 </Link>
               </div>

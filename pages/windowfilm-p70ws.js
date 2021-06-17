@@ -32,12 +32,13 @@ const WindowfilmP70WS = ()=>{
             
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
-                <Link href='/windowfilm-p70'>
+                <Link  href={{
+                    pathname: '/windowfilm-p70',
+                    query: {value:true},
+                  }}>
                   <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
                 </Link>
-                <Link href='/windowfilm-p70ws'> 
                   <a className="nav-item nav-link active">P - 70WS</a>
-                </Link>                
                 <div className="tabRight"></div>
                 
               </div>
@@ -50,7 +51,7 @@ const WindowfilmP70WS = ()=>{
               <div className="tab-pane fade show active" id="nav-series2" role="tabpanel" aria-labelledby="nav-series2-tab">
                 <div className="container-fluid">
                   <img src="img/p70ws.svg" className="img-fluid my-md-5 productTextImg" />     
-                  <div className="row justify-content-center">
+                  <div className="row justify-content-center window70wsImgsSpace">
                     <div className="col-xl-4 col-lg-5 col-md-5 col-sm-9">
                       <div className="paintProductImgs">
                         <div className="lax productImg1">
@@ -158,10 +159,24 @@ const WindowfilmP70WS = ()=>{
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-10 col-lg-10 col-md-12">
                   <h1 className="heading text-center mb-5">Related Products</h1>
+                  <div className="mob-window">
+                    <Link href="/windowfilm-p70">
+                      <a className="relatedPBox">
+                        <div className="relatedPImg">
+                          <div style={{transform: 'rotate(5deg)'}}>
+                            <img src="img/Vertical-P70.png" />
+                          </div>
+                        </div>
+                        <h5 className="heading">P - 70</h5>
+                        <p>Proteq presents its P- 70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection</p>
+                      </a>
+                      </Link>
+                  </div>
+                  <div className="desk-window">
                   <div className="owl-carousel owl-theme relatedProduc-carousel">
                     <div className='item'></div>
                     <div className='item'>
-                      <Link href="/sunfilm-p70">
+                      <Link href="/windowfilm-p70">
                         <a className="relatedPBox">
                           <div className="relatedPImg">
                             <div style={{transform: 'rotate(5deg)'}}>
@@ -173,6 +188,7 @@ const WindowfilmP70WS = ()=>{
                         </a>
                       </Link>
                     </div>                   
+                  </div>
                   </div>
                 </div>
               </div>

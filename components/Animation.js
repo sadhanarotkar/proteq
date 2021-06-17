@@ -199,6 +199,38 @@ const Animation = () => {
                 }
               }
             });
+
+
+            $('.certificate-carousel').owlCarousel({
+              loop:true,
+              margin:0,
+              dots:false,
+              nav:false,
+              mouseDrag:false,
+              autoplay:false,
+              items:4,
+              responsive : {
+                0 : {
+                  items:1,
+                  autoplay: true
+                },
+                380 : {
+                  items:1,
+                  autoplay: true
+                },
+                575 : {
+                  items:2,
+                  autoplay: true
+                },
+                767 : {
+                  items:3,
+                  autoplay: true
+                },
+                991 : {
+                  items:3,
+                }
+              }
+            });
           
             $(".navbar-toggler").click(function(){
               $(this).parents('header').toggleClass('active');

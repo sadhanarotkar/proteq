@@ -1121,7 +1121,7 @@ header.active .hamburger-inner::after {
 .load2, .load3, .load4, .load5, .load6, .load7, .load8, .load9, .load10, .load11, .load12, .load13, .load14, .load15{display: none;}
 
 
-.aboutWrapper .secCertificates{background: #2199c9;padding: 50px 0 150px;margin-bottom: -120px;margin-top: 25px;}
+.aboutWrapper .secCertificates{background: #2199c9;padding: 85px 0 150px;margin-bottom: -120px;margin-top: 25px;}
 .aboutWrapper .secCertificates a:hover{text-decoration: none;}
 .certificateBox{padding: 10px;border-radius: 3px;text-align: center;display: block;}
 .certificateBox h4{margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #FFF;font-family: 'Bebas Neue';font-size: 26px;}
@@ -1137,6 +1137,10 @@ header.active .hamburger-inner::after {
 .windowWrapper .productImg2{top: 50%;}
 .windowWrapper .p70ProductImgs .productImg1{top: 25%;}
 .windowWrapper .p70ProductImgs .productImg2{top: 25%;}
+
+.mob-window{display: none;}
+.mob-window .relatedPImg{text-align: center;height: 240px;}
+.mob-window .relatedPImg img{height: 180px;}
 
 /* End Q img animation */
 @media only screen and (min-width: 1400px) {
@@ -1173,7 +1177,7 @@ header.active .hamburger-inner::after {
   .whyRightImg{width: 125px;}
 }
 @media only screen and (max-width: 1024px) {
-  ul.navbar-nav li{padding: 0 15px;}
+  ul.navbar-nav li{padding: 0 10px;}
   .banner-carousel.owl-carousel .item .cover{padding: 150px 50px 50px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2{font-size: 155px;line-height: 130px;}
   .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span{font-size: 160px;}
@@ -1206,6 +1210,7 @@ header.active .hamburger-inner::after {
   .banner-item5 .contentLeft h2,
   .banner-item5 .contentRight h2{font-size: 160px;}
   .banner-item5 .contentRight{margin-bottom: 75px;}
+  .certificateBox h4{font-size: 22px;}
 }
 @media only screen and (max-width: 991px) {
   p{font-size: 12px;line-height: 1.5;}
@@ -1335,6 +1340,9 @@ header.active .hamburger-inner::after {
   ul.navbar-nav li.nav-item:hover, ul.navbar-nav li.nav-item.active{background-color: transparent;}
   .banner-item5 .contentRight{display: none;}
   .banner-item5 .contentLeft h2, .banner-item5 .contentRight h2{font-size: 100px;line-height: 90px;}
+  .secVision .visionText{top: 10px;}
+  .aboutWrapper .secCertificates{padding: 50px 0 125px;}
+  .secCertificates h1.heading{font-size: 40px;}
 }
 @media only screen and (max-width: 991px) and (orientation: portrait) {}
 @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -1460,6 +1468,9 @@ header.active .hamburger-inner::after {
   .banner-item5 .contentLeft{order: 2;}
   .windowBanner .col-sm-12{order: 2;}
   .banner-item5 .contentCenter img{left: 0;}
+  .aboutWrapper .secCertificates{padding: 50px 0 50px;margin-bottom: -145px;}
+  .aboutWrapper .secFaq{padding: 50px 0 120px;}
+  .window70wsImgsSpace .col-sm-12{margin-top: 150px;}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}
@@ -1571,7 +1582,7 @@ header.active .hamburger-inner::after {
   .galleryBanner .playBtn{margin-left: 30px;margin-right: 0;}
   .playBtn {width: 25px;height: 25px;padding: 15px 0 15px 5px;}
   .nav.gallery-tabs{display: flex;flex-wrap: nowrap;}
-  .visionText, .missionText{height: 70px;}
+  .visionText, .missionText{height: 65px;}
 
   .lax.homeCeramic1{top: -50%;}
   .lax.homeCeramic2{bottom: -300px;}
@@ -1599,6 +1610,11 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .owl-nav button.owl-next{right: 5px;}
   .banner-carousel a.btn{line-height: 36px;font-size: 13px;height: 38px;padding: 0 32px;}
   .banner-carousel a.btn:hover, .banner-carousel a.btn:focus {line-height: 38px;}
+  .contactBottomLeft{width: 300px;left: -100px;}
+  .contactBottomRight{width: 300px;right: -100px;}
+  .aboutWrapper .secFaq .productAccordion .card .card-header button{min-height: 35px;}
+  .mob-window{display: block;}
+  .desk-window{display: none;}
 }
 
 @media only screen and (max-width: 480px) {

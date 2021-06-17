@@ -47,12 +47,13 @@ const PaintSeriesm = ()=>{
             
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
-                <Link href='/paint-series5'>
+                  <Link  href={{
+                    pathname: '/paint-series5',
+                    query: {value:true},
+                  }}>
                   <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
                 </Link>
-                <Link href='/paint-seriesm'> 
                   <a className="nav-item nav-link active">M series</a>
-                </Link>
                   <div className="tabRight"></div>
               </div>
             </div>

@@ -144,26 +144,23 @@ export default function About() {
             </div>
           </section>
           <section className="secCertificates">
+            <div className="text-center">
+              <h1 className="heading text-white">Certificates</h1>
+            </div>
             <div className="container">
-              <div className="row">
-                <div className="col-md-4">
-                  <a href="pdf/SGS-Glass-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
-                    <img src="img/certificate.svg" className="img-fluid" />
-                    <h4>Glass<br></br> Ceramic<br></br> Shield</h4>
-                  </a>
-                </div>
-                <div className="col-md-4">
-                  <a href="pdf/SGS-Leather-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
-                    <img src="img/certificate.svg" className="img-fluid" />
-                    <h4>Leather<br></br> Ceramic<br></br> Shield</h4>
-                  </a>
-                </div>
-                <div className="col-md-4">
-                  <a href="pdf/SGS-Plastic-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
-                    <img src="img/certificate.svg" className="img-fluid" />
-                    <h4>Plastic<br></br> Ceramic<br></br> Shield</h4>
-                  </a>
-                </div>
+              <div className="owl-carousel owl-theme certificate-carousel">
+                <a href="pdf/SGS-Glass-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
+                  <img src="img/certificate.svg" className="img-fluid" />
+                  <h4>SGS - Glass<br></br> Ceramic<br></br> Shield</h4>
+                </a>
+                <a href="pdf/SGS-Leather-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
+                  <img src="img/certificate.svg" className="img-fluid" />
+                  <h4>SGS - Leather<br></br> Ceramic<br></br> Shield</h4>
+                </a>
+                <a href="pdf/SGS-Plastic-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
+                  <img src="img/certificate.svg" className="img-fluid" />
+                  <h4>SGS - Plastic<br></br> Ceramic<br></br> Shield</h4>
+                </a>
               </div>
             </div>
             <div className="lax faqBottomImg">
