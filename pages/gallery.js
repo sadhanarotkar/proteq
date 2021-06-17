@@ -2338,7 +2338,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video1'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video1" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video1.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video1.mp4" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -2350,7 +2350,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video2'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video2" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video2.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video2.mp4" type="video/mp4"/>
               </video>               
             </div>
           </div>
@@ -2362,7 +2362,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video3'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video3" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video3.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video3.mp4" type="video/mp4"/>
               </video>  
             </div>
           </div>
@@ -2374,7 +2374,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video4'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video4" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video4.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video4.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -2386,7 +2386,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video5'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video5" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video5.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video5.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -2398,7 +2398,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video6'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video6" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video6.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video6.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -2410,7 +2410,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video7'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video7" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video7.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video7.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -2422,7 +2422,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video8'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video8" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video8.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video8.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -2434,7 +2434,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video9'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video9" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video9.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video9.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -2446,7 +2446,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video10'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video10" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video10.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -2458,7 +2458,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video11'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video11" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video10.mp4" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -2470,7 +2470,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video12'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video12" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/video10.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/video10.mp4" type="video/mp4"/>
               </video> 
             </div>
           </div>
@@ -2482,7 +2482,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video13'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video13" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/day1.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/day1.mp4" type="video/mp4"/>
               </video> 
             </div>
           </div>
@@ -2494,7 +2494,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video14'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video14" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/Audi-Q2-Proteq-Paint-Protection-Film-Application.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Audi-Q2-Proteq-Paint-Protection-Film-Application.mp4" type="video/mp4"/>
               </video> 
             </div>
           </div>
@@ -2506,7 +2506,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video15'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video15" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/Kia-Sonet-Proteq-PPF-Installation.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Kia-Sonet-Proteq-PPF-Installation.mp4" type="video/mp4"/>
               </video> 
             </div>
           </div>
@@ -2518,7 +2518,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video16'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video16" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/Lamborghini-Proteq-PPF-Installation.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Lamborghini-Proteq-PPF-Installation.mp4" type="video/mp4"/>
               </video> 
             </div>
           </div>
@@ -2530,7 +2530,7 @@ const Gallery=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video17'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video17" width="100%" height="100%" controls>
-                <source src="https://proteq.wdipl.com/backend/videos/Volkswagen-Troc-Proteq-PPF-Application.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Volkswagen-Troc-Proteq-PPF-Application.mp4" type="video/mp4"/>
               </video> 
             </div>
           </div>

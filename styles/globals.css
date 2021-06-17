@@ -574,7 +574,7 @@ iframe{border: none;display: block;}
 .missionLeftImg{left: 0;top: auto;bottom: 0;width: 150px;}
 .secVision .visionText{position: relative;top: 70px;left: 15px;}
 /* .secMission .container-fluid.headingText{} */
-.aboutWrapper .secHomeTestimonial{margin-top: 0;padding: 100px 0 80px;}
+.aboutWrapper .secHomeTestimonial{margin-top: 0;padding: 100px 0 80px;overflow: hidden;}
 .aboutWrapper .bottomContact{background: #F2BA0F;text-align: center;overflow: hidden;margin-top: -1px;padding: 100px 0;}
 .aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -120px;}
 
