@@ -6,6 +6,8 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
+import { useRouter } from "next/router";
+import { useEffect, useRef, useState } from "react";
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
@@ -26,6 +28,21 @@ const MicrofiberCloth = ()=>{
     var myVideo = document.getElementById(e);
     myVideo.play();
   };
+
+
+  const router = useRouter();
+    const scrollDiv = useRef(null);
+
+    const[is_tab,setIstab]=useState(false);
+
+   useEffect(()=>{
+    setIstab(router.query.value);
+     console.log(router.query.value);
+    if(is_tab){
+    scrollDiv.current.scrollIntoView({ behavior: 'smooth' });
+     }
+
+  });
   return (
     <main className="content">
       <Head>
@@ -47,7 +64,7 @@ const MicrofiberCloth = ()=>{
                 </div>
               </div>
             </div>
-            <div className="tabSpace" id="tab"></div>
+            <div ref={scrollDiv} className="tabSpace" id="tab"></div>
           </section>
           <section className="secCategory">
             <div className="container-fluid">

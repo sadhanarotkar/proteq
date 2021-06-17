@@ -35,11 +35,19 @@ const OwlCarousel = dynamic(
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
                 <div className="tabPrev"></div>
-                <Link href='/ceramic'> 
+                  <Link  href={{
+                    pathname: '/ceramic',
+                    query: {value:true},
+                  }}>  
                   <a className="nav-item nav-link active">Ceramic shield</a>
                 </Link>
-                <Link href='/leather-ceramic'>
+                <Link  href={{
+                    pathname: '/leather-ceramic',
+                    query: {value:true},
+                  }}>  
+                  <a>
                   <div className="tabRight"><i className="fa fa-angle-right"></i></div>
+                  </a>
                 </Link>
               </div>
             </div>

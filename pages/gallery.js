@@ -916,42 +916,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img2.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img2.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img2.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img2.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img3.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img3.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img3.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img3.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img6.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img6.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img6.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img6.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img4.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img4.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img4.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img4.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img5.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img5.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img5.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img5.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img1.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img1.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img1.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img1.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -960,42 +960,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img7.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img7.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img7.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img7.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img8.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img8.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img8.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img8.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img9.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img9.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img9.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img9.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img10.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img10.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img10.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img10.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img11.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img11.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img11.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img11.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img15.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img15.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img15.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img15.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1009,42 +1009,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img16.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img16.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img16.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img16.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img17.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img17.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img17.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img17.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img19.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img19.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img19.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img19.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img13.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img13.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img13.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img13.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img14.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img14.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img14.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img14.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img18.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img18.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img18.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img18.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1053,42 +1053,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img20.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img20.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img20.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img20.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img21.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img21.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img21.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img21.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img22.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img22.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img22.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img22.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img23.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img23.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img23.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img23.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img24.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img24.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img24.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img24.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img25.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img25.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img25.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img25.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1103,42 +1103,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img26.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img26.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img26.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img26.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img27.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day1/img27.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img27.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img27.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img28.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img28.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day1/img28.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day1/img28.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img29.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img29.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img29.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img29.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img30.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img30.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img30.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img30.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img32.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img32.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img32.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img32.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1147,42 +1147,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img33.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img33.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img33.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day1/img33.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day1/img32.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day1/img32.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img32.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img32.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img33.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img33.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day1/img33.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day1/img33.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img1.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img1.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img1.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img1.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img2.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img2.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img2.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img2.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img3.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img3.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img3.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img3.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1197,42 +1197,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img4.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img4.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img4.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img4.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img5.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img5.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img5.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img5.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img6.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img6.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img6.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img6.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img7.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img7.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img7.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img7.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img8.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img8.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img8.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img8.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img9.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img9.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img9.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img9.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1241,42 +1241,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img10.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img10.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img10.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img10.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img11.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img11.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img11.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img11.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img12.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img12.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img12.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img12.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img13.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img13.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img13.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img13.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img14.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img14.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img14.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img14.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img15.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img15.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img15.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img15.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1291,42 +1291,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img16.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img16.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img16.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img16.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img17.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img17.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img17.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img17.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img18.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img18.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img18.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img18.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img19.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img19.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img19.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img19.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img20.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img20.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img20.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img20.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img21.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img21.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img21.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img21.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1335,42 +1335,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img22.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img22.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img22.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img22.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img23.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img23.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img23.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img23.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img24.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img24.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img24.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img24.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img25.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img25.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img25.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img25.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img26.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img26.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img26.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img26.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img27.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img27.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img27.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img27.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1385,42 +1385,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img28.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img28.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img28.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img28.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img29.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img29.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img29.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img29.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img30.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img30.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img30.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img30.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img31.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img31.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img31.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img31.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img32.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img32.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img32.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img32.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img33.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img33.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img33.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img33.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1429,42 +1429,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img34.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img34.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img34.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img34.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img35.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img35.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img35.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img35.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img36.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img36.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img36.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img36.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img37.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img37.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img37.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img37.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img38.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img38.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img38.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img38.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img39.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img39.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img39.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img39.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1479,42 +1479,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img40.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img40.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img40.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img40.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img41.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img41.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img41.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img41.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img42.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img42.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img42.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img42.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img43.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img43.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img43.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img43.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img44.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img44.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img44.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img44.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img45.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img45.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img45.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img45.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1523,42 +1523,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img46.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img46.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img46.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img46.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img47.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img47.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img47.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img47.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img48.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img48.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img48.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img48.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img49.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img49.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img49.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img49.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img50.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img50.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img50.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img50.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img51.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img51.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img51.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img51.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1573,42 +1573,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img52.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img52.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img52.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img52.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img53.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img53.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img53.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img53.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img54.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img54.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img54.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img54.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img55.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img55.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img55.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img55.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img56.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img56.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img56.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img56.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img57.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img57.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img57.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img57.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1617,42 +1617,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img58.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img58.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img58.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img58.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img59.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img59.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img59.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img59.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img60.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img60.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img60.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img60.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img61.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img61.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img61.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img61.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img62.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img62.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img62.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img62.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img63.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img63.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img63.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img63.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1667,42 +1667,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img64.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img64.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img64.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img64.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img65.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img65.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img65.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img65.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img66.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img66.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img66.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img66.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img67.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img67.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img67.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img67.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img68.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img68.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img68.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img68.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img69.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img69.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img69.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img69.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1711,42 +1711,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img70.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img70.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img70.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img70.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img71.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img71.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img71.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img71.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img72.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img72.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img72.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img72.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img73.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img73.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img73.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img73.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img74.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img74.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img74.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img74.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img75.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img75.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img75.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img75.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1761,42 +1761,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img76.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img76.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img76.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img76.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img77.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day2/img77.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img77.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img77.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img78.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img78.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day2/img78.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day2/img78.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img79.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img79.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img79.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img79.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img80.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img80.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img80.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img80.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img81.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img81.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img81.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img81.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1805,42 +1805,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img82.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img82.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img82.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day2/img82.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img83.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img83.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img83.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img83.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img84.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img84.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day2/img84.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day2/img84.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img1.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img1.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img1.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img1.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img2.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img2.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img2.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img2.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img3.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img3.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img3.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img3.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1855,42 +1855,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img4.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img4.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img4.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img4.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img5.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img5.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img5.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img5.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img6.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img6.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img6.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img6.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img7.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img7.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img7.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img7.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img8.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img8.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img8.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img8.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img9.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img9.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img9.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img9.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1899,42 +1899,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img10.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img10.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img10.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img10.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img11.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img11.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img11.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img11.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img12.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img12.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img12.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img12.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img13.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img13.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img13.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img13.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img14.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img14.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img14.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img14.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img15.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img15.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img15.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img15.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -1949,42 +1949,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img16.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img16.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img16.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img16.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img17.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img17.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img17.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img17.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img18.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img18.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img18.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img18.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img19.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img19.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img19.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img19.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img20.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img20.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img20.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img20.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img21.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img21.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img21.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img21.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -1993,42 +1993,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img22.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img22.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img22.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img22.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img23.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img23.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img23.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img23.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img24.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img24.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img24.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img24.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img25.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img25.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img25.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img25.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img26.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img26.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img26.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img26.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img27.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img27.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img27.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img27.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -2043,42 +2043,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img28.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img28.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img28.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img28.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img29.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img29.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img29.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img29.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img30.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img30.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img30.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img30.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img31.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img31.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img31.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img31.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img32.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img32.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img32.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img32.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img33.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img33.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img33.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img33.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -2087,42 +2087,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img34.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img34.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img34.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img34.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img35.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img35.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img35.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img35.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img36.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img36.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img36.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img36.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img37.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img37.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img37.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img37.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img38.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img38.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img38.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img38.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img39.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img39.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img39.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img39.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -2137,42 +2137,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img40.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img40.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img40.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img40.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img41.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img41.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img41.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img41.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img42.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img42.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img42.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img42.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img43.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img43.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img43.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img43.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img44.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img44.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img44.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img44.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img45.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img45.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img45.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img45.JPG"/>
                             </a>
                           </div>
                         </div>
@@ -2181,42 +2181,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img46.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img46.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img46.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img46.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img47.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img47.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img47.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img47.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img48.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img48.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img48.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img48.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img49.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img49.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img49.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img49.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img50.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img50.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img50.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img50.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img51.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img51.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img51.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img51.JPG"/>
                                 </a>
                             </div>
                         </div>
@@ -2231,42 +2231,42 @@ const Gallery=()=> {
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img52.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img52.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img52.jpg" />
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img52.JPG" />
                                 </a>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img53.jpg">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 item" data-src="img/trainingImgs/day3/img53.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img53.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img53.JPG"/>
                                 </a>
                             </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img54.jpg">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img54.JPG">
                                 <a href="">
-                                    <img className="img-fluid" src="img/trainingImgs/day3/img54.jpg"/>
+                                    <img className="img-fluid" src="img/trainingImgs/day3/img54.JPG"/>
                                 </a>
                             </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img55.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img55.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img55.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img55.JPG"/>
                             </a>
                           </div>
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img56.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img56.JPG">
                             <a href="">
-                                <img className="img-fluid" src="img/trainingImgs/day3/img56.jpg"/>
+                                <img className="img-fluid" src="img/trainingImgs/day3/img56.JPG"/>
                             </a>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryRight">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img58.jpg">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img58.JPG">
                             <a href="">
-                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img58.jpg"/>
+                                <img className="img-fluid verticalImg" src="img/trainingImgs/day3/img58.JPG"/>
                             </a>
                           </div>
                         </div>
