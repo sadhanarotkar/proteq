@@ -49,7 +49,9 @@ const router = useRouter()
                   <div className="col-xl-4 col-lg-4 col-md-4 contentLeft">
                     <h2>Proteq <br></br><span>Autocare</span></h2>
                     <p>We pride our business on the solid foundations of providing all with exceptional customer service, quality and honesty, revving up our fleet of extensive care & shine for your car!</p>
-                    <Link href='about'><a className="btn hvr-sweep-to-right">Read More</a></Link>
+                    <Link href='/about'>
+                      <a className="btn hvr-sweep-to-right">Read More</a>
+                      </Link>
                   </div>
                   <div className="col-xl-8 col-lg-8 col-md-8 contentRight px-md-0">                      
                     <img src="img/slide1-product.png" className="img-fluid mt-md-5" />                    
@@ -72,7 +74,9 @@ const router = useRouter()
                   <div className="col-lg-4 col-md-6 contentLeft">
                     <h2>Ceramic <span className="d-lg-none">Shield</span></h2>
                     <p>Our ceramic shield protects your vehicle for a longer duration, and will instantly give out a shiner look. The ceramic shield also speeds up the rainwater and makes it run off the windshield and car quickly.</p>
-                    <Link href='ceramic'><a className="btn hvr-sweep-to-right">Read More</a></Link>
+                    <Link href='/ceramic'>
+                      <a className="btn hvr-sweep-to-right">Read More</a>
+                      </Link>
                   </div>
                   <div className="col-lg-5 col-md-6 contentCenter px-lg-5">                      
                     <img src="img/homeProduct1.png" className="img-fluid" />                    
@@ -92,7 +96,9 @@ const router = useRouter()
                   <div className="col-lg-4 col-md-6 contentLeft">
                     <h2>Microfiber <span className="d-lg-none">Cloth</span></h2>
                     <p>Proteq Microfiber Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
-                    <Link href='microfiber-cloth'><a className="btn hvr-sweep-to-right">Read More</a></Link>
+                    <Link href='/microfiber-cloth'>
+                      <a className="btn hvr-sweep-to-right">Read More</a>
+                      </Link>
                   </div>
                   <div className="col-lg-5 col-md-6 contentCenter align-self-end px-5">                      
                     <img src="img/microfiber.png" className="img-fluid" />                    
@@ -115,7 +121,9 @@ const router = useRouter()
                   <div className="col-xl-4 col-lg-4 col-md-6 contentRight align-self-center">
                     <h2>Paint <span>Protection Film</span></h2>
                     <p>Our Paint protection film (PPF) brings out the ability to heal swirls and scratches with heat, leaving your paint shiny and glossy. It conjointly has the flexibility to soak up impact and preserve your paint from rock chips.</p>
-                    <Link href='paint-protection'><a className="btn hvr-sweep-to-right">Read More</a></Link>
+                    <Link href='/paint-protection'>
+                      <a className="btn hvr-sweep-to-right">Read More</a>
+                      </Link>
                   </div>
                 </div>
               </div>
@@ -129,7 +137,9 @@ const router = useRouter()
                   <div className="col-lg-5 col-md-7 contentLeft">
                     <h2>Window <span className="d-lg-none">Films</span></h2>
                     <p>Take protection on the road with you with our automotive products. Proteq's window films offer protection from the sun, flying debris, and road hazards. These protection films block 99% of the sun’s harmful UV rays, protecting your skin and reducing fading of interiors.</p>
-                    <Link href='windowfilm-p70'><a className="btn hvr-sweep-to-right">Read More</a></Link>
+                    <Link href='/windowfilm-p70'>
+                      <a className="btn hvr-sweep-to-right">Read More</a>
+                      </Link>
                   </div>
                   <div className="col-lg-3 col-md-4 contentCenter px-lg-4">                      
                     <img src="img/windowbannerImg.png" className="img-fluid" />                    

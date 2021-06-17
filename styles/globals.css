@@ -1121,7 +1121,7 @@ header.active .hamburger-inner::after {
 .load2, .load3, .load4, .load5, .load6, .load7, .load8, .load9, .load10, .load11, .load12, .load13, .load14, .load15{display: none;}
 
 
-.aboutWrapper .secCertificates{background: #2199c9;padding: 85px 0 150px;margin-bottom: -120px;margin-top: 25px;}
+.aboutWrapper .secCertificates{background: #2199c9;padding: 85px 0 150px;margin-bottom: -120px;margin-top: 25px;overflow: hidden;}
 .aboutWrapper .secCertificates a:hover{text-decoration: none;}
 .certificateBox{padding: 10px;border-radius: 3px;text-align: center;display: block;}
 .certificateBox h4{margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #FFF;font-family: 'Bebas Neue';font-size: 26px;}
@@ -1244,7 +1244,8 @@ header.active .hamburger-inner::after {
  .navbar-toggler.active.active-mega .megamenuBtn{display: block;width: 30px;height: 30px;}
   .overlayMenu.active{height: calc(100vh - 100px);height: 100%;z-index: 999;background: #000;box-shadow: none;position: fixed;width: 100%;top: 0;overflow-y: auto;}
   .overlayTop{padding: 6px 15px;display: block;height: 75px;}
-  .overlayLogo{height:48px;display: inline-flex;}
+  .overlayLogo{height:48px;}
+  .overlayLogo img{height: 100%;}
   .overlayProductItem{display: block;}
   .overlayProductItem::after {content: "\f107";font-family: 'FontAwesome';border: none;position: relative;color: #FFF;font-size: 18px;top: 1px;margin-left: 5px;}
   .overlayProductItem+.nav-item{display: none;}
@@ -1471,6 +1472,8 @@ header.active .hamburger-inner::after {
   .aboutWrapper .secCertificates{padding: 50px 0 50px;margin-bottom: -145px;}
   .aboutWrapper .secFaq{padding: 50px 0 120px;}
   .window70wsImgsSpace .col-sm-12{margin-top: 150px;}
+  .window70wsImgsSpace .productImg1 img{width: 240px;bottom: -80px;}
+  .window70wsImgsSpace .productImg2 img{width: 260px;bottom: -60px;position: relative;}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}
@@ -1605,7 +1608,7 @@ header.active .hamburger-inner::after {
   ul.stickyLinks li a{height: 34px;width: 34px;line-height: 32px;font-size: 12px;}
   .stickyLinkIcon{width: 34px;min-width: 34px;}
   ul.stickyLinks li a:hover{width: 130px;}
-  ul.stickyLinks{top: 35%;}
+  ul.stickyLinks{top: 30%;}
   .banner-carousel.owl-carousel .owl-nav button.owl-prev{left: 5px;}
   .banner-carousel.owl-carousel .owl-nav button.owl-next{right: 5px;}
   .banner-carousel a.btn{line-height: 36px;font-size: 13px;height: 38px;padding: 0 32px;}
@@ -1649,6 +1652,7 @@ header.active .hamburger-inner::after {
   .aboutHeading h2.heading{font-size: 40px;}
   .aboutHeading h2 span{font-size: 60px;}
   .privacyBanner h1{font-size: 45px;}
+  .visionText, .missionText{height: 50px;}
 }
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}

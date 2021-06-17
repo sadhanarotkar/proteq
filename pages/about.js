@@ -164,7 +164,7 @@ export default function About() {
               </div>
             </div>
             <div className="lax faqBottomImg">
-              <img src="img/certificateBottom.svg" class="productBottomImg img-fluid" style={{opacity: '0.5'}} />
+              <img src="img/certificateBottom.svg" className="productBottomImg img-fluid" style={{opacity: '0.5'}} />
             </div>
           </section>
           <section className="secHomeTestimonial">

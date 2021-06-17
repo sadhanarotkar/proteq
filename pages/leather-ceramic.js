@@ -8,7 +8,7 @@ import dynamic from 'next/dynamic';
 import ContactUS from '../components/ContactUsCommon'
 import CeramicBanner from './components/ceramic-banner'
 import CeramicRelatedProduct from '../components/CeramicRelatedProduct'
-import Link from 'next/dist/client/link';
+import Link from 'next/link';;
 
 const OwlCarousel = dynamic(
   () => import('react-owl-carousel'),
