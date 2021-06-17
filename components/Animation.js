@@ -70,6 +70,9 @@ const Animation = () => {
             lightGallery(document.getElementById('lightgallery'),{                
               selector: '.item'
             });
+            lightGallery(document.getElementById('lightgallery2'),{                
+              selector: '.item'
+            });
             lightGallery(document.getElementById('video-gallery'));
             lightGallery(document.getElementById('html5-videos'));
            

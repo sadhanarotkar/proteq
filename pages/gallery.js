@@ -948,12 +948,12 @@ const Gallery=()=> {
                 </div>  */}
               </div>
               <div className="tab-pane fade" id="nav-training" role="tabpanel" aria-labelledby="nav-training-tab">
-              <div className="row justify-content-center text-center mb-md-5">
+                <div className="row justify-content-center text-center mb-md-5">
                   <div className="col-xl-8 col-lg-8 col-md-12">
                     <p>Proteq also offers their best of training programs in getting your skill-sets and <br></br>automotive passion on hands with industries best understood knowledge! </p>
                   </div>
                 </div>  
-                <div id="lightgallery">
+                <div id="lightgallery2">
                   <div className="loadmore load1">
                     <div className="row justify-content-center lightgallery">
                       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 galleryLeft">
