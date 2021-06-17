@@ -122,8 +122,8 @@ export default function About() {
           <section className="secVision pb-5">
             <div className="container-fluid headingText">
               <div className="row">
-                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 px-md-5">
-                  <img src="img/ourvisionText.svg" className="img-fluid visionText" />
+                <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 px-md-5">
+                  <img src="img/press-release.svg" className="img-fluid visionText" />
                 </div>
               </div>
             </div>

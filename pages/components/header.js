@@ -282,9 +282,7 @@ export default function Header() {
                       : 'nav-item'
                   }
                 >
-                  <Link href='/testimonials' >
-                    <a className='nav-link'>Testimonials</a>
-                  </Link>
+                  <a  href='/testimonials' className='nav-link'>Testimonials</a>
                 </li>
                 <li
                   className={

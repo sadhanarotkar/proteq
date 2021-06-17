@@ -21,7 +21,7 @@ export default function Contact() {
       <section className="contactBanner">
         <div className="container">
           <h1>Get in touch With us</h1>
-          <h4>The Best Car Service Awaits You!</h4>
+          <h4>The Best Car Service Awaits You! </h4>
         </div>
       </section>
       <section className="contactInfo">
@@ -69,7 +69,7 @@ export default function Contact() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-8">
-              <p>We're never going to leave you hanging there. Get in touch with us for any detail or information regarding your tyre or auto service repair.</p>
+              <p>Proteq Works On Excellency To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
               <h1 className="heading mb-4">contact us</h1>
               <ContactUS/>
             </div>
