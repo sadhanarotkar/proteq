@@ -1145,6 +1145,8 @@ header.active .hamburger-inner::after {
 .mob-window .relatedPImg{text-align: center;height: 240px;}
 .mob-window .relatedPImg img{height: 180px;}
 
+.testimonialVideoBox .owl-carousel .owl-item img{height: 280px;object-fit: contain;}
+
 /* End Q img animation */
 @media only screen and (min-width: 1400px) {
   p, .productBanner p{font-size: 15px;}
@@ -1500,7 +1502,7 @@ header.active .hamburger-inner::after {
   .aboutBannerContent .container>img {height: 285px;left: 15px;}
   .lax.homeCeramic5{width: 150px;}
   .aboutWrapper .secWhy{padding: 30px 0;}
-  .aboutHeading h2.heading{font-size: 60px;}
+  .aboutHeading h2.heading, .trainigBanner .aboutHeading h2 .smallText span{font-size: 60px;}
   .aboutHeading h2 span{font-size: 80px;}
   .bottomContact .headingShadow{font-size: 190px;}
   .contactInfoRight ul li{width: 100%;text-align: center;}

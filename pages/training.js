@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import Loader from './components/loader'
 import Header from './components/header'
 import Footer from './components/footer'
@@ -13,7 +14,21 @@ const OwlCarousel = dynamic(
   }
 );
 
-export default function Training() {
+const Training=()=> {
+  const router = useRouter()
+
+  const pause=(e)=>{
+    console.log(e);
+    
+    var myVideo = document.getElementById(e);
+    myVideo.pause();
+    
+  };
+  const play =(e)=>{
+    var myVideo = document.getElementById(e);
+    myVideo.play();
+  };
+
   return (
     <main className="content">
       <Head>
@@ -181,14 +196,63 @@ export default function Training() {
                   </div>
                   <h1 className="heading">Testimonials</h1>
                 </div>
-                <div className="col-xl-5 col-lg-6 col-md-6 px-5">
+                <div className="col-xl-5 col-lg-6 col-md-6 px-5 testimonialVideoBox">
                   <img src="img/metro-quote.svg" className="img-fluid testimonialQuoteIcon" />
                   <OwlCarousel className='owl-theme' loop margin={10} nav items={1} dots={false} autoplay={true}>
                     <div className='item'>
                       <div className="testimonialContent">
-                      <video width="100%" height="100%" controls>
-                        <source src="https://proteq.co.in:8444/backend/videos/video1.mp4" type="video/mp4"/>
-                      </video>
+                        <a href="#" data-toggle="modal" data-target="#testiModal1">
+                          <img src="img/testimonialImg1.jpg" className="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className="testimonialContent">
+                        <a href="#" data-toggle="modal" data-target="#testiModal2">
+                          <img src="img/testimonialImg2.jpg" className="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className="testimonialContent">
+                        <a href="#" data-toggle="modal" data-target="#testiModal3">
+                          <img src="img/testimonialImg3.jpg" className="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className="testimonialContent">
+                        <a href="#" data-toggle="modal" data-target="#testiModal4">
+                          <img src="img/testimonialImg4.jpg" className="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className="testimonialContent">
+                        <a href="#" data-toggle="modal" data-target="#testiModal5">
+                          <img src="img/testimonialImg5.jpg" className="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className="testimonialContent">
+                        <a href="#" data-toggle="modal" data-target="#testiModal6">
+                          <img src="img/testimonialImg6.jpg" className="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className="testimonialContent">
+                        <a href="#" data-toggle="modal" data-target="#testiModal7">
+                          <img src="img/testimonialImg7.jpg" className="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className='item'>
+                      <div className="testimonialContent">
+                        <a href="#" data-toggle="modal" data-target="#testiModal8">
+                          <img src="img/testimonialImg8.jpg" className="img-fluid" />
+                        </a>
                       </div>
                     </div>
                   </OwlCarousel>
@@ -217,7 +281,105 @@ export default function Training() {
             </div>
           </section>
         </div>
-      <Footer />      
+      <Footer />   
+      <div className="modal fade fullModal" id="testiModal1" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video1'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video1" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial1.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className="modal fade fullModal" id="testiModal2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video2'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video2" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial2.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className="modal fade fullModal" id="testiModal3" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video3'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video3" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial3.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className="modal fade fullModal" id="testiModal4" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video4'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video4" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial4.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className="modal fade fullModal" id="testiModal5" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video5'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video5" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial5.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className="modal fade fullModal" id="testiModal6" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video6'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video6" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial6.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className="modal fade fullModal" id="testiModal7" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video7'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video7" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial7.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div>        
+      <div className="modal fade fullModal" id="testiModal8" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" onClick={((e) => pause('video8'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <video id="video8" width="100%" height="100%" controls>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial8.mp4" type="video/mp4"/>
+              </video>              
+            </div>
+          </div>
+        </div>
+      </div>   
     </main>
   )
 }
+
+export default Training;

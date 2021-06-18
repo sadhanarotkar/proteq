@@ -222,7 +222,7 @@ export default function Header() {
                               pathname: '/windowfilm-p70ws',
                               query: {value:true},
                             }}> 
-                              <a>P70WS</a>
+                              <a>P70<sup>WS</sup></a>
                             </Link>
                           </li>
                         </ul>
@@ -381,7 +381,7 @@ export default function Header() {
                       pathname: '/windowfilm-p70ws',
                       query: {value:true},
                     }}> 
-                      <a>P70WS</a>
+                      <a>P70<sup>WS</sup></a>
                     </Link>
                   </li>
                 </ul>

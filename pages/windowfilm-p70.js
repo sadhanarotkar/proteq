@@ -34,7 +34,7 @@ const WindowfilmP70 = ()=>{
             <div className="category-nav mobTabs">
               <div className="nav nav-tabs category-tabs justify-content-center" id="nav-tab" role="tablist">
                 <div className="tabPrev"></div>
-                  <a className="nav-item nav-link active">P - 70</a>
+                  <a className="nav-item nav-link active">P70</a>
                 <Link  href={{
                     pathname: '/windowfilm-p70ws',
                     query: {value:true},
@@ -65,9 +65,9 @@ const WindowfilmP70 = ()=>{
                       </div>                        
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
-                      <h2 className="heading mb-md-4">P - 70</h2>  
-                      <p>Proteq presents its P- 70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection 97% heat reduction to create the perfect film for your car. Its high visible light transmission provides excellent infrared rejection, providing energy savings and enhanced comfort through quicker cooling through your car’s ac. The low interior and exterior reflectivity enhances views while enhancing exterior appearance.</p>  
-                      <p>A non-metallized film, with no signal interference and no chance for corrosion, P-70 helps extend the life of your car’s upholstery by significantly reducing harmful UV rays, which is the largest cause of fading. Proteq's P70 Multilayer Nano-technology films increase personal safety by enhancing night-driving visibility. </p>
+                      <h2 className="heading mb-md-4">P70</h2>  
+                      <p>Proteq presents its P70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection 97% heat reduction to create the perfect film for your car. Its high visible light transmission provides excellent infrared rejection, providing energy savings and enhanced comfort through quicker cooling through your car’s ac. The low interior and exterior reflectivity enhances views while enhancing exterior appearance.</p>  
+                      <p>A non-metallized film, with no signal interference and no chance for corrosion, P70 helps extend the life of your car’s upholstery by significantly reducing harmful UV rays, which is the largest cause of fading. Proteq's P70 Multilayer Nano-technology films increase personal safety by enhancing night-driving visibility. </p>
                     </div>
                   </div>
                 </div>    
@@ -172,7 +172,7 @@ const WindowfilmP70 = ()=>{
                               <img src="img/p70ws.png" style={{width: '180px', height:'auto'}} />
                             </div>
                           </div>
-                          <h5 className="heading">P - 70WS</h5>
+                          <h5 className="heading">P70<sup>WS</sup></h5>
                           <p>Proteq offers automotive window films designed to provide the custom look you desire, no matter what vehicle you drive.</p>
                         </a>
                       </Link>
@@ -188,7 +188,7 @@ const WindowfilmP70 = ()=>{
                                 <img src="img/p70ws.png" style={{width: '180px', height:'auto'}} />
                               </div>
                             </div>
-                            <h5 className="heading">P - 70WS</h5>
+                            <h5 className="heading">P70<sup>WS</sup></h5>
                             <p>Proteq offers automotive window films designed to provide the custom look you desire, no matter what vehicle you drive.</p>
                           </a>
                         </Link>

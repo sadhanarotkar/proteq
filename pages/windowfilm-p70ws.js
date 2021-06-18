@@ -38,7 +38,7 @@ const WindowfilmP70WS = ()=>{
                   }}>
                   <div className="tabPrev"><i className="fa fa-angle-left"></i></div>
                 </Link>
-                  <a className="nav-item nav-link active">P - 70WS</a>
+                  <a className="nav-item nav-link active">P70<sup>WS</sup></a>
                 <div className="tabRight"></div>
                 
               </div>
@@ -65,9 +65,9 @@ const WindowfilmP70WS = ()=>{
                       </div>                        
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
-                      <h2 className="heading mb-md-4">P - 70WS</h2> 
+                      <h2 className="heading mb-md-4">P70<sup>WS</sup></h2> 
                       <p>Proteq offers automotive window films designed to provide the custom look you desire, no matter what vehicle you drive. Our automotive window films help protect fabric and leather interiors from sun fading and deterioration. In addition, they add a degree of safety by helping to hold broken glass in place in the event of an accident or vandalism. Backed by a strong warranty to give you the peace of mind that comes from knowing you've made the right choice.</p> 
-                      <p>P70 | WS is of great worth that brings sun control to a whole new level for your building too. Sunlight streaming through windows can create excessive heat, uncomfortable hot spots and glare. Proteq's P70 | WS films use multi-layer optical film and nano-technology to reject up to 97% of the sun's infrared light and heat coming through your windows. These films also reject up to 99.9% of damaging UV rays to reduce fading of your furnishings, offering SPF 1000+ that protects your interior's and skin. Protects dashboard from fading and reduces glare effectively.</p>  
+                      <p>P70<sup>WS</sup> is of great worth that brings sun control to a whole new level for your building too. Sunlight streaming through windows can create excessive heat, uncomfortable hot spots and glare. Proteq's P70<sup>WS</sup> films use multi-layer optical film and nano-technology to reject up to 97% of the sun's infrared light and heat coming through your windows. These films also reject up to 99.9% of damaging UV rays to reduce fading of your furnishings, offering SPF 1000+ that protects your interior's and skin. Protects dashboard from fading and reduces glare effectively.</p>  
                     </div>
                   </div>
                 </div>    
@@ -167,8 +167,8 @@ const WindowfilmP70WS = ()=>{
                             <img src="img/Vertical-P70.png" />
                           </div>
                         </div>
-                        <h5 className="heading">P - 70</h5>
-                        <p>Proteq presents its P- 70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection</p>
+                        <h5 className="heading">P70</h5>
+                        <p>Proteq presents its P70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection</p>
                       </a>
                       </Link>
                   </div>
@@ -183,8 +183,8 @@ const WindowfilmP70WS = ()=>{
                               <img src="img/Vertical-P70.png" />
                             </div>
                           </div>
-                          <h5 className="heading">P - 70</h5>
-                          <p>Proteq presents its P- 70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection</p>
+                          <h5 className="heading">P70</h5>
+                          <p>Proteq presents its P70, The Ultimate Multilayer Nano-technology, clear film technology with outstanding IR rejection</p>
                         </a>
                       </Link>
                     </div>                   

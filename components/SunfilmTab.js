@@ -17,7 +17,7 @@ const SunfilmTab = (props) => {
                           query: {value:true},
                         }}
                        >
-                       <a className={`nav-item nav-link ${props.sunfilmp70}`}>P - 70</a>
+                       <a className={`nav-item nav-link ${props.sunfilmp70}`}>P70</a>
                           </Link>
 
                           <Link href={{
@@ -25,7 +25,7 @@ const SunfilmTab = (props) => {
                           query: {value:true},
                         }}
                        > 
-                       <a className={`nav-item nav-link ${props.sunfilmp70ws}`}>P - 70WS</a>
+                       <a className={`nav-item nav-link ${props.sunfilmp70ws}`}>P70<sup>WS</sup></a>
                           </Link>
                       </div>
                     </div>
