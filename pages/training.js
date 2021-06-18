@@ -288,7 +288,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video1'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video1" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial1.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial1.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -300,7 +300,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video2'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video2" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial2.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial2.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -312,7 +312,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video3'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video3" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial3.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial3.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -324,7 +324,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video4'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video4" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial4.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial4.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -336,7 +336,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video5'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video5" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial5.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial5.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -348,7 +348,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video6'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video6" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial6.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial6.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -360,7 +360,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video7'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video7" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial7.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial7.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
@@ -372,7 +372,7 @@ const Training=()=> {
             <div className="modal-body">
               <button type="button" onClick={((e) => pause('video8'))} className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
               <video id="video8" width="100%" height="100%" controls>
-                <source src="https://proteq.co.in:8444/backend/videos/Testimonial8.mp4" type="video/mp4"/>
+                <source src="https://proteq.co.in:8444/backend/videos/Testimonial8.MOV" type="video/mp4"/>
               </video>              
             </div>
           </div>
