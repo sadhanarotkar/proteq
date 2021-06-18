@@ -190,7 +190,7 @@ const PaintProtection = ()=>{
                   </div>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5 pr-md-0 pl-md-5">
-                  <img src="img/faqRight.png" className="img-fluid" />
+                  <img src="img/galleryImgs/img44.jpeg" className="img-fluid" />
                 </div>
               </div>
             </div>

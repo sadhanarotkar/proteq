@@ -577,9 +577,10 @@ iframe{border: none;display: block;}
 /* .secMission .container-fluid.headingText{} */
 .aboutWrapper .secHomeTestimonial{margin-top: 0;padding: 100px 0 80px;overflow: hidden;}
 .aboutWrapper .bottomContact{background: #F2BA0F;text-align: center;overflow: hidden;margin-top: -1px;padding: 100px 0;}
-.aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -120px;}
+.aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -135px;}
 
-.trainigBanner .aboutHeading h2{font-size: 90px;}
+.trainigBanner .aboutHeading h2{font-size: 90px;text-shadow: none;}
+.trainigBanner .aboutHeading h2 .smallText span{font-size: 90px;}
 /* .bottomContact::before{content: '';background: url(../public/img/contactBottomLeft.svg) no-repeat;background-size: contain;background-position: top;width:635px;height: 100%;position: absolute;left: -315px;top: -4px;}
 .bottomContact::after{content: '';background: url(../public/img/contactBottomRight.svg) no-repeat;background-size: contain;width:635px;height: 100%;position: absolute;right: -265px;top: -3px;} */
 .contactBottomLeft{width: 635px;left: -315px}
@@ -675,6 +676,7 @@ iframe{border: none;display: block;}
 .lightgallery .btn img{width: 18px;height: auto;margin-left: 5px;}
 .secFaq,
 .aboutWrapper .secFaq{position: relative;background: #dfdfdf;background: linear-gradient(180deg, #dfdfdf 0%, #fafafa 50%, #e2e2e2 100%);padding:130px 0 190px;overflow: hidden;}
+.aboutWrapper .secFaq{padding:130px 0 260px;}
 /* .secFaq::before{content: '';background: url(../public/img/faqText.svg) no-repeat;background-size: contain;background-position-y: center;width:200px;height: 100%;position: absolute;left: 0;top: 0;}
 .secFaq::after{content: '';background: url(../public/img/faqBottom.svg) no-repeat;background-size: contain;background-position: bottom;width:800px;height: 100%;position: absolute;left: -230px;bottom: -85px;} */
 .faqLeftImg{width: 200px;left: 0;}

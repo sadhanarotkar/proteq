@@ -140,10 +140,7 @@ export default function Header() {
                       <div className='col-lg-8'>
                         <ul className='list-unstyled megaList'>
                         <li>
-                          <Link  href={{
-                            pathname: '/ceramic',
-                            query: {value:true},
-                          }}> 
+                          <Link href='/ceramic'> 
                             <a><h4>Ceramic</h4></a>
                           </Link>
                           <Link  href={{
@@ -172,11 +169,7 @@ export default function Header() {
                           </Link>
                         </li>
                         <li>
-                        <Link href={{
-                          pathname: '/paint-protection',
-                          query: {value:true},
-                        }}
-                       >                             
+                        <Link href='/paint-protection'>                             
                         <a>
                           <h4>Paint Protection Film</h4>
                           </a>
@@ -211,18 +204,12 @@ export default function Header() {
                               </Link>
                           </li>
                           <li>
-                          <Link  href={{
-                            pathname: '/microfiber-cloth',
-                            query: {value:true},
-                          }}> 
+                          <Link href='/microfiber-cloth'> 
                             <a><h4>Microfibre Cloth</h4></a>
                           </Link>                          
                           </li>
                           <li>
-                            <Link  href={{
-                              pathname: '/windowfilm-p70',
-                              query: {value:true},
-                            }}> 
+                            <Link href='/windowfilm-p70'> 
                               <a><h4>Window Films</h4></a>
                             </Link>                             
                             <Link  href={{
@@ -308,10 +295,7 @@ export default function Header() {
               <div className='overlayProductMenu'>
                 <ul className='list-unstyled megaList'>
                 <li>
-                  <Link  href={{
-                    pathname: '/ceramic',
-                    query: {value:true},
-                  }}> 
+                  <Link href='/ceramic'> 
                     <a><h4>Ceramic</h4></a>
                   </Link>
                   <Link  href={{
@@ -384,10 +368,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link  href={{
-                      pathname: '/windowfilm-p70',
-                      query: {value:true},
-                    }}> 
+                    <Link href='/windowfilm-p70'> 
                       <a><h4>Window Films</h4></a>
                     </Link>                             
                     <Link  href={{

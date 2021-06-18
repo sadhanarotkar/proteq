@@ -287,7 +287,7 @@ const router = useRouter()
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="200">0</span> +</h3>
-                <h4>Protect Techniques</h4>
+                <h4>Trained Workforce</h4>
               </div>
             </div>
             <div className="item">

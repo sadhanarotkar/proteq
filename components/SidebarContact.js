@@ -63,7 +63,7 @@ const SidebarContact = (props) => {
                 Something went wrong.
               </div>}
               <h4>Request A Quote</h4>
-              <p>Proteq Autocare Provides Competitively Priced Hassle-Free Services to Suit Your Needs, Simply Fill In The Details To Receive The Same.</p>
+              <p>Proteq Autocare Provides Competitively Priced Hassle-Free Solutions to Suit Your Needs, Simply Fill In The Details To Receive The Same.</p>
             <form onSubmit={sendContactForm}>
                 
                 <div className="form-group">

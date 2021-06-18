@@ -23,19 +23,41 @@ export default function Training() {
       
       <Header />
         <div className="aboutWrapper">
-          <section className="aboutBanner trainigBanner" style={{background: '#e8edf0'}}>
+          <section className="aboutBanner trainigBanner" style={{background: '#e4ecef'}}>
             <div className="aboutBannerTop">
               <div className="aboutBannerContent">
                 <div className="container">
-                  <img src="img/testimonial-3D-Shield.png" className="img-fluid" />       
+                  <img src="img/testimonial-3D-Shield.png" className="img-fluid" style={{left: '0'}} />       
                   <div className="lax aboutHeading-ball1"><img src="img/aboutIcon4.png" className="img-fluid" /></div>
                   <div className="lax aboutHeading-ball2"><img src="img/ball-small1.png" className="img-fluid" /></div> 
                   <div className="aboutHeading">
-                    <h2 className="heading">The DEXTERITY <br></br><span>School</span> </h2> 
+                    <h2 className="heading">
+                      <span className="smallText">
+                        <span style={{color: '#f2ba0f'}}>T</span>
+                        <span style={{color: '#511e6d'}}>h</span>
+                        <span style={{color: '#b10645'}}>e</span> 
+                        <span> </span>
+                        <span style={{color: '#f2ba0f'}}>D</span>
+                        <span style={{color: '#b10645'}}>E</span>
+                        <span style={{color: '#2199c9'}}>X</span>
+                        <span style={{color: '#f2ba0f'}}>T</span>
+                        <span style={{color: '#511e6d'}}>E</span>
+                        <span style={{color: '#b10645'}}>R</span>
+                        <span style={{color: '#f2ba0f'}}>I</span>
+                        <span style={{color: '#b10645'}}>T</span>
+                        <span style={{color: '#2199c9'}}>Y</span> 
+                      </span>
+                      <br></br>
+                      <span style={{color: '#511e6d'}}>S</span>
+                      <span style={{color: '#b10645'}}>c</span>
+                      <span style={{color: '#f2ba0f'}}>h</span>
+                      <span style={{color: '#b10645'}}>o</span>
+                      <span style={{color: '#2199c9'}}>o</span>
+                      <span style={{color: '#f2ba0f'}}>l</span> </h2> 
                   </div> 
                 </div>
               </div>
-            <img src='img/slide2-bg.jpg' className="img-fluid" />             
+            <img src='img/trainingBg.jpg' className="img-fluid" />             
             </div>
             <div className="lax aboutBannerLeftImg"><img src="img/training.svg" className="img-fluid" /></div>
             <div className="lax aboutBannerRightImg"><img src="img/aboutRightImg.svg" className="img-fluid" /></div>

@@ -46,9 +46,9 @@ export default function About() {
                   <p>When Young Car Euthanistic Entrepreneurs Come Together - They Sure Have Something Really Amazing Cooking! We Build Proteq Autocare So We Could Turn Our Passion for Cars into Providing Effective, Efficient and Excellent Quality Paint Protection Film (Ppf) Services with Utmost Determination and Commitment to Our Customers. Proteq Autocare Focuses on Giving Our Clients the Best Service for Their Car in India! It’s Hard to Find a Great Automotive Service Provider Around, but I Assure You That with Us, You'll Get the Best Car Serving Outlet. When You Trust Us with Your Car We’ll Do the Right Thing for You, Guaranteed.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12">
-                  <img src="img/aboutpageImg.png" className="img-fluid" />  
-                  <div className="lax homeCeramic4"><img src="img/ball-small1.png" className="img-fluid" /></div>         
-                  <div className="lax homeCeramic5"><img src="img/aboutIcon2.png" className="img-fluid" /></div>       
+                  <img src="img/about-car-new.png" className="img-fluid" />  
+                  {/* <div className="lax homeCeramic4"><img src="img/ball-small1.png" className="img-fluid" /></div>         
+                  <div className="lax homeCeramic5"><img src="img/aboutIcon2.png" className="img-fluid" /></div>        */}
                   {/* <div className="lax aboutRightImg"><img src="img/aboutIcon3.png" className="img-fluid" /></div>           */}
                 </div>
               </div>
@@ -59,7 +59,7 @@ export default function About() {
             <div className="container">
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12">
-                  <img src="img/whyImg.png" className="img-fluid" />         
+                  <img src="img/aboutpageImg.png" className="img-fluid" />         
                   <div className="lax homeCeramic4"><img src="img/aboutIcon2.png" className="img-fluid" /></div>         
                   <div className="lax homeCeramic5"><img src="img/ball-small1.png" className="img-fluid" /></div>          
                 </div>
@@ -139,7 +139,7 @@ export default function About() {
                   <p>At Proteq, we believe every car deserves to be scratch and damage proof. We have invented the best quality of PPF in the most affordable range for every middle-class and high-class car owner. Henceforth, fulfilling our promises and eliminating the market gap. We believe PPF application is not a luxury, it is beyond a décor, It is the NEED of your car. IT IS A NECESSITY.</p>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 pr-md-0 pl-md-5">
-                  <a href="pdf/Proteq-press-release.pdf" target="_blank">
+                  <a data-toggle="modal" data-target="#pressModal">
                   <img src="img/press-release.png" className="img-fluid" data-aos="fade-left" data-aos-duration="1000" />       
                   </a>           
                 </div>
@@ -154,15 +154,15 @@ export default function About() {
               <div className="owl-carousel owl-theme certificate-carousel">
                 <a href="pdf/SGS-Glass-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
                   <img src="img/certificate.svg" className="img-fluid" />
-                  <h4>SGS - Glass<br></br> Ceramic<br></br> Shield</h4>
+                  <h4>9H - Hardness <br></br>Glass<br></br> Ceramic<br></br> Shield</h4>
                 </a>
                 <a href="pdf/SGS-Leather-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
                   <img src="img/certificate.svg" className="img-fluid" />
-                  <h4>SGS - Leather<br></br> Ceramic<br></br> Shield</h4>
+                  <h4>9H - Hardness <br></br>Leather<br></br> Ceramic<br></br> Shield</h4>
                 </a>
                 <a href="pdf/SGS-Plastic-Ceramic-Shield.pdf" target="_blank" className="certificateBox">
                   <img src="img/certificate.svg" className="img-fluid" />
-                  <h4>SGS - Plastic<br></br> Ceramic<br></br> Shield</h4>
+                  <h4>9H - Hardness <br></br>Plastic<br></br> Ceramic<br></br> Shield</h4>
                 </a>
               </div>
             </div>
@@ -227,7 +227,19 @@ export default function About() {
             </div>
           </section>
         </div>
-      <Footer />      
+      <Footer />  
+      <div className="modal fade fullModal" id="pressModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">              
+            <div className="modal-body">
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>
+              <iframe src="pdf/Proteq-press-release.pdf" frameBorder="0" style={{width: '100%', height: '100%'}}></iframe>
+
+              <img src="" />             
+            </div>
+          </div>
+        </div>
+      </div>    
     </main>
   )
 }
