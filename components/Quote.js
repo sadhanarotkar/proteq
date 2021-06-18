@@ -24,7 +24,7 @@ const Quote = (props) => {
         try{
           setIsLoading(true);
 
-          const res = await axios.post('https://proteq.wdipl.com/backend/api/contact-us', {
+          const res = await axios.post('https://proteq.co.in:8444/backend/api/contact-us', {
             contactDetails,
           
         })
@@ -51,19 +51,9 @@ const Quote = (props) => {
           <div className="modal-content">  
             <button type="button" className="close" data-dismiss="modal" aria-label="Close"><img src="img/cancel.svg" /></button>            
             <div className="modal-body">
-            {isLoading && <div>
-            <h3>Sending Mail...</h3>
-          </div>}
-
-          { isSent && <div className="alert alert-success" role="alert">
-                Mail sent sucessfully.
-              </div>}
-
-              { error && <div className="alert alert-danger" role="alert">
-                Something went wrong.
-              </div>}
-              <h4>Share your feedback</h4>
-              <p>Have any doubts or queries about our services? Wish to know anything our policy? Simply drop in your message by filling it in the loop below!</p>
+            
+            <h4>Share your feedback</h4>
+              <p>Have any doubts or queries about our services? Wish to know anything our policy? Simply drop in your message by filling it in the details below!</p>
             <form onSubmit={sendContactForm}>
                 {/* <div className="form-group">
                   <select defaultValue={props.selected} name="product" className="form-control" required>
@@ -89,6 +79,17 @@ const Quote = (props) => {
                   <button type="submit" className="btn hvr-fade">Submit</button>
                 </div>
               </form>
+              {isLoading && <div>
+            <h3>Sending Mail...</h3>
+          </div>}
+
+          { isSent && <div className="alert alert-success" role="alert">
+                Mail sent sucessfully.
+              </div>}
+
+              { error && <div className="alert alert-danger" role="alert">
+                Something went wrong.
+              </div>}
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ const Gallery=()=> {
       <div className="galleryWrapper">
         <section className="galleryBanner">
           <h1>Gallery</h1>
-          <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button>
+          {/* <button className="playBtn" data-toggle="modal" data-target="#videoModal"><img src="img/play-button.svg" /></button> */}
         </section>
         <section className="secGallery">
           <div className="lax galleryLeftImg"><img src="img/contactFormLeft.svg" className="img-fluid" /></div>
@@ -1011,7 +1011,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img8.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img8.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day1/img8.JPG"/>
                             </a>
@@ -1104,7 +1104,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/img21.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img21.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day1/img21.JPG"/>
                             </a>
@@ -1198,7 +1198,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day1/img32.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day1/img32.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day1/img32.JPG"/>
                             </a>
@@ -1292,7 +1292,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img11.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img11.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day2/img11.JPG"/>
                             </a>
@@ -1386,7 +1386,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img23.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img23.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day2/img23.JPG"/>
                             </a>
@@ -1480,7 +1480,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img35.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img35.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day2/img35.JPG"/>
                             </a>
@@ -1574,7 +1574,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img47.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img47.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day2/img47.JPG"/>
                             </a>
@@ -1668,7 +1668,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img59.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img59.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day2/img59.JPG"/>
                             </a>
@@ -1762,7 +1762,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img71.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img71.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day2/img71.JPG"/>
                             </a>
@@ -1856,7 +1856,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day2/img83.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day2/img83.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day2/img83.JPG"/>
                             </a>
@@ -1950,7 +1950,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img11.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img11.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day3/img11.JPG"/>
                             </a>
@@ -2044,7 +2044,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img23.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img23.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day3/img23.JPG"/>
                             </a>
@@ -2138,7 +2138,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img35.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img35.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day3/img35.JPG"/>
                             </a>
@@ -2232,7 +2232,7 @@ const Gallery=()=> {
                       </div> 
                       <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 galleryMiddle">
                         <div className="row">
-                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/galleryImgs/day3/img47.JPG">
+                          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 item" data-src="img/trainingImgs/day3/img47.JPG">
                             <a href="">
                                 <img className="img-fluid" src="img/trainingImgs/day3/img47.JPG"/>
                             </a>

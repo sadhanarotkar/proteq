@@ -83,7 +83,7 @@ const Animation = () => {
               dots:false,
               nav:true,
               mouseDrag:false,
-              autoplay:true,
+              autoplay:false,
               animateOut: 'fadeOut',
               navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
               items:1,

@@ -168,7 +168,7 @@ const GlassCeramic = ()=>{
                       </div>
                       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div className="card-body">
-                          <p>When you have a glass coating on your vehicle, you can still wash it like you normally would. Use natural car cleaning soap on your vehicle, and use microfiber scrubbing brushes to get everything clean. </p>
+                          <p>When you have a glass coating on your vehicle, you can still wash it like you normally would. Use natural car cleaning soap on your vehicle, and use microfibre scrubbing brushes to get everything clean. </p>
                         </div>
                       </div>
                     </div>
@@ -178,7 +178,7 @@ const GlassCeramic = ()=>{
                       </div>
                       <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div className="card-body">
-                          <p>When you have a glass coating on your vehicle, you can still wash it like you normally would. Use natural car cleaning soap on your vehicle, and use microfiber scrubbing brushes to get everything clean. </p>
+                          <p>When you have a glass coating on your vehicle, you can still wash it like you normally would. Use natural car cleaning soap on your vehicle, and use microfibre scrubbing brushes to get everything clean. </p>
                         </div>
                       </div>
                     </div>

@@ -58,12 +58,6 @@ const router = useRouter()
                   </div>
                 </div>
               </div>
-              <div className="balls">
-                <img src="img/slide1Ball1.svg" className="img-fluid slideBall1" />
-                <img src="img/slide1Ball2.svg" className="img-fluid slideBall2" />
-                <img src="img/slide1Ball3.svg" className="img-fluid slideBall3" />
-                <img src="img/slide1Ball4.svg" className="img-fluid slideBall4" />
-              </div>
             </div>
           </div>                  
           <div className="item banner-item2">
@@ -94,9 +88,9 @@ const router = useRouter()
               <div className="container-fluid">
                 <div className="row align-items-center align-items-center">                    
                   <div className="col-lg-4 col-md-6 contentLeft">
-                    <h2>Microfiber <span className="d-lg-none">Cloth</span></h2>
-                    <p>Proteq Microfiber Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
-                    <Link href='/microfiber-cloth'>
+                    <h2>microfibre <span className="d-lg-none">Cloth</span></h2>
+                    <p>Proteq microfibre Car Cloth incorporates a unique absorbent microfibre technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
+                    <Link href='/microfibre-cloth'>
                       <a className="btn hvr-sweep-to-right">Read More</a>
                       </Link>
                   </div>
@@ -218,15 +212,15 @@ const router = useRouter()
           <div className="row align-items-center justify-content-center">
             <div className="co-xl-6 col-lg-6 col-md-5 col-sm-12">
               <div className="headShadow">
-                <h1 className="headingShadow">Microfiber</h1>
-                <h1 className="heading">Microfiber Cloth</h1>
+                <h1 className="headingShadow">Microfibre</h1>
+                <h1 className="heading">Microfibre Cloth</h1>
               </div>
-              <p>Our microfiber cloths are great for cleaning grime during professional automotive detailing. They're non-scratching, Lint-free has the ability to quickly removes dust, and retains many times their weight of water. This cloth is safe in hot water, chlorine bleach and dryer. These cloths Are not abrasive on the delicate surfaces of a vehicle but are ultra-absorbent for professional automotive detailing.</p>
-              <Link href='microfiber-cloth'><a className="readLink text-pink">Read More</a></Link> 
+              <p>Our microfibre cloths are great for cleaning grime during professional automotive detailing. They're non-scratching, Lint-free has the ability to quickly removes dust, and retains many times their weight of water. This cloth is safe in hot water, chlorine bleach and dryer. These cloths Are not abrasive on the delicate surfaces of a vehicle but are ultra-absorbent for professional automotive detailing.</p>
+              <Link href='microfibre-cloth'><a className="readLink text-pink">Read More</a></Link> 
             </div>
             <div className="co-xl-4 col-lg-4 col-md-5 col-sm-12">
               <div className="lax productLax">
-                <img src="img/homeProduct3.png" className="img-fluid" />
+                <img src="img/microfiberBannerImg.png" className="img-fluid" />
               </div> 
               <div className="lax homeCeramic1"><img src="img/aboutIcon3.png" className="img-fluid" /></div>
               <div className="lax homeCeramic2"><img src="img/aboutIcon2.png" className="img-fluid" /></div>
@@ -299,7 +293,7 @@ const router = useRouter()
             <div className="item">
               <div className="countBox">
                 <h3><span className="counting" data-count="120">0</span> +</h3>
-                <h4>Awards and Recognition</h4>
+                <h4>Locations</h4>
               </div>
             </div>
           </div>

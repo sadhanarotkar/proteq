@@ -46,7 +46,7 @@ export default function About() {
                   <p>When Young Car Euthanistic Entrepreneurs Come Together - They Sure Have Something Really Amazing Cooking! We Build Proteq Autocare So We Could Turn Our Passion for Cars into Providing Effective, Efficient and Excellent Quality Paint Protection Film (Ppf) Services with Utmost Determination and Commitment to Our Customers. Proteq Autocare Focuses on Giving Our Clients the Best Service for Their Car in India! It’s Hard to Find a Great Automotive Service Provider Around, but I Assure You That with Us, You'll Get the Best Car Serving Outlet. When You Trust Us with Your Car We’ll Do the Right Thing for You, Guaranteed.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12">
-                  <img src="img/homeProduct1.png" className="img-fluid" />  
+                  <img src="img/aboutpageImg.png" className="img-fluid" />  
                   <div className="lax homeCeramic4"><img src="img/ball-small1.png" className="img-fluid" /></div>         
                   <div className="lax homeCeramic5"><img src="img/aboutIcon2.png" className="img-fluid" /></div>       
                   {/* <div className="lax aboutRightImg"><img src="img/aboutIcon3.png" className="img-fluid" /></div>           */}
@@ -132,13 +132,16 @@ export default function About() {
                 <img src="img/contactFormLeft.svg" className="img-fluid" />
               </div>
               <div className="row justify-content-end align-items-center">
-                <div className="col-xl-4 col-lg-5 col-md-5 col-sm-12">
-                  <h2 className="heading mb-md-4">Press Release</h2>
-                  <p>Proteq auto care was established in 2016 by young car euthanistic entrepreneurs with the intention of authoring India’s most effective, efficient and excellent quality paint  rotection film (PPF) and detailing services with utmost determination and commitment. </p>
-                  <p>The young minds and risk takers Mr. Nikit Zaveri, Mr. Saumin Sanghavi and Mr. Chirag Shah began their journey by starting a business venture in collaboration with a renowned and experienced company. They worked their vision from ground level, learned the procedures, gained experience and witnessed the beginning and rising of Paint Protection Film. </p>
+                <div className="col-xl-4 col-lg-5 col-md-5 col-sm-12 mt-lg-5">
+                  <h2 className="heading mb-md-4 mt-lg-5">Press Release</h2>
+                  <p>The young minds and risk takers Mr. Nikit Zaveri and Mr. Saumin Sanghavi began their journey by starting a business venture in collaboration with a renowned and experienced company. They worked their vision from ground level, learned the procedures, gained experience and witnessed the beginning and rising of Paint Protection Film. They acquired 5 years of experience in auto care industry, simultaneously bearing a vision in their hearts and minds of launching their own brand. While working with determination and waiting for the right opportunity, Mr. Nikit Zaveri and Mr. Saumin Sanghavi found a gap in the market. They observed a gap between the high pricing and quality in the services. Companies providing the PPF services where either charging high prices enabling middle-class customers from enjoying the service or local market providing cheap materials henceforth damaging the car.</p>
+                  <p>Every great business is born between challenges and a market gap. A business is a problem-solving and answer giving institute.</p>
+                  <p>At Proteq, we believe every car deserves to be scratch and damage proof. We have invented the best quality of PPF in the most affordable range for every middle-class and high-class car owner. Henceforth, fulfilling our promises and eliminating the market gap. We believe PPF application is not a luxury, it is beyond a décor, It is the NEED of your car. IT IS A NECESSITY.</p>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 pr-md-0 pl-md-5">
-                  <img src="img/press-release.png" className="img-fluid" data-aos="fade-left" data-aos-duration="1000" />                  
+                  <a href="pdf/Proteq-press-release.pdf" target="_blank">
+                  <img src="img/press-release.png" className="img-fluid" data-aos="fade-left" data-aos-duration="1000" />       
+                  </a>           
                 </div>
               </div>
             </div>
@@ -211,7 +214,7 @@ export default function About() {
                 <div className="col-xl-8 col-lg-9 col-md-12" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
                   <h2 className="heading">GET IN TOUCH WITH US</h2>
                   <p className="mt-0 mb-3">The Best Car Service Awaits You!</p>
-                  <p className="mt-0">Proteq Works On Excellency To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
+                  <p className="mt-0">Proteq Works On Excellence To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
                   <Link href="/contact"><button className="btn hvr-sweep-to-right mb-4">Contact Us</button></Link>                  
                 </div>
               </div>              

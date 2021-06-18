@@ -22,7 +22,7 @@ const ContactUs = () => {
     try{
       setIsLoading(true);
 
-      const res = await axios.post('https://proteq.wdipl.com/backend/api/contact-us', {
+      const res = await axios.post('https://proteq.co.in:8444/backend/api/contact-us', {
         contactDetails,
       
     })
@@ -44,15 +44,7 @@ const ContactUs = () => {
 
     return (
         <div>
-          {isLoading && <div>
-            <h3>Sending Mail...</h3>
-          </div>}
-           { isSent && <div className="alert alert-success" role="alert">
-                Mail sent sucessfully.
-              </div>}
-              { error && <div className="alert alert-danger" role="alert">
-                Something went wrong.
-              </div>}
+         
             <form onSubmit={sendContactForm}>
                 <div className="form-row justify-content-center">
                   <div className="form-group col-lg-6 col-md-8 mb-0">
@@ -68,6 +60,15 @@ const ContactUs = () => {
                   </div>
                 </div>
               </form>
+              {isLoading && <div>
+            <h3>Sending Mail...</h3>
+          </div>}
+           { isSent && <div className="alert alert-success" role="alert">
+                Mail sent sucessfully.
+              </div>}
+              { error && <div className="alert alert-danger" role="alert">
+                Something went wrong.
+              </div>}
         </div>
     );
 };

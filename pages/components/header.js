@@ -59,7 +59,7 @@ export default function Header() {
                 </a>
                 <a
                   target='_blank'
-                  href='https://www.instagram.com/proteq_ppf.car/'
+                  href='https://www.instagram.com/accounts/login/'
                 >
                   <i className='fa fa-instagram' aria-hidden='true'></i>
                 </a>
@@ -215,7 +215,7 @@ export default function Header() {
                             pathname: '/microfiber-cloth',
                             query: {value:true},
                           }}> 
-                            <a><h4>Microfiber Cloth</h4></a>
+                            <a><h4>Microfibre Cloth</h4></a>
                           </Link>                          
                           </li>
                           <li>
@@ -379,8 +379,8 @@ export default function Header() {
                         </Link>
                     </li>
                   <li>
-                    <Link href='/microfiber-cloth'>
-                      <h4>Microfiber Cloth</h4>
+                    <Link href='/microfibre-cloth'>
+                      <h4>Microfibre Cloth</h4>
                     </Link>
                   </li>
                   <li>

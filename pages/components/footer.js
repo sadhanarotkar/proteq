@@ -28,7 +28,7 @@ export default function Header(props) {
           </div>
           <div className="footerSocial">
             <a target="_blank" href="https://www.facebook.com/Proteq-109661883846191/"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://www.instagram.com/proteq_ppf.car/"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.instagram.com/accounts/login/"><i className="fa fa-instagram" aria-hidden="true"></i></a>
             {/* <a target="_blank" href="https://twitter.com/proteq_ppf_car"><i className="fa fa-twitter" aria-hidden="true"></i></a> */}
             <a target="_blank" href="https://www.youtube.com/channel/UCZ6eCrxtUPjNONo-z64Y5vQ?view_as=subscriber"><i className="fa fa-youtube-play" aria-hidden="true"></i></a>
           </div>
@@ -57,7 +57,7 @@ export default function Header(props) {
               <div className="copyrightLinks">
                 <Link href='/terms'><a>Terms & Conditions</a></Link>
                 <Link href='/privacy-policy'><a>Privacy Policy</a></Link>
-                <Link href="/"><img src="img/whatsapp.svg" className="img-fluid" /></Link>
+                <a href="https://api.whatsapp.com/message/F5HPNO7SETSEO1" target="_blank"><img src="img/whatsapp.svg" className="img-fluid" /></a>
               </div>
             </div>
           </div>

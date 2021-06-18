@@ -16,7 +16,7 @@ const OwlCarousel = dynamic(
   }
 );
 
-const MicrofiberCloth = ()=>{
+const MicrofibreCloth = ()=>{
   const pause=(e)=>{
     console.log(e);
     
@@ -46,7 +46,7 @@ const MicrofiberCloth = ()=>{
   return (
     <main className="content">
       <Head>
-        <title>Microfiber cloth</title>
+        <title>Microfibre cloth</title>
         <link rel="icon" href="img/favicon.ico" />
       </Head>
       
@@ -56,8 +56,8 @@ const MicrofiberCloth = ()=>{
             <div className="container">
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                  <h2 className="heading mb-md-4">Microfiber cloth</h2>
-                  <p>Proteq Microfibre Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
+                  <h2 className="heading mb-md-4">Microfibre cloth</h2>
+                  <p>Proteq Microfibre Car Cloth incorporates a unique absorbent microfibre technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-10 text-center">
                   <img src="img/microfiberBannerImg.png" className="img-fluid" />                  
@@ -68,7 +68,7 @@ const MicrofiberCloth = ()=>{
           </section>
           <section className="secCategory">
             <div className="container-fluid">
-              <img src="img/microfiberText.svg" className="img-fluid my-md-5 productTextImg" />
+              <img src="img/microfibre.svg" className="img-fluid my-md-5 productTextImg" />
               <div className="row justify-content-center align-items-center">
                 <img src="img/ceramicProduct-bg.png" className="ceramicProductImg microProductImg" />
                 <div className="col-xl-4 col-lg-5 col-md-5 col-sm-9">
@@ -78,8 +78,8 @@ const MicrofiberCloth = ()=>{
                   <div className="lax ceramicProductBall3"><img src="img/aboutIcon1.png" className="img-fluid" /></div>  
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12 text-left px-sm-5">
-                  <h2 className="heading mb-md-4">Microfiber cloth</h2>  
-                  <p>The Microfibre cloth is highly effective due to the revolutionary material blend, inspired by fish scales. It can be used either dry or damp. Dry: Using it dry is perfect for dusting, drying and wiping over surfaces. Damp: To use it damp, first wet and then wring any excess water. This method is suitable for cleaning and polishing a range of surfaces. The inside shield is Non-scratching, Lint-free, Quickly removes dust and Retains many times its weight of water. Proteq Microfibre Car Cloth incorporates a unique absorbent microfiber technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>  
+                  <h2 className="heading mb-md-4">Microfibre cloth</h2>  
+                  <p>The Microfibre cloth is highly effective due to the revolutionary material blend, inspired by fish scales. It can be used either dry or damp. Dry: Using it dry is perfect for dusting, drying and wiping over surfaces. Damp: To use it damp, first wet and then wring any excess water. This method is suitable for cleaning and polishing a range of surfaces. The inside shield is Non-scratching, Lint-free, Quickly removes dust and Retains many times its weight of water. Proteq Microfibre Car Cloth incorporates a unique absorbent microfibre technology. This cloth removes oily or filmy residues of waxes, polishes, glaze and fingerprints.</p>  
                 </div>
               </div>  
             </div> 
@@ -102,19 +102,19 @@ const MicrofiberCloth = ()=>{
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Perfect, Streak-Free Wiping</h4>
-                          <p>Tired of leaving smears or lint behind with all the other microfiber cloths? The microfiber cloth is lint-free and smear-free. Meaning one quick wipe, and no trace is left behind. Mirrors, windows and glasses have never looked so shiny!</p>
+                          <p>Tired of leaving smears or lint behind with all the other microfibre cloths? The microfibre cloth is lint-free and smear-free. Meaning one quick wipe, and no trace is left behind. Mirrors, windows and glasses have never looked so shiny!</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Super Absorbent</h4>
-                          <p>Featuring super absorption technology, the microfiber cloth collects dirt and liquid up to 7 x its own weight.</p>
+                          <p>Featuring super absorption technology, the microfibre cloth collects dirt and liquid up to 7 x its own weight.</p>
                         </div>
                       </div>
                       <div className='item'>
                         <div className="testimonialContent">
                           <h4 className="heading">Durable and Reliable</h4>
-                          <p>Never worry about poor quality materials wearing down over time. The microfiber cloth was crafted to last! Featuring a durable, long-lasting design and self-cleaning function means it's easy to use and lasts a lifetime.</p>
+                          <p>Never worry about poor quality materials wearing down over time. The microfibre cloth was crafted to last! Featuring a durable, long-lasting design and self-cleaning function means it's easy to use and lasts a lifetime.</p>
                         </div>
                       </div>
                     </OwlCarousel>
@@ -138,17 +138,17 @@ const MicrofiberCloth = ()=>{
                   <div id="accordion" className="productAccordion">
                     <div className="card">
                       <div className="card-header" id="headingOne">
-                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Microfiber made of? <span className="icon" aria-hidden="true"></span></button>                     
+                        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Microfibre made of? <span className="icon" aria-hidden="true"></span></button>                     
                       </div>
                       <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Microfiber is a blend of polyester and polyamide. It is a lightweight and durable material comprised of tiny threads that are 100 times thinner than a human hair. It is constructed in a blend of either 80/20 or 70/30 ratio of polyester/polyamide.</p>
+                          <p>Microfibre is a blend of polyester and polyamide. It is a lightweight and durable material comprised of tiny threads that are 100 times thinner than a human hair. It is constructed in a blend of either 80/20 or 70/30 ratio of polyester/polyamide.</p>
                         </div>
                       </div>
                     </div>
                     <div className="card">
                       <div className="card-header" id="headingTwo">
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What surfaces are safe for Microfiber? <span className="icon" aria-hidden="true"></span></button>                      
+                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What surfaces are safe for Microfibre? <span className="icon" aria-hidden="true"></span></button>                      
                       </div>
                       <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div className="card-body">
@@ -162,7 +162,7 @@ const MicrofiberCloth = ()=>{
                       </div>
                       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div className="card-body">
-                          <p>You can, but you don't have to. Microfiber removes 98-99% of all dirt with just water as a detergent. Use your favourite cleanser if you want to, but stay away from ones that contain bleach or other corrosive ingredients.</p>
+                          <p>You can, but you don't have to. Microfibre removes 98-99% of all dirt with just water as a detergent. Use your favourite cleanser if you want to, but stay away from ones that contain bleach or other corrosive ingredients.</p>
                         </div>
                       </div>
                     </div>
@@ -172,7 +172,7 @@ const MicrofiberCloth = ()=>{
                       </div>
                       <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div className="card-body">
-                          <p>Wash with warm soapy water and rinse well. The warm water opens up the microfibres, allowing them to release the locked-in dirt. You may also put the cloth in the washing machine and then dry them in the dryer on low. DO NOT USE fabric softeners of any kind as the chemicals clog the microfiber, making them less effective. DO NOT USE bleach either because it corrodes the fibres over time, making them less effective. DO NOT IRON</p>
+                          <p>Wash with warm soapy water and rinse well. The warm water opens up the microfibres, allowing them to release the locked-in dirt. You may also put the cloth in the washing machine and then dry them in the dryer on low. DO NOT USE fabric softeners of any kind as the chemicals clog the microfibre, making them less effective. DO NOT USE bleach either because it corrodes the fibres over time, making them less effective. DO NOT IRON</p>
                         </div>
                       </div>
                     </div>
@@ -227,4 +227,4 @@ const MicrofiberCloth = ()=>{
 }
 
 
-export default MicrofiberCloth;
+export default MicrofibreCloth;
