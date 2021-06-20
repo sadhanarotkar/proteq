@@ -167,9 +167,9 @@ const WindowfilmP70 = ()=>{
                   <div className="mob-window">
                     <Link href="/windowfilm-p70ws">
                         <a className="relatedPBox">
-                          <div className="relatedPImg">
-                            <div style={{transform: 'rotate(95deg)',position: 'relative',top: '70px'}}>
-                              <img src="img/p70ws.png" style={{width: '180px', height:'auto'}} />
+                          <div style={{transform: 'rotate(5deg)'}}>
+                            <div >
+                              <img src="img/p70ws.png" />
                             </div>
                           </div>
                           <h5 className="heading">P70<sup>WS</sup></h5>
@@ -183,9 +183,9 @@ const WindowfilmP70 = ()=>{
                       <div className='item'>
                         <Link href="/windowfilm-p70ws">
                           <a className="relatedPBox">
-                            <div className="relatedPImg" style={{height: '240px'}}>
-                              <div style={{transform: 'rotate(95deg)',position: 'relative',top: '70px'}}>
-                                <img src="img/p70ws.png" style={{width: '180px', height:'auto'}} />
+                            <div className="relatedPImg">
+                              <div style={{transform: 'rotate(5deg)'}}>
+                                <img src="img/p70ws.png" />
                               </div>
                             </div>
                             <h5 className="heading">P70<sup>WS</sup></h5>

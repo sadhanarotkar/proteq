@@ -148,7 +148,7 @@ export default function About() {
           </section>
           <section className="secCertificates">
             <div className="text-center">
-              <h1 className="heading text-white">Certificates</h1>
+              <h1 className="heading text-white">Product Certification</h1>
             </div>
             <div className="container">
               <div className="owl-carousel owl-theme certificate-carousel">

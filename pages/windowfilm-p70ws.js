@@ -51,14 +51,14 @@ const WindowfilmP70WS = ()=>{
               <div className="tab-pane fade show active" id="nav-series2" role="tabpanel" aria-labelledby="nav-series2-tab">
                 <div className="container-fluid">
                   <img src="img/p70ws.svg" className="img-fluid my-md-5 productTextImg" />     
-                  <div className="row justify-content-center window70wsImgsSpace">
+                  <div className="row justify-content-center">
                     <div className="col-xl-4 col-lg-5 col-md-5 col-sm-9">
                       <div className="paintProductImgs">
                         <div className="lax productImg1">
-                          <img src="img/p70ws.png" className="img-fluid" style={{ transform: 'rotate(-105deg)', height:'auto'}} />
+                          <img src="img/p70ws.png" className="img-fluid" />
                         </div>
                         <div className="lax productImg2">
-                          <img src="img/p70ws.png" className="img-fluid" style={{ transform: 'rotate(105deg)', height: 'auto'}} />
+                          <img src="img/p70ws.png" className="img-fluid" />
                         </div>                         
                         <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
                         <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>
@@ -108,8 +108,8 @@ const WindowfilmP70WS = ()=>{
                   </div>
                   <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 text-center">
                     <div className="d-flex">
-                      <div className="lax paintBenefitImg1"><img src="img/Vertical-S2.png" style={{ transform: 'rotate(5deg)'}} className="img-fluid" /></div>
-                      <div className="lax paintBenefitImg2"><img src="img/Vertical-S2.png" style={{ transform: 'rotate(165deg)'}} className="img-fluid" /></div>               
+                      <div className="lax paintBenefitImg1"><img src="img/p70ws.png" style={{ transform: 'rotate(5deg)'}} className="img-fluid" /></div>
+                      <div className="lax paintBenefitImg2"><img src="img/p70ws.png" style={{ transform: 'rotate(165deg)'}} className="img-fluid" /></div>               
                     </div>               
                     <div className="lax ball-big"><img src="img/aboutIcon5.png" /></div> 
                     <div className="lax ball-small"><img src="img/aboutIcon4.png" /></div>  

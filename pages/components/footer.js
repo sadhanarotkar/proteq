@@ -45,6 +45,14 @@ export default function Header(props) {
               </div>
             </div>            
           </div>
+          <div className="brochuresBox">
+            <h4>Corporate Profile:</h4>
+            <div className="brochuresBoxLinks">
+              <a href="pdf/Brochure-Cermaic-Shield-Family.pdf" className="btn hvr-sweep-to-right" target="_blank">Ceramic Shield Family</a>
+              <a href="pdf/Brochures-Paint-Protection-Film.pdf" className="btn hvr-sweep-to-right" target="_blank">Paint Protection Film</a>
+              <a href="pdf/Brochures-P70.pdf" className="btn hvr-sweep-to-right" target="_blank">P70</a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="copyright">
