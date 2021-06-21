@@ -16,7 +16,7 @@ const SidebarContact = (props) => {
           email:event.target.email.value,
           phone:event.target.phone.value,
           message:event.target.message.value,
-          page:'2',
+          page:'1',
         }
         console.log(contactDetails);
         event.target.reset();

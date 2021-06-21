@@ -37,7 +37,7 @@ const Training=()=> {
       </Head>
       
       <Header />
-        <div className="aboutWrapper">
+        <div className="aboutWrapper trainingWrapper">
           <section className="aboutBanner trainigBanner" style={{background: '#e4ecef'}}>
             <div className="aboutBannerTop">
               <div className="aboutBannerContent">

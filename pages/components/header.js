@@ -59,7 +59,7 @@ export default function Header() {
                 </a>
                 <a
                   target='_blank'
-                  href='https://www.instagram.com/accounts/login/'
+                  href='https://instagram.com/proteq.autocare?utm_medium=copy_link'
                 >
                   <i className='fa fa-instagram' aria-hidden='true'></i>
                 </a>
@@ -363,7 +363,7 @@ export default function Header() {
                         </Link>
                     </li>
                   <li>
-                    <Link href='/microfibre-cloth'>
+                    <Link href='/microfiber-cloth'>
                       <h4>Microfibre Cloth</h4>
                     </Link>
                   </li>
@@ -412,7 +412,7 @@ export default function Header() {
         </a>
       </li>
       <li>
-        <a target='_blank' href='https://www.instagram.com/accounts/login/'>
+        <a target='_blank' href='https://instagram.com/proteq.autocare?utm_medium=copy_link'>
           <div className='stickyLinkIcon'>
             <img src='img/sticky-instagram.svg' />
           </div>{' '}

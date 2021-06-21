@@ -45,9 +45,9 @@ export default function Testimonials() {
           <div className="testimonialCard">
             <div className="container">
               <div className="row justify-content-center">
-                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                <div className="col-xl-12 col-lg-9 col-md-12 col-sm-12">
                   <h1>Testimonials</h1>
-                  <p>Proteq Autocare isn't just young entrepreneurs but is definitely men who walk their talk. We've been working with our passion and thriving to work for a mission in providing premium and exceptional products in an affordable range by epitomizing safety and efficiency. Know more about our works through these testimonials.</p>
+                  <p>Proteq Autocare isn't just young entrepreneurs but is definitely men who walk their talk. We've been working with<br></br> our passion and thriving to work for a mission in providing premium and exceptional products in an affordable <br></br> range by epitomizing safety and efficiency. Know more about our works through these testimonials.</p>
                 </div>
               </div>
               <div className="card-columns pt-5">

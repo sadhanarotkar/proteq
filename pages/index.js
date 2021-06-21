@@ -58,6 +58,12 @@ const router = useRouter()
                   </div>
                 </div>
               </div>
+              <div className="balls">
+                <img src="img/slide1Ball1.svg" className="img-fluid slideBall1" />
+                <img src="img/slide1Ball2.svg" className="img-fluid slideBall2" />
+                {/* <img src="img/slide1Ball3.svg" className="img-fluid slideBall3" /> */}
+                <img src="img/slide1Ball4.svg" className="img-fluid slideBall4" />
+              </div>
             </div>
           </div>                  
           <div className="item banner-item2">

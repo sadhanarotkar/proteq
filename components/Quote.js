@@ -11,7 +11,6 @@ const Quote = (props) => {
         event.preventDefault();
       
         const contactDetails ={
-          product:event.target.product.value,
           fullname: event.target.fullname.value,
           email:event.target.email.value,
           phone:event.target.phone.value,

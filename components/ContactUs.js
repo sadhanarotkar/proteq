@@ -14,7 +14,7 @@ const ContactUs = () => {
       email:event.target.email.value,
       phone:event.target.phone.value,
       message:event.target.message.value, 
-      page:'1',
+      page:'0',
 
     }
     event.target.reset();

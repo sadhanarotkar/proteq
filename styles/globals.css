@@ -246,7 +246,7 @@ ul.stickyLinks li a:hover{cursor:pointer;width:180px;color:#fff}
 .banner-carousel h2{font-size: 175px;line-height: 150px;text-transform: uppercase;font-family: 'Bebas Neue';color: #FFF;text-shadow: 0px 2px 4px rgba(125,125,125,0.15);}
 .banner-carousel.owl-carousel .banner-item1 .contentLeft h2{margin-left: 10px;margin-bottom: 0;font-size: 180px;line-height: 150px;} 
 .banner-carousel.owl-carousel .banner-item1 .contentLeft h2 span{font-size: 190px;color: #ea0b69;margin-left: -10px;}
-.banner-carousel.owl-carousel .banner-item1 .contentRight img{position: relative;right: -60px;}
+.banner-carousel.owl-carousel .banner-item1 .contentRight img{position: relative;right: -60px;z-index:1}
 .banner-carousel.owl-carousel .banner-item1 .balls img{position: absolute;top: 0;max-width: 150px;height: auto;}
 .banner-carousel.owl-carousel .banner-item1 .balls img.slideBall1{left: 60%;top: 85px;transform: translateX(-35px);}
 .banner-carousel.owl-carousel .banner-item1 .balls img.slideBall2{left: 50%;top: 125px;transform: translateX(-35px);}
@@ -577,7 +577,7 @@ iframe{border: none;display: block;}
 /* .secMission .container-fluid.headingText{} */
 .aboutWrapper .secHomeTestimonial{margin-top: 0;padding: 100px 0 80px;overflow: hidden;}
 .aboutWrapper .bottomContact{background: #F2BA0F;text-align: center;overflow: hidden;margin-top: -1px;padding: 100px 0;}
-.aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -135px;}
+.aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -145px;}
 
 .trainigBanner .aboutHeading h2{font-size: 90px;text-shadow: none;}
 .trainigBanner .aboutHeading h2 .smallText span{font-size: 90px;}
@@ -676,7 +676,7 @@ iframe{border: none;display: block;}
 .lightgallery .btn img{width: 18px;height: auto;margin-left: 5px;}
 .secFaq,
 .aboutWrapper .secFaq{position: relative;background: #dfdfdf;background: linear-gradient(180deg, #dfdfdf 0%, #fafafa 50%, #e2e2e2 100%);padding:130px 0 190px;overflow: hidden;}
-.aboutWrapper .secFaq{padding:130px 0 260px;}
+.aboutWrapper .secFaq{padding:130px 0 290px;}
 /* .secFaq::before{content: '';background: url(../public/img/faqText.svg) no-repeat;background-size: contain;background-position-y: center;width:200px;height: 100%;position: absolute;left: 0;top: 0;}
 .secFaq::after{content: '';background: url(../public/img/faqBottom.svg) no-repeat;background-size: contain;background-position: bottom;width:800px;height: 100%;position: absolute;left: -230px;bottom: -85px;} */
 .faqLeftImg{width: 200px;left: 0;}
@@ -706,15 +706,15 @@ iframe{border: none;display: block;}
 .fullModal .modal-body{padding: 0;height: 100vh;}
 .fullModal .modal-body video{height: 100vh;}
 .fullModal button.close{position: absolute;background: #FFF;top: 0;right: 0;width: 50px;height: 50px;z-index: 9;opacity: 1;padding: 13px;box-shadow: none;outline: none;}
-.paintProductImgs{position: relative;width: 170px;display: inline-block;height: 100%;}
+.paintProductImgs{position: relative;width: 150px;display: inline-block;height: 100%;}
 .paintProductImgs .productImg1{left: 0;top: 20px;}
 .paintProductImgs .productImg1 img{transform: rotate(5deg);height: 300px;position: relative;left: 0px;}
 .paintProductImgs .productImg2{right: 0;top: 20px}
 .paintProductImgs .productImg2 img{transform: rotate(165deg);height: 330px;right: 0;left: auto;}
 .paintProductImgs .ball-big{right: -120px;}
 .paintProductImgs .ball-small{left: -100px;}
-.benefitProduct .paintBenefitImg1{left: 120px;position: relative;}
-.benefitProduct .paintBenefitImg2{left: 190px;position: relative;}
+.benefitProduct .paintBenefitImg1{position: relative;left: -70px;}
+.benefitProduct .paintBenefitImg2{position: relative;}
 .benefitProduct .paintBenefitImg2 img{max-height: 375px;}
 /* End Paint Protection css */
 
@@ -1149,18 +1149,12 @@ header.active .hamburger-inner::after {
 .brochuresBoxLinks a:first-child{margin-left: 0;}
 .brochuresBoxLinks a:hover{color: #FFF;}
 
+.paintProductWrapper .benefitProduct .d-flex{justify-content: center;position: relative;}
+.windowWrapper .benefitProduct .d-flex{justify-content: center;position: relative;}
+
+.trainingWrapper .faqBottomImg{display: none;}
+
 /* End Q img animation */
-@media only screen and (min-width: 1400px) {
-  p, .productBanner p{font-size: 15px;}
-  .productAccordion .card .card-header button{font-size: 18px;}
-  .footerLinks a{font-size: 16px;}
-}
-
-@media only screen and (min-width: 1600px) {
-  p, .productBanner p{font-size: 16px;}
-  .footerLinks a{font-size: 18px;}
-}
-
 
 @media only screen and (max-width: 1199px) {
   .banner-item4 .contentRight h2 span{font-size: 120px;}
@@ -1389,7 +1383,7 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .banner-item1 .contentRight img{right: 0;}
   .banner-item2 .contentLeft,
   .banner-item3 .contentLeft{order: 2;padding-left: 15px;padding-right: 15px;margin-top: 25px;}
-  .banner-item3 .contentCenter{bottom: -30px;left: 0;}
+  .banner-item3 .contentCenter{bottom: 0;left: 0;}
   .banner-carousel.owl-carousel .banner-item2 .contentLeft h2 span,
   .banner-carousel.owl-carousel .banner-item3 .contentLeft h2 span, 
   .banner-item4 .contentRight h2 span{display: block;}
@@ -1485,6 +1479,11 @@ header.active .hamburger-inner::after {
   .window70wsImgsSpace .productImg2 img{width: 260px;bottom: -60px;position: relative;}
   .brochuresBoxLinks{display: block;}
   .brochuresBoxLinks a{width: 100%;margin: 5px 0;}
+  .mob-window{display: block;}
+  .desk-window{display: none;}
+  .aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -175px;padding-top: 175px;}
+  .testimonialBox{padding: 40px 15px 40px 25px;}
+  .testimonialBox>img{width: 60px;}
 }
 @media only screen and (max-width: 575px) {
   .topbar ul li.socialLinks{display: none;}
@@ -1581,7 +1580,7 @@ header.active .hamburger-inner::after {
   .banner-carousel.owl-carousel .owl-nav button.owl-next{font-size: 20px !important;width: 34px;height: 34px; padding: 0 !important;}
   .banner-carousel.owl-carousel .owl-nav img{width: 20px;}
   .aboutBannerRightImg{width: 95px;}
-  .privacyBanner h1{font-size: 60px;}
+  .privacyBanner h1{font-size: 50px;}
   .privacyContent {padding: 25px 0;}
   .privacyContent p{margin-bottom: 0;}
   .privacyContent h2.heading {font-size: 25px;}
@@ -1627,8 +1626,6 @@ header.active .hamburger-inner::after {
   .contactBottomLeft{width: 300px;left: -100px;}
   .contactBottomRight{width: 300px;right: -100px;}
   .aboutWrapper .secFaq .productAccordion .card .card-header button{min-height: 35px;}
-  .mob-window{display: block;}
-  .desk-window{display: none;}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1689,7 +1686,11 @@ header.active .hamburger-inner::after {
   .homeForm{padding-right: 0px;}
   .productBanner h2.heading {font-size: 135px;}
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {  
+  p, .productBanner p{font-size: 15px;}
+  .productAccordion .card .card-header button{font-size: 18px;}
+  .footerLinks a{font-size: 16px;}
+  .aboutWrapper .secCertificates{margin-bottom: -160px;}
   .banner-carousel.owl-carousel .item .cover .container-fluid{max-width: 1270px;}
   .banner-carousel .contentLeft h2 span {font-size: 210px;}
   .banner-carousel.owl-carousel .item p{font-size: 15px;}
@@ -1698,9 +1699,13 @@ header.active .hamburger-inner::after {
   .banner-carousel a.btn:hover, .banner-carousel a.btn:focus{line-height: 44px;}
   .banner-item2 .contentLeft{left: 40px;}
   .banner-carousel .banner-item2 h2{font-size: 210px;}
-  .galleryBanner h1,.testimonialWrapper h1{font-size: 180px;}
+  .galleryBanner h1,.testimonialWrapper h1{font-size: 140px;}
   .productBanner h2.heading{font-size: 145px;}
+  .productBanner.paintBanner h2.heading{font-size: 140px;}
   .productBanner .container{max-width: 1250px;}
+  .microWrapper .secHomeTestimonial{margin-top: -150px;}
+  .microWrapper .secFaq{padding-bottom: 250px;}
+  .brochuresBoxLinks a{line-height: 44px;}
 }
 
 @media only screen and (min-width: 1600px) {
@@ -1710,8 +1715,25 @@ header.active .hamburger-inner::after {
   .banner-carousel .banner-item2 h2{font-size: 230px;}
   .btn{height: 48px;padding: 0px 45px;}
   .galleryBanner h1,.testimonialWrapper h1{font-size: 200px;}
-  .productBanner h2.heading {font-size: 175px;}
-  .productBanner .container {max-width: 1350px;}
+  .productBanner h2.heading {font-size: 170px;}
+  .productBanner.paintBanner h2.heading{font-size: 155px;}
+  .productBanner .container {max-width: 1350px;}  
+  p, .productBanner p{font-size: 16px;}
+  .footerLinks a{font-size: 18px;}
+  .paintProductImgs .productImg1 img{height: 320px;}
+  .paintProductImgs .productImg2 img{height:360px}
+  .banner-item3 .contentCenter{bottom: -70px;left: -50px;}
+  .aboutImg{width: 600px;}
+  .benefitProduct .ball-big{left: 7%;}
+  .benefitProduct .ball-small{right:30%}
+}
+
+@media only screen and (min-width: 1800px) {
+  .aboutWrapper .secCertificates{margin-bottom: -200px;}
+  .aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -160px;}
+}
+@media only screen and (min-width: 2000px) {
+  .ceramicProductImg{width: 48%;left: 80px;}
 }
 
 @media only screen and (max-width: 1199px) {

@@ -46,7 +46,7 @@ export default function About() {
                   <p>When Young Car Euthanistic Entrepreneurs Come Together - They Sure Have Something Really Amazing Cooking! We Build Proteq Autocare So We Could Turn Our Passion for Cars into Providing Effective, Efficient and Excellent Quality Paint Protection Film (Ppf) Services with Utmost Determination and Commitment to Our Customers. Proteq Autocare Focuses on Giving Our Clients the Best Service for Their Car in India! It’s Hard to Find a Great Automotive Service Provider Around, but I Assure You That with Us, You'll Get the Best Car Serving Outlet. When You Trust Us with Your Car We’ll Do the Right Thing for You, Guaranteed.</p>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-6 col-sm-12">
-                  <img src="img/about-car-new.png" className="img-fluid" />  
+                  <img src="img/aboutCar.png" className="img-fluid" />  
                   {/* <div className="lax homeCeramic4"><img src="img/ball-small1.png" className="img-fluid" /></div>         
                   <div className="lax homeCeramic5"><img src="img/aboutIcon2.png" className="img-fluid" /></div>        */}
                   {/* <div className="lax aboutRightImg"><img src="img/aboutIcon3.png" className="img-fluid" /></div>           */}
@@ -148,7 +148,7 @@ export default function About() {
           </section>
           <section className="secCertificates">
             <div className="text-center">
-              <h1 className="heading text-white">Product Certification</h1>
+              <h1 className="heading text-white">Product Certifications</h1>
             </div>
             <div className="container">
               <div className="owl-carousel owl-theme certificate-carousel">
