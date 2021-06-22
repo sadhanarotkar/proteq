@@ -1730,10 +1730,17 @@ header.active .hamburger-inner::after {
 
 @media only screen and (min-width: 1800px) {
   .aboutWrapper .secCertificates{margin-bottom: -200px;}
-  .aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -160px;}
+  .aboutWrapper .secFaq+.secHomeTestimonial,
+  .microWrapper .secHomeTestimonial{margin-top: -160px;}
 }
 @media only screen and (min-width: 2000px) {
   .ceramicProductImg{width: 48%;left: 80px;}
+  .aboutWrapper .secFaq+.secHomeTestimonial{margin-top: -240px;}
+  .microWrapper .secHomeTestimonial{margin-top: -180px;}
+  .microWrapper .secFaq {padding-bottom: 300px;}
+  .microWrapper .secHomeTestimonial {margin-top: -240px;height: 600px;}
+  .testimonialLeft{bottom: -230px;}
+  .aboutWrapper .secCertificates {margin-bottom: -245px;}
 }
 
 @media only screen and (max-width: 1199px) {

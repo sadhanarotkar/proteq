@@ -268,7 +268,7 @@ const Training=()=> {
                 <div className="col-xl-8 col-lg-9 col-md-12" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
                   <h2 className="heading">GET IN TOUCH WITH US</h2>
                   <p className="mt-0 mb-3">The Best Car Service Awaits You!</p>
-                  <p className="mt-0">Proteq Works On Excellency To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
+                  <p className="mt-0">Proteq Works On Excellence To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
                   <Link href="/contact"><button className="btn hvr-sweep-to-right mb-4">Contact Us</button></Link>                  
                 </div>
               </div>              

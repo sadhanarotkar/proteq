@@ -1,9 +1,38 @@
+import axios from 'axios';
 import Link from 'next/link'
 import { useRouter } from "next/router";
+import { useState } from 'react';
 import Quote from '../../components/Quote';
 import SidebarContact from '../../components/SidebarContact';
 
-export default function Header(props) {
+const Header = (props) => {
+  const [isSent, setIsSent] = useState(false);
+  const [error, setError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const onSubscribe = (event) =>{
+    event.preventDefault();
+    setIsLoading(true);
+  const email = event.target.email.value
+  event.target.reset();
+  axios.post('https://proteq.co.in:8444/backend/api/subscribers', {
+    email: email
+    })
+    .then(function (response) {
+      console.log(response);
+      setIsLoading(false);
+      setIsSent(true);
+      setTimeout(()=>
+        { setIsSent(false);}, 3000);
+    })
+    .catch(function (error) {
+      console.log(error);
+      setIsLoading(false);
+        setError(true);
+        setTimeout(()=>
+        { setError(false);}, 3000);
+    });
+  console.log(email);
+  }
   const router = useRouter();
   return (
     <footer>
@@ -35,15 +64,21 @@ export default function Header(props) {
           <div className="newletter">
             <div className="row justify-content-center">
               <div className="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-12">
-                <form>
+                <form onSubmit={onSubscribe}>
                   <div className="form-group">
                     <h4>Subscribe Us:</h4>
-                    <input type="email" className="form-control" placeholder="Your email here" />
-                    <button type="button" className="btn hvr-sweep-to-right">Subscribe</button>
+                    <input type="email" name="email" className="form-control" placeholder="Your email here" required />
+                    <button type="submit" className="btn hvr-sweep-to-right">Subscribe</button>
                   </div>
                 </form>
               </div>
-            </div>            
+            </div>   
+            
+            {isLoading && <div>
+              <p className="py-2 text-white">Sending Mail...</p>
+          </div>}
+           { isSent && <p className="my-2 text-white" role="alert"> Mail sent sucessfully.</p> }
+              { error && <p className="my-2 text-white" role="alert"> Something went wrong.</p> }           
           </div>
           <div className="brochuresBox">
             <h4>Corporate Profile:</h4>
@@ -65,7 +100,7 @@ export default function Header(props) {
               <div className="copyrightLinks">
                 <Link href='/terms'><a>Terms & Conditions</a></Link>
                 <Link href='/privacy-policy'><a>Privacy Policy</a></Link>
-                <a href="https://api.whatsapp.com/message/F5HPNO7SETSEO1" target="_blank"><img src="img/whatsapp.svg" className="img-fluid" /></a>
+                <a href="https://api.whatsapp.com/message/F5HPNO7SETSEO1" target="_blank" style={{opacity: '1'}}><img src="img/whatsapp.svg" className="img-fluid" /></a>
               </div>
             </div>
           </div>
@@ -76,3 +111,4 @@ export default function Header(props) {
     </footer>
   )
 }
+export default Header;
