@@ -69,7 +69,7 @@ export default function Contact() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-8">
-              <p>Proteq Works On Excellency To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
+              <p>Proteq Works On Excellence To Deliver Credibility! We're never going to leave you hanging there. For any detail or information CONTACT US!</p>
               <h1 className="heading mb-4">contact us</h1>
               <ContactUS/>
             </div>
